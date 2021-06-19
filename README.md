@@ -7,3 +7,7 @@
 
 <h3 id="about">About</h3>
 <h3 id="how_it_works">How it works</h3>
+<figure>
+	<img alt="swob architecture" src="images/deku_swob_arch.png" />
+	<figcaption>Fig 1.0 swob architecture</figcaption>
+</figure>
