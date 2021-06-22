@@ -9,27 +9,46 @@
 	</head>
 	<body>
 		<div class="container">
+			<h1 class="display-1">SW\0B 4 Devs</h1>
 			<div class="row">
-				<h1> SMSwithoutborders (SWOB) </h1>
 				<h2>Table of content</h2>
-				<ul>
-					<li><a href="#about">About</a></li>
-					<li><a href="#how_it_works">How it works</a></li>
-				</ul>
+				<div class="col-12">
+					<ol class="list-group list-group-numbered">
+						<li class="list-group-item d-flex justify-content-between align-items-start">
+							<div class="ms-2 me-auto">
+								<div class="fw-bold">
+									<a href="#about">About</a>
+								</div>
+								Project description and introduction
+							</div>
+							<span class="badge bg-primary rounded-pill">1</span>
+						</li>
+						<li class="list-group-item d-flex justify-content-between align-items-start">
+							<div class="ms-2 me-auto">
+								<div class="fw-bold">
+									<a href="#how_it_works">How it works</a>
+								</div>
+								Information description of the transmission mechanisms
+							</div>
+							<span class="badge bg-primary rounded-pill">1</span>
+						</li>
+					</ol>
+				</div>
+				<br>
+				<br>
 
-				<h3 id="about">About</h3>
-
+				<h4 id="about" class="display-4">About</h4>
 				<p style="text-align: justify">
 				SWOB is a platform which enables users with a smartphone to communicate with online third-party platforms using SMS messages. A typical use-case of the platform is sending out emails from platforms such as Gmail accounts.
 				</p>
 
-				<h3 id="how_it_works">How it works</h3>
+				<h4 id="how_it_works" class="display-4">How it works</h4>
 				<figure class="figure">
 					<img class="figure-img img-fluid rounded" alt="swob architecture" src="images/deku_swob_arch.png" />
 					<figcaption class="figure-caption text-end">Fig 1.0 swob architecture</figcaption>
 				</figure>
 
-				<hr>
+				<h6 class="display-6">Component Description</h6>
 				<div class="table-responsive">
 					<table class="table">
 						<thead class="table-dark">
@@ -73,44 +92,72 @@
 							<tr>
 								<th scope="row">4</td>
 								<td>SMS</td>
-								<td></td>
-								<td></td>
+								<td>The contents to be delivered to the third-party apps are transmitted through SMS. The SMS messages are encrypted using a shared key obtained from during the synchronization handshake. Due to the encryption of the base64 format of transmitting the data, the SMS length grows by approximately 33%. Example, if the length is 100 characters, it becomes 133 characters.
+</td>
+								<td>N/A</td>
 							</tr>
 							<tr>
 								<th scope="row">5</td>
-								<td>Relay-points (Gateways)</td>
-								<td></td>
-								<td></td>
+								<td>Local Relay-point/Gateways</td>
+								<td>Relay-points (Gateways) are set up to receive SMS’ and transmit them further via SMS or an active internet connection to the cloud server. An example of Gateway in use is Deku, a Linux based SMS management tool which enables both sending and receiving SMS messages using 2G/3G USB modems. The relay-point acts as a middleware transmitter either while online or completely offline; online it communicates directly with the cloud via HTTP connections or offline via further SMS messaging.
+</td>
+								<td>
+									<ul>
+										<li><a href="https://github.com/smswithoutborders/Deku">Deku</a></li>
+									</ul>
+								</td>
 							</tr>
 							<tr>
 								<th scope="row">6</td>
 								<td>Local Router</td>
-								<td></td>
-								<td></td>
+								<td>Routers authenticate users and their online saved wallets, while online relay-points send information directly to the routers through HTTP connections. Routers on receiving request for transmission perform various forms of authentication after which decryption is done on the data and it’s further passed to a third-party platform. Synced users are accessed and stored at the level of the router, so it is efficient to host the router at the same location as the cloud API</td>
+								<td>
+									<ul>
+										<li><a href="https://github.com/smswithoutborders/Deku-Router">Deku-router</a></li>
+									</ul>
+								</td>
 							</tr>
 							<tr>
 								<th scope="row">7</td>
-								<td>Twilio (Remove Gateways)</td>
-								<td></td>
-								<td></td>
+								<td>Twilio (Remote Relay-points/Gateways)</td>
+								<td>In cases of lack of internet connections communication with the online cloud server can be achieved by messaging remote relay-points. An example of such relay-points are Twilio, an online messaging service with the ability to use webhooks to communicate with online cloud servers. Certains users have the ability to directly message remote relay-points; this is to reduce the cost of sending SMS messages by messaging the closest relay-points. </td>
+								<td>
+									<ul>
+										<li><a href="https://github.com/smswithoutborders/Deku-Router">Deku-router</a></li>
+									</ul>
+								</td>
 							</tr>
 							<tr>
 								<th scope="row">8</td>
 								<td>Remote Router</td>
-								<td></td>
-								<td></td>
+								<td><small>Exactly like the <b>Local Router</b> but completely located on the cloud. This enables remote relay-point to maintain communications</small></td>
+								<td>
+									<ul>
+										<li><a href="https://github.com/smswithoutborders/Deku-Router">Deku-router</a></li>
+									</ul>
+								</td>
 							</tr>
 							<tr>
 								<th scope="row">9</td>
 								<td>Cloud Database</td>
-								<td></td>
-								<td></td>
+								<td>The API acts as the central communication module for transmission between the Front End, the routers and the user’s information stored securely on the databases. Its documented use can be accessed from the developers section. It is good practice for developers setting up their own routers to enable data replication with other databases; this helps in the case of central points of failures.
+</td>
+								<td>
+									<ul>
+										<li><a href="https://github.com/smswithoutborders/Deku-Router">Cloud API Framework</a></li>
+									</ul>
+								</td>
 							</tr>
 							<tr>
 								<th scope="row">10</td>
 								<td>Third-Party Platforms</td>
-								<td></td>
-								<td></td>
+								<td>Third-party platforms are the intended platforms / services which the user aims to communicate with. These platforms in most cases would be online and would be inaccessible to the user at the time (though not necessarily the case). Platforms like Gmail are directly supported at this time by the app and sending emails can be achieved with them by default
+</td>
+								<td>
+									<ul>
+										<li><a href="https://github.com/smswithoutborders/SMSwithoutBorders-customplatform-Gmail">Customized Gmail API</a></li>
+									</ul>
+								</td>
 							</tr>
 						</tbody>
 					</table>
