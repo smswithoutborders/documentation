@@ -16,3 +16,19 @@ SWOB is a platform which enables users with a smartphone to communicate with onl
 	<img alt="swob architecture" src="images/deku_swob_arch.png" />
 	<figcaption>Fig 1.0 swob architecture</figcaption>
 </figure>
+
+<hr>
+<table>
+	<tr>
+		<th>Component</th>
+		<th>Description</th>
+		<th>Repository</th>
+	</tr>
+	<tr>
+		<td><td>
+		<td><td>
+		<td><td>
+		<td><td>
+	</tr>
+</table>
+
