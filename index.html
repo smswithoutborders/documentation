@@ -1,0 +1,124 @@
+<html>
+	<head>
+		<title>SWOB - Getting started</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Bootstrap CSS -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<h1> SMSwithoutborders (SWOB) </h1>
+				<h2>Table of content</h2>
+				<ul>
+					<li><a href="#about">About</a></li>
+					<li><a href="#how_it_works">How it works</a></li>
+				</ul>
+
+				<h3 id="about">About</h3>
+
+				<p style="text-align: justify">
+				SWOB is a platform which enables users with a smartphone to communicate with online third-party platforms using SMS messages. A typical use-case of the platform is sending out emails from platforms such as Gmail accounts.
+				</p>
+
+				<h3 id="how_it_works">How it works</h3>
+				<figure class="figure">
+					<img class="figure-img img-fluid rounded" alt="swob architecture" src="images/deku_swob_arch.png" />
+					<figcaption class="figure-caption text-end">Fig 1.0 swob architecture</figcaption>
+				</figure>
+
+				<hr>
+				<div class="table-responsive">
+					<table class="table">
+						<thead class="table-dark">
+							<tr>
+							<th scope="col">Component</th>
+							<th scope="col">Name</th>
+							<th scope="col">Description</th>
+							<th scope="col">Repository</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row">1</td>
+								<td>User</td>
+								<td>Users are those who have saved access to their accounts to be accessed and used later. We use both the API and the Front-End to enable users save their tokens to be used later.
+</td> 
+								<td>
+									<ul>
+										<li><a href="https://github.com/smswithoutborders/SMSwithoutBorders_Users">Store Tokens Front End</a></li>
+										<li><a href="https://github.com/smswithoutborders/SMSwithoutborders_API_services">Cloud API</a></li>
+									</ul>
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">2</td>
+								<td>Mobile</td>
+								<td>The mobile app is required to provide secure communication with the cloud servers where tokens are stored. Using QR codes users synchronize their apps with their online accounts; this initiates the necessary handshakes to exchange the necessary security keys.
+</td>
+								<td>
+									<ul>
+										<li><a href="https://github.com/smswithoutborders/SMSwithoutBorders-Android">Android App</a></li>
+									</ul>
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">3</td>
+								<td>Media Content</td>
+								<td>N/A</td>
+								<td>N/A</td>
+							</tr>
+							<tr>
+								<th scope="row">4</td>
+								<td>SMS</td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<th scope="row">5</td>
+								<td>Relay-points (Gateways)</td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<th scope="row">6</td>
+								<td>Local Router</td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<th scope="row">7</td>
+								<td>Twilio (Remove Gateways)</td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<th scope="row">8</td>
+								<td>Remote Router</td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<th scope="row">9</td>
+								<td>Cloud Database</td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<th scope="row">10</td>
+								<td>Third-Party Platforms</td>
+								<td></td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+
+		<!-- Option 1: Bootstrap Bundle with Popper -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	</body>
+</html>
