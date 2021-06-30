@@ -30,6 +30,8 @@
 								<div class="fw-bold">
 									<a href="#about">About</a>
 								</div>
+								<a href="#features">Features</a><br>
+								<!--<a href="#component_description">Component Description</a>-->
 							</div>
 							<span class="badge bg-primary rounded-pill">1</span>
 						</li>
@@ -50,8 +52,41 @@
 
 				<h4 id="about" class="display-4">About</h4>
 				<p style="text-align: justify">
-				SWOB is a platform which enables users with a smartphone to communicate with online third-party platforms using SMS messages. A typical use-case of the platform is sending out emails from platforms such as Gmail accounts.
+				SWOB is a platform which enables users with a smartphone to communicate with online third-party platforms using SMS messages. A typical use-case of the platform is sending out emails from platforms such as Gmail accounts. This becomes a useful tool in cases where access to the internet is limited or completely unavailable. Usage of SWOB intales having a proactive approach to maintaining your communications; the features that SWOB supports require the users to take delebrate actions prior to usage.
 				</p>
+				<p style="text-align: justify">
+				Our goal is not to replace the internet; for the most part, the internet is an already efficient method of communication with many abilities that surpass what's possible with simple SMS. Unfortunately, we still have a good portion of telecom users in the world who will have to rely on SMS for task built for the internet. Based on value, internet based communications are cheaper than SMS based communications. We are using SWOB on the bases of accessibility to a communication medium.
+				</p>
+
+				<h4>Usable Features in SWOB Platform</h4>
+				<div class="container" id="features">
+					<div class="row">
+						<div class="col-5">
+							<!-- List group -->
+							<div class="list-group" id="myList" role="tablist">
+								<a id="list-security" class="list-group-item list-group-item-action active" data-toggle="list" href="#security" role="tab" aria-controls="security">Security</a>
+								<a id="list-offline" class="list-group-item list-group-item-action" data-toggle="list" href="#offline" role="tab" aria-controls="offline">Offline</a>
+								<a id="list-accessible" class="list-group-item list-group-item-action" data-toggle="list" href="#accessible" role="tab" aria-controls="accessible">Accessible</a>
+								<a id="list-opensource" class="list-group-item list-group-item-action" data-toggle="list" href="#opensource" role="tab" aria-controls="opensource">Open-Source</a>
+							</div>
+						</div>
+						<div class="col-7">
+							<!-- Tab panes -->
+							<div class="tab-content">
+								<div class="tab-pane fade show active" id="security" role="tabpanel" aria-labelledby="list-security">Security</div>
+								<div class="tab-pane fade" id="offline" role="tabpanel" aria-labelledby="list-offline">Offline</div>
+								<div class="tab-pane fade" id="accessible" role="tabpanel" aria-labelledby="list-accessible">Accessible</div>
+								<div class="tab-pane fade" id="opensource" role="tabpanel" aria-labelledby="list-opensource">Open-source</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<script>
+					$('#myList a').on('click', function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
+				</script>
 
 				<h4 id="how_it_works" class="display-4">How it works</h4>
 				<figure class="figure">
@@ -175,8 +210,8 @@
 				</div>
 			</div>
 		</div>
-
 		<!-- Option 1: Bootstrap Bundle with Popper -->
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-	</body>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script></body>
 </html>
