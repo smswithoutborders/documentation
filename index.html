@@ -30,7 +30,7 @@
 								<div class="fw-bold">
 									<a href="#about">About</a>
 								</div>
-								<a href="#features">Features</a><br>
+								<a href="#functionalities">Functionalities</a><br>
 								<!--<a href="#component_description">Component Description</a>-->
 							</div>
 							<span class="badge bg-primary rounded-pill">1</span>
@@ -58,24 +58,43 @@
 				Our goal is not to replace the internet; for the most part, the internet is an already efficient method of communication with many abilities that surpass what's possible with simple SMS. Unfortunately, we still have a good portion of telecom users in the world who will have to rely on SMS for task built for the internet. Based on value, internet based communications are cheaper than SMS based communications. We are using SWOB on the bases of accessibility to a communication medium.
 				</p>
 
-				<h4>Usable Features in SWOB Platform</h4>
-				<div class="container" id="features">
+				<h4 id="functionalities">Functionalities</h4>
+				<div class="container" >
 					<div class="row">
 						<div class="col-5">
 							<!-- List group -->
 							<div class="list-group" id="myList" role="tablist">
 								<a id="list-security" class="list-group-item list-group-item-action active" data-toggle="list" href="#security" role="tab" aria-controls="security">Security</a>
-								<a id="list-offline" class="list-group-item list-group-item-action" data-toggle="list" href="#offline" role="tab" aria-controls="offline">Offline</a>
-								<a id="list-accessible" class="list-group-item list-group-item-action" data-toggle="list" href="#accessible" role="tab" aria-controls="accessible">Accessible</a>
+								<a id="list-accessible" class="list-group-item list-group-item-action" data-toggle="list" href="#accessible" role="tab" aria-controls="accessible">Accessiblity</a>
 								<a id="list-opensource" class="list-group-item list-group-item-action" data-toggle="list" href="#opensource" role="tab" aria-controls="opensource">Open-Source</a>
 							</div>
 						</div>
 						<div class="col-7">
 							<!-- Tab panes -->
 							<div class="tab-content">
-								<div class="tab-pane fade show active" id="security" role="tabpanel" aria-labelledby="list-security">Security</div>
-								<div class="tab-pane fade" id="offline" role="tabpanel" aria-labelledby="list-offline">Offline</div>
-								<div class="tab-pane fade" id="accessible" role="tabpanel" aria-labelledby="list-accessible">Accessible</div>
+								<div class="tab-pane fade show active" id="security" role="tabpanel" aria-labelledby="list-security">
+									<div class="container">
+										<div class="row">
+											<div class="col">
+												<h5 class="display-5">Security</h5>
+												<p style="text-align: justify">
+												SWOB provides the users with secure means of data transmissions from the SMS to the third-party platforms. The first stage of security begins with users synchronizing by performing a key exchange with the router - this is usually hosted on a cloud server. <br>Once the key-exchange is successful, users are prompted for their password in other to access the App. The exchanged key (<i>shared key</i>) is used to encrypt every message the user sends via SMS to the Gateway. <br>Since the key is exchanged (securely) only between the App and the Router, only the router located at the point of synchronization is able to decrypt any incoming message for that App user.<br>Every time the user re-syncs the App they will be required to re-enter their passwords.
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="tab-pane fade" id="accessible" role="tabpanel" aria-labelledby="list-accessible">
+									<div class="container">
+										<div class="row">
+											<div class="col">
+												<h5 class="display-5">Accessibility</h5>
+												<p style="text-align: justify">
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
 								<div class="tab-pane fade" id="opensource" role="tabpanel" aria-labelledby="list-opensource">Open-source</div>
 							</div>
 						</div>
