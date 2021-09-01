@@ -4,32 +4,59 @@ sidebar_position: 1
 
 # Getting Started
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Let's discover **SMSwithoutborders(SWOB)**.
 
-## Getting Started
+## Introduction
 
-Get started by **creating a new site**.
+The steps below will help setup your account and start using swob.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+### Step 1. Download App
 
-## Generate a new site
+![Docs Version Dropdown](/img/swob_on_playstore.png)
 
-Generate a new Docusaurus site using the **classic template**:
+Download from [**Google Play Store**](https://play.google.com/store/apps/details?id=com.afkanerd.sw0b) , [**Github**](https://github.com/smswithoutborders/SMSwithoutBorders-Android/releases/tag/v1.0) or build from [**source**](https://github.com/smswithoutborders/SMSwithoutBorders-Android)
 
-```shell
-npx @docusaurus/init@latest init my-website classic
-```
+#### Technical Requirements
 
-## Start your site
+- SMS capability Android smartphone
+- Android 6.0 and above
 
-Run the development server:
+### Step 2. Create an account
 
-```shell
-cd my-website
+Sign up for a free account on [smswithoutborders.com](https://smswithoutborders.com/sign-up)
 
-npx docusaurus start
-```
+You will be required to perform a 2FA authentication to proceed, so a valid phone number which can receive SMS messages.
 
-Your site starts at `http://localhost:3000`.
+![Docs Version Dropdown](/img/swob_signup.png)
 
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and display your changes.
+
+### Step 3. Log in and store access to platforms
+
+One of the key features of SWOB is to be able to store access to online services while you have an active internet, then use the App to make requests to these services without an active internet connection. Once you login and click on **Wallet**, you will have a list of services we currently support. You can store your credentials for as many services as you can foresee further need in an offline situation.
+
+![Docs Version Dropdown](/img/swob_wallet.png)
+
+### Step 4. Synchronize your App with your account
+
+#### Requirements
+
+You will need another device (either a personal computer or another phone) which will have the QR code you will scan with your phone. You will have to make sure you are [**logged in**](https://smswithoutborders.com/login) to your account on this second device so as to access your QR code.
+
+#### After you have logged into your account
+Synchronizing your App with your account can be done by clicking on Profile on the navbar. You will be presented with the button **Sync with App**. Clicking the button will open up a QR screen with a QR code for you to scan. Open up your App and scan the code; more instructions on scanning the code with App below.
+
+![Docs Version Dropdown](/img/swob_sync.png)
+
+
+#### On the App
+The first time you open up the App, you will be asked to synchronize. This is done by scanning a QR code with your phone's Camera. Once the code is scanned, you will be asked to enter the password you created while creating your account. On successful password entry, you will be presented with a list of all the services you currently have offline via SWOB.
+
+
+### Step 5. Configure your App and begin utilizing
+
+
+Once you have synchronized your App with your online account, you can begin setting it up. The most important setting you may have to use out of the box is choosing which Gateway number to communicate with. It will be cheaper for you to send out an SMS from the same service provider as the one you use, or send out an SMS from a number in your country than doing across service providers or internationally.
+
+To change the Gateway number your App will be sending the Text to, click on **Settings** in the App, then choose the number you will rather be using. You can now begin utilizing that number from your Gateway.
+
+![Docs Version Dropdown](/img/swob_settings.jpg)
