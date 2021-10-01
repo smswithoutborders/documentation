@@ -4,7 +4,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'SMSwithoutborders',
-  tagline: 'Advancing the freedom, one SMS at a time',
+  tagline: 'Stay productive',
   url: 'https://smswithoutborders.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
