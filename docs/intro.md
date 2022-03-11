@@ -25,7 +25,7 @@ Download from [**Google Play Store**](https://play.google.com/store/apps/details
 
 Sign up for a free account on [smswithoutborders.com](https://smswithoutborders.com/sign-up)
 
-You will be required to perform a 2FA authentication to proceed, so a valid phone number which can receive SMS messages.
+An authentication pin will be sent to a valid phone number which can recieve SMS.
 
 ![Docs Version Dropdown](/img/swob_signup.png)
 
