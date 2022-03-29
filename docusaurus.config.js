@@ -3,7 +3,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'SMSwithoutborders',
+  title: 'SMSWithoutBorders',
   tagline: 'Stay productive',
   url: 'https://smswithoutborders.com',
   baseUrl: '/',
@@ -14,7 +14,7 @@ module.exports = {
   projectName: 'smswithoutborders', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'SMSwithoutborders',
+      title: 'SSMSWithoutBorders',
       logo: {
         alt: 'SMSwithoutborders logo',
         src: 'img/logo-icon-light.png',
@@ -74,7 +74,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} SMSwithoutborders. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} SMSWithoutBorders. Built with Docusaurus.`,
     },
     prism: {
       theme: lightCodeTheme,

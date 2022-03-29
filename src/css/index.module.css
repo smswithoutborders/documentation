@@ -21,3 +21,7 @@
   align-items: center;
   justify-content: center;
 }
+
+.hero_img {
+  margin-bottom: 1.5rem;
+}
