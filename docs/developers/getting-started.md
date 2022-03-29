@@ -1,8 +1,8 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
-# SW\0B for Developers
+# Getting Started
 
 ## About
 
