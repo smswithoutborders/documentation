@@ -14,7 +14,7 @@ module.exports = {
   projectName: "smswithoutborders", // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: "SSMSWithoutBorders",
+      title: "SMSWithoutBorders",
       logo: {
         alt: "SMSwithoutborders logo",
         src: "img/logo-icon-light.png",
