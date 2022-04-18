@@ -30,4 +30,8 @@ Once complete, you will have an AuthID and AuthKey
 
 ## Subscribe to Products
 
-You can now subscribe to products and start building
+You can now subscribe to products and start building.
+
+* ### [OpenAPI](https://smswithoutborders-openapi.readthedocs.io/en/latest/)
+Leverage OpenAPI's functionality to send out both single and bulk SMS messages at scale.
+
