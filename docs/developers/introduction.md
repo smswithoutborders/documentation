@@ -18,7 +18,7 @@ This document is aimed at the following audiences:
 
 [insert image here]
 
-SWOB works on the principles of (OAuth 2)[https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2].
+SWOB works on the principles of [OAuth 2](https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2).
 
->> OAuth 2 is an authorization framework that enables applications — such as Facebook, GitHub, and DigitalOcean — to obtain limited access to user accounts on an HTTP service. It works by delegating user authentication to the service that hosts a user account and authorizing third-party applications to access that user account. OAuth 2 provides authorization flows for web and desktop applications, as well as mobile devices.
+> OAuth 2 is an authorization framework that enables applications — such as Facebook, GitHub, and DigitalOcean — to obtain limited access to user accounts on an HTTP service. It works by delegating user authentication to the service that hosts a user account and authorizing third-party applications to access that user account. OAuth 2 provides authorization flows for web and desktop applications, as well as mobile devices.
 
