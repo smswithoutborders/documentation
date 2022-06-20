@@ -7,7 +7,7 @@ sidebar_position: 1
 
 This document describes the data flow of SWOB.
 
-This document does nto contain information about the inner working of each of the modules; information about the inner working of each module can be found in their respective repositories.
+This document does not contain information about the inner working of each of the modules; information about the inner working of each module can be found in their respective repositories.
 
 This document is aimed at the following audiences:
 - Software Engineers
