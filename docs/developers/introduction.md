@@ -17,7 +17,7 @@ This document is aimed at the following audiences:
 ## Overview
 
 #### Summary of data flow
-<img alt="Figure: swob merge flow" src="https://github.com/smswithoutborders/SMSWithoutBorders-Resources/blob/a4d917822b9e8f8c4561761b0521b0df22a4bf36/multimedia/img/developers/swob_merge_flow.png" />
+<img alt="Figure: swob merge flow" src="https://github.com/smswithoutborders/SMSWithoutBorders-Resources/raw/master/multimedia/img/developers/swob_merge_flow.png" />
 
 ### Storing account access
 
@@ -25,7 +25,7 @@ SWOB works on the principles of [OAuth 2](https://www.digitalocean.com/community
 
 > OAuth 2 is an authorization framework that enables applications — such as Facebook, GitHub, and DigitalOcean — to obtain limited access to user accounts on an HTTP service. It works by delegating user authentication to the service that hosts a user account and authorizing third-party applications to access that user account. OAuth 2 provides authorization flows for web and desktop applications, as well as mobile devices.
 
-<img width="350" height="400" src="https://github.com/smswithoutborders/SMSWithoutBorders-Resources/blob/a4d917822b9e8f8c4561761b0521b0df22a4bf36/multimedia/img/developers/swob_auth.png" />
+<img width="350" height="400" src="https://github.com/smswithoutborders/SMSWithoutBorders-Resources/raw/master/multimedia/img/developers/swob_auth.png" />
 
 User tokens are securely stored and access on user request to:
 - publish a request to an online platform from the app
@@ -42,7 +42,7 @@ User tokens are securely stored and access on user request to:
 
 The synchronization process utilizes RSA-based communications to perform a secure handshake between the mobile app users and the Gateway servers.
 
-<img width="750" height="600" src="https://github.com/smswithoutborders/SMSWithoutBorders-Resources/blob/a4d917822b9e8f8c4561761b0521b0df22a4bf36/multimedia/img/developers/swob_sync.png" />
+<img width="750" height="600" src="https://github.com/smswithoutborders/SMSWithoutBorders-Resources/raw/master/multimedia/img/developers/swob_sync.png" />
 
 The handshake ends with the app and the Gateway server securely sharing secret keys that will be used to encrypt the SMS messages from the app.
 
@@ -60,7 +60,7 @@ The secret keys are stored on the app and cannot be requested for from the serve
 
 Users choose which platform they want intend to publish (send) their messages to from the mobile app. The user is then provided one of many [Gateway Clients](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client) which can forward their messages to Gateway servers. Default Gateway servers are chosen and provided to the user after synchronization happens, but this can be manually changed by the user.
 
-<img width="750" height="600" src="https://github.com/smswithoutborders/SMSWithoutBorders-Resources/blob/a4d917822b9e8f8c4561761b0521b0df22a4bf36/multimedia/img/developers/swob_request_and_publish.png" />
+<img width="750" height="600" src="https://github.com/smswithoutborders/SMSWithoutBorders-Resources/raw/master/multimedia/img/developers/swob_request_and_publish.png" />
 
 Messages reaching the Gateway Clients are sent to the Gateway server or as many Gateway servers or routes as required.
 The messages remain encrypted through this forwarding process.
