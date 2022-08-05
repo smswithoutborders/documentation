@@ -26,7 +26,12 @@ module.exports = {
           position: "left",
           label: "Developers",
         },
-        { to: "/blog", label: "Blog", position: "left" },
+        {
+          type: "doc",
+          docId: "tutorials/getting-started",
+          position: "left",
+          label: "Tutorials",
+        },
         {
           href: "https://github.com/smswithoutborders",
           label: "GitHub",
