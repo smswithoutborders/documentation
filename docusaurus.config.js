@@ -4,7 +4,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: "SMSWithoutBorders",
-  tagline: "Stay productive",
+  tagline: "Stay connected",
   url: "https://smswithoutborders.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -22,7 +22,13 @@ module.exports = {
       items: [
         {
           type: "doc",
-          docId: "developers/introduction",
+          docId: "contributing/introduction",
+          position: "left",
+          label: "Docs",
+        },
+        {
+          type: "doc",
+          docId: "developers/account",
           position: "left",
           label: "Developers",
         },
@@ -47,7 +53,7 @@ module.exports = {
           items: [
             {
               label: "Developers",
-              to: "/docs/developers/introduction",
+              to: "/docs/developers/account",
             },
             {
               label: "Tutorials",

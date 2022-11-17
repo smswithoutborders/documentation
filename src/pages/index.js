@@ -11,22 +11,22 @@ function HomepageHeader() {
   return (
     <header className={clsx("hero", styles.heroBanner)}>
       <div className="container">
-        <img className={styles.hero_img} src={SwobLogo} height={200} width={200} />
+        <img
+          alt="swob logo"
+          className={styles.hero_img}
+          src={SwobLogo}
+          height={180}
+          width={180}
+        />
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
             className="button button--outline button--primary button--lg"
-            to="/docs/developers/introduction"
+            to="/docs/contributing/introduction"
           >
             Get Started
           </Link>
-          <a
-            className="button button--outline button--primary button--lg margin-left--md"
-            href="https://github.com/smswithoutborders"
-          >
-            Github
-          </a>
         </div>
       </div>
     </header>

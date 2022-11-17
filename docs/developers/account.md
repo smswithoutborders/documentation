@@ -1,8 +1,8 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 
-# Getting Started
+# Building with SMSWithoutBorders
 
 :::tip What you'll learn
 
