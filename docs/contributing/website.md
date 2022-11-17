@@ -13,12 +13,12 @@ Here is the interface through which users can manage their accounts and store th
 * How to setup the website
 * How to test and deploy the website with Apache and docker
 
-The most recent version of this guide can be found in the [websites github reposistory](https://github.com/smswithoutborders/smswithoutborders.com)
+The most recent version of this guide can be found in the [`websites github reposistory`](https://github.com/smswithoutborders/smswithoutborders.com)
 
 The frontend integrates with these services. you may need to set them up depending on what section you are working on.
 
-* [Backend API](https://github.com/smswithoutborders/smswithoutborders.com)
-* [Gateway Server](https://github.com/smswithoutborders/smswithoutborders.com)
+* [`Backend API`](https://github.com/smswithoutborders/smswithoutborders.com)
+* [`Gateway Server`](https://github.com/smswithoutborders/smswithoutborders.com)
 
 :::
 

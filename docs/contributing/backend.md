@@ -11,12 +11,12 @@ This is a cloud API and User management service. It is directly configurable wit
 * How to setup the Backend
 * How to test and deploy with docker
 
-The most recent version of this guide can be found in the [Backends github reposistory](https://github.com/smswithoutborders/SMSwithoutborders-BE)
+The most recent version of this guide can be found in the [`github reposistory`](https://github.com/smswithoutborders/SMSwithoutborders-BE)
 
 The Backend integrates with these services. you may need to set them up depending on what section you are working on.
 
-* [Website](https://github.com/smswithoutborders/smswithoutborders.com)
-* [Third party platforms](https://github.com/smswithoutborders?q=custom&type=all&language=&sort=)
+* [`Website`](https://github.com/smswithoutborders/smswithoutborders.com)
+* [`Third party platforms`](https://github.com/smswithoutborders?q=custom&type=all&language=&sort=)
 
 :::
 
