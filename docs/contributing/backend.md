@@ -120,8 +120,8 @@ Manages access to the SMS without borders centralize resources and services.
 4. **SALT**: The salt used to hash a user's data. (Default: "acaad78fd9dadcb056840c09073190a8")
 5. **SECURE SESSIONS**: Specifies the boolean value for the [Secure Set-Cookie attribute](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie). When truthy, the Secure attribute is set, otherwise it is not. By default, the Secure sessions attribute is set to truthy.
 6. **SESSION MAXAGE**: Specifies the number (in milliseconds) to use when calculating the [Expires Set-Cookie attribute](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie). This is done by taking the current server time and adding maxAge milliseconds to the value to calculate an Expires datetime. By default, maximum age is set for two hours (7200000 ms).
-7. **ENABLE BLOCKING**: Specifies the boolean value for tracking user failed [authentication](FEATURES_v2.md#2-authenticate-an-account) attempts.
-8. **SHORT BLOCK ATTEMPTS**: Specifies the number of failed [authentication](FEATURES_v2.md#2-authenticate-an-account) attempts before a short block. Several short blocks results to a long block.
+7. **ENABLE BLOCKING**: Specifies the boolean value for tracking user failed [authentication](https://github.com/smswithoutborders/SMSwithoutborders-BE/blob/main/docs/FEATURES_v2.md#2-authenticate-an-account) attempts.
+8. **SHORT BLOCK ATTEMPTS**: Specifies the number of failed [authentication](https://github.com/smswithoutborders/SMSwithoutborders-BE/blob/main/docs/FEATURES_v2.md#2-authenticate-an-account) attempts before a short block. Several short blocks results to a long block.
 9. **LONG BLOCK ATTEMPTS**: Specifies the number of failed short block attempts before a long block.
 10. **SHORT BLOCK DURATION**: Specifies the duration (in minutes) of a short block.
 11. **LONG BLOCK DURATION**: Specifies the duration (in minutes) of a long block.
@@ -282,10 +282,10 @@ http://localhost:{PORT}/v2/api-docs
 
 ## API Logs
 
-By default [log levels](../logs/README.md#log-levels) are set to "info". You can change the default [log levels](../logs/README.md#log-levels). For example, [Start both Backend User management API and Backend Publisher API](#Start-both-Backend-User-management-API-and-Backend-Publisher-API) with [log levels](../logs/README.md#log-levels) set to "debug"
+By default [log levels](https://github.com/smswithoutborders/SMSwithoutborders-BE/tree/main/logs#log-levels) are set to "info". You can change the default [log levels](https://github.com/smswithoutborders/SMSwithoutborders-BE/tree/main/logs#log-levels). For example, [Start both Backend User management API and Backend Publisher API](#Start-both-Backend-User-management-API-and-Backend-Publisher-API) with [log levels](https://github.com/smswithoutborders/SMSwithoutborders-BE/tree/main/logs#log-levels) set to "debug"
 
 ```
 LOG_LEVEL=debug npm start
 ```
 
-All log files are found in the logs directory. [Read more](../logs/README.md) ...
+All log files are found in the logs directory. [Read more](https://github.com/smswithoutborders/SMSwithoutborders-BE/tree/main/logs) ...
