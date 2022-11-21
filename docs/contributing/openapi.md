@@ -10,7 +10,7 @@ SMSWithoutBorders OpenAPI integrates a simple queueing system with RabbitMQ, whi
 
 * How to setup and use OpenAPI
 
-The most recent version of this guide can be found in the [`github reposistory`](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server)
+The most recent version of this guide can be found in the [`github reposistory`](https://github.com/smswithoutborders/SMSWithoutBorders-OpenAPI)
 
 The frontend integrates with these services. you may need to set them up depending on what section you are working on.
 
@@ -78,11 +78,11 @@ python -m pip install -r requirements.txt
 
 ## Setup
 
-All configuration files are found in the **[config](../config)** directory.
+All configuration files are found in the **[config](https://github.com/smswithoutborders/SMSWithoutBorders-OpenAPI/tree/main/config)** directory.
 
 ### Development configurations
 
-**[default.ini](../config/example.default.ini)** is the configuration file.
+**[default.ini](https://github.com/smswithoutborders/SMSWithoutBorders-OpenAPI/tree/main/config/example.default.ini)** is the configuration file.
 
 To set up the API, copy the template files "example.default.ini" and rename to "default.ini"
 
@@ -92,7 +92,7 @@ cp config/example.default.ini config/default.ini
 
 ### Access configurations
 
-**[setup.ini](../example.setup.ini)** is the access file.
+**[setup.ini](https://github.com/smswithoutborders/SMSWithoutBorders-OpenAPI/tree/main/example.setup.ini)** is the access file.
 
 To set up access, copy the template files "example.setup.ini" and rename to "setup.ini"
 

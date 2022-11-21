@@ -28,7 +28,7 @@ The frontend integrates with these services. you may need to set them up dependi
 
 * Message broker server for [Gateway-Client](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client) (_see [SMSWithoutBorders-OpenAPI](https://github.com/smswithoutborders/SMSWithoutBorders-OpenAPI)_ )
 
-* [SMSWithoutBorders-App](https://github.com/smswithoutborders/SMSWithoutBorders-App-Android) [synchronization](synchronization) for communication with [Publisher](https://github.com/smswithoutborders/SMSWithoutBorders-Publisher)
+* [SMSWithoutBorders-App](https://github.com/smswithoutborders/SMSWithoutBorders-App-Android) synchronization for communication with [Publisher](https://github.com/smswithoutborders/SMSWithoutBorders-Publisher)
 
  > This should should be hosted in the same place as [Publisher](https://github.com/smswithoutborders/SMSWithoutBorders-Publisher), because Publisher is not _directly_ exposed to the web.
 
@@ -51,7 +51,7 @@ Optionally, run `make` to install git hooks
 ### Directory structure
 
 _/gateway_server_ \
-Contains the Gateway [server websocket](gateway_server/sessions_websocket.py) sessions which is required to synchronize users.
+Contains the Gateway [server websocket](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server/tree/main/gateway_server/sessions_websocket.py) sessions which is required to synchronize users.
 
 ### Configuration
 
@@ -165,13 +165,13 @@ acknowledgment text `200- ack`.
 
 #### Testing
 
-* Testing [Users model](gateway_server/users.py)
+* Testing [Users model](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server/tree/main/gateway_server/users.py)
 
 ```bash
 python -m unittest gateway_server/test/UTestUsers.py
 ```
 
-* Testing [WebSockets](gateway_server/sessions_websocket.py)
+* Testing [WebSockets](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server/tree/main/gateway_server/sessions_websocket.py)
 
 [https://github.com/vi/websocat](https://github.com/vi/websocat)
 
@@ -187,14 +187,14 @@ _Testing websocket_
 websocat ws://localhost:6996/v2/sync/init/111/000
 ```
 
-* Testing [RSA Encryption/Decryption](test/security_rsa.py)
+* Testing [RSA Encryption/Decryption](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server/tree/main/test/security_rsa.py)
 This will require pem files. Copy them into the test/ dir to allow test run
 
 ```bash
 python -m unittest test/security_rsa.py
 ```
 
-* Testing [Entire Handshake process](test/handshake.py)
+* Testing [Entire Handshake process](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server/tree/main/test/handshake.py)
 This will require pem files. Copy them into the test/ dir to allow test run
 
 ```bash

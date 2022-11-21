@@ -59,7 +59,7 @@ Where command could be any one defined under scripts in package.json or Makefile
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), which specifies variable naming conventions
 
-Below are the defaults. a reference is also kept in [env.example]([../env.example)](https://github.com/smswithoutborders/smswithoutborders.com/blob/main/env.example)
+Below are the defaults. a reference is also kept in [env.example](https://github.com/smswithoutborders/smswithoutborders.com/blob/main/env.example)
 
 | Variable                         | Description                                                                                                 | Default value                                                                                           | Override                |
 | -------------------------------- | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ----------------------- |

@@ -74,12 +74,12 @@ rm -rf node_modules package-lock.json
 
 ## Setup
 
-All configuration files are found in the **[config](../config)** directory.
+All configuration files are found in the **[config](https://github.com/smswithoutborders/SMSwithoutborders-BE/blob/main/config)** directory.
 Configuration files are named according to their **[environment variables](https://github.com/lorenwest/node-config/wiki/Environment-Variables)**.
 
 ### Development environment configurations
 
-**[default.json](../config/example.default.json)** is the configuration file for a development environment.
+**[default.json](https://github.com/smswithoutborders/SMSwithoutborders-BE/blob/main/config/example.default.json)** is the configuration file for a development environment.
 
 To set up Database, API, and platform credentials for a development environment, copy the template files "example.default.json" and rename to "default.json"
 
@@ -89,7 +89,7 @@ cp config/example.default.json config/default.json
 
 ### Production environment configurations
 
-**[production.json](../config/example.production.json)** is the configuration file for a production environment.
+**[production.json](https://github.com/smswithoutborders/SMSwithoutborders-BE/blob/main/config/example.production.json)** is the configuration file for a production environment.
 
 To set up Database, API, and platform credentials for a productoin environment, copy the template files "example.production.json" and rename to "production.json"
 
@@ -99,7 +99,7 @@ cp config/example.production.json config/production.json
 
 ### Configuration Options
 
-These are the options for each **[configuration](../config)** file
+These are the options for each **[configuration](https://github.com/smswithoutborders/SMSwithoutborders-BE/blob/main/config)** file
 
 #### SEVER
 
