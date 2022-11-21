@@ -8,11 +8,28 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  min-height: 720px;
+  font-size: 1rem;
 }
 
-@media screen and (max-width: 966px) {
+.hero__title {
+  font-size: 2.8rem;
+}
+
+.hero__subtitle {
+  font-size: 1.8rem;
+}
+
+@media screen and (max-width: 996px) {
   .heroBanner {
-    padding: 2rem;
+    padding: 1rem;
+  }
+  .hero__title {
+    font-size: 1.7rem;
+  }
+
+  .hero__subtitle {
+    font-size: 1.4rem;
   }
 }
 

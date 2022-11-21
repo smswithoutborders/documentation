@@ -18,8 +18,8 @@ function HomepageHeader() {
           height={180}
           width={180}
         />
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <h1 className={styles.hero__title}>{siteConfig.title}</h1>
+        <p className={styles.hero__subtitle}>{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
             className="button button--outline button--primary button--lg"
