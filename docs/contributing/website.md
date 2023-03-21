@@ -6,19 +6,19 @@ sidebar_position: 2
 
 The official SMSWithoutBorders website.
 
-Here is the interface through which users can manage their accounts and store their credentials
+Here is the interface through which users can manage their accounts and save their credentials
 
 :::tip What you'll learn
 
-* How to setup the website
-* How to test and deploy the website with Apache and docker
+- How to setup the website
+- How to test and deploy the website with Apache and docker
 
 The most recent version of this guide can be found in the [`websites github reposistory`](https://github.com/smswithoutborders/smswithoutborders.com)
 
 The frontend integrates with these services. you may need to set them up depending on what section you are working on.
 
-* [`Backend API`](https://github.com/smswithoutborders/smswithoutborders.com)
-* [`Gateway Server`](https://github.com/smswithoutborders/smswithoutborders.com)
+- [`Backend API`](https://github.com/smswithoutborders/smswithoutborders.com)
+- [`Gateway Server`](https://github.com/smswithoutborders/smswithoutborders.com)
 
 :::
 
@@ -28,10 +28,10 @@ Please follow the instructions below to setup this project
 
 ## Requirements
 
-* [Node.js LTS](https://nodejs.org/en/download/) >= v14
-* [Yarn](https://classic.yarnpkg.com/en/docs/install)
-* [GNU make](https://www.gnu.org/software/make/)
-* [Docker](https://www.docker.com/)
+- [Node.js LTS](https://nodejs.org/en/download/) >= v14
+- [Yarn](https://classic.yarnpkg.com/en/docs/install)
+- [GNU make](https://www.gnu.org/software/make/)
+- [Docker](https://www.docker.com/)
 
 ## Install dependencies
 
@@ -74,7 +74,7 @@ Below are the defaults. a reference is also kept in [env.example](https://github
 | REACT_APP_RECAPTCHA_API_URL      | API script src from reCaptchav2 setup [documentation](https://developers.google.com/recaptcha/docs/display) | <https://www.google.com/recaptcha/api.js>                                                               | N/A                     |
 | REACT_APP_TUTORIAL_URL           | Link to the getting started tutorial                                                                        | <https://smswithoutborders.github.io/docs/tutorials/getting-started>                                    | N/A                     |
 | REACT_APP_GATEWAY_TUTORIAL_URL   | Link to gateway client setup tutorial                                                                       | <https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client/blob/alpha_stable/src/README.md> | N/A                     |
-| REACT_APP_PRIVACY_POLICY_URL     | Link to hosted  privacy policy markdown file(s)                                                             | <https://raw.githubusercontent.com/smswithoutborders/smswithoutborders.com/dev/docs/privacy-policy>     | N/A                     |
+| REACT_APP_PRIVACY_POLICY_URL     | Link to hosted privacy policy markdown file(s)                                                              | <https://raw.githubusercontent.com/smswithoutborders/smswithoutborders.com/dev/docs/privacy-policy>     | N/A                     |
 | HTTPS                            | Enable or disable https                                                                                     | false                                                                                                   | SWOB_SSL_ENABLE         |
 | SSL_CRT_FILE                     | Location of SSL CRT file                                                                                    | N/A                                                                                                     | SWOB_SSL_CRT_FILE       |
 | SSL_KEY_FILE                     | Location of SSL Key file                                                                                    | N/A                                                                                                     | SWOB_SSL_KEY_FILE       |
@@ -111,14 +111,14 @@ Check the `build` folder for deployable files once complete.
 
 For a Linux/Ubuntu server running apache2 web server, follow these steps to deploy the site
 
-* Enable rewrite module
+- Enable rewrite module
 
 ```bash
 sudo a2enmod rewrite
 ```
 
-* Open apache configuration file at /etc/apache2/apache2.conf
-* Change the AllowOverride permission from none to all
+- Open apache configuration file at /etc/apache2/apache2.conf
+- Change the AllowOverride permission from none to all
 
 ```bash
 <Directory /var/www/>
@@ -128,13 +128,13 @@ sudo a2enmod rewrite
 </Directory>
 ```
 
-* Copy contents of build folder to server root normally located at /var/www/html. Ensure the .htaccess file is copied over. The .htaccess file is quite important as specified [here](https://create-react-app.dev/docs/deployment/#static-server)
+- Copy contents of build folder to server root normally located at /var/www/html. Ensure the .htaccess file is copied over. The .htaccess file is quite important as specified [here](https://create-react-app.dev/docs/deployment/#static-server)
 
 ```bash
 sudo cp -r build/. /var/www/html
 ```
 
-* restart apache2
+- restart apache2
 
 ```bash
 sudo systemctl restart apache2
