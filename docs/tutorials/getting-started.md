@@ -29,10 +29,9 @@ An authentication pin will be sent to a valid phone number which can recieve SMS
 
 ![Docs Version Dropdown](/img/swob_signup.png)
 
+### Step 3. Log in and save access to platforms
 
-### Step 3. Log in and store access to platforms
-
-One of the key features of SWOB is to be able to store access to online services while you have an active internet, then use the App to make requests to these services without an active internet connection. Once you login and click on **Wallet**, you will have a list of services we currently support. You can store your credentials for as many services as you can foresee further need in an offline situation.
+One of the key features of SWOB is to be able to save access to online services while you have an active internet, then use the App to make requests to these services without an active internet connection. Once you login and click on **Wallet**, you will have a list of services we currently support. You can save your credentials for as many services as you can foresee further need in an offline situation.
 
 ![Docs Version Dropdown](/img/swob_wallet.png)
 
@@ -43,6 +42,7 @@ One of the key features of SWOB is to be able to store access to online services
 You will need another device (either a personal computer or another phone) which will have the QR code you will scan with your phone. You will have to make sure you are [**logged in**](https://smswithoutborders.com/login) to your account on this second device so as to access your QR code.
 
 #### After you have logged into your account
+
 Synchronizing your App with your account can be done by clicking on Profile on the navbar. You will be presented with the button **Sync with App**. Clicking the button will open up a QR screen with a QR code for you to scan. Open up your App and scan the code; more instructions on scanning the code with App below.
 
 ![Docs Version Dropdown](/img/swob_sync.png)

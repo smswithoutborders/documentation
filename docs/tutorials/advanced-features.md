@@ -1,9 +1,8 @@
 ---
-sidebar_position: 8
+sidebar_position: 9
 ---
 
 # Advanced Features
-
 
 ## Receiving emails with SMS
 
@@ -11,9 +10,9 @@ In order to support the numerous amount of messaging services available we use t
 
 ### Requirements
 
-#### Stored access in wallet
+#### Saved access in wallet
 
-To identify the intended phone number, we match your stored email addresses (from wallet) against all intended emails. In other to get mail access, be certain you are using a valid phonenumber and have stored at least 1 email in the your access wallet.
+To identify the intended phone number, we match your saved email addresses (from wallet) against all intended emails. In other to get mail access, be certain you are using a valid phonenumber and have saved at least 1 email in the your access wallet.
 
 ### How to forward emails to your SWOB account
 
@@ -22,10 +21,11 @@ Example forwarding for supported email services
 How to forward emails from Gmail account
 
 #### Example forwarding for supported email services
+
 [How to forward emails from Gmail account](https://www.lifewire.com/how-to-forward-gmail-email-using-filters-1171934)
 
-
 ### Setting up a Gateway (Relay point)
+
 Gateways (aka Relay points) are SMS receiving and sending units. In this tutorial we hope you help anyone setup a Gateway unit and start receiving and sending out SMS messages.
 
 **Coming soon ...**
