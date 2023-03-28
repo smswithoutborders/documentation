@@ -2,19 +2,15 @@
 sidebar_position: 6
 ---
 
-# View Encrypted Content
+# Voir le contenu crypté
 
-Let's discover how to see encrypted messages in **SMSwithoutborders(SWOB)**.
+Découvrons comment voir les messages cryptés dans l'application **SMSwithoutborders(SWOB)**.
 
-### Step 1. Open the recents page
+### Étape 1. Ouvrez la page des récents
 
-This page has a list of sent messages which are all encrypted
-
+Cette page contient une liste des messages envoyés qui sont tous cryptés.
 <img src="/img/encrypted.png" height="700" />
 
+### Étape 2. Sélectionner un message
 
-### Step 2. Select a message
-
-Select by tapping on the encrypted message to view the decrypted text
-
-<img src="/img/decrypted .png" height="700" />
+Sélectionnez en tapant sur le message crypté pour voir le texte décrypté.
