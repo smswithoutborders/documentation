@@ -2,28 +2,28 @@
 sidebar_position: 2
 ---
 
-# Delete your account
+# اکانت خود را حذف کنید
 
-Go to [**SMSwithoutborders(SWOB)**](https://smswithoutborders.com)
+به [**SMSwithoutborders(SWOB)**](https://smswithoutborders.com) بروید
 
-### Step 1. Login to your SWOB account
+### مرحله 1. به حساب SWOB خود وارد شوید
 
 <img src="/img/login.PNG" width="300px" />
 
-### Step 2. Open settings
+### مرحله 2. تنظیمات را باز کنید
 
-In the navigation bar select settings
+در نوار پیمایش تنظیمات را انتخاب کنید
 
 <img src="/img/openSettings.jpeg" width="300px" />
 
-### Step 3. Select delete account
+### مرحله 3. حذف حساب را انتخاب کنید
 
 <img src="/img/settingsDelete.PNG" width="300px" />
 
-### Step 4. Confirm Delete
+### مرحله 4. حذف را تایید کنید
 
-Enter the passphrase:IConfirmThisAction and your password.
+عبارت عبور:IConfirmThisAction و رمز عبور خود را وارد کنید.
 
 <img src="/img/approveDelete.PNG" width="300px" />
 
-Done! You have successfully deleted your SWOB account and your saved tokens.
+انجام شده! شما با موفقیت حساب SWOB و توکن های ذخیره شده خود را حذف کردید.

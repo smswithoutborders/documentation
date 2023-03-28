@@ -2,19 +2,18 @@
 sidebar_position: 4
 ---
 
-# Changing language
+#تغییر زبان
 
-Let's discover how to change the language of **SMSwithoutborders(SWOB)**.
+بیایید کشف کنیم که چگونه زبان **SMSwithoutborders(SWOB)** را تغییر دهیم.
 
-Presently, there are two available languages that is French and English. The steps below illustrate how to toggle between each languages
+در حال حاضر دو زبان فرانسوی و انگلیسی وجود دارد. مراحل زیر نحوه جابجایی بین هر زبان را نشان می دهد
 
-### Step 1. Open the settings page
+### مرحله 1. صفحه تنظیمات را باز کنید
 
 <img src="/img/settings .png" height="700" />
 
+### مرحله 2. یک زبان را انتخاب کنید
 
-### Step 2. Select a language
-
-Choose a language to use the app in
+زبانی را برای استفاده از برنامه انتخاب کنید
 
 <img src="/img/language.png" height="700" />

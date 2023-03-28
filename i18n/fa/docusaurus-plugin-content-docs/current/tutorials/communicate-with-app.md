@@ -2,33 +2,32 @@
 sidebar_position: 2
 ---
 
-# Communicating using the app 
+# ارتباط با استفاده از برنامه
 
-Let's discover how to use the features of  **SMSwithoutborders(SWOB)**.
+بیایید نحوه استفاده از ویژگی های **SMSwithoutborders (SWOB)** را کشف کنیم.
 
-## Sending an SMS 
+## ارسال پیامک
 
-The steps below will illustrate the communication process using swob
+مراحل زیر فرآیند ارتباط با استفاده از swob را نشان می دهد
 
-### Step 1.  Open the app
+### مرحله 1. برنامه را باز کنید
 
 <img src="/img/recents_page.png" height="700" />
 
-Open the **SMSwithoutborders** application after being downloaded from [**Google Play Store**](https://play.google.com/store/apps/details?id=com.afkanerd.sw0b) , [**Github**](https://github.com/smswithoutborders/SMSwithoutBorders-Android/releases/tag/v1.0) or build from [**source**](https://github.com/smswithoutborders/SMSwithoutBorders-Android) and click on the **"pencil icon"** to comose message 
+برنامه **SMSwithoutborders** را پس از دانلود از [**Google Play Store**] (https://play.google.com/store/apps/details?id=com.afkanerd.sw0b) باز کنید، [** Github**](https://github.com/smswithoutborders/SMSwithoutBorders-Android/releases/tag/v1.0) یا ساخت از [**source**](https://github.com/smswithoutborders/SMSwithoutBorders- Android) و روی **"نماد مداد"** کلیک کنید تا پیام بنویسید
 
-### Step 2. Select a platform to compose message
+### مرحله 2. یک پلتفرم برای نوشتن پیام انتخاب کنید
 
-Choose a platform to start composing message
+یک پلتفرم برای شروع نوشتن پیام انتخاب کنید
 
 <img src="/img/compose_store_access.png" height="700" />
 
+### مرحله 3. ارسال پیامک
 
-### Step 3. Send SMS
+#### الزامات
 
-#### Requirements
+- ایمیل گیرنده برای **Gmail**
+- شماره تماس برای **تلگرام**
+- بدنه توییت برای **تویتر**
 
-- Reciepient's email for **Gmail**
-- Contacts phone number for **Telegram**
-- Tweet body for **Twitter**
-
-For either of the platforms selected, fill the required fields accurately and send SMS
+برای هر یک از پلتفرم های انتخاب شده، فیلدهای مورد نیاز را به دقت پر کنید و پیامک ارسال کنید

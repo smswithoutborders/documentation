@@ -2,27 +2,26 @@
 sidebar_position: 7
 ---
 
-# Add a Gateway Client
+# یک Gateway Client اضافه کنید
 
-Let's discover how to add a gateway client to **SMSwithoutborders(SWOB)**.
+بیایید کشف کنیم که چگونه یک کلاینت دروازه را به **SMSwithoutborders (SWOB)** اضافه کنیم.
 
-Presently, there is a list of available gateway clients. The steps below illustrate how to add a gateway client
+در حال حاضر، لیستی از مشتریان دروازه موجود وجود دارد. مراحل زیر نحوه اضافه کردن یک کلاینت دروازه را نشان می دهد
 
-### Step 1. Open the settings page
+### مرحله 1. صفحه تنظیمات را باز کنید
 
-Select the **Gateway clients** option from the list of settings options.
+گزینه **Gateway clients** را از لیست گزینه های تنظیمات انتخاب کنید.
 
 <img src="/img/settings .png" height="700" />
 
+### مرحله 2. مشتریان دروازه های موجود را مشاهده کنید
 
-### Step 2. View availabe gateway clients
-
-Click the **plus** icon on the top right of the screen
+روی نماد **plus** در سمت راست بالای صفحه کلیک کنید
 
 <img src="gatewayClient.png" height="700" />
 
-### Step 3. Add gateway client
+### مرحله 3. سرویس گیرنده دروازه را اضافه کنید
 
-Fill the fields accurately and click **ADD**
+فیلدها را با دقت پر کنید و روی **ADD** کلیک کنید.
 
 <img src="/img/gateway2.png" height="700" />
