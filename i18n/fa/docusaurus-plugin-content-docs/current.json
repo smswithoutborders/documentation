@@ -1,0 +1,22 @@
+{
+  "version.label": {
+    "message": "بعد",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Contributing to SMSWithoutBorders": {
+    "message": "مشارکت در SMSWithoutBorders",
+    "description": "The label for category Contributing to SMSWithoutBorders in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Developers": {
+    "message": "توسعه دهندگان",
+    "description": "The label for category Developers in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tutorials": {
+    "message": "آموزش ها",
+    "description": "The label for category Tutorials in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Contribute to docs": {
+    "message": "مشارکت در اسناد",
+    "description": "The label for category Contribute to docs in sidebar tutorialSidebar"
+  }
+}

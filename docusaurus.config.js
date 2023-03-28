@@ -25,7 +25,31 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "en",
-    locales: ["en"],
+    locales: ["en", "fr", "fa"],
+    path: "i18n",
+    localeConfigs: {
+      en: {
+        label: "English",
+        direction: "ltr",
+        htmlLang: "en-US",
+        calendar: "gregory",
+        path: "en",
+      },
+      fr: {
+        label: "French",
+        direction: "ltr",
+        htmlLang: "fr-FR",
+        calendar: "gregory",
+        path: "fr",
+      },
+      fa: {
+        label: "فارسی",
+        direction: "rtl",
+        htmlLang: "fa-IR",
+        calendar: "persian",
+        path: "fa",
+      },
+    },
   },
 
   presets: [
@@ -69,6 +93,10 @@ const config = {
             docId: "contributing/introduction",
             position: "left",
             label: "Docs",
+          },
+          {
+            type: "localeDropdown",
+            position: "right",
           },
           {
             type: "doc",

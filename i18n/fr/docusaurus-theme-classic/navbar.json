@@ -1,0 +1,22 @@
+{
+  "title": {
+    "message": "SMSWithoutBorders",
+    "description": "The title in the navbar"
+  },
+  "item.label.Docs": {
+    "message": "Documents",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.Developers": {
+    "message": "Développeurs",
+    "description": "Navbar item with label Developers"
+  },
+  "item.label.Tutorials": {
+    "message": "Tutoriels",
+    "description": "Navbar item with label Tutorials"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}
