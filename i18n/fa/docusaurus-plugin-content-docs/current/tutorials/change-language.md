@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-#تغییر زبان
+# تغییر زبان
 
 بیایید کشف کنیم که چگونه زبان **SMSwithoutborders(SWOB)** را تغییر دهیم.
 

@@ -2,19 +2,18 @@
 sidebar_position: 4
 ---
 
-# Changing language
+# Changer de langue 
 
-Let's discover how to change the language of **SMSwithoutborders(SWOB)**.
+Découvrons comment changer la langue de **SMSwithoutborders(SWOB)**.
 
-Presently, there are two available languages that is French and English. The steps below illustrate how to toggle between each languages
+Actuellement, deux langues sont disponibles : le français et l'anglais. Les étapes ci-dessous illustrent comment passer d'une langue à l'autre.
 
-### Step 1. Open the settings page
+### Étape 1. Ouvrez la page des paramètres
 
 <img src="/img/settings .png" height="700" />
 
+### Étape 2. Sélectionner une langue
 
-### Step 2. Select a language
-
-Choose a language to use the app in
+Choisissez une langue pour utiliser l'application
 
 <img src="/img/language.png" height="700" />

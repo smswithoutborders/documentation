@@ -2,19 +2,19 @@
 sidebar_position: 8
 ---
 
-# Refresh Gateway Clients
+# Actualiser les clients de la passerelle
 
 Let's discover how to change the language of **SMSwithoutborders(SWOB)**.
 
 Presently, there are two available languages that is French and English. The steps below illustrate how to toggle between each languages
 
-### Step 1. Open the Gateway clients page
+### Étape 1. Ouvrez la page des clients de la passerelle
 
-Open the settings page and select Gateway Clients settings page
+Ouvrez la page des paramètres et sélectionnez la page des paramètres des clients de passerelle
 <img src="/img/settings .png" height="700" />
 
-### Step 2. Refresh gateway
+### Étape 2. Actualiser la passerelle
 
-Tap the **refresh** button on the bottom left screen
+Appuyez sur le bouton **actualiser** en bas à gauche de l'écran
 
 <img src="/img/gatewayClient.png" height="700" />
