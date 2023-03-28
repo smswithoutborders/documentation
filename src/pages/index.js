@@ -5,6 +5,8 @@ import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import styles from "../css/index.module.css";
 import SwobLogo from "../../static/img/logo.png";
+import Translate from '@docusaurus/Translate';
+
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();

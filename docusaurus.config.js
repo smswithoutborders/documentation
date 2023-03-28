@@ -24,8 +24,32 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: "en",
-    locales: ["en"],
+    defaultLocale: 'en',
+    locales: ['en', 'fa', 'fr'],
+    path: 'i18n',
+    localeConfigs: {
+      en: {
+        label: 'English',
+        direction: 'ltr',
+        htmlLang: 'en-US',
+        calendar: 'gregory',
+        path: 'en',
+      },
+      fr: {
+        label: 'French',
+        direction: 'ltr',
+        htmlLang: 'fr-FR',
+        calendar: 'gregory',
+        path: 'fr',
+      },
+      fa: {
+        label: 'فارسی',
+        direction: 'rtl',
+        htmlLang: 'fa-IR',
+        calendar: 'persian',
+        path: 'fa',
+      },
+    },
   },
 
   presets: [
@@ -69,6 +93,10 @@ const config = {
             docId: "contributing/introduction",
             position: "left",
             label: "Docs",
+          },
+          {
+            type: 'localeDropdown',
+            position: 'right',
           },
           {
             type: "doc",
