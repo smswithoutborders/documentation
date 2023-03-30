@@ -151,7 +151,15 @@ const config = {
             items: [
               {
                 label: "Blog",
-                to: "/blog",
+                href: "https://afkanerd.github.io",
+              },
+              {
+                label: "FaceBook",
+                href: "https://www.facebook.com/SMSWithoutBorders",
+              },
+              {
+                label: "YouTube",
+                href: "https://www.youtube.com/@smswithoutborders9162",
               },
             ],
           },
