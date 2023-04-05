@@ -33,6 +33,7 @@ Un code d'authentification sera envoyé à un numéro de téléphone valide qui 
 ### Étape 3 : Se connecter et sauvegarder l'accès aux plateformes
 
 L'une des principales caractéristiques de SWOB est de permettre de sauvegarder l'accès aux services en ligne lorsque vous disposez d'une connexion Internet active, puis d'utiliser l'application pour effectuer des demandes auprès de ces services sans connexion Internet active. Une fois que vous vous êtes connecté et que vous avez cliqué sur **Portefeuille**, vous obtenez une liste des services que nous supportons actuellement. Vous pouvez enregistrer vos informations d'identification pour autant de services que vous prévoyez d'en avoir besoin dans une situation hors ligne.
+
 ![Docs Version Dropdown](/img/swob_wallet.png)
 
 ### Étape 4. Synchronisez votre application avec votre compte

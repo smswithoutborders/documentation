@@ -76,7 +76,7 @@ API_ID=<insert your server username here (same as an Afkanerd developer Auth ID)
 API_KEY=<insert your server password here (same as an Afkanerd develper Auth Key)>
 ```
 
-- Veillez à ce que l'URL de connexion pointe vers le [serveur RabbitMQ].](https://developers.smswithoutborders.com:15671).
+- Veillez à ce que l'URL de connexion pointe vers le [serveur RabbitMQ](https://developers.smswithoutborders.com:15671).
 
 ```ini
 CONNECTION_URL=developers.smswithoutborders.com
