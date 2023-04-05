@@ -2,36 +2,35 @@
 sidebar_position: 1
 ---
 
-# Building with SMSWithoutBorders
+#ساخت با SMSWithoutBorders
 
-:::tip What you'll learn
+:::نکته آنچه یاد خواهید گرفت
 
-* How to register for a developer account
+- نحوه ثبت نام برای یک حساب توسعه دهنده
 
 :::
 
-With a developer account, you get access to SMSWithoutBorders OpenAPI and other core services.
+با یک حساب توسعه دهنده، به SMSWithoutBorders OpenAPI و سایر خدمات اصلی دسترسی خواهید داشت.
 
-## Signup for an account
+## برای یک حساب کار بری ثبت نام کنید
 
-Start by creating and account on the [developer console](https://developers.smswithoutborders.com)
+با ایجاد و ایجاد حساب در [کنسول برنامه‌نویس] (https://developers.smswithoutborders.com) شروع کنید.
 
 ![Developer Signup](/img/dev_signup.png)
 
-## Generate Access keys
+## کلیدهای دسترسی را ایجاد کنید
 
-After login, select credentials from the menu to access the credentials page. Click new to generate access keys. You can also visit this page to regenerate your keys.
+پس از ورود، اعتبار را از منو انتخاب کنید تا به صفحه اعتبارنامه دسترسی پیدا کنید. برای ایجاد کلیدهای دسترسی روی new کلیک کنید. همچنین می توانید برای بازسازی کلیدهای خود از این صفحه دیدن کنید.
 
 ![Generate access keys](/img/dev_creds.png)
 
-Once complete, you will have an AuthID and AuthKey
+پس از تکمیل، یک AuthID و AuthKey خواهید داشت
 
 ![Generate access keys](/img/dev_creds_generated.png)
 
-## Subscribe to Products
+## در محصولات مشترک شوید
 
-You can now subscribe to products and start building.
+اکنون می توانید مشترک محصولات شوید و شروع به ساخت کنید.
 
-* ### [OpenAPI](https://smswithoutborders-openapi.readthedocs.io/en/latest/)
-Leverage OpenAPI's functionality to send out both single and bulk SMS messages at scale.
-
+- ### [OpenAPI](https://smswithoutborders-openapi.readthedocs.io/en/latest/)
+  از عملکرد OpenAPI برای ارسال پیام های SMS تکی و انبوه در مقیاس استفاده کنید.

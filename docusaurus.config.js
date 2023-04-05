@@ -111,6 +111,12 @@ const config = {
             label: "Tutorials",
           },
           {
+            type: "doc",
+            docId: "SWOB Account Management/Account Management",
+            position: "left",
+            label: "SWOB Account Management",
+          },
+          {
             href: "https://github.com/smswithoutborders",
             label: "GitHub",
             position: "right",
@@ -151,7 +157,15 @@ const config = {
             items: [
               {
                 label: "Blog",
-                to: "/blog",
+                href: "https://afkanerd.github.io",
+              },
+              {
+                label: "FaceBook",
+                href: "https://www.facebook.com/SMSWithoutBorders",
+              },
+              {
+                label: "YouTube",
+                href: "https://www.youtube.com/@smswithoutborders9162",
               },
             ],
           },
