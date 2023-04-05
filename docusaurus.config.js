@@ -111,6 +111,12 @@ const config = {
             label: "Tutorials",
           },
           {
+            type: "doc",
+            docId: "SWOB Account Management/Account Management",
+            position: "left",
+            label: "SWOB Account Management",
+          },
+          {
             href: "https://github.com/smswithoutborders",
             label: "GitHub",
             position: "right",

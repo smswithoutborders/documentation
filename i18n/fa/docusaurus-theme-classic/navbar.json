@@ -18,5 +18,13 @@
   "item.label.GitHub": {
     "message": "GitHub",
     "description": "Navbar item with label GitHub"
+  },
+  "logo.alt": {
+    "message": "SMSwithoutborders logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.SWOB Account Management": {
+    "message": "SWOB Account Management",
+    "description": "Navbar item with label SWOB Account Management"
   }
 }

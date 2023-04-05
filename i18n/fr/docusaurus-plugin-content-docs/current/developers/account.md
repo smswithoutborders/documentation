@@ -2,36 +2,43 @@
 sidebar_position: 1
 ---
 
-# Building with SMSWithoutBorders
+# Construire avecSMSWithoutBorders
 
-:::tip What you'll learn
+:::conseil Ce que vous apprendrez
 
-* How to register for a developer account
-
+* Comment s'inscrire pour obtenir un compte de développeur
 :::
 
-With a developer account, you get access to SMSWithoutBorders OpenAPI and other core services.
+Avec un compte de développeur, vous avez accès à l'OpenAPI de SMSWithoutBorders et à d'autres services de base.
 
-## Signup for an account
+## Ouvrir un compte
 
-Start by creating and account on the [developer console](https://developers.smswithoutborders.com)
+Commencez par créer un compte sur la [console de développement](https://developers.smswithoutborders.com)
 
 ![Developer Signup](/img/dev_signup.png)
 
-## Generate Access keys
+## Générer des clés d'accès
 
-After login, select credentials from the menu to access the credentials page. Click new to generate access keys. You can also visit this page to regenerate your keys.
+Après avoir ouvert une session, sélectionnez "credentials" dans le menu pour accéder à la page "credentials". Cliquez sur nouveau pour générer des clés d'accès. Vous pouvez également consulter cette page pour régénérer vos clés.
 
-![Generate access keys](/img/dev_creds.png)
+![Générer des clés d'accès](/img/dev_creds.png)
 
-Once complete, you will have an AuthID and AuthKey
+Une fois l'opération terminée, vous disposerez d'un AuthID et d'une AuthKey.
 
-![Generate access keys](/img/dev_creds_generated.png)
+![Générer des clés d'accès](/img/dev_creds_generated.png)
 
-## Subscribe to Products
+## S'abonner aux produits
 
-You can now subscribe to products and start building.
+Vous pouvez maintenant vous abonner à des produits et commencer à construire.
 
 * ### [OpenAPI](https://smswithoutborders-openapi.readthedocs.io/en/latest/)
-Leverage OpenAPI's functionality to send out both single and bulk SMS messages at scale.
+Tirez parti de la fonctionnalité d'OpenAPI pour envoyer des messages SMS individuels ou groupés à grande échelle.
+
+
+
+
+
+
+
+
 

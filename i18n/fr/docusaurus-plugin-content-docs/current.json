@@ -18,5 +18,9 @@
   "sidebar.tutorialSidebar.category.Contribute to docs": {
     "message": "Contribuer aux documents",
     "description": "The label for category Contribute to docs in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.SWOB Account Management": {
+    "message": "Gestion de Compte SWOB",
+    "description": "The label for category SWOB Account Management in sidebar tutorialSidebar"
   }
 }
