@@ -3,6 +3,7 @@ sidebar_position: 1
 ---
 
 ## Définitions
+
 **SWOB:** - SMSWithoutBorders
 
 Ce document décrit le flux de données du SWOB.
