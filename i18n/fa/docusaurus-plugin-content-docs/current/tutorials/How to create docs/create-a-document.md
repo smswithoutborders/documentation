@@ -2,44 +2,44 @@
 sidebar_position: 2
 ---
 
-# Create a Document
+# یک سند ایجاد کنید
 
-Documents are **groups of pages** connected through:
+اسناد **گروهی از صفحات** هستند که از طریق:
 
-- a **sidebar**
-- **previous/next navigation**
-- **versioning**
+- یک **نوار کناری**
+- **پیمایش قبلی/بعدی**
+- **نسخه سازی**
 
-## Create your first Doc
+## اولین سند خود را ایجاد کنید
 
-Create a markdown file at `docs/hello.md`:
+یک فایل علامت گذاری در «docs/hello.md» ایجاد کنید:
 
 ```md title="docs/hello.md"
-# Hello
+# سلام
 
-This is my **first Docusaurus document**!
+این **اولین سند Docusaurus** من است!
 ```
 
-A new document is now available at `http://localhost:3000/docs/hello`.
+یک سند جدید اکنون در دسترس است `http://localhost:3000/docs/hello`.
 
-## Configure the Sidebar
+## نوار کناری را پیکربندی کنید
 
-Docusaurus automatically **creates a sidebar** from the `docs` folder.
+Docusaurus به طور خودکار **یک نوار کناری** را از پوشه `docs` ایجاد می کند.
 
-Add metadatas to customize the sidebar label and position:
+برای سفارشی کردن برچسب و موقعیت نوار کناری، متادیتاها را اضافه کنید:
 
 ```md title="docs/hello.md" {1-4}
 ---
-sidebar_label: 'Hi!'
-sidebar_position: 3
+sidebar_label: "سلام!"
+موقعیت_نوار کناری: 3
 ---
 
-# Hello
+# سلام
 
-This is my **first Docusaurus document**!
+این **اولین سند Docusaurus** من است!
 ```
 
-It is also possible to create your sidebar explicitly in `sidebars.js`:
+همچنین می توان نوار کناری خود را به صراحت در `sidebars.js` ایجاد کرد:
 
 ```diff title="sidebars.js"
 module.exports = {

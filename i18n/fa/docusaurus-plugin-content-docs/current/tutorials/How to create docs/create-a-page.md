@@ -2,21 +2,21 @@
 sidebar_position: 1
 ---
 
-# Create a Page
+# یک صفحه ایجاد کنید
 
-Add **Markdown or React** files to `src/pages` to create a **standalone page**:
+برای ایجاد یک **صفحه مستقل**، فایل های **Markdown یا React** را به `src/pages` اضافه کنید:
 
 - `src/pages/index.js` -> `localhost:3000/`
 - `src/pages/foo.md` -> `localhost:3000/foo`
 - `src/pages/foo/bar.js` -> `localhost:3000/foo/bar`
 
-## Create your first React Page
+## اولین صفحه React خود را ایجاد کنید
 
-Create a file at `src/pages/my-react-page.js`:
+یک فایل در `src/pages/my-react-page.js` ایجاد کنید:
 
 ```jsx title="src/pages/my-react-page.js"
-import React from 'react';
-import Layout from '@theme/Layout';
+import React from "react";
+import Layout from "@theme/Layout";
 
 export default function MyReactPage() {
   return (
@@ -28,16 +28,16 @@ export default function MyReactPage() {
 }
 ```
 
-A new page is now available at `http://localhost:3000/my-react-page`.
+اکنون یک صفحه جدید در «http://localhost:3000/my-react-page» در دسترس است.
 
-## Create your first Markdown Page
+## اولین صفحه Markdown خود را ایجاد کنید
 
-Create a file at `src/pages/my-markdown-page.md`:
+یک فایل در `src/pages/my-markdown-page.md` ایجاد کنید:
 
 ```mdx title="src/pages/my-markdown-page.md"
-# My Markdown page
+# صفحه Markdown من
 
-This is a Markdown page
+این یک صفحه Markdown است
 ```
 
-A new page is now available at `http://localhost:3000/my-markdown-page`.
+یک صفحه جدید اکنون در دسترس است`http://localhost:3000/my-markdown-page`.
