@@ -147,6 +147,10 @@ const config = {
                 href: "#",
               },
               {
+                label: "X",
+                href: "https://twitter.com/SwobOutreach",
+              },
+              {
                 label: "GitHub",
                 href: "https://github.com/smswithoutborders",
               },
@@ -163,6 +167,7 @@ const config = {
                 label: "FaceBook",
                 href: "https://www.facebook.com/SMSWithoutBorders",
               },
+
               {
                 label: "YouTube",
                 href: "https://www.youtube.com/@smswithoutborders9162",
