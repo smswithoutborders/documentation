@@ -43,7 +43,7 @@ One of the key features of SWOB is to be able to save access to online services 
 
 Synchronizing your App with your account can be done by clicking on Profile on the navbar. You will be presented with the button **Sync with App**. Clicking the button will open up a QR screen with a QR code for you to scan. Open up your App and scan the code; more instructions on scanning the code with App below.
 
-Please note, you will need to synchronize everytime you save a new platform to bring it into your app.
+**Please note**, you will need to synchronize everytime you save a new platform to bring it into your app.
 
 ![Docs Version Dropdown](/img/swob_sync.png)
 
