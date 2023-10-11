@@ -39,17 +39,13 @@ One of the key features of SWOB is to be able to save access to online services 
 
 #### Requirements
 
-You will need another device (either a personal computer or another phone) which will have the QR code you will scan with your phone. You will have to make sure you are [**logged in**](https://smswithoutborders.com/login) to your account on this second device so as to access your QR code.
-
 #### After you have logged into your account
 
 Synchronizing your App with your account can be done by clicking on Profile on the navbar. You will be presented with the button **Sync with App**. Clicking the button will open up a QR screen with a QR code for you to scan. Open up your App and scan the code; more instructions on scanning the code with App below.
 
+Please note, you will need to synchronize everytime you save a new platform to bring it into your app.
+
 ![Docs Version Dropdown](/img/swob_sync.png)
-
-#### On the App
-
-The first time you open up the App, you will be asked to synchronize. This is done by scanning a QR code with your phone's Camera. Once the code is scanned, you will be asked to enter the password you created while creating your account. On successful password entry, you will be presented with a list of all the services you currently have offline via SWOB.
 
 ### Step 5. Configure your App and begin utilizing
 
