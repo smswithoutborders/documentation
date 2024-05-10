@@ -64,10 +64,8 @@ make install
 
 #### Configuration
 
-<p>
-Your clusters require a server to communicate with, and you will need to point to this in your configuration files.</p>
-
-- Edit `.configs/config.ini` ref:[link to example config file](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client/tree/master/.configs/example.config.ini)
+<p> Your clusters require a server to communicate with, and you will need to point to this in your configuration files.</p>
+- Edit `.configs_config.ini` ref:[link to example config file](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client/tree/master/.configs/example.config.ini)
 
 - Follow [these steps](https://smswithoutborders.github.io/docs/developers/getting-started) in order to get your Auth ID and Auth key
 

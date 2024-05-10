@@ -106,9 +106,24 @@ const config = {
           },
           {
             type: "doc",
-            docId: "tutorials/getting-started",
+            docId: "App Tutorial/New-Tutorial",
             position: "left",
-            label: "Tutorials",
+            label: "New Tutorial",
+          },
+          {
+            type: "dropdown",
+            label: "Tutorials Desktop",
+            position: "left",
+            items: [
+              {
+                label: "Desktop",
+                to: "/docs/tutorialsdesktop/getting-started",
+              },
+              {
+                label: "App",
+                to: "/docs/tutorialsdesktop/getting",
+              },
+            ],
           },
           {
             type: "doc",
@@ -147,10 +162,6 @@ const config = {
                 href: "#",
               },
               {
-                label: "X",
-                href: "https://twitter.com/SwobOutreach",
-              },
-              {
                 label: "GitHub",
                 href: "https://github.com/smswithoutborders",
               },
@@ -167,7 +178,6 @@ const config = {
                 label: "FaceBook",
                 href: "https://www.facebook.com/SMSWithoutBorders",
               },
-
               {
                 label: "YouTube",
                 href: "https://www.youtube.com/@smswithoutborders9162",
