@@ -105,12 +105,6 @@ const config = {
             label: "Developers",
           },
           {
-            type: "doc",
-            docId: "App Tutorial/New-Tutorial",
-            position: "left",
-            label: "New Tutorial",
-          },
-          {
             type: "dropdown",
             label: "Tutorials Desktop",
             position: "left",
