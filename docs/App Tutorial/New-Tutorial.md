@@ -58,20 +58,66 @@ One of the key features of SWOB is to be able to save access to online platforms
 
 <img src="/img/token.png" width="200"/>
 
-### Step 7. Configure your App and begin utilizing​
+### Step 6. Configure your App and begin utilizing​
 
 Once you've linked your apps to your SWOB  account, you'll need to add your gateway client number or select one from the list of available gateway clients. One important setting to configure is selecting the Gateway number for communication. It is cheaper to Opt for a Gateway number  from the same service provider as yours or within your country.  
 
-<img src="/img/token.png" width="200"/>
-<img src="/img/token.png" width="200"/>
+<img src="/img/add-message.png" width="200"/>
+<img src="/img/settings.png" width="200"/>
 
 
 ### To set a gateway number, follow these steps below
+
 1. Save the intended gateway number in your contacts.
 2. Go to **Settings** and select Gateway Clients.
 3. Tap the *3 dots* sign at the top right corner and tap *add*.
 4. Click on the **Contact icon** to access your contacts.
 5. Find and select the saved Gateway Number.
 6. Confirm the selection and ass the gateway number successfully.
+
+<img src="/img/token.png" width="200"/>
+<img src="/img/token.png" width="200"/>
+<img src="/img/token.png" width="200"/>
+
+# Communicating using the app
+
+Let's discover how to communicate without an Internet connection using SMSwithoutborders(SWOB).
+### Step 1: Click the compose button
+
+<img src="/img/token.png" width="200"/>
+
+After  the first stage has been completed which is saving access to platforms you wish to communicate on, synchronizing and adding a gateway number. 
+Open the SMSwithoutborders application after being downloaded from [Google Play Store](https://) , [Github](https://) or build from [source](https://) and click on the "pencil icon" to compose message
+
+
+### Step 2. Select a platform to compose message​
+
+Choose a platform to start composing message
+
+<img src="/img/token.png" width="200"/>
+
+### Step 3. Compose your message and send as SMS
+
+After composing your message on any platform, proceed to send it as usual. You will then be directed to your standard SMS page, where you can send the message to the pre-saved gateway number as an SMS. Note that the message will appear as encrypted when sending it as an SMS. This extra layer of security ensures that only you and the recipient can access the message, maintaining confidentiality.
+
+<img src="/img/token.png" width="200"/>
+<img src="/img/token.png" width="200"/>
+<img src="/img/token.png" width="200"/>
+
+
+#### Requirements​
+
+- Recipient's email for Gmail
+- Contacts phone number for Telegram
+- Tweet body for Twitter
+
+For either of the platforms selected, fill the required fields accurately and send SMS
+
+### Step 4: SMS Sent
+
+Congratulations! You have successfully sent the SMS. The recipient will now receive the original message in a readable format. Please note that the time for receiving the message may vary depending on the mobile network and the functionality of the gateway client device
+
+
+
 
 
