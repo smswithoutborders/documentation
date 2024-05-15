@@ -2,42 +2,47 @@
 sidebar_position: 1
 ---
 
-پس از ورود به برنامه SWOB، از شما خواسته می‌شود که توکن‌هایی را برای جیمیل، تلگرام و توییتر ذخیره کنید. این مرحله برای اجازه دادن به برنامه برای ارسال پیام از طرف شما به این سه پلتفرم ضروری است. اعلان بلافاصله پس از ورود به برنامه ظاهر می شود.
+After signing in to the SWOB app, you will be prompted to store tokens for Gmail, Telegram, and Twitter. This needs to be done in order to grant the app permission to publish messages on your behalf to these three mentioned applications. This option pops up immediately after you sign-in to the app. 
 
 **Gmail :**
-جیمیل یک سرویس ایمیل رایگان است که توسط گوگل ارائه می شود. با ذخیره دسترسی نزد ما، می‌توانید با استفاده از اپلیکیشن SWOB ایمیل‌های خود را از طریق پیامک ارسال کنید.
+Gmail is a free email service provided by Google. By storing access with us, you will be able to send emails by SMS using the SWOB app.
 
-در صفحه مجوز، گزینه «ارسال ایمیل از طرف شما» را انتخاب کنید. .
+On the authorization page, select the option ‘send email on your behalf’ .
 
 <br/>
 <img src="/img/Gmail-Access.png" height="400" width="300" />
 <br/>
 
-SWOB نمی تواند پیام های شما را بخواند یا اطلاعات حساب شما را تغییر دهد.
 
-برای تأیید فعالیت های SWOB در حساب خود، به Gmail خود بروید و پیام های ارسالی خود را باز کنید، در آنجا تمام پیام هایی را که SWOB از طرف شما با مجوز شما ارسال کرده است، مشاهده خواهید کرد. اگر پیامی را مشاهده کردید که شما آن را تأیید نکرده اید، می توانید رمز ذخیره شده خود را باطل کنید.
+SWOB cannot read your messages or modify your account information.
 
-**Twitter:**
-توییتر یک سرویس میکروبلاگینگ و شبکه اجتماعی است. با ذخیره دسترسی با ما، می توانید با استفاده از برنامه SWOB به صورت بلادرنگ از طریق پیامک توییت کنید.
+To verify SWOB activities on your account, go to your Gmail and open your sent messages, there you will see all the messages SWOB has sent on your behalf with your authorization. If you see any message that you did not authorize you can revoke your saved token.
 
-در هنگام ذخیره توکن توییتر، «مجوز برنامه» را انتخاب کنید.
+
+
+
+**Twitter:** 
+Twitter is a microblogging and social networking service. By storing access with us, you will be able to tweet in real time by SMS using the SWOB app.
+
+On saving your twitter token, select ‘authorize app’.
 
 <br/>
 <img src="/img/Twitter_Access.png" height="400" width="300" />
 <br/>
 
-برای تأیید فعالیت های SWOB در حساب خود، به جدول زمانی توییتر خود بروید. در آنجا می توانید تمام توییت هایی را که با استفاده از SWOB ارسال کرده اید مشاهده کنید. توییت ارسال شده توسط SWOB قابل حذف نیست.
+To verify SWOB activities on your account, go to your twitter timeline. There you can see all the tweets you sent using SWOB. The tweet sent cannot be deleted by SWOB.
 
 <br/>
 <img src="/img/Twitter-Things.png" height="400" width="300" />
 <br/>
 
 <!--need to add the correct link on revoke token-->
+There you can revoke your twitter access or you [revoke](https://smswithoutborders.com/) through the [SWOB interface](https://smswithoutborders.com/login).
 
-در آنجا می توانید دسترسی توییتر خود را لغو کنید یا [لغو](https://smswithoutborders.com/) از طریق [رابط SWOB](https://smswithoutborders.com/login).
+
+
 
 **Telegram:**
-
 <!--
 Telegram is a free cross platform, cloud based instant messaging service. By storing access with us, you will be able to send messages by SMS using the SWOB app.
 
@@ -52,6 +57,9 @@ If you are not sure of some messages go to your Telegram account settings and de
 Terminate the session or  you revoke through the SWOB interface.
 -->
 
+
 <br/>
 <img src="/img/Telegram-Access.png" height="400" width="300" />
 <br/>
+
+

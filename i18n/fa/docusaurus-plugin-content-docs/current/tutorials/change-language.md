@@ -10,10 +10,10 @@ sidebar_position: 4
 
 ### مرحله 1. صفحه تنظیمات را باز کنید
 
-<img src="/img/settings .png" width="300" />
+<img src="/img/settings .png" height="700" />
 
 ### مرحله 2. یک زبان را انتخاب کنید
 
 زبانی را برای استفاده از برنامه انتخاب کنید
 
-<img src="/img/language.png" width="300" />
+<img src="/img/language.png" height="700" />
