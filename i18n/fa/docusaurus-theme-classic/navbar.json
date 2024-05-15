@@ -24,7 +24,7 @@
     "description": "The alt text of navbar logo"
   },
   "item.label.SWOB Account Management": {
-    "message": "مدیریت حساب SWOB",
+    "message": "SWOB Account Management",
     "description": "Navbar item with label SWOB Account Management"
   }
 }

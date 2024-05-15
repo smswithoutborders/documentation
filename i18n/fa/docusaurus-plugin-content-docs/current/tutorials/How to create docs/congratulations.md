@@ -2,20 +2,20 @@
 sidebar_position: 6
 ---
 
-# تبریک می گویم!
+# Congratulations!
 
-شما به تازگی **مبانی Docusaurus** را یاد گرفته اید و تغییراتی در **قالب اولیه** ایجاد کرده اید.
+You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.
 
-Docusaurus **خیلی بیشتر برای ارائه** دارد!
+Docusaurus has **much more to offer**!
 
-**5 دقیقه بیشتر ** دارید؟ نگاهی به **نسخه** و **i18n** بیندازید.
+Have **5 more minutes**? Take a look at **versioning** and **i18n**.
 
-چیزی **نامشخص** یا **باگ** در این آموزش وجود دارد؟ [لطفا آن را گزارش دهید!](https://github.com/facebook/docusaurus/discussions/4610)
+Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://github.com/facebook/docusaurus/discussions/4610)
 
-## بعدی چیه؟
+## What's next?
 
-- [اسناد رسمی] (https://docusaurus.io/) را بخوانید.
-- یک [طراحی و چیدمان] سفارشی اضافه کنید (https://docusaurus.io/docs/styling-layout)
-- یک [نوار جستجو] اضافه کنید (https://docusaurus.io/docs/search)
-- الهامات را در [نمایشگاه Docusaurus] (https://docusaurus.io/showcase) بیابید
-- در [انجمن Docusaurus] شرکت کنید (https://docusaurus.io/community/support)
+- Read the [official documentation](https://docusaurus.io/).
+- Add a custom [Design and Layout](https://docusaurus.io/docs/styling-layout)
+- Add a [search bar](https://docusaurus.io/docs/search)
+- Find inspirations in the [Docusaurus showcase](https://docusaurus.io/showcase)
+- Get involved in the [Docusaurus Community](https://docusaurus.io/community/support)

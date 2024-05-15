@@ -8,7 +8,7 @@
   text-align: center;
   position: relative;
   overflow: hidden;
-  min-height: 600px;
+  min-height: 720px;
   font-size: 1rem;
 }
 
@@ -37,7 +37,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: auto;
 }
 
 .hero_img {

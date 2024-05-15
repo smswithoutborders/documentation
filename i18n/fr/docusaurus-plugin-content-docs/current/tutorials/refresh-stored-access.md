@@ -10,10 +10,11 @@ Presently, there are two available languages that is French and English. The ste
 
 ### Étape 1. Ouvrez la page des paramètres
 
-<img src="/img/settings .png" width="300" />
+<img src="/img/settings .png" height="700" />
+
 
 ### Étape 2. Sélectionnez la méthode d'actualisation
 
 Choisissez une méthode pour actualiser l'accès au magasin
 
-<img src="/img/Screenshot_20220928_110327.png" width="300" />
+<img src="/img/Screenshot_20220928_110327.png" height="700" />

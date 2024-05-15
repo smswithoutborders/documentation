@@ -105,19 +105,10 @@ const config = {
             label: "Developers",
           },
           {
-            type: "dropdown",
-            label: "Tutorials Desktop",
+            type: "doc",
+            docId: "tutorials/getting-started",
             position: "left",
-            items: [
-              {
-                label: "Desktop",
-                to: "/docs/tutorials/getting-started",
-              },
-              {
-                label: "App",
-                to: "/docs/App Tutorial/New-Tutorial",
-              },
-            ],
+            label: "Tutorials",
           },
           {
             type: "doc",

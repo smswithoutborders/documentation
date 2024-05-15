@@ -6,10 +6,10 @@ sidebar_position: 5
 
 ### مرحله 1. صفحه تنظیمات را باز کنید
 
-<img src="/img/settings .png" width="300" />
+<img src="/img/settings .png" height="700" />
 
 ### مرحله 2. روش refresh را انتخاب کنید
 
 روشی را برای بازخوانی دسترسی فروشگاه انتخاب کنید
 
-<img src="/img/Screenshot_20220928_110327.png" width="300" />
+<img src="/img/Screenshot_20220928_110327.png" height="700" />

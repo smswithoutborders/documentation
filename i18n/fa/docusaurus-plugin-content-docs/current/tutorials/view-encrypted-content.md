@@ -10,10 +10,10 @@ sidebar_position: 6
 
 این صفحه فهرستی از پیام های ارسال شده دارد که همگی رمزگذاری شده اند
 
-<img src="/img/encrypted.png" width="300" />
+<img src="/img/encrypted.png" height="700" />
 
 ### مرحله 2. یک پیام را انتخاب کنید
 
 با ضربه زدن روی پیام رمزگذاری شده برای مشاهده متن رمزگشایی شده انتخاب کنید
 
-<img src="/img/decrypted .png" width="300" />
+<img src="/img/decrypted .png" height="700" />

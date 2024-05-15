@@ -2,30 +2,30 @@
 sidebar_position: 5
 ---
 
-# سایت خود را مستقر کنید
+# Deploy your site
 
-Docusaurus یک **ایستا-سایت-ژنراتور** (همچنین **[Jamstack](https://jamstack.org/)** نامیده می شود.
+Docusaurus is a **static-site-generator** (also called **[Jamstack](https://jamstack.org/)**).
 
-این سایت شما را به صورت **ایستا HTML، جاوا اسکریپت و فایل های CSS** می سازد.
+It builds your site as simple **static HTML, JavaScript and CSS files**.
 
-## سایت خود را بسازید
+## Build your site
 
-سایت خود را **برای تولید** بسازید:
+Build your site **for production**:
 
 ```bash
 npm run build
 ```
 
-فایل های استاتیک در پوشه `build` تولید می شوند.
+The static files are generated in the `build` folder.
 
-## سایت خود را مستقر کنید
+## Deploy your site
 
-ساخت تولید خود را به صورت محلی آزمایش کنید:
+Test your production build locally:
 
 ```bash
 npm run serve
 ```
 
-پوشه «build» اکنون در `http://localhost:3000/` ارائه می‌شود.
+The `build` folder is now served at `http://localhost:3000/`.
 
-اکنون می‌توانید پوشه `build` را **تقریباً در هر کجا** به راحتی، **رایگان** یا هزینه بسیار کم مستقر کنید (_[راهنمای استقرار] را بخوانید (https://docusaurus.io/docs/deployment)_ \*).
+You can now deploy the `build` folder **almost anywhere** easily, **for free** or very small cost (read the **[Deployment Guide](https://docusaurus.io/docs/deployment)**).

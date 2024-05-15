@@ -11,10 +11,10 @@ Presently, there are two available languages that is French and English. The ste
 ### Étape 1. Ouvrez la page des clients de la passerelle
 
 Ouvrez la page des paramètres et sélectionnez la page des paramètres des clients de passerelle
-<img src="/img/settings .png" width="300" />
+<img src="/img/settings .png" height="700" />
 
 ### Étape 2. Actualiser la passerelle
 
 Appuyez sur le bouton **actualiser** en bas à gauche de l'écran
 
-<img src="/img/gatewayClient.png" width="300" />
+<img src="/img/gatewayClient.png" height="700" />

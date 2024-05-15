@@ -2,33 +2,33 @@
 sidebar_position: 3
 ---
 
-# یک پست وبلاگ ایجاد کنید
+# Create a Blog Post
 
-Docusaurus یک **صفحه برای هر پست وبلاگ** ایجاد می کند، اما همچنین یک **صفحه فهرست وبلاگ**، یک **سیستم برچسب**، یک فید **RSS**...
+Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...
 
-## اولین پست خود را ایجاد کنید
+## Create your first Post
 
-یک فایل در `blog/2021-02-28-greetings.md` ایجاد کنید:
+Create a file at `blog/2021-02-28-greetings.md`:
 
 ```md title="blog/2021-02-28-greetings.md"
 ---
-حلزون: درود
-عنوان: با سلام!
-نویسندگان:
-  - نام: جوئل مارسی
-    عنوان: همساز Docusaurus 1
-    آدرس اینترنتی: https://github.com/JoelMarcey
+slug: greetings
+title: Greetings!
+authors:
+  - name: Joel Marcey
+    title: Co-creator of Docusaurus 1
+    url: https://github.com/JoelMarcey
     image_url: https://github.com/JoelMarcey.png
-  - نام: Sébastien Lorber
-    عنوان: نگهدارنده Docusaurus
-    آدرس اینترنتی: https://sebastienlorber.com
+  - name: Sébastien Lorber
+    title: Docusaurus maintainer
+    url: https://sebastienlorber.com
     image_url: https://github.com/slorber.png
-برچسب‌ها: [با سلام]
+tags: [greetings]
 ---
 
-تبریک می گویم، شما اولین پست خود را ارسال کردید!
+Congratulations, you have made your first post!
 
-با خیال راحت این پست را تا جایی که دوست دارید ویرایش کنید.
+Feel free to play around and edit this post as much you like.
 ```
 
-یک پست وبلاگ جدید اکنون در دسترس است `http://localhost:3000/blog/greetings`.
+A new blog post is now available at `http://localhost:3000/blog/greetings`.
