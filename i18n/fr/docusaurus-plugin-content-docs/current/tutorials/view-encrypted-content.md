@@ -9,7 +9,7 @@ Découvrons comment voir les messages cryptés dans l'application **SMSwithoutbo
 ### Étape 1. Ouvrez la page des récents
 
 Cette page contient une liste des messages envoyés qui sont tous cryptés.
-<img src="/img/encrypted.png" height="700" />
+<img src="/img/encrypted.png" width="300" />
 
 ### Étape 2. Sélectionner un message
 

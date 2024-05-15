@@ -10,11 +10,10 @@ Presently, there are two available languages that is French and English. The ste
 
 ### Step 1. Open the settings page
 
-<img src="/img/settings .png" height="700" />
-
+<img src="/img/settings .png" width="300" />
 
 ### Step 2. Select a language
 
 Choose a language to use the app in
 
-<img src="/img/language.png" height="700" />
+<img src="/img/language.png" width="300" />
