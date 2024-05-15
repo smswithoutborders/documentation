@@ -111,11 +111,11 @@ const config = {
             items: [
               {
                 label: "Desktop",
-                to: "/docs/tutorialsdesktop/getting-started",
+                to: "/docs/tutorials/getting-started",
               },
               {
                 label: "App",
-                to: "/docs/tutorialsdesktop/getting",
+                to: "/docs/App Tutorial/New-Tutorial",
               },
             ],
           },

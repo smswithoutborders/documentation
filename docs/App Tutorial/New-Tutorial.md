@@ -75,7 +75,7 @@ Once you've linked your apps to your SWOB  account, you'll need to add your gate
 5. Find and select the saved Gateway Number.
 6. Confirm the selection and ass the gateway number successfully.
 
-<img src="/img/token.png" width="200"/>
+<img src="/img/.png" width="200"/>
 <img src="/img/token.png" width="200"/>
 <img src="/img/token.png" width="200"/>
 
