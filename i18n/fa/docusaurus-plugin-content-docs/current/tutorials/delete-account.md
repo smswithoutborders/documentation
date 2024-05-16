@@ -8,7 +8,7 @@ sidebar_position: 2
 
 ### مرحله 1. به حساب SWOB خود وارد شوید
 
-<img src="/img/login.PNG" width="300px" />
+<img src="/img/login.png" width="300px" />
 
 ### مرحله 2. تنظیمات را باز کنید
 

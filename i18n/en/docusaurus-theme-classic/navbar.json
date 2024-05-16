@@ -22,5 +22,21 @@
   "logo.alt": {
     "message": "SMSwithoutborders logo",
     "description": "The alt text of navbar logo"
+  },
+  "item.label.Tutorials Desktop": {
+    "message": "Tutorials Desktop",
+    "description": "Navbar item with label Tutorials Desktop"
+  },
+  "item.label.SWOB Account Management": {
+    "message": "SWOB Account Management",
+    "description": "Navbar item with label SWOB Account Management"
+  },
+  "item.label.Desktop": {
+    "message": "Desktop",
+    "description": "Navbar item with label Desktop"
+  },
+  "item.label.App": {
+    "message": "App",
+    "description": "Navbar item with label App"
   }
 }

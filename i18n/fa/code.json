@@ -1,46 +1,13 @@
 {
-  "Get Started": {
-    "message": "شروع کنید"
+  "Get Started with Desktop": {
+    "message": "Get Started with Desktop"
+  },
+  "Get Started with Android": {
+    "message": "Get Started with Android"
   },
   "theme.ErrorPageContent.title": {
     "message": "بارگذاری صفحه با خطا روبرو شد.",
     "description": "The title of the fallback page when the page crashed"
-  },
-  "theme.ErrorPageContent.tryAgain": {
-    "message": "تلاش مجدد",
-    "description": "The label of the button to try again rendering when the React error boundary captures an error"
-  },
-  "theme.NotFound.title": {
-    "message": "صفحه ای که دنبال آن بودید پیدا نشد.",
-    "description": "The title of the 404 page"
-  },
-  "theme.NotFound.p1": {
-    "message": "صفحه‌ای که دنبال آن بودید پیدا نشد.",
-    "description": "The first paragraph of the 404 page"
-  },
-  "theme.NotFound.p2": {
-    "message": "لطفا با صاحب وبسایت تماس بگیرید و ایشان را از مشکل پیش آمده مطلع کنید.",
-    "description": "The 2nd paragraph of the 404 page"
-  },
-  "theme.admonition.note": {
-    "message": "توجه داشته باشید",
-    "description": "The default label used for the Note admonition (:::note)"
-  },
-  "theme.admonition.tip": {
-    "message": "نکته",
-    "description": "The default label used for the Tip admonition (:::tip)"
-  },
-  "theme.admonition.danger": {
-    "message": "خطر",
-    "description": "The default label used for the Danger admonition (:::danger)"
-  },
-  "theme.admonition.info": {
-    "message": "اطلاعات",
-    "description": "The default label used for the Info admonition (:::info)"
-  },
-  "theme.admonition.caution": {
-    "message": "احتیاط",
-    "description": "The default label used for the Caution admonition (:::caution)"
   },
   "theme.BackToTopButton.buttonAriaLabel": {
     "message": "بازگشت به بالا",
@@ -102,20 +69,16 @@
     "message": "حالت روشن",
     "description": "The name for the light color mode"
   },
-  "theme.docs.breadcrumbs.home": {
-    "message": "صفحه اصلی",
-    "description": "The ARIA label for the home page in the breadcrumbs"
-  },
   "theme.docs.breadcrumbs.navAriaLabel": {
     "message": "نشانگر صفحات",
     "description": "The ARIA label for the breadcrumbs"
   },
-  "theme.docs.DocCard.categoryDescription": {
+  "theme.docs.DocCard.categoryDescription.plurals": {
     "message": "{count} مورد",
     "description": "The default description for a category card in the generated index about how many items this category includes"
   },
   "theme.docs.paginator.navAriaLabel": {
-    "message": "کنترل صفحات مطالب",
+    "message": "صفحات مستندات",
     "description": "The ARIA label for the docs pagination"
   },
   "theme.docs.paginator.previous": {
@@ -158,7 +121,7 @@
     "description": "The link label to edit the current page"
   },
   "theme.common.headingLinkTitle": {
-    "message": "لینک مستقیم به عنوان",
+    "message": "لینک مستقیم به {heading}",
     "description": "Title for link to heading"
   },
   "theme.lastUpdated.atDate": {
@@ -177,9 +140,37 @@
     "message": "نسخه‌ها",
     "description": "The label for the navbar versions dropdown on mobile view"
   },
+  "theme.NotFound.title": {
+    "message": "صفحه ای که دنبال آن بودید پیدا نشد.",
+    "description": "The title of the 404 page"
+  },
   "theme.tags.tagsListLabel": {
     "message": "برچسب‌ها:",
     "description": "The label alongside a tag list"
+  },
+  "theme.admonition.caution": {
+    "message": "توجه",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.admonition.danger": {
+    "message": "اخطار",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "اطلاع",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.note": {
+    "message": "یادداشت",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "نکته",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.warning": {
+    "message": "هشدار",
+    "description": "The default label used for the Warning admonition (:::warning)"
   },
   "theme.AnnouncementBar.closeButtonAriaLabel": {
     "message": "بستن",
@@ -205,13 +196,29 @@
     "message": "تغییر نحوه نمایش کلمه",
     "description": "The title attribute for toggle word wrapping button of code block lines"
   },
-  "theme.DocSidebarItem.toggleCollapsedCategoryAriaLabel": {
-    "message": "دسته‌بندی برچسب '{label}' در نوار کناری را تغییر دهید ",
-    "description": "The ARIA label to toggle the collapsible sidebar category"
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "باز کردن دسته بندی در نوار کناری '{label}'",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "بستن دسته بندی در نوار کناری '{label}'",
+    "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "صفحه اصلی",
+    "description": "The ARIA label for the main navigation"
   },
   "theme.navbar.mobileLanguageDropdown.label": {
     "message": "Languages",
     "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.NotFound.p1": {
+    "message": "صفحه‌ای که دنبال آن بودید پیدا نشد.",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "لطفا با صاحب وبسایت تماس بگیرید و ایشان را از مشکل پیش آمده مطلع کنید.",
+    "description": "The 2nd paragraph of the 404 page"
   },
   "theme.TOCCollapsible.toggleButtonLabel": {
     "message": "مطالب این صفحه",
@@ -229,6 +236,10 @@
     "message": "خواندن ۱ دقیقه|خواندن {readingTime} دقیقه",
     "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
+  "theme.docs.breadcrumbs.home": {
+    "message": "صفحه اصلی",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
   "theme.docs.sidebar.collapseButtonTitle": {
     "message": "بستن نوار کناری",
     "description": "The title attribute for collapse button of doc sidebar"
@@ -237,8 +248,12 @@
     "message": "بستن نوار کناری",
     "description": "The title attribute for collapse button of doc sidebar"
   },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "نوار کناری مستندات",
+    "description": "The ARIA label for the sidebar navigation"
+  },
   "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
-    "message": "Close navigation bar",
+    "message": "بستن منو",
     "description": "The ARIA label for close button of mobile sidebar"
   },
   "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
@@ -246,7 +261,7 @@
     "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
   },
   "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
-    "message": "Toggle navigation bar",
+    "message": "باز و بست منو",
     "description": "The ARIA label for hamburger menu button of mobile navigation"
   },
   "theme.docs.sidebar.expandButtonTitle": {
@@ -257,6 +272,10 @@
     "message": "باز کردن نوار کناری",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "تلاش مجدد",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+  },
   "theme.common.skipToMainContent": {
     "message": "پرش به مطلب اصلی",
     "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
@@ -265,12 +284,12 @@
     "message": "برچسب‌ها",
     "description": "The title of the tag list page"
   },
-  "theme.NavBar.navAriaLabel": {
-    "message": "Main",
-    "description": "The ARIA label for the main navigation"
+  "theme.unlistedContent.title": {
+    "message": "صفحه فهرست نشده",
+    "description": "The unlisted content banner title"
   },
-  "theme.docs.sidebar.navAriaLabel": {
-    "message": "Docs sidebar",
-    "description": "The ARIA label for the sidebar navigation"
+  "theme.unlistedContent.message": {
+    "message": "این صفحه فهرست نشده است. موتورهای جستجو آن را ایندکس نمی کنند و فقط کاربرانی که لینک مستقیم دارند می توانند به آن دسترسی داشته باشند.",
+    "description": "The unlisted content banner message"
   }
 }

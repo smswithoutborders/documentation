@@ -7,7 +7,7 @@ sidebar_position: 2
 Aller à [**SMSwithoutborders(SWOB)**](https://smswithoutborders.com)
 
 ### Étape 1. Connectez-vous à votre compte SWOB
-<img src="/img/login.PNG" width="300px" />
+<img src="/img/login.png" width="300px" />
 
 ###Étape 2. Ouvrir les paramètres
 

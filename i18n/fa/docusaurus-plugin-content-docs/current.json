@@ -19,8 +19,13 @@
     "message": "مشارکت در اسناد",
     "description": "The label for category Contribute to docs in sidebar tutorialSidebar"
   },
+  "sidebar.tutorialSidebar.category.App Tutorial": {
+    "message": "App Tutorial",
+    "description": "The label for category App Tutorial in sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.category.SWOB Account Management": {
-    "message": "مدیریت حساب SWOB",
+    "message": "SWOB Account Management",
     "description": "The label for category SWOB Account Management in sidebar tutorialSidebar"
   }
 }
+ 
