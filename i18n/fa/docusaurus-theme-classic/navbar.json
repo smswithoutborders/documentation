@@ -8,19 +8,19 @@
     "description": "The alt text of navbar logo"
   },
   "item.label.Docs": {
-    "message": "Docs",
+    "message": "اسناد",
     "description": "Navbar item with label Docs"
   },
   "item.label.Developers": {
-    "message": "Developers",
+    "message": "توسعه دهندگان",
     "description": "Navbar item with label Developers"
   },
   "item.label.Tutorials Desktop": {
-    "message": "Tutorials Desktop",
+    "message": "آموزش ها",
     "description": "Navbar item with label Tutorials Desktop"
   },
   "item.label.SWOB Account Management": {
-    "message": "SWOB Account Management",
+    "message": "مدیریت حساب SWOB",
     "description": "Navbar item with label SWOB Account Management"
   },
   "item.label.GitHub": {

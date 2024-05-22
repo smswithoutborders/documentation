@@ -20,11 +20,11 @@
     "description": "The label for category Contribute to docs in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.App Tutorial": {
-    "message": "App Tutorial",
+    "message": "آموزش برنامه",
     "description": "The label for category App Tutorial in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.SWOB Account Management": {
-    "message": "SWOB Account Management",
+    "message": "مدیریت حساب SWOB",
     "description": "The label for category SWOB Account Management in sidebar tutorialSidebar"
   }
 }
