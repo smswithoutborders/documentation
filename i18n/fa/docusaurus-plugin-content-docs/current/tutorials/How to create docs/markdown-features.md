@@ -8,11 +8,12 @@ Docusaurus supports **[Markdown](https://daringfireball.net/projects/markdown/sy
 
 ## Front Matter
 
-Markdown documents have metadata at the top called [Front Matter](https://jekyllrb.com/docs/front-matter/):
+Markdown documents have metadata at the top called [Front Matter](https://jekyllrb.com/docs/front-matter/)
 
 ```text title="my-doc.md"
-// highlight-start
+ highlight-start
 ---
+
 id: my-doc-id
 title: My document title
 description: My document description

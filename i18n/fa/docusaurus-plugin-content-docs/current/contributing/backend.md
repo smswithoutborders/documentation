@@ -6,12 +6,12 @@ sidebar_position: 3
 
 این یک API ابری و سرویس مدیریت کاربر است. این به طور مستقیم با پایگاه داده MySQL برای مدیریت کاربران قابل تنظیم است. همچنین ادغام های خارج از جعبه Google OAuth-2.0، Twitter OAuth، و نقاط پایانی تلگرام و احراز هویت حساب را فراهم می کند.
 
-:::نکته آنچه یاد خواهید گرفت
+::: نکته آنچه یاد خواهید گرفت
 
 - نحوه راه اندازی Backend
 - نحوه آزمایش و استقرار با docker
 
-جدیدترین نسخه این راهنما را می‌توانید در [`github reposistory`] (https://github.com/smswithoutborders/SMSwithoutborders-BE) پیدا کنید.
+جدیدترین نسخه این راهنما را می‌توانید در [`github reposistory`](https://github.com/smswithoutborders/SMSwithoutborders-BE) پیدا کنید.
 
 Backend با این خدمات یکپارچه می شود. ممکن است لازم باشد بسته به قسمتی که روی آن کار می کنید آنها را تنظیم کنید.
 
@@ -22,35 +22,35 @@ Backend با این خدمات یکپارچه می شود. ممکن است لا�
 
 ## فهرست مطالب
 
-- [SMSWithoutBorders Backend] (#smswithoutborders-backend)
-  - [فهرست مطالب] (#جدول مطالب)
-  - [نیازها] (#نیازمندی ها)
-  - [نصب] (#نصب)
-  - [عیب‌یابی] (#عیب‌یابی)
-  - [تنظیم] (#راه اندازی)
-  - [پیکربندی‌های محیط توسعه] (#توسعه-محیط-پیکربندی)
-  - [پیکربندی‌های محیط تولید] (#production-environment-configurations)
-  - [گزینه های پیکربندی] (#configuration-options)
+- [SMSWithoutBorders Backend](#smswithoutborders-backend)
+  - [فهرست مطالب](#جدول مطالب)
+  - [نیازها](#نیازمندی ها)
+  - [نصب](#نصب)
+  - [عیب‌یابی](#عیب‌یابی)
+  - [تنظیم](#راه اندازی)
+  - [پیکربندی‌های محیط توسعه](#توسعه-محیط-پیکربندی)
+  - [پیکربندی‌های محیط تولید](#production-environment-configurations)
+  - [گزینه های پیکربندی](#configuration-options)
     - [SEVER](#sever)
-    - [CREDENTIALS] (# اعتبارنامه)
-    - [RECAPTCHA] (#recaptcha)
+    - [CREDENTIALS](# اعتبارنامه)
+    - [RECAPTCHA](#recaptcha)
     - [DEVELOPER](#developer)
-  - [نحوه استفاده] (#روش استفاده)
-  - [Start Backend User Management API] (#start-backend-user-management-api)
-    - [محیط توسعه مدیریت کاربر] (#user-management-development-vironment)
-    - [محیط تولید مدیریت کاربر] (#user-management-production-vironment)
-  - [Start Backend Publisher API] (#start-backend-publisher-api)
-    - [محیط توسعه ناشران] (#ناشر-محیط-توسعه)
-    - [محیط تولید ناشر] (#ناشر-محیط تولید)
+  - [نحوه استفاده](#روش استفاده)
+  - [Start Backend User Management API](#start-backend-user-management-api)
+    - [محیط توسعه مدیریت کاربر](#user-management-development-vironment)
+    - [محیط تولید مدیریت کاربر](#user-management-production-vironment)
+  - [Start Backend Publisher API](#start-backend-publisher-api)
+    - [محیط توسعه ناشران](#ناشر-محیط-توسعه)
+    - [محیط تولید ناشر](#ناشر-محیط تولید)
   - [Start both Backend User Management API and Backend Publisher API](#start-both-backend-user-management-api-and-backend-publisher-api)
-    - [محیط توسعه] (#توسعه-محیط)
-    - [محیط تولید] (#تولید-محیط)
-  - [API SandBox] (#api-sandbox)
-  - [API Logs] (#api-logs)
+    - [محیط توسعه](#توسعه-محیط)
+    - [محیط تولید](#تولید-محیط)
+  - [API SandBox](#api-sandbox)
+  - [API Logs](#api-logs)
 
 ## الزامات
 
-- [MySQL](https://www.mysql.com/) (نسخه >= 8.0.28) ([MariaDB](https://mariadb.org/))
+- [MySQL](https://www.mysql.com/) (نسخه >= 8.0.28)([MariaDB](https://mariadb.org/))
 - [nodejs](https://nodejs.org) (نسخه >= [16.14.0](https://nodejs.org/dist/v16.14.0/node-v16.14.0-linux-x64.tar.xz))
 - [npm](https://www.npmjs.com/) (نسخه >= [8.3.1](https://nodejs.org/dist/v16.14.0/node-v16.14.0-linux-x64. tar.xz))
 
@@ -89,7 +89,7 @@ cp config/example.default.json config/default.json
 
 ### تنظیمات محیط تولید
 
-**[production.json](https://github.com/smswithoutborders/SMSwithoutborders-BE/blob/main/config/example.production.json)** فایل پیکربندی یک محیط تولید است.
+(https://github.com/smswithoutborders/SMSwithoutborders-BE/blob/main/config/example.production.json)  فایل پیکربندی یک محیط تولید است.
 
 برای راه‌اندازی پایگاه داده، API و اعتبار پلتفرم برای یک محیط productoin، فایل‌های الگو را «example.production.json» کپی کنید و نام آن را به «production.json» تغییر دهید.
 
@@ -115,15 +115,26 @@ cp config/example.production.json config/production.json
 **API**
 
 1. **USER MANAGEMENT API PORT**: شماره پورتی که باید به آن متصل شوید. (پیش‌فرض: 9000)
+
 2. **PUBLISHER API PORT**: شماره پورتی که باید به آن متصل شوید. (پیش‌فرض: 10000)
+
 3. **KEY**: کلیدی که برای رمزگذاری داده های کاربر استفاده می شود. (پیش‌فرض: "de4053831a43d62d9e68fc11319270a9")
+
 4. **SALT**: نمکی که برای هش کردن داده های کاربر استفاده می شود. (پیش‌فرض: "acaad78fd9dadcb056840c09073190a8")
-5. **SECURE SESSIONS**: مقدار بولی را برای [خصیصه Secure Set-Cookie] (https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie) مشخص می کند. وقتی حقیقت، صفت Secure تنظیم می شود، در غیر این صورت نیست. به طور پیش فرض، ویژگی Secure sessions روی truey تنظیم شده است.
-6. **حداکثر جلسه**: عدد مورد استفاده در هنگام محاسبه [ویژگی Expires Set-Cookie] (https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers) را مشخص می کند (بر حسب میلی ثانیه) /Set-Cookie). این کار با در نظر گرفتن زمان سرور فعلی و افزودن حداکثر میلی ثانیه به مقدار برای محاسبه تاریخ انقضا انجام می شود. به طور پیش فرض، حداکثر سن برای دو ساعت (7200000 میلی ثانیه) تنظیم شده است.
-7. **فعال کردن مسدود کردن**: مقدار بولی را برای ردیابی کاربر ناموفق [احراز هویت] مشخص می کند (https://github.com/smswithoutborders/SMSwithoutborders-BE/blob/main/docs/FEATURES_v2.md#2-authenticate-an -account) تلاش می کند.
-8. **تلاش های بلوک کوتاه**: تعداد [احراز هویت] ناموفق را مشخص می کند (https://github.com/smswithoutborders/SMSwithoutborders-BE/blob/main/docs/FEATURES_v2.md#2-authenticate-an-account ) قبل از یک بلوک کوتاه تلاش می کند. چندین بلوک کوتاه منجر به یک بلوک طولانی می شود.
+
+5. **SECURE SESSIONS**: مقدار بولی را برای [خصیصه Secure Set-Cookie](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie) مشخص می کند. وقتی حقیقت، صفت Secure تنظیم می شود، در غیر این صورت نیست. به طور پیش فرض، ویژگی Secure sessions روی truey تنظیم شده است.
+
+6. **حداکثر جلسه**: عدد مورد استفاده در هنگام محاسبه [ویژگی Expires Set-Cookie](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers) را مشخص می کند (بر حسب میلی ثانیه) /Set-Cookie. این کار با در نظر گرفتن زمان سرور فعلی و افزودن حداکثر میلی ثانیه به مقدار برای محاسبه تاریخ انقضا انجام می شود. به طور پیش فرض، حداکثر سن برای دو ساعت (7200000 میلی ثانیه) تنظیم شده است.
+
+7. **فعال کردن مسدود کردن**: مقدار بولی را برای ردیابی کاربر ناموفق [احراز هویت] مشخص می کند(https://github.com/smswithoutborders/SMSwithoutborders-BE/blob/main/docs/FEATURES_v2.md#2-authenticate-an -account) تلاش می کند.
+
+8. **تلاش های بلوک کوتاه**: تعداد [احراز هویت] ناموفق را مشخص می کند (https://github.com/smswithoutborders/SMSwithoutborders-BE/blob/main/docs/FEATURES_v2.md#2-authenticate-an-account ) قبل از یک بلوک کوتاه تلاش می کند. چندین بلوک کوتاه به یک بلوک طولانی منتهی می شود.
+
+
 9. **تلاش های بلوک طولانی**: تعداد تلاش های بلوک کوتاه ناموفق قبل از یک بلوک طولانی را مشخص می کند.
+
 10. **SHORT BLOCK DURATION**: مدت زمان (بر حسب دقیقه) یک بلوک کوتاه را مشخص می کند.
+
 11. **LONG BLOCK DURATION**: مدت زمان (بر حسب دقیقه) یک بلوک طولانی را مشخص می کند.
 
 **OTP**
@@ -133,7 +144,7 @@ cp config/example.production.json config/production.json
 1. **ENABLE_OTP_BLOCKING**: مقدار بولی را برای روشن/خاموش کردن ردیابی درخواست های کد OTP مشخص می کند.
 2. **FIRST RESEND DURATION**: مدت زمان (بر حسب میلی ثانیه) برای اولین درخواست OTP را مشخص می کند.
 3. **SECOND RESEND DURATION**: مدت زمان (بر حسب میلی ثانیه) برای دومین درخواست OTP را مشخص می کند.
-4. ** THIRD RESEND DURATION **: مدت زمان (بر حسب میلی ثانیه) برای سومین درخواست OTP را مشخص می کند.
+4. **THIRD RESEND DURATION**: مدت زمان (بر حسب میلی ثانیه) برای سومین درخواست OTP را مشخص می کند.
 5. **FOURTH RESEND DURATION**: مدت زمان (بر حسب میلی ثانیه) برای چهارمین درخواست OTP را مشخص می کند.
    **GATEWAY Server**
 
@@ -152,24 +163,24 @@ cp config/example.production.json config/production.json
 
 1. **API PORT**: شماره پورتی که باید به آن متصل شوید.
 2. **CERTIFICATE**: مسیری به گواهی SSL شما.
-3. **KEY **: مسیر به کلید SSL شما.
+3. **KEY**: مسیر به کلید SSL شما.
 4. **PEM**: مسیری به SSL PEM شما.
 
 #### اعتبارنامه
 
 **گوگل**
 
-اطلاعات کاربری را از [کنسول Google Cloud Platform] (https://console.cloud.google.com/) دریافت کنید
+اطلاعات کاربری را از [کنسول Google Cloud Platform](https://console.cloud.google.com/) دریافت کنید
 
 1. **شناسه مشتری GOOGLE**: شناسه مشتری Google شما
 2. **محرمانه مشتری GOOGLE**: راز مشتری گوگل شما
 
 **توییتر**
 
-اعتبارنامه ها را از [درگاه توسعه دهندگان توییتر] (https://developer.twitter.com/en/docs/developer-portal/overview) دریافت کنید
+اعتبارنامه ها را از [درگاه توسعه دهندگان توییتر](https://developer.twitter.com/en/docs/developer-portal/overview) دریافت کنید
 
-1. ** TWITTER API KEY **: کلید API توییتر شما
-2. ** TWITTER API KEY SECRET **: رمز کلید API توییتر شما
+1. **TWITTER API KEY**: کلید API توییتر شما
+2. **TWITTER API KEY SECRET**: رمز کلید API توییتر شما
 
 **تلگرام**
 
@@ -241,7 +252,6 @@ node controllers/sync_platforms.js && node server_pub.js
 
 ```
 
-
 #### محیط تولید ناشر
 
 - با NPM
@@ -288,13 +298,12 @@ http://localhost:{PORT}/v2/api-docs
 
 ## گزارش های API
 
-به‌طور پیش‌فرض [سطوح ورود] (https://github.com/smswithoutborders/SMSwithoutborders-BE/tree/main/logs#log-levels) روی «info» تنظیم شده‌اند. می‌توانید [سطوح ورود] را تغییر دهید (https://github.com/smswithoutborders/SMSwithoutborders-BE/tree/main/logs#log-levels). برای مثال، [Start both Backend User Management API and Backend Publisher API](#Start-both-Backend-User-management-API-and-Backend-Publisher-API) با [log level](https://github.com /smswithoutborders/SMSwithoutborders-BE/tree/main/logs#log-levels) روی "اشکال زدایی" تنظیم شد
+به‌طور پیش‌فرض [سطوح ورود](https://github.com/smswithoutborders/SMSwithoutborders-BE/tree/main/logs#log-levels) روی «info» تنظیم شده‌اند. می‌توانید [سطوح ورود] را تغییر دهید(https://github.com/smswithoutborders/SMSwithoutborders-BE/tree/main/logs#log-levels). برای مثال، [Start both Backend User Management API and Backend Publisher API](#Start-both-Backend-User-management-API-and-Backend-Publisher-API) با [log level](https://github.com/smswithoutborders/SMSwithoutborders-BE/tree/main/logs#log-levels) روی "اشکال زدایی" تنظیم شد
 
 ```
 
 LOG_LEVEL=اشکال npm اشکال زدایی
 
 ```
-
 همه فایل‌های گزارش در فهرست سیاهه‌ها یافت می‌شوند. [بیشتر بخوانید](https://github.com/smswithoutborders/SMSwithoutborders-BE/tree/main/logs) ...
 ```

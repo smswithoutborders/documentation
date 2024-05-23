@@ -48,7 +48,9 @@ La synchronisation de votre application avec votre compte peut être effectuée 
 ![Docs Version Dropdown](/img/swob_sync.png)
 
 #### Sur l'application
+
 La première fois que vous ouvrez l'application, il vous sera demandé de la synchroniser. Pour ce faire, vous devez scanner un code QR à l'aide de l'appareil photo de votre téléphone. Une fois le code scanné, il vous sera demandé de saisir le mot de passe que vous avez créé lors de la création de votre compte. Une fois le mot de passe saisi avec succès, vous obtiendrez une liste de tous les services que vous avez actuellement hors ligne via SWOB.
+
 ### Étape 5. Configurez votre application et commencez à l'utiliser
 
 Une fois que vous avez synchronisé votre application avec votre compte en ligne, vous pouvez commencer à la configurer. Le paramètre le plus important que vous devrez peut-être utiliser dès le départ est le choix du numéro de Gateway avec lequel vous souhaitez communiquer. Il vous reviendra moins cher d'envoyer un SMS à partir du même fournisseur de services que celui que vous utilisez, ou d'envoyer un SMS à partir d'un numéro situé dans votre pays que de le faire à partir d'autres fournisseurs de services ou à l'échelle internationale.
@@ -56,4 +58,5 @@ Une fois que vous avez synchronisé votre application avec votre compte en ligne
 Pour changer le numéro de la passerelle auquel votre application enverra le texte, cliquez sur **Réglages** dans l'application, puis choisissez le numéro que vous préférez utiliser. Vous pouvez maintenant commencer à utiliser ce numéro à partir de votre passerelle.
 
 ![swob_app](/img/swob_app.webp)
+
 ![swob_gateways](/img/swob_gateways.webp)

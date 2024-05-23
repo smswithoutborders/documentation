@@ -11,7 +11,7 @@ Gateway-servers کاربران را قادر می سازد تا با ماژول 
 
 - نحوه راه اندازی و استفاده از Gateway Server
 
-جدیدترین نسخه این راهنما را می توان در [` مخزن github`] (https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server) پیدا کرد.
+جدیدترین نسخه این راهنما را می توان در [` مخزن github`](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server) پیدا کرد.
 
 فرانت اند با این خدمات یکپارچه می شود. ممکن است لازم باشد بسته به قسمتی که روی آن کار می کنید آنها را تنظیم کنید.
 
@@ -29,12 +29,12 @@ Gateway-servers کاربران را قادر می سازد تا با ماژول 
 
 - سرور کارگزار پیام برای [Gateway-Client](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client) (\_به [SMSWithoutBorders-OpenAPI](https://github.com/smswithoutborders/SMSWith-Open) مراجعه کنید )
 
-- همگام سازی [SMSWithoutBorders-App](https://github.com/smswithoutborders/SMSWithoutBorders-App-Android) برای ارتباط با [Publisher] (https://github.com/smswithoutborders/SMSWithoutBorders-Publisher)
+- همگام سازی [SMSWithoutBorders-App](https://github.com/smswithoutborders/SMSWithoutBorders-App-Android) برای ارتباط با [Publisher](https://github.com/smswithoutborders/SMSWithoutBorders-Publisher)
 
-  > این باید در همان مکان [Publisher] (https://github.com/smswithoutborders/SMSWithoutBorders-Publisher) میزبانی شود، زیرا Publisher مستقیماً در معرض وب نیست.
+  > این باید در همان مکان [Publisher](https://github.com/smswithoutborders/SMSWithoutBorders-Publisher) میزبانی شود، زیرا Publisher مستقیماً در معرض وب نیست.
 
-- ارسال درخواست انتشار از [Gateway-Client](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client) به [Publisher] (https://github.com/smswithoutborders/SMSWithoutBorders-Publisher)
-- درخواست [Gateway-Client's] (https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client) را برای پیوستن به [Publisher] (https://github.com/smswithoutborders/SMSWithoutBorders-Publisher) تأیید می کند.
+- ارسال درخواست انتشار از [Gateway-Client](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client) به [Publisher](https://github.com/smswithoutborders/SMSWithoutBorders-Publisher)
+- درخواست [Gateway-Client's](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client) را برای پیوستن به [Publisher](https://github.com/smswithoutborders/SMSWithoutBorders-Publisher) تأیید می کند.
 
 ### نصب و راه اندازی
 
@@ -52,7 +52,7 @@ pip3 install -r requirements.txt
 ### ساختار دایرکتوری
 
 _/gateway_server_ \
-شامل جلسات Gateway [server websocket] (https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server/tree/main/gateway_server/sessions_websocket.py) است که برای همگام‌سازی کاربران لازم است.
+شامل جلسات Gateway [server websocket](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server/tree/main/gateway_server/sessions_websocket.py) است که برای همگام‌سازی کاربران لازم است.
 
 ### پیکربندی
 
@@ -162,11 +162,11 @@ python3 gateway_server/sessions_websocket.py
 3. هنگامی که کاربر دست دادن لازم را انجام داد و تبادل اطلاعات آغاز شد، وب سوکت یک \ ارسال می کند.
    متن تصدیق «200- تأیید».
 
-<a name="testing" />
+<a name="testing"></a>
 
 #### آزمایش کردن
 
-- آزمایش [مدل کاربران] (https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server/tree/main/gateway_server/users.py)
+- آزمایش [مدل کاربران](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server/tree/main/gateway_server/users.py)
 
 ```bash
 python -m unittest gateway_server/test/UTestUsers.py
@@ -174,7 +174,7 @@ python -m unittest gateway_server/test/UTestUsers.py
 
 -
 
-* آزمایش [WebSockets] (https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server/tree/main/gateway_server/sessions_websocket.py)
+* آزمایش [WebSockets](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server/tree/main/gateway_server/sessions_websocket.py)
 
 [https://github.com/vi/websocat](https://github.com/vi/websocat)
 
@@ -190,14 +190,14 @@ _تست وب سوکت_
 websocat ws://localhost:6996/v2/sync/init/111/000
 ```
 
-- آزمایش [رمزگذاری/رمزگشایی RSA] (https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server/tree/main/test/security_rsa.py)
+- آزمایش [رمزگذاری/رمزگشایی RSA](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server/tree/main/test/security_rsa.py)
   این به فایل های pem نیاز دارد. آنها را در test/dir کپی کنید تا امکان اجرای آزمایشی فراهم شود
 
 ```bash
 python -m unittest test/security_rsa.py
 ```
 
-- آزمایش [کل فرآیند Handshake] (https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server/tree/main/test/handshake.py)
+- آزمایش [کل فرآیند Handshake](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server/tree/main/test/handshake.py)
   این به فایل های pem نیاز دارد. آنها را در test/dir کپی کنید تا امکان اجرای آزمایشی فراهم شود
 
 ```bash

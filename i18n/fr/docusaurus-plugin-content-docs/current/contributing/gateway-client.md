@@ -40,7 +40,7 @@ La version la plus récente de ce guide se trouve dans le [`github reposistory`]
 
 #### Construire et installer
 
-<p>Cloner le dépôt</p>
+Cloner le dépôt
 
 ```bash
 git clone https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client.git
@@ -49,13 +49,13 @@ git clone https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client.
 cd SMSWithoutBorders-Gateway-Client
 ```
 
-<p>Créez vos fichiers de configuration</p>
+Créez vos fichiers de configuration
 
 ```bash
 make
 ```
 
-<p>Installer d'autres dépendances</p>
+Installer d'autres dépendances
 
 ```bash
 make install
@@ -63,8 +63,8 @@ make install
 
 #### Configuration
 
-<p>
-Vos clusters ont besoin d'un serveur avec lequel ils communiquent, et vous devrez le désigner dans vos fichiers de configuration.</p>
+
+Vos clusters ont besoin d'un serveur avec lequel ils communiquent, et vous devrez le désigner dans vos fichiers de configuration.
 
 - Modifier `.configs/config.ini` ref :[lien vers un exemple de fichier de configuration](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client/tree/master/.configs/example.config.ini)
 

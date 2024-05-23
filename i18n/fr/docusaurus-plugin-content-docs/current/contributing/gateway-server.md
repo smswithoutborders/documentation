@@ -3,12 +3,13 @@ sidebar_position: 6
 ---
 
 # Serveur de la passerelle SMSWithoutBorders
+
 Les serveurs passerelles permettent aux utilisateurs de se synchroniser et de communiquer avec le module éditeur.
 
 :::conseil Ce que vous apprendrez
 
 * Comment configurer et utiliser le serveur Gateway
-La version la plus récente de ce guide se trouve dans le [`github reposistory`].](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server)
+La version la plus récente de ce guide se trouve dans le [`github reposistory`](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server)
 
 Le frontend s'intègre à ces services. Il se peut que vous deviez les configurer en fonction de la section sur laquelle vous travaillez.
 
@@ -30,8 +31,8 @@ Le frontend s'intègre à ces services. Il se peut que vous deviez les configure
 
 > Il devrait être hébergé au même endroit que [Publisher](https://github.com/smswithoutborders/SMSWithoutBorders-Publisher),parce que Publisher n'est pas _directement_ exposé au web.
 
-*Transmet la demande de publication de[Gateway-Client](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client) à[Publisher](https://github.com/smswithoutborders/SMSWithoutBorders-Publisher)
-* Authentifie[Gateway-Client's](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client) demande d'adhésion [Publisher](https://github.com/smswithoutborders/SMSWithoutBorders-Publisher)
+*Transmet la demande de publication de [Gateway-Client](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client) à [Publisher](https://github.com/smswithoutborders/SMSWithoutBorders-Publisher)
+* Authentifie [Gateway-Client's](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client) demande d'adhésion [Publisher](https://github.com/smswithoutborders/SMSWithoutBorders-Publisher)
 
 ### Installation
 

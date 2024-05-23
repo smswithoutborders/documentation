@@ -23,7 +23,7 @@ sidebar_position: 1
 
 ### ذخیره دسترسی به حساب
 
-SWOB بر اساس اصول [OAuth 2] (https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2) کار می کند.
+SWOB بر اساس اصول [OAuth 2](https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2) کار می کند.
 
 > OAuth 2 یک چارچوب مجوز است که به برنامه های کاربردی - مانند Facebook، GitHub و DigitalOcean - امکان دسترسی محدود به حساب های کاربری در یک سرویس HTTP را می دهد. این کار با واگذاری احراز هویت کاربر به سرویسی که میزبان یک حساب کاربری است و اجازه دادن به برنامه های شخص ثالث برای دسترسی به آن حساب کاربری کار می کند. OAuth 2 جریان های مجوز را برای برنامه های کاربردی وب و دسکتاپ و همچنین دستگاه های تلفن همراه فراهم می کند.
 
@@ -37,8 +37,8 @@ SWOB بر اساس اصول [OAuth 2] (https://www.digitalocean.com/community/tu
 
 ##### مخازن مرتبط
 
-- [پایگاه داده ذخیره سازی دسترسی کاربر] (https://github.com/smswithoutborders/SMSwithoutborders-BE)
-- [واسط های کاربری مدیریت کاربر] (https://github.com/smswithoutborders/smswithoutborders.com)
+- [پایگاه داده ذخیره سازی دسترسی کاربر](https://github.com/smswithoutborders/SMSwithoutborders-BE)
+- [واسط های کاربری مدیریت کاربر](https://github.com/smswithoutborders/smswithoutborders.com)
 
 ### درخواست با استفاده از پیامک
 
@@ -56,24 +56,24 @@ SWOB بر اساس اصول [OAuth 2] (https://www.digitalocean.com/community/tu
 
 ##### مخازن مرتبط\*\*
 
-- [سرور دروازه] (https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server)
-- [برنامه اندروید] (https://github.com/smswithoutborders/SMSwithoutBorders-App-Android)
+- [سرور دروازه](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server)
+- [برنامه اندروید](https://github.com/smswithoutborders/SMSwithoutBorders-App-Android)
 
 #### درخواست و انتشار
 
-کاربران انتخاب می کنند که می خواهند پیام های خود را از برنامه تلفن همراه به کدام پلتفرم منتشر کنند (ارسال کنند). سپس یکی از [کاربران دروازه] (https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client) به کاربر ارائه می شود که می تواند پیام های خود را به سرورهای دروازه ارسال کند. سرورهای پیش‌فرض Gateway پس از همگام‌سازی انتخاب می‌شوند و در اختیار کاربر قرار می‌گیرند، اما کاربر می‌تواند به صورت دستی آن را تغییر دهد.
+کاربران انتخاب می کنند که می خواهند پیام های خود را از برنامه تلفن همراه به کدام پلتفرم منتشر کنند (ارسال کنند). سپس یکی از [کاربران دروازه](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client) به کاربر ارائه می شود که می تواند پیام های خود را به سرورهای دروازه ارسال کند. سرورهای پیش‌فرض Gateway پس از همگام‌سازی انتخاب می‌شوند و در اختیار کاربر قرار می‌گیرند، اما کاربر می‌تواند به صورت دستی آن را تغییر دهد.
 
 <img width="750" height="600" src="https://github.com/smswithoutborders/SMSWithoutBorders-Resources/raw/master/multimedia/img/developers/swob_request_and_publish.png" />
 
 پیام هایی که به Gateway Clients می رسد به سرور Gateway یا به تعداد سرورها یا مسیرهای Gateway که لازم است ارسال می شود.
 پیام ها از طریق این فرآیند ارسال، رمزگذاری شده باقی می مانند.
 
-سرورهای دروازه درخواست ارسال شده را از مشتریان دروازه دریافت می کنند، وجود درخواست کننده را احراز هویت می کنند، سپس پیام ها را رمزگشایی می کنند و به [Publisher] (https://github.com/smswithoutborders/SMSWithoutBorders-Publisher) ارسال می کنند.
+سرورهای دروازه درخواست ارسال شده را از مشتریان دروازه دریافت می کنند، وجود درخواست کننده را احراز هویت می کنند، سپس پیام ها را رمزگشایی می کنند و به [Publisher](https://github.com/smswithoutborders/SMSWithoutBorders-Publisher) ارسال می کنند.
 
-گفتگوی ناشر با [ناشر مدیریت کاربر] (https://github.com/smswithoutborders/SMSwithoutborders-BE) که درخواست را احراز هویت می کند و یک کپی رمزگشایی شده از اطلاعات رمز ذخیره شده کاربر (برای پلت فرم درخواستی) ارسال می کند. ناشر درخواست ناشر را مستقیماً به پلتفرم های درخواستی API یا از طریق SDK خود ارسال می کند.
+گفتگوی ناشر با [ناشر مدیریت کاربر](https://github.com/smswithoutborders/SMSwithoutborders-BE) که درخواست را احراز هویت می کند و یک کپی رمزگشایی شده از اطلاعات رمز ذخیره شده کاربر (برای پلت فرم درخواستی) ارسال می کند. ناشر درخواست ناشر را مستقیماً به پلتفرم های درخواستی API یا از طریق SDK خود ارسال می کند.
 
 ##### مخازن مرتبط
 
-- [کاربران دروازه] (https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client)
-- [سرور دروازه] (https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server)
+- [کاربران دروازه](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client)
+- [سرور دروازه](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server)
 - [Publisher](https://github.com/smswithoutborders/SMSWithoutBorders-Publisher)

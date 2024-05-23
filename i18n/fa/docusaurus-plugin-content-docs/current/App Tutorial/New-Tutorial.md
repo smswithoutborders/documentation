@@ -2,122 +2,114 @@
 sidebar_position: 1
 ---
 
-# Mobile App Tutorial
+# آموزش اپلیکیشن موبایل
 
-SMSWithoutBorders provides users with the ability to stay connected with their online platforms even when internet access is unavailable. By leveraging SMS messaging, users can continue communicating seamlessly- their contacts receive messages just as they normally would.
+SMSWithoutBorders به ​​کاربران این امکان را می‌دهد که با پلتفرم‌های آنلاین خود در ارتباط بمانند حتی زمانی که دسترسی به اینترنت در دسترس نیست. با استفاده از پیام کوتاه، کاربران می‌توانند به طور یکپارچه به برقراری ارتباط ادامه دهند - مخاطبین آنها پیام‌ها را همانطور که معمولاً دریافت می‌کنند، دریافت می‌کنند.
 
-## Introduction
+## معرفی
 
-The steps below will help setup your account and start using swob.
+مراحل زیر به راه‌اندازی حساب خود و شروع استفاده از SWOB کمک می‌کند.
 
-### Step 1. Download App
+## مرحله 1: دانلود برنامه
 
 ![Google Play Store](/img/swob_on_playstore.png)
 
-Download from [**Google Play Store**](https://play.google.com/store/apps/details?id=com.afkanerd.sw0b) , [**Github**](https://github.com/smswithoutborders/SMSwithoutBorders-Android/releases/tag/v1.0) or build from [**source**](https://github.com/smswithoutborders/SMSwithoutBorders-Android)
+دانلود از [Google Play Store](https://play.google.com/store/apps/details?id=com.afkanerd.sw0b)، [Github](https://github.com/smswithoutborders/SMSwithoutBorders-Android/releases/tag/v1.0) یا از [source](https://github.com/smswithoutborders/SMSwithoutBorders-Android).
 
-#### Technical Requirements
+### الزامات فنی
 
-- SMS capability Android smartphone
-- Android 6.0 and above
+- گوشی هوشمند اندروید با قابلیت پیامک
+- اندروید 6.0 و بالاتر
 
-### Step 2. Create an account
+## مرحله 2: ایجاد حساب کاربری
 
-- Onboarding / Using the App
+- ورود / استفاده از برنامه
 
 <img src="/img/onbording1.png" width="200"/>
 <img src="/img/onbording.png" width="200"/>
 <img src="/img/onbording2.png" width="200"/>
 
-
-- Sign up for a free account or log into your account on the app by clicking on the “add account” button
+- ثبت نام برای یک حساب رایگان یا ورود به حساب خود در برنامه با کلیک بر روی دکمه "افزودن حساب"
 
 <img src="/img/sign_in.png" width="200"/>
 <img src="/img/sign_in1.png" width="200"/>
 <img src="/img/sign_in2.png" width="200"/>
 
-**Note** An authentication pin will be sent to a valid phone through SMS.
-  
-### Step 3: Verify your phone number 
+**توجه:** یک پین تأیید به یک شماره تلفن معتبر از طریق پیامک ارسال خواهد شد.
 
-A verification number will be sent to your phone number, input and verify
+## مرحله 3: تأیید شماره تلفن شما
+
+یک شماره تأیید به شماره تلفن شما ارسال می‌شود، آن را وارد کنید و تأیید کنید.
 
 <img src="/img/no-validation.png" width="200"/>
 
-### Step 4: Log in
+## مرحله 4: ورود
 
-Once you've verified your phone number, you'll be logged into your SWOB account. Click on the menu icon on the top right to begin saving access to platforms you want to use offline. 
+پس از تأیید شماره تلفن خود، به حساب SWOB خود وارد خواهید شد. برای شروع ذخیره دسترسی به پلتفرم‌هایی که می‌خواهید به صورت آفلاین استفاده کنید، روی نماد منو در بالا سمت راست کلیک کنید.
 
 <img src="/img/login.png" width="200"/>
 
-### Step 5. Save access to platforms​
+## مرحله 5: ذخیره دسترسی به پلتفرم‌ها
 
-One of the key features of SWOB is to be able to save access to online platforms while you have an active internet, then use the App to make requests to these platforms without an active internet connection. Once you login and click on **Save Accounts**, you will have a list of platforms we currently support. You can save your credentials for as many platforms as you can foresee further need in an offline situation.
+یکی از ویژگی‌های کلیدی SWOB این است که بتوانید دسترسی به پلتفرم‌های آنلاین را در حالی که اینترنت فعال دارید ذخیره کنید، سپس از برنامه برای انجام درخواست‌ها به این پلتفرم‌ها بدون اتصال فعال به اینترنت استفاده کنید. پس از ورود و کلیک بر روی **Save Accounts**، لیستی از پلتفرم‌هایی که در حال حاضر پشتیبانی می‌کنیم را خواهید دید. می‌توانید اعتبارنامه‌های خود را برای هر تعداد پلتفرمی که در وضعیت آفلاین نیاز دارید ذخیره کنید.
 
-**NB: You have to have any platform you want to save access installed in your phone already.**
+**توجه:** باید هر پلتفرمی که می‌خواهید به آن دسترسی داشته باشید را از قبل در گوشی خود نصب کرده باشید.
 
 <img src="/img/token.png" width="200"/>
 
-### Step 6. Configure your App and begin utilizing​
+### مرحله 6: تنظیم برنامه و شروع به استفاده
 
-Once you've linked your apps to your SWOB  account, you'll need to add your gateway client number or select one from the list of available gateway clients. One important setting to configure is selecting the Gateway number for communication. It is cheaper to Opt for a Gateway number  from the same service provider as yours or within your country.  
+پس از لینک کردن برنامه‌ها به حساب SWOB خود، باید شماره مشتری درگاه خود را اضافه کنید یا یکی را از لیست مشتریان درگاه موجود انتخاب کنید. یک تنظیم مهم برای پیکربندی انتخاب شماره درگاه برای ارتباط است. ارزان‌تر است که یک شماره درگاه از همان ارائه‌دهنده خدمات خود یا در کشور خود انتخاب کنید.
 
 <img src="/img/add-message.png" width="200"/>
 <img src="/img/settings.png" width="200"/>
 
+### برای تنظیم شماره درگاه، مراحل زیر را دنبال کنید:
 
-### To set a gateway number, follow these steps below
-
-1. Save the intended gateway number in your contacts.
-2. Go to **Settings** and select Gateway Clients.
-3. Tap the *3 dots* sign at the top right corner and tap *add*.
-4. Click on the **Contact icon** to access your contacts.
-5. Find and select the saved Gateway Number.
-6. Confirm the selection and ass the gateway number successfully.
-
-<img src="/img/.png" width="200"/>
-<img src="/img/token.png" width="200"/>
-<img src="/img/token.png" width="200"/>
-
-# Communicating using the app
-
-Let's discover how to communicate without an Internet connection using SMSwithoutborders(SWOB).
-### Step 1: Click the compose button
-
-<img src="/img/token.png" width="200"/>
-
-After  the first stage has been completed which is saving access to platforms you wish to communicate on, synchronizing and adding a gateway number. 
-Open the SMSwithoutborders application after being downloaded from [Google Play Store](https://) , [Github](https://) or build from [source](https://) and click on the "pencil icon" to compose message
-
-
-### Step 2. Select a platform to compose message​
-
-Choose a platform to start composing message
-
-<img src="/img/token.png" width="200"/>
-
-### Step 3. Compose your message and send as SMS
-
-After composing your message on any platform, proceed to send it as usual. You will then be directed to your standard SMS page, where you can send the message to the pre-saved gateway number as an SMS. Note that the message will appear as encrypted when sending it as an SMS. This extra layer of security ensures that only you and the recipient can access the message, maintaining confidentiality.
+1. شماره درگاه مورد نظر را در مخاطبین خود ذخیره کنید.
+2. به **تنظیمات** بروید و مشتریان درگاه را انتخاب کنید.
+3. علامت *سه نقطه* در گوشه بالا سمت راست را لمس کنید و *افزودن* را بزنید.
+4. روی **نماد مخاطب** کلیک کنید تا به مخاطبین خود دسترسی پیدا کنید.
+5. شماره درگاه ذخیره شده را پیدا کنید و انتخاب کنید.
+6. انتخاب را تأیید کنید و شماره درگاه را با موفقیت اضافه کنید.
 
 <img src="/img/token.png" width="200"/>
 <img src="/img/token.png" width="200"/>
 <img src="/img/token.png" width="200"/>
 
+# ارتباط با استفاده از برنامه
 
-#### Requirements​
+بیایید کشف کنیم که چگونه بدون اتصال به اینترنت با استفاده از SMSwithoutborders (SWOB) ارتباط برقرار کنیم.
 
-- Recipient's email for Gmail
-- Contacts phone number for Telegram
-- Tweet body for Twitter
+### مرحله 1: روی دکمه نوشتن کلیک کنید
 
-For either of the platforms selected, fill the required fields accurately and send SMS
+<img src="/img/token.png" width="200"/>
 
-### Step 4: SMS Sent
+پس از تکمیل مرحله اول که ذخیره دسترسی به پلتفرم‌هایی است که می‌خواهید در آن‌ها ارتباط برقرار کنید، همگام‌سازی و اضافه کردن یک شماره درگاه. برنامه SMSwithoutborders را پس از دانلود از [Google Play Store](https://)، [Github](https://) یا ساختن از [source](https://) باز کنید و روی نماد "مداد" برای نوشتن پیام کلیک کنید.
 
-Congratulations! You have successfully sent the SMS. The recipient will now receive the original message in a readable format. Please note that the time for receiving the message may vary depending on the mobile network and the functionality of the gateway client device
+### مرحله 2: انتخاب یک پلتفرم برای نوشتن پیام
 
+یک پلتفرم را برای شروع نوشتن پیام انتخاب کنید.
 
+<img src="/img/token.png" width="200"/>
 
+### مرحله 3: نوشتن پیام و ارسال به عنوان پیامک
 
+پس از نوشتن پیام خود در هر پلتفرم، به طور معمول آن را ارسال کنید. سپس به صفحه پیامک استاندارد خود هدایت می‌شوید، جایی که می‌توانید پیام را به شماره درگاه پیش‌ذخیره شده به عنوان پیامک ارسال کنید. توجه داشته باشید که پیام هنگام ارسال به عنوان پیامک به صورت رمزگذاری شده ظاهر می‌شود. این لایه اضافی امنیتی اطمینان می‌دهد که فقط شما و گیرنده می‌توانید به پیام دسترسی داشته باشید و محرمانه بماند.
 
+<img src="/img/token.png" width="200"/>
+<img src="/img/token.png" width="200"/>
+<img src="/img/token.png" width="200"/>
+
+### الزامات
+
+- ایمیل گیرنده برای Gmail
+- شماره تلفن مخاطب برای Telegram
+- متن توییت برای Twitter
+
+برای هر یک از پلتفرم‌های انتخاب شده، فیلدهای مورد نیاز را به دقت پر کنید و پیامک را ارسال کنید.
+
+### مرحله 4: پیامک ارسال شد
+
+تبریک می‌گویم! شما پیامک را با موفقیت ارسال کردید. اکنون گیرنده پیام اصلی را به صورت خوانا دریافت خواهد کرد. لطفاً توجه داشته باشید که زمان دریافت پیام ممکن است بسته به شبکه تلفن همراه و عملکرد دستگاه مشتری درگاه متفاوت باشد.
+```

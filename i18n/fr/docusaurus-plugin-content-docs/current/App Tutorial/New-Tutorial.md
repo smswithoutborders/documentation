@@ -14,7 +14,7 @@ The steps below will help setup your account and start using swob.
 
 ![Google Play Store](/img/swob_on_playstore.png)
 
-Download from [**Google Play Store**](https://play.google.com/store/apps/details?id=com.afkanerd.sw0b) , [**Github**](https://github.com/smswithoutborders/SMSwithoutBorders-Android/releases/tag/v1.0) or build from [**source**](https://github.com/smswithoutborders/SMSwithoutBorders-Android)
+Download from [Google Play Store](https://play.google.com/store/apps/details?id=com.afkanerd.sw0b) , [Github](https://github.com/smswithoutborders/SMSwithoutBorders-Android/releases/tag/v1.0) or build from [source](https://github.com/smswithoutborders/SMSwithoutBorders-Android)
 
 #### Technical Requirements
 

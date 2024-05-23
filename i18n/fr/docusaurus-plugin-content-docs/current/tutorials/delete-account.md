@@ -4,9 +4,10 @@ sidebar_position: 2
 
 # Supprimer votre compte
 
-Aller à [**SMSwithoutborders(SWOB)**](https://smswithoutborders.com)
+Aller à [SMSwithoutborders(SWOB)](https://smswithoutborders.com)
 
 ### Étape 1. Connectez-vous à votre compte SWOB
+
 <img src="/img/login.png" width="300px" />
 
 ###Étape 2. Ouvrir les paramètres

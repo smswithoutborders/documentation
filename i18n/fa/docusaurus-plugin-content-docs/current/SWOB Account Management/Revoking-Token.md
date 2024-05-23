@@ -10,24 +10,15 @@ sidebar_position: 2
 
 ### مرحله 1: به حساب SWOB خود وارد شوید
 
-<br/>
-<br/>
 <img src="/img/Save-Tokens.png" height="400" width="300" />
-<br/>
-<br/>
 
 ### مرحله ۲: پلتفرمی را که می‌خواهید حذف کنید انتخاب کنید و روی Revoke Token کلیک کنید.
 
-<br/>
 <img src="/img/SelectTokenToDelete.png" height="400" width="300" />
-<br/>
 
 ### مرحله 3: رمز عبور خود را برای تایید وارد کنید.
 
-<br/>
-<br/>
 <img src="/img/ConfirmDelete.png" height="400" width="300" />
-<br/>
 
 ### مرحله 4: روی Continue کلیک کنید.
 
@@ -36,8 +27,6 @@ sidebar_position: 2
 **توجه:** پس از لغو، پلتفرم برای همیشه از حساب شما حذف خواهد شد.
 
 <img src="/img/DeletedToken.png" height="400" width="300" />
-<br/>
-<br/>
 
 **تبریک می‌گوییم، شما به تازگی رمز خود را با موفقیت حذف کردید.**
 

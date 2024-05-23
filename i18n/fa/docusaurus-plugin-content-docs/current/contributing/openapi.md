@@ -10,7 +10,7 @@ SMSWithoutBorders OpenAPI یک سیستم صف بندی ساده را با Rabbi
 
 - نحوه راه اندازی و استفاده از OpenAPI
 
-جدیدترین نسخه این راهنما را می توان در [` مخزن github`] یافت (https://github.com/smswithoutborders/SMSWithoutBorders-OpenAPI)
+جدیدترین نسخه این راهنما را می توان در [ مخزن github](https://github.com/smswithoutborders/SMSWithoutBorders-OpenAPI)
 
 فرانت اند با این خدمات یکپارچه می شود. ممکن است لازم باشد بسته به قسمتی که روی آن کار می کنید آنها را تنظیم کنید.
 

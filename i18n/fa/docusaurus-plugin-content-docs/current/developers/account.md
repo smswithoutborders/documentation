@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-#ساخت با SMSWithoutBorders
+# ساخت با SMSWithoutBorders
 
 :::نکته آنچه یاد خواهید گرفت
 
@@ -14,7 +14,7 @@ sidebar_position: 1
 
 ## برای یک حساب کار بری ثبت نام کنید
 
-با ایجاد و ایجاد حساب در [کنسول برنامه‌نویس] (https://developers.smswithoutborders.com) شروع کنید.
+با ایجاد و ایجاد حساب در [کنسول برنامه‌نویس](https://developers.smswithoutborders.com) شروع کنید.
 
 ![Developer Signup](/img/dev_signup.png)
 

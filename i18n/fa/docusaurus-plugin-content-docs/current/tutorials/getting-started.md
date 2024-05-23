@@ -14,7 +14,7 @@ sidebar_position: 1
 
 ![فروشگاه Google Play](/img/swob_on_playstore.png)
 
-دانلود از [**Google Play Store**](https://play.google.com/store/apps/details?id=com.afkanerd.sw0b)، [**Github**](https:/ /github .com/smswithoutborders/SMSwithoutBorders-Android/releases/tag/v1.0) یا ساخت از [**source**](https://github.com/smswithoutborders/SMSwithoutBorders-Android)
+دانلود از [Google Play Store](https://play.google.com/store/apps/details?id=com.afkanerd.sw0b)، [Github](https:/ /github .com/smswithoutborders/SMSwithoutBorders-Android/releases/tag/v1.0) یا ساخت از [source](https://github.com/smswithoutborders/SMSwithoutBorders-Android)
 
 #### الزامات فنی
 
@@ -23,7 +23,7 @@ sidebar_position: 1
 
 ### مرحله 2. یک حساب کاربری ایجاد کنید
 
-برای یک حساب کاربری رایگان در [smswithoutborders.com] (https://smswithoutborders.com/sign-up) ثبت نام کنید
+برای یک حساب کاربری رایگان در [smswithoutborders.com](https://smswithoutborders.com/sign-up) ثبت نام کنید
 
 یک کد احراز هویت به یک شماره تلفن معتبر ارسال می شود که می تواند پیامک دریافت کند.
 
@@ -32,13 +32,14 @@ sidebar_position: 1
 ### مرحله 3: وارد سیستم شوید و دسترسی به پلتفرم را ذخیره کنید
 
 یکی از ویژگی‌های اصلی SWOB امکان ذخیره دسترسی به سرویس‌های آنلاین زمانی که اتصال اینترنتی فعال دارید و سپس استفاده از برنامه برای درخواست برای آن سرویس‌ها بدون اتصال اینترنتی فعال است. پس از ورود به سیستم و کلیک بر روی **Wallet**، لیستی از خدماتی که ما در حال حاضر پشتیبانی می کنیم دریافت خواهید کرد. می‌توانید اعتبار خود را برای هر تعداد خدماتی که انتظار دارید در شرایط آفلاین نیاز دارید ذخیره کنید.
+
 ![Docs Version Dropdown](/img/swob_wallet.png)
 
 ### مرحله 4. برنامه خود را با حساب خود همگام کنید
 
 #### الزامات
 
-شما به دستگاه دیگری (اعم از یک رایانه شخصی یا یک تلفن دیگر) نیاز دارید که دارای کد QR باشد که با تلفن خود اسکن خواهید کرد. برای دسترسی به کد QR خود، باید مطمئن شوید که [**ورود به سیستم**] (https://smswithoutborders.com/login) در حساب خود در این دستگاه دوم هستید.
+شما به دستگاه دیگری (اعم از یک رایانه شخصی یا یک تلفن دیگر) نیاز دارید که دارای کد QR باشد که با تلفن خود اسکن خواهید کرد. برای دسترسی به کد QR خود، باید مطمئن شوید که [ورود به سیستم](https://smswithoutborders.com/login) در حساب خود در این دستگاه دوم هستید.
 
 #### پس از ورود به حساب کاربری خود
 

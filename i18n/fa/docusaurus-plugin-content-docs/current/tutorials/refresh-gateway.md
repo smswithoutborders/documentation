@@ -6,7 +6,8 @@ sidebar_position: 8
 
 ### مرحله 1. صفحه مشتریان Gateway را باز کنید
 
-صفحه تنظیمات را باز کنید و صفحه تنظیمات Gateway Clients را انتخاب کنید
+صفحه تنظیمات را باز کنید و صفحه تنظیمات Gateway Clients را انتخاب 
+
 <img src="/img/settings .png" width="300" />
 
 ### مرحله 2. بازخوانی دروازه

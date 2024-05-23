@@ -22,6 +22,7 @@ Voici les étapes :
 <br/>
 
 ### Étape 3 : Entrez votre mot de passe pour confirmer.
+
 <br/>
 <br/>
 <img src="/img/ConfirmDelete.png" height="400" width="300" />
