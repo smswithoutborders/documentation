@@ -29,11 +29,12 @@ Gateway-servers کاربران را قادر می سازد تا با ماژول 
 
 - سرور کارگزار پیام برای [Gateway-Client](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client) (\_به [SMSWithoutBorders-OpenAPI](https://github.com/smswithoutborders/SMSWith-Open) مراجعه کنید )
 
-- همگام سازی [SMSWithoutBorders-App](https://github.com/smswithoutborders/SMSWithoutBorders-App-Android) برای ارتباط با [Publisher](https://github.com/smswithoutborders/SMSWithoutBorders-Publisher)
+- همگام سازی [SMSWithoutBorders-App](https://github.com/smswithoutborders/SMSWithoutBorders-App-Android) برای ارتباط با          [Publisher](https://github.com/smswithoutborders/SMSWithoutBorders-Publisher)
 
-  > این باید در همان مکان [Publisher](https://github.com/smswithoutborders/SMSWithoutBorders-Publisher) میزبانی شود، زیرا Publisher مستقیماً در معرض وب نیست.
+ این باید در همان مکان [Publisher](https://github.com/smswithoutborders/SMSWithoutBorders-Publisher) میزبانی شود، زیرا Publisher مستقیماً در معرض وب نیست.
 
 - ارسال درخواست انتشار از [Gateway-Client](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client) به [Publisher](https://github.com/smswithoutborders/SMSWithoutBorders-Publisher)
+
 - درخواست [Gateway-Client's](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client) را برای پیوستن به [Publisher](https://github.com/smswithoutborders/SMSWithoutBorders-Publisher) تأیید می کند.
 
 ### نصب و راه اندازی

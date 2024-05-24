@@ -14,23 +14,23 @@ SMSWithoutBorders OpenAPI یک سیستم صف بندی ساده را با Rabbi
 
 فرانت اند با این خدمات یکپارچه می شود. ممکن است لازم باشد بسته به قسمتی که روی آن کار می کنید آنها را تنظیم کنید.
 
-- [`Gateway Client`](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client)
-- [`RabbitMQ`](https://github.com/smswithoutborders/SMSWithoutBorders-Product-deps-RabbitMQ)
+- [Gateway Client](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client)
+- [RabbitMQ](https://github.com/smswithoutborders/SMSWithoutBorders-Product-deps-RabbitMQ)
 
 :::
 
 ## فهرست مطالب
 
-1. [نیازها] (#نیازمندی ها)
-2. [وابستگی] (#وابستگی)
-3. [نصب] (#نصب)
-4. [تنظیم] (#setup)
+1. [نیازها](#نیازمندی ها)
+2. [وابستگی](#وابستگی)
+3. [نصب](#نصب)
+4. [تنظیم](#setup)
 
 ## الزامات
 
 - [Python](https://www.python.org/) (نسخه >= [3.8.10](https://www.python.org/downloads/release/python-3810/))
 
-- [محیط های مجازی پایتون] (https://docs.python.org/3/tutorial/venv.html)
+- [محیط های مجازی پایتون](https://docs.python.org/3/tutorial/venv.html)
 
 ## وابستگی ها
 
@@ -40,7 +40,7 @@ SMSWithoutBorders OpenAPI یک سیستم صف بندی ساده را با Rabbi
 git submodule update --init --recursive --remote
 ```
 
-راه اندازی [سرور RabbitMQ] (https://github.com/smswithoutborders/SMSWithoutBorders-Product-deps-RabbitMQ)
+راه اندازی [سرور RabbitMQ](https://github.com/smswithoutborders/SMSWithoutBorders-Product-deps-RabbitMQ)
 
 - به دایرکتوری RabbitMQ در مخزن بروید
 
@@ -48,7 +48,7 @@ git submodule update --init --recursive --remote
 cd RabbitMQ
 ```
 
-- [نصب] (https://github.com/smswithoutborders/SMSWithoutBorders-Product-deps-RabbitMQ#rabbitmq-for-openapi)
+- [نصب](https://github.com/smswithoutborders/SMSWithoutBorders-Product-deps-RabbitMQ#rabbitmq-for-openapi)
 
 در اوبونتو **libmysqlclient-dev** مورد نیاز است
 

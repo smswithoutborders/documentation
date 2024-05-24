@@ -11,11 +11,11 @@ sidebar_position: 3
 - نحوه راه اندازی Backend
 - نحوه آزمایش و استقرار با docker
 
-جدیدترین نسخه این راهنما را می‌توانید در [`github reposistory`](https://github.com/smswithoutborders/SMSwithoutborders-BE) پیدا کنید.
+جدیدترین نسخه این راهنما را می‌توانید در [github reposistory](https://github.com/smswithoutborders/SMSwithoutborders-BE) پیدا کنید.
 
 Backend با این خدمات یکپارچه می شود. ممکن است لازم باشد بسته به قسمتی که روی آن کار می کنید آنها را تنظیم کنید.
 
-- ['Website'](https://github.com/smswithoutborders/smswithoutborders.com)
+- ['سایت اینترنتی'](https://github.com/smswithoutborders/smswithoutborders.com)
 - ['سکوهای شخص ثالث'](https://github.com/smswithoutborders?q=custom&type=all&language=&sort=)
 
 :::
@@ -35,8 +35,8 @@ Backend با این خدمات یکپارچه می شود. ممکن است لا�
     - [CREDENTIALS](# اعتبارنامه)
     - [RECAPTCHA](#recaptcha)
     - [DEVELOPER](#developer)
-  - [نحوه استفاده](#روش استفاده)
-  - [Start Backend User Management API](#start-backend-user-management-api)
+- [نحوه استفاده](#نحوه استفاده) 
+ - [Start Backend User Management API](#start-backend-user-management-api)
     - [محیط توسعه مدیریت کاربر](#user-management-development-vironment)
     - [محیط تولید مدیریت کاربر](#user-management-production-vironment)
   - [Start Backend Publisher API](#start-backend-publisher-api)
@@ -89,7 +89,7 @@ cp config/example.default.json config/default.json
 
 ### تنظیمات محیط تولید
 
-(https://github.com/smswithoutborders/SMSwithoutborders-BE/blob/main/config/example.production.json)  فایل پیکربندی یک محیط تولید است.
+[production](https://github.com/smswithoutborders/SMSwithoutborders-BE/blob/main/config/example.production.json)  فایل پیکربندی یک محیط تولید است.
 
 برای راه‌اندازی پایگاه داده، API و اعتبار پلتفرم برای یک محیط productoin، فایل‌های الگو را «example.production.json» کپی کنید و نام آن را به «production.json» تغییر دهید.
 
@@ -126,9 +126,10 @@ cp config/example.production.json config/production.json
 
 6. **حداکثر جلسه**: عدد مورد استفاده در هنگام محاسبه [ویژگی Expires Set-Cookie](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers) را مشخص می کند (بر حسب میلی ثانیه) /Set-Cookie. این کار با در نظر گرفتن زمان سرور فعلی و افزودن حداکثر میلی ثانیه به مقدار برای محاسبه تاریخ انقضا انجام می شود. به طور پیش فرض، حداکثر سن برای دو ساعت (7200000 میلی ثانیه) تنظیم شده است.
 
-7. **فعال کردن مسدود کردن**: مقدار بولی را برای ردیابی کاربر ناموفق [احراز هویت] مشخص می کند(https://github.com/smswithoutborders/SMSwithoutborders-BE/blob/main/docs/FEATURES_v2.md#2-authenticate-an -account) تلاش می کند.
+7. **فعال کردن مسدود کردن**: مقدار بولی را برای ردیابی کاربر ناموفق  مشخص می کند   
+[احراز هویت](https://github.com/smswithoutborders/SMSwithoutborders-BE/blob/main/docs/FEATURES_v2.md#2-authenticate-an -account)  تلاش می کند.
 
-8. **تلاش های بلوک کوتاه**: تعداد [احراز هویت] ناموفق را مشخص می کند (https://github.com/smswithoutborders/SMSwithoutborders-BE/blob/main/docs/FEATURES_v2.md#2-authenticate-an-account ) قبل از یک بلوک کوتاه تلاش می کند. چندین بلوک کوتاه به یک بلوک طولانی منتهی می شود.
+8. **تلاش های بلوک کوتاه**: تعداد  ناموفق را مشخص می کند [احراز هویت](https://github.com/smswithoutborders/SMSwithoutborders-BE/blob/main/docs/FEATURES_v2.md#2-authenticate-an-account ) قبل از یک بلوک کوتاه تلاش می کند. چندین بلوک کوتاه به یک بلوک طولانی منتهی می شود.
 
 
 9. **تلاش های بلوک طولانی**: تعداد تلاش های بلوک کوتاه ناموفق قبل از یک بلوک طولانی را مشخص می کند.
@@ -298,12 +299,13 @@ http://localhost:{PORT}/v2/api-docs
 
 ## گزارش های API
 
-به‌طور پیش‌فرض [سطوح ورود](https://github.com/smswithoutborders/SMSwithoutborders-BE/tree/main/logs#log-levels) روی «info» تنظیم شده‌اند. می‌توانید [سطوح ورود] را تغییر دهید(https://github.com/smswithoutborders/SMSwithoutborders-BE/tree/main/logs#log-levels). برای مثال، [Start both Backend User Management API and Backend Publisher API](#Start-both-Backend-User-management-API-and-Backend-Publisher-API) با [log level](https://github.com/smswithoutborders/SMSwithoutborders-BE/tree/main/logs#log-levels) روی "اشکال زدایی" تنظیم شد
+به‌طور پیش‌فرض [سطوح ورود](https://github.com/smswithoutborders/SMSwithoutborders-BE/tree/main/logs#log-levels) روی «info» تنظیم شده‌اند. می‌توانید  را تغییر دهید [سطوح ورود](https://github.com/smswithoutborders/SMSwithoutborders-BE/tree/main/logs#log-levels). 
+برای مثال، [Start both Backend User Management API and Backend Publisher API](#Start-both-Backend-User-management-API-and-Backend-Publisher-API) با [log level](https://github.com/smswithoutborders/SMSwithoutborders-BE/tree/main/logs#log-levels) روی "اشکال زدایی" تنظیم شد
 
 ```
 
 LOG_LEVEL=اشکال npm اشکال زدایی
 
 ```
-همه فایل‌های گزارش در فهرست سیاهه‌ها یافت می‌شوند. [بیشتر بخوانید](https://github.com/smswithoutborders/SMSwithoutborders-BE/tree/main/logs) ...
+همه فایل‌های گزارش در فهرست سیاهه‌ها یافت می‌شوند. [بیشتر بخوانید] (https://github.com/smswithoutborders/SMSwithoutborders-BE/tree/main/logs) ...
 ```

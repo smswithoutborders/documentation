@@ -10,7 +10,7 @@ Gateway Client یک دروازه مدیریت پیام کوتاه لینوکس �
 
 - نحوه راه اندازی و استفاده از Gateway Clients
 
-جدیدترین نسخه این راهنما را می‌توانید در ['مخزن github'] پیدا کنید(https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client)
+جدیدترین نسخه این راهنما را می‌توانید در  پیدا کنید [مخزن github](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client)
 
 :::
 
@@ -69,7 +69,7 @@ make install
 
 - ویرایش ".configs/config.ini" ref:[پیوند به فایل پیکربندی نمونه](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client/tree/master/.configs/example.config.ini)
 
-- [این مراحل] را دنبال کنید (https://smswithoutborders.github.io/docs/developers/getting-started) تا شناسه و کلید تأیید اعتبار خود را دریافت کنید
+-  را دنبال کنید [این مراحل](https://smswithoutborders.github.io/docs/developers/getting-started) تا شناسه و کلید تأیید اعتبار خود را دریافت کنید
 
 ```ini
 [OPENAPI]
@@ -110,6 +110,7 @@ tail -f src/services/logs/service.log
 - برای اجرای خروجی (ارسال پیامک)
   - مودم USB خود را وصل کنید
   - محیط مجازی خود را فعال کنید
+  
   ```bash
   source venv/bin/activate
   ```

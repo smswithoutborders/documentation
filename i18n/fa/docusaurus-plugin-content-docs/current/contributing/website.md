@@ -13,12 +13,12 @@ sidebar_position: 2
 - نحوه راه اندازی وب سایت
 - نحوه تست و استقرار وب سایت با آپاچی و داکر
 
-جدیدترین نسخه این راهنما را می‌توانید در ['websites github reposistory'](https://github.com/smswithoutborders/smswithoutborders.com)
+جدیدترین نسخه این راهنما را می‌توانید در [سایت های مخزن github](https://github.com/smswithoutborders/smswithoutborders.com)
 
 فرانت اند با این خدمات یکپارچه می شود. ممکن است لازم باشد بسته به قسمتی که روی آن کار می کنید آنها را تنظیم کنید.
 
-- ['API Backend'](https://github.com/smswithoutborders/smswithoutborders.com)
-- ['Gateway Server'](https://github.com/smswithoutborders/smswithoutborders.com)
+- [API Backend](https://github.com/smswithoutborders/smswithoutborders.com)
+- [Gateway Server](https://github.com/smswithoutborders/smswithoutborders.com)
 
 :::
 
@@ -31,7 +31,7 @@ sidebar_position: 2
 - [Node.js LTS](https://nodejs.org/en/download/) >= v14
 - [نخ](https://classic.yarnpkg.com/en/docs/install)
 - [ساخت گنو](https://www.gnu.org/software/make/)
-- [Docker] (https://www.docker.com/)
+- [Docker](https://www.docker.com/)
 
 ## وابستگی ها را نصب کنید
 
@@ -59,9 +59,9 @@ SWOB_BE_HOST=http://localhost:9000 SWOB_RECAPTCHA_ENABLE=true SWOB_RECAPTCHA_SIT
 
 این پروژه با [Create React App](https://github.com/facebook/create-react-app) بوت استرپ شد که قراردادهای نامگذاری متغیرها را مشخص می کند.
 
-در زیر پیش فرض ها آمده است. یک مرجع نیز در [env.example] نگهداری می شود(https://github.com/smswithoutborders/smswithoutborders.com/blob/main/env.example)
+در زیر پیش فرض ها آمده است. یک مرجع نیز در  نگهداری می شود [env.example](https://github.com/smswithoutborders/smswithoutborders.com/blob/main/env.example)
 
-| Variable                         | Description                                                                                                 | Default value                                                                                           | Override                |
+| متغیر                         | شرح                                                                                                 | پیش فرض ارزش                                                                                           | لغو                |
 | -------------------------------- | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ----------------------- |
 | PORT                             | development port                                                                                            | 18000                                                                                                   | PORT                    |
 | GENERATE_SOURCEMAP               | Generate or ignore sourcemaps                                                                               | false                                                                                                   | N/A                     |
@@ -128,7 +128,7 @@ sudo a2enmod rewrite
 </Directory>
 ```
 
-- محتویات پوشه ساخت را در روت سرور که معمولاً در /var/www/html قرار دارد کپی کنید. مطمئن شوید که فایل .htaccess کپی شده است. فایل .htaccess همانطور که [اینجا] مشخص شده بسیار مهم است(https://create-react-app.dev/docs/deployment/#static-server)
+- محتویات پوشه ساخت را در روت سرور که معمولاً در /var/www/html قرار دارد کپی کنید. مطمئن شوید که فایل .htaccess کپی شده است. فایل .htaccess همانطور که مشخص شده بسیار مهم است [اینجا](https://create-react-app.dev/docs/deployment/#static-server)
 
 ```bash
 sudo cp -r build/. /var/www/html

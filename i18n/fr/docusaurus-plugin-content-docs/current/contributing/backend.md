@@ -9,50 +9,51 @@ Il est directement configurable avec les bases de données MySQL pour la gestion
 
 :::astuce Ce que vous apprendrez
 
-* Comment configurer le Backend
-* Comment tester et déployer avec docker
+-   Comment configurer le Backend
+-   Comment tester et déployer avec docker
 
 Le Backend s'intègre à ces services. vous devrez peut-être les configurer en fonction de la section sur laquelle vous travaillez.
 
-* [`Website`](https://github.com/smswithoutborders/smswithoutborders.com)
-* [`Third party platforms`](https://github.com/smswithoutborders?q=custom&type=all&language=&sort=)
+-   [`Website`](https://github.com/smswithoutborders/smswithoutborders.com)
+-   [`Third party platforms`](https://github.com/smswithoutborders?q=custom&type=all&language=&sort=)
 
 :::
 
 ## Table des matières
 
-- [SMSWithoutBorders Backend](#smswithoutborders-backend)
- - [Table des matières](#table-of-contents)
- - [Exigences](#requirements)
- - [Installation](#installation)
-   - [Dépanner](#troubleshoot)
- - [Setup](#setup)
-   - [Configurations d'environnement de développement](#development-environment-configurations)
-   - [Configurations de l'environnement de production](#production-environment-configurations)
-   - [Options de configuration](#configuration-options)
-     - [SEVER](#sever)
-     - [RÉFÉRENCES](#credentials)
-     - [RECAPTCHA](#recaptcha)
-     - [DÉVELOPPEUR](#developer)
- - [Comment utiliser](#how-to-use)
-   - [Démarrer l'API de gestion des utilisateurs backend](#start-backend-user-management-api)
-     - [Environnement de développement de la gestion des utilisateurs](#user-management-development-environment)
-     - [Environnement de production de gestion des utilisateurs](#user-management-production-environment)
-   - [Démarrer l'API Backend Publisher](#start-backend-publisher-api)
-  - [Environnement de développement de l'éditeur](#publisher-development-environment)
-    - [Environnement de production de l'éditeur](#publisher-production-environment)
-   - [Démarrer à la fois l'API de gestion des utilisateurs backend et l'API de l'éditeur backend](#start-both-backend-user-management-api-and-backend-publisher-api)
-     - [Environnement de développement](#development-environment)
-     - [Environnement de production](#production-environment)
+-   [SMSWithoutBorders Backend](#smswithoutborders-backend)
+-   [Table des matières](#table-of-contents)
+-   [Exigences](#requirements)
+-   [Installation](#installation)
+    -   [Dépanner](#troubleshoot)
+-   [Setup](#setup)
+    -   [Configurations d'environnement de développement](#development-environment-configurations)
+    -   [Configurations de l'environnement de production](#production-environment-configurations)
+    -   [Options de configuration](#configuration-options)
+        -   [SEVER](#sever)
+        -   [RÉFÉRENCES](#credentials)
+        -   [RECAPTCHA](#recaptcha)
+        -   [DÉVELOPPEUR](#developer)
+-   [Comment utiliser](#how-to-use)
+    -   [Démarrer l'API de gestion des utilisateurs backend](#start-backend-user-management-api)
+        -   [Environnement de développement de la gestion des utilisateurs](#user-management-development-environment)
+        -   [Environnement de production de gestion des utilisateurs](#user-management-production-environment)
+    -   [Démarrer l'API Backend Publisher](#start-backend-publisher-api)
+-   [Environnement de développement de l'éditeur](#publisher-development-environment)
+    -   [Environnement de production de l'éditeur](#publisher-production-environment)
+-   [Démarrer à la fois l'API de gestion des utilisateurs backend et l'API de l'éditeur backend](#start-both-backend-user-management-api-and-backend-publisher-api)
 
- - [API SandBox](#api-sandbox)
- - [Journaux API](#api-logs)
+    -   [Environnement de développement](#development-environment)
+    -   [Environnement de production](#production-environment)
+
+-   [API SandBox](#api-sandbox)
+-   [Journaux API](#api-logs)
 
 ## Exigences
 
-- [MySQL](https://www.mysql.com/) (version >= 8.0.28) ([MariaDB](https://mariadb.org/))
-- [nodejs](https://nodejs.org) (version >= [16.14.0](https://nodejs.org/dist/v16.14.0/node-v16.14.0-linux-x64.tar.xz))
-- [npm](https://www.npmjs.com/) (version >= [8.3.1](https://nodejs.org/dist/v16.14.0/node-v16.14.0-linux-x64.tar.xz))
+-   [MySQL](https://www.mysql.com/) (version >= 8.0.28) ([MariaDB](https://mariadb.org/))
+-   [nodejs](https://nodejs.org) (version >= [16.14.0](https://nodejs.org/dist/v16.14.0/node-v16.14.0-linux-x64.tar.xz))
+-   [npm](https://www.npmjs.com/) (version >= [8.3.1](https://nodejs.org/dist/v16.14.0/node-v16.14.0-linux-x64.tar.xz))
 
 ## Installation
 
@@ -66,7 +67,7 @@ npm install
 
 Pour plusieurs raisons, les utilisateurs peuvent parfois rencontrer des difficultés lors de l'installation. Voici quelques conseils de dépannage
 
-- Supprimez le répertoire `node_modules` et le fichier `package-lock.json`. Réessayez l'installation.
+-   Supprimez le répertoire `node_modules` et le fichier `package-lock.json`. Réessayez l'installation.
 
 ```bash
 rm -rf node_modules package-lock.json
@@ -81,7 +82,7 @@ Les fichiers de configuration sont nommés en fonction de leur **[environment va
 
 ### Configurations de l'environnement de développement
 
-**[default.json](https://github.com/smswithoutborders/SMSwithoutborders-BE/blob/main/config/example.default.json)**est le fichier de configuration d'un environnement de développement.
+**[default.json](https://github.com/smswithoutborders/SMSwithoutborders-BE/blob/main/config/example.default.json)** est le fichier de configuration d'un environnement de développement.
 
 Pour configurer les informations d'identification de la base de données, de l'API et de la plate-forme pour un environnement de développement, copiez les fichiers de modèle "example.default.json" et renommez-les en "default.json"
 
@@ -95,14 +96,13 @@ cp config/example.default.json config/default.json
 
 Pour configurer les informations d'identification de la base de données, de l'API et de la plate-forme pour un environnement de production, copiez les fichiers de modèle "example.production.json" et renommez-les en "production.jso
 
-
 ```bash
 cp config/example.production.json config/production.json
 ```
 
 ### Options de configuration
 
-Ce sont les options pour chaque  **[configuration](https://github.com/smswithoutborders/SMSwithoutborders-BE/blob/main/config)** file
+Ce sont les options pour chaque **[configuration](https://github.com/smswithoutborders/SMSwithoutborders-BE/blob/main/config)** file
 
 #### serveur
 
@@ -126,7 +126,7 @@ Gère l'accès au Smswithoutborders pour centraliser les ressources et les servi
 4. **SALT** : le sel utilisé pour hacher les données d'un utilisateur. (Par défaut : "acaad78fd9dadcb056840c09073190a8").
 
 5. **SECURE SESSIONS** : spécifie la valeur booléenne pour
- [Secure Set-Cookie attribute](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie). Lorsque truey, l'attribut Secure est défini, sinon, il ne l'est pas. Par défaut, l'attribut Secure sessions est défini sur truthy.
+   [Secure Set-Cookie attribute](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie). Lorsque truey, l'attribut Secure est défini, sinon, il ne l'est pas. Par défaut, l'attribut Secure sessions est défini sur truthy.
 
 6. **SESSION MAXAGE** : Spécifie le nombre (en millisecondes) à utiliser lors du calcul de la [Expires Set-Cookie attribute](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie). Cela se fait en prenant l'heure actuelle du serveur et en ajoutant maxAge millisecondes à la valeur pour calculer une date/heure d'expiration. Par défaut, l'âge maximum est fixé à deux heures (7200000 ms).
 
@@ -139,7 +139,6 @@ Gère l'accès au Smswithoutborders pour centraliser les ressources et les servi
 10. **DURÉE BLOC COURT** : Spécifie la durée (en minutes) d'un bloc court.
 
 11. **DURÉE DE BLOC LONG** : Spécifie la durée (en minutes) d'un bloc long.
-
 
 **OTP**
 
@@ -176,7 +175,7 @@ Array - définit origin sur un tableau d'origines valides. Chaque origine peut �
 **GOOGLE**
 
 Obtenir des identifiants depuis
- [Google Cloud Platform Console](https://console.cloud.google.com/)
+[Google Cloud Platform Console](https://console.cloud.google.com/)
 
 1. **ID CLIENT GOOGLE** : Votre ID client Google.
 2. **GOOGLE CLIENT SECRET** : Votre secret client Google.
@@ -195,8 +194,7 @@ Il s'agit d'un cas d'utilisation du projet [SMSWithoutBorders-customplatform-Tel
 
 #### RECAPTCHA
 
-
-Acquérir la CLÉ de 
+Acquérir la CLÉ de
 [Google reCAPTCHA](https://developers.google.com/recaptcha)
 
 1. **ENABLE RECAPTCHA** : Spécifie la valeur booléenne pour activer/désactiver recaptcha.
@@ -215,13 +213,13 @@ Gère l'accès aux ressources du développeur SMSsansfrontières.
 
 #### Gestion des utilisateurs Environnement de développement
 
-- Avec le NPM
+-   Avec le NPM
 
 ```bash
 npm run start_main
 ```
 
-- Avec Node
+-   Avec Node
 
 ```bash
 node controllers/sync_platforms.js && node server.js
@@ -229,13 +227,13 @@ node controllers/sync_platforms.js && node server.js
 
 #### Gestion des utilisateurs Environnement de production
 
-- Avec le NPM
+-   Avec le NPM
 
 ```bash
 NODE_ENV=production npm run start_main
 ```
 
--  Avec Node
+-   Avec Node
 
 ```bash
 NODE_ENV=production node controllers/sync_platforms.js && node server.js
@@ -245,13 +243,13 @@ NODE_ENV=production node controllers/sync_platforms.js && node server.js
 
 #### Publisher Development Environment
 
--  Avec le NPM
+-   Avec le NPM
 
 ```bash
 npm run start_pub
 ```
 
--  Avec Node
+-   Avec Node
 
 ```bash
 node controllers/sync_platforms.js && node server_pub.js
@@ -259,13 +257,13 @@ node controllers/sync_platforms.js && node server_pub.js
 
 #### Publisher Production Environment
 
--  Avec le NPM
+-   Avec le NPM
 
 ```bash
 NODE_ENV=production npm run start_pub
 ```
 
--  Avec Node
+-   Avec Node
 
 ```bash
 NODE_ENV=production node controllers/sync_platforms.js && node server_pub.js
@@ -275,7 +273,7 @@ NODE_ENV=production node controllers/sync_platforms.js && node server_pub.js
 
 #### Environnement de développement
 
--  Avec NPM
+-   Avec NPM
 
 ```bash
 npm run start
@@ -283,7 +281,7 @@ npm run start
 
 #### Environnement de production
 
--  Avec le NPM
+-   Avec le NPM
 
 ```bash
 NODE_ENV=production npm start
@@ -299,7 +297,7 @@ http://localhost:{PORT}/v2/api-docs
 
 ## Journaux d'API
 
-Par défaut, les [log levels](https://github.com/smswithoutborders/SMSwithoutborders-BE/tree/main/logs#log-levels)  sont définis sur "info". Vous pouvez modifier les [log levels](https://github.com/smswithoutborders/SMSwithoutborders-BE/tree/main/logs#log-levels).  Par exemple, [Start both Backend User management API and Backend Publisher API](#Start-both-Backend-User-management-API-and-Backend-Publisher-API) with [log levels](https://github.com/smswithoutborders/SMSwithoutborders-BE/tree/main/logs#log-levels) défini sur "debug"
+Par défaut, les [log levels](https://github.com/smswithoutborders/SMSwithoutborders-BE/tree/main/logs#log-levels) sont définis sur "info". Vous pouvez modifier les [log levels](https://github.com/smswithoutborders/SMSwithoutborders-BE/tree/main/logs#log-levels). Par exemple, [Start both Backend User management API and Backend Publisher API](#Start-both-Backend-User-management-API-and-Backend-Publisher-API) with [log levels](https://github.com/smswithoutborders/SMSwithoutborders-BE/tree/main/logs#log-levels) défini sur "debug"
 
 ```
 LOG_LEVEL=debug npm start
