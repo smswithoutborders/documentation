@@ -8,9 +8,9 @@ Gateway Client est une passerelle de gestion de SMS sous Linux. Elle peut à la 
 
 :::conseil Ce que vous apprendrez
 
-* Comment configurer et utiliser les clients de la passerelle
+- Comment configurer et utiliser les clients de la passerelle
 
-La version la plus récente de ce guide se trouve dans le [`github reposistory`] (https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client).
+La version la plus récente de ce guide se trouve dans le [github-reposistory](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client).
 
 :::
 
@@ -45,6 +45,7 @@ Cloner le dépôt
 ```bash
 git clone https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client.git
 ```
+
 ```bash
 cd SMSWithoutBorders-Gateway-Client
 ```
@@ -63,10 +64,9 @@ make install
 
 #### Configuration
 
-
 Vos clusters ont besoin d'un serveur avec lequel ils communiquent, et vous devrez le désigner dans vos fichiers de configuration.
 
-- Modifier `.configs/config.ini` ref :[lien vers un exemple de fichier de configuration](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client/tree/master/.configs/example.config.ini)
+- Modifier `.configs/config.ini` ref : [lien vers un exemple de fichier de configuration](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client/tree/master/.configs/example.config.ini)
 
 - Suivez [ces étapes](https://smswithoutborders.github.io/docs/developers/getting-started) afin d'obtenir votre identifiant et votre clé d'authentification
 
@@ -76,74 +76,81 @@ API_ID=<insert your server username here (same as an Afkanerd developer Auth ID)
 API_KEY=<insert your server password here (same as an Afkanerd develper Auth Key)>
 ```
 
-- Veillez à ce que l'URL de connexion pointe vers le [serveur RabbitMQ](https://developers.smswithoutborders.com:15671).
+- Veillez à ce que l'URL de connexion pointe vers le [serveur RabbitMQ](https://developers.smswithoutborders.com:15671)
 
 ```ini
 CONNECTION_URL=developers.smswithoutborders.com
 ```
 
-#### Fonctionnement en tant que service système.
+#### Fonctionnement en tant que service système
 
-##### Linux.
+##### Linux
 
 ```bash
 make start
 ```
+
 - Pour démarrer automatiquement au démarrage.
 
 ```bash
 make enable
 ```
 
-<b>Pour afficher tous les journaux en cours d'exécution</b>
+**Pour afficher tous les journaux en cours d'exécution**
 
 ```bash
 tail -f src/services/logs/service.log
 ```
 
-#### Exécution manuelle.
+#### Exécution manuelle
 
-##### Linux
+**Linux**
 
 - Pour exécuter l'envoi (envoyer des messages SMS).
-   - Branchez votre modem USB.
-   - Activez votre environnement virtuel.
+- Branchez votre modem USB.
+- Activez votre environnement virtuel.
 
-    ```bash
-    source venv/bin/activate
-    ```
-   - Pour les messages OpenAPI sortants :
+  ```bash
+  source venv/bin/activate
+  ```
 
-    ```bash
-    python3 src/main.py --log=DEBUG --module=outbound
-    ```
-   - Pour exécuter le programme de réception (recevoir et traiter les messages entrants),
+- Pour les messages OpenAPI sortants :
 
-    ```bash
-    python3 src/main.py --log=DEBUG --module=inbound
-    ```
+  ```bash
+  python3 src/main.py --log=DEBUG --module=outbound
+  ```
 
-<b>Logs - </b>
+- Pour exécuter le programme de réception (recevoir et traiter les messages entrants),
+
+  ```bash
+  python3 src/main.py --log=DEBUG --module=inbound
+  ```
+
+- Logs
 
 **system**
 
-<small>Inbound</small>
+#### Inbound
+
 ```bash
 journalctl -af -u swob_inbound.service
 ```
 
-<small>Outbound</small>
+#### Outbound
+
 ```bash
 journalctl -af -u swob_outbound.service
 ```
 
-### Envoi de messages SMS à l'aide d'OpenAPI.
+### Envoi de messages SMS à l'aide d'OpenAPI
 
 Avec [OpenAPI](https://smswithoutborders-openapi.readthedocs.io/en/latest/overview.html), vous pouvez envoyer des SMS individuels ou en masse par l'intermédiaire du client de la passerelle. Après avoir activé le client passerelle en tant que service système ou manuellement, vous pouvez commencer à envoyer des SMS.
 
-### Installation sur Raspberry pi (testé sur 4B).
+### Installation sur Raspberry pi (testé sur 4B)
 
-#### Ubuntu Server.
-_Refs_
-> https://ubuntu.com/tutorials/how-to-install-ubuntu-on-your-raspberry-pi#4-boot-ubuntu-server<br />
-> https://itsfoss.com/connect-wifi-terminal-ubuntu/
+#### Ubuntu Server
+
+Refs\_
+
+> <https://ubuntu.com/tutorials/how-to-install-ubuntu-on-your-raspberry-pi#4-boot-ubuntu-server>
+> <https://itsfoss.com/connect-wifi-terminal-ubuntu/>

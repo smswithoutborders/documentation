@@ -10,7 +10,7 @@ Gateway-servers enables the users to synchronize and communicate with the publis
 
 * How to setup and use Gateway Server
 
-The most recent version of this guide can be found in the [`github reposistory`](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server)
+The most recent version of this guide can be found in the [`github reposistory](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server)
 
 The frontend integrates with these services. you may need to set them up depending on what section you are working on.
 
@@ -18,21 +18,20 @@ The frontend integrates with these services. you may need to set them up dependi
 
 * [`Gateway Client`](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client)
 
-:::
-
 ### Requirements
 
 * python3
 
 ### Features
 
-* Message broker server for [Gateway-Client](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client) (_see [SMSWithoutBorders-OpenAPI](https://github.com/smswithoutborders/SMSWithoutBorders-OpenAPI)_ )
+* Message broker server for [Gateway-Client](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client) (_see [SMSWithoutBorders-OpenAPI](https://github.com/smswithoutborders/SMSWithoutBorders-OpenAPI))
 
 * [SMSWithoutBorders-App](https://github.com/smswithoutborders/SMSWithoutBorders-App-Android) synchronization for communication with [Publisher](https://github.com/smswithoutborders/SMSWithoutBorders-Publisher)
 
- > This should should be hosted in the same place as [Publisher](https://github.com/smswithoutborders/SMSWithoutBorders-Publisher), because Publisher is not _directly_ exposed to the web.
+> This should should be hosted in the same place as [Publisher](https://github.com/smswithoutborders/SMSWithoutBorders-Publisher), because Publisher is not _directly_ exposed to the web.
 
 * Forwards publishing request from [Gateway-Client](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client) to [Publisher](https://github.com/smswithoutborders/SMSWithoutBorders-Publisher)
+
 * Authenticates [Gateway-Client's](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client) request to join [Publisher](https://github.com/smswithoutborders/SMSWithoutBorders-Publisher)
 
 ### Installation
@@ -142,26 +141,24 @@ All configurations for websockets can be done in the `conf.ini` file in `gateway
 
 ##### Synchronization flow
 
-1. Begin by requesting for a new session. \
-`GET /<api-version>/sync/users/<user-id>` \
-\
-This returns a string url, which can be connected to by websocket clients. The users can begin communicating with this \
+1. Begin by requesting for a new session:
+`GET /<api-version>/sync/users/<user-id>`
+
+This returns a string url, which can be connected to by websocket clients. The users can begin communicating with this
 returned URL or scan them through the QR scan function in the app. The frequency of change of the synchronization urls depends
-on the configuration settings `[sync] session_sleep_timeout` (defaults = 15 seconds). \
-\
-The total number of changes per frequency can be changed in `[sync] session_change_limit` (defaults = 3 times) \
+on the configuration settings `[sync] session_sleep_timeout` (defaults = 15 seconds).
 
-`''`, `200` session created
+The total number of changes per frequency can be changed in `[sync] session_change_limit` (defaults = 3 times)
 
-`''`, `500` some error occured, check debug logs
+ `200` session created
 
-2. Once a sync url is connected and begins processing, the websocket sends a pause text `201- pause`. \
+`500` some error occured, check debug logs
+
+2. Once a sync url is connected and begins processing, the websocket sends a pause text `201- pause`
 The user begins authentictating themselves and adding their security policies to their record on the server.
 
-3. Once the user has performed the necessary handshake and the information exchange has begun, the websocket sends an \
-acknowledgment text `200- ack`.
-
-<a name="testing" />
+3. Once the user has performed the necessary handshake and the information exchange has begun, the websocket sends an
+acknowledgment text `200- ack`
 
 #### Testing
 
@@ -173,15 +170,15 @@ python -m unittest gateway_server/test/UTestUsers.py
 
 * Testing [WebSockets](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server/tree/main/gateway_server/sessions_websocket.py)
 
-[https://github.com/vi/websocat](https://github.com/vi/websocat)
+[websocat](https://github.com/vi/websocat)
 
-_Manjaro_
+Manjaro_
 
 ```bash
 sudo pacman -S websocat jq
 ```
 
-_Testing websocket_
+Testing websocket_
 
 ```bash
 websocat ws://localhost:6996/v2/sync/init/111/000

@@ -32,6 +32,7 @@ Une fois l'opération terminée, vous disposerez d'un AuthID et d'une AuthKey.
 Vous pouvez maintenant vous abonner à des produits et commencer à construire.
 
 * ### [OpenAPI](https://smswithoutborders-openapi.readthedocs.io/en/latest/)
+
 Tirez parti de la fonctionnalité d'OpenAPI pour envoyer des messages SMS individuels ou groupés à grande échelle.
 
 
