@@ -2,127 +2,190 @@
 sidebar_position: 1
 ---
 
-# آموزش اپلیکیشن موبایل
+# برنامه پیامک بدون مرز
 
-SMSWithoutBorders به ​​کاربران این امکان را می دهد که با پلتفرم های آنلاین خود در ارتباط باشند حتی زمانی که دسترسی به اینترنت در دسترس نیست. با استفاده از پیام‌های SMS، کاربران می‌توانند به طور یکپارچه به برقراری ارتباط ادامه دهند - مخاطبین آنها پیام‌ها را همانطور که معمولاً دریافت می‌کنند، دریافت می‌کنند.
+## شروع شدن
 
-## معرفی
+SMSWithoutBorders به ​​کاربران این امکان را می دهد که با سیستم عامل های آنلاین خود در ارتباط بمانند حتی زمانی که دسترسی به اینترنت در دسترس نیست. با استفاده از پیام‌های SMS، کاربران می‌توانند به طور یکپارچه به برقراری ارتباط ادامه دهند - مخاطبین آنها پیام‌ها را همانطور که معمولاً دریافت می‌کنند، دریافت می‌کنند.
 
-مراحل زیر به راه اندازی حساب خود و شروع استفاده از swob کمک می کند.
+## مقدمه
 
-### Step 1. Download App
+مراحل زیر به شما کمک می کند تا حساب خود را راه اندازی کنید و شروع به استفاده از swob کنید.
+
+### مرحله 1. دانلود برنامه
 
 ![Google Play Store](/img/swob_on_playstore.png)
 
-Download from [Google Play Store](https://play.google.com/store/apps/details?id=com.afkanerd.sw0b)
+- دانلود از [فروشگاه Google Play](https://play.google.com/store/apps/details?id=com.afkanerd.sw0b)
 
-[Github](https://github.com/smswithoutborders/SMSwithoutBorders-Android/releases/tag/v1.0)
+- [Github](https://github.com/smswithoutborders/SMSwithoutBorders-Android/releases/tag/v1.0) یا
 
-or build from [source](https://github.com/smswithoutborders/SMSwithoutBorders-Android)
+- ساخت از [source](https://github.com/smswithoutborders/SMSwithoutBorders-Android)
 
-#### Technical Requirements
+#### الزامات فنی
 
-- SMS capability Android smartphone
+ - قابلیت SMS گوشی هوشمند اندرویدی
 
-- Android 6.0 and above
+- اندروید 6.0 و بالاتر
 
-### Step 2. Create an account
+### مرحله 2. یک حساب کاربری ایجاد کنید
 
-- Onboarding / Using the App
+#### سوار شدن / استفاده از برنامه
 
 <img src="/img/onbording1.png" width="200"/>
 <img src="/img/onbording.png" width="200"/>
 <img src="/img/onbording2.png" width="200"/>
 
-
-- Sign up for a free account or log into your account on the app by clicking on the “add account” button
+- برای یک حساب کاربری رایگان ثبت نام کنید یا با کلیک بر روی دکمه "افزودن حساب" وارد حساب کاربری خود در برنامه شوید، "ایجاد جدید" را انتخاب کنید و اطلاعات مورد نیاز را پر کنید و سپس روی "ثبت نام" کلیک کنید.
 
 <img src="/img/sign_in.png" width="200"/>
 <img src="/img/sign_in1.png" width="200"/>
 <img src="/img/sign_in2.png" width="200"/>
 
-**Note** An authentication pin will be sent to a valid phone through SMS.
+**توجه** یک پین احراز هویت از طریق پیامک به تلفن معتبر ارسال می شود.
   
-### Step 3: Verify your phone number 
+### مرحله 3: شماره تلفن خود را تأیید کنید 
 
-A verification number will be sent to your phone number, input and verify
+یک شماره تأیید به شماره تلفن شما ارسال می شود، وارد شده و تأیید می شود
 
 <img src="/img/no-validation.png" width="200"/>
 
-### Step 4: Log in
+### مرحله 4: ورود به سیستم
 
-Once you've verified your phone number, you'll be logged into your SWOB account. Click on the menu icon on the top right to begin saving access to platforms you want to use offline. 
+اگر قبلاً یک حساب کاربری دارید، روی "ورود" کلیک کنید و شماره تلفن و رمز عبور خود را وارد کنید تا وارد حساب کاربری سواب خود شوید.
 
 <img src="/img/login.png" width="200"/>
 
-### Step 5. Save access to platforms​
+### مرحله 5. دسترسی به پلتفرم ها را ذخیره کنید
 
-One of the key features of SWOB is to be able to save access to online platforms while you have an active internet, then use the App to make requests to these platforms without an active internet connection. Once you login and click on **Save Accounts**, you will have a list of platforms we currently support. You can save your credentials for as many platforms as you can foresee further need in an offline situation.
+یکی از ویژگی‌های کلیدی SWOB این است که می‌توانید در زمانی که اینترنت فعال دارید، دسترسی به پلتفرم‌های آنلاین را ذخیره کنید، سپس از برنامه برای ارسال درخواست به این پلتفرم‌ها بدون اتصال اینترنتی فعال استفاده کنید. پس از ورود و کلیک بر روی **ذخیره حساب ها**، لیستی از پلتفرم هایی که ما در حال حاضر پشتیبانی می کنیم خواهید داشت. می‌توانید اعتبار خود را برای پلتفرم‌های زیادی که می‌توانید در شرایط آفلاین پیش‌بینی کنید، ذخیره کنید.
 
-**NB: You have to have any platform you want to save access installed in your phone already.**
+**توجه: قبل از اینکه بتوانید آن را در پلتفرم SWOB ذخیره کنید، باید پلتفرمی را که می خواهید ذخیره کنید روی گوشی خود نصب کرده باشید.**
 
 <img src="/img/token.png" width="200"/>
 
-### Step 6. Configure your App and begin utilizing​
+### مرحله 6. برنامه خود را پیکربندی کنید و شروع به استفاده کنید
 
-Once you've linked your apps to your SWOB  account, you'll need to add your gateway client number or select one from the list of available gateway clients. One important setting to configure is selecting the Gateway number for communication. It is cheaper to Opt for a Gateway number  from the same service provider as yours or within your country.  
+هنگامی که برنامه های خود را به حساب SWOB خود پیوند دادید، باید شماره سرویس گیرنده دروازه خود را اضافه کنید یا یکی از لیست کلاینت های دروازه موجود را انتخاب کنید. یکی از تنظیمات مهم برای پیکربندی، انتخاب شماره دروازه برای ارتباط است. انتخاب شماره Gateway از همان ارائه دهنده خدماتی که شما یا در داخل کشور خود دارید ارزان تر است.
 
 <img src="/img/add-message.png" width="200"/>
 <img src="/img/settings.png" width="200"/>
 
+### Step 6. Gateway Clients
 
-### To set a gateway number, follow these steps below
+ **Available Clients:**
 
-1. Save the intended gateway number in your contacts.
-2. Go to **Settings** and select Gateway Clients.
-3. Tap the *3 dots* sign at the top right corner and tap *add*.
-4. Click on the **Contact icon** to access your contacts.
-5. Find and select the saved Gateway Number.
-6. Confirm the selection and ass the gateway number successfully.
+- A list of pre-configured gateway clients is displayed. 
+- Pulling down on the list will refresh it, ensuring you have the latest available options.
+
+**Adding Custom Clients:**
+
+If your preferred gateway لیست نشده است، می توانید مشتری سفارشی خود را تنظیم کنید. دستورالعمل های پیکربندی یک کلاینت دروازه سفارشی به شرح زیر است.
+
+### برای تنظیم شماره دروازه، مراحل زیر را دنبال کنید
+
+1. شماره دروازه مورد نظر را در مخاطبین خود ذخیره کنید.
+2. به **تنظیمات** بروید و Gateway Clients را انتخاب کنید.
+3. روی علامت *3 نقطه* در گوشه بالا سمت راست ضربه بزنید و روی *افزودن* ضربه بزنید.
+4. برای دسترسی به مخاطبین خود روی **نماد تماس** کلیک کنید.
+5. شماره دروازه ذخیره شده را پیدا کرده و انتخاب کنید.
+6. انتخاب را تأیید کنید و شماره دروازه را با موفقیت تعیین کنید.
 
 <img src="/img/.png" width="200"/>
-<img src="/img/token.png" width="200"/>
-<img src="/img/token.png" width="200"/>
-
-# Communicating using the app
-
-Let's discover how to communicate without an Internet connection using SMSwithoutborders(SWOB).
-### Step 1: Click the compose button
 
 <img src="/img/token.png" width="200"/>
 
-After  the first stage has been completed which is saving access to platforms you wish to communicate on, synchronizing and adding a gateway number. 
-Open the SMSwithoutborders application after being downloaded from [Google Play Store](https://) , [Github](https://) or build from [source](https://) and click on the "pencil icon" to compose message
-
-
-### Step 2. Select a platform to compose message​
-
-Choose a platform to start composing message
-
-<img src="/img/token.png" width="200"/>
-
-### Step 3. Compose your message and send as SMS
-
-After composing your message on any platform, proceed to send it as usual. You will then be directed to your standard SMS page, where you can send the message to the pre-saved gateway number as an SMS. Note that the message will appear as encrypted when sending it as an SMS. This extra layer of security ensures that only you and the recipient can access the message, maintaining confidentiality.
-
-<img src="/img/token.png" width="200"/>
-<img src="/img/token.png" width="200"/>
 <img src="/img/token.png" width="200"/>
 
 
-#### Requirements​
+# ارتباط با استفاده از برنامه
 
-- Recipient's email for Gmail
-- Contacts phone number for Telegram
-- Tweet body for Twitter
+بیایید کشف کنیم که چگونه بدون اتصال به اینترنت با استفاده از SMSwithoutborders (SWOB) ارتباط برقرار کنیم.
 
-For either of the platforms selected, fill the required fields accurately and send SMS
+### مرحله 1: روی دکمه نوشتن کلیک کنید
 
-### Step 4: SMS Sent
+<img src="/img/token.png" width="200"/>
 
-Congratulations! You have successfully sent the SMS. The recipient will now receive the original message in a readable format. Please note that the time for receiving the message may vary depending on the mobile network and the functionality of the gateway client device
+پس از تکمیل مرحله اول که ذخیره دسترسی به پلتفرم هایی است که می خواهید با آنها ارتباط برقرار کنید، همگام سازی و اضافه کردن یک شماره دروازه. 
+
+برنامه SMSwithoutborders را پس از دانلود از [Google Play Store](https://) ، [Github](https://) یا ساخت از [source](https://) باز کنید و روی "نماد مداد" کلیک کنید تا نوشتن پیام
+
+### مرحله 2. یک پلتفرم برای نوشتن پیام انتخاب کنید
+
+یک پلتفرم برای شروع نوشتن پیام انتخاب کنید
+
+<img src="/img/token.png" width="200"/>
+
+### مرحله 3. پیام خود را بنویسید و به صورت SMS ارسال کنید
+
+پس از نوشتن پیام خود در هر پلتفرمی، طبق معمول اقدام به ارسال آن کنید. سپس به صفحه اس ام اس استاندارد خود هدایت می شوید، جایی که می توانید پیام را به عنوان پیامک به شماره دروازه از پیش ذخیره شده ارسال کنید. توجه داشته باشید که هنگام ارسال پیام به صورت رمزگذاری شده ظاهر می شود. این لایه امنیتی اضافی تضمین می کند که فقط شما و گیرنده می توانید به پیام دسترسی داشته باشید و محرمانه نگه دارید.
+
+<img src="/img/token.png" width="200"/>
+
+<img src="/img/token.png" width="200"/>
+
+<img src="/img/token.png" width="200"/>
+
+#### الزامات
+
+- ایمیل گیرنده برای جیمیل
+- شماره تماس برای تلگرام
+- بدنه توییت برای توییتر
+
+برای هر یک از پلتفرم های انتخاب شده، فیلدهای مورد نیاز را به دقت پر کنید و پیامک ارسال کنید
+
+### مرحله 4: پیامک ارسال شد
+
+تبریک می گویم! شما با موفقیت پیامک ارسال کردید. اکنون گیرنده پیام اصلی را در قالبی قابل خواندن دریافت می کند. لطفاً توجه داشته باشید که زمان دریافت پیام ممکن است بسته به شبکه تلفن همراه و عملکرد دستگاه کلاینت دروازه متفاوت باشد.
 
 
+### لغو پلتفرم های ذخیره شده
 
+با لغو پلتفرم های ذخیره شده، دسترسی شما به آنها از طریق smswithoutborders حذف می شود. این بدان معنی است که دیگر نمی توانید با استفاده از برنامه SMSWithouborders به ​​آن پلتفرم آنلاین پیام ارسال کنید. برای انجام این؛
+
+* روی تنظیمات کلیک کنید
+* به امنیت و حریم خصوصی بروید
+* روی «لغو سیستم عامل ها» ضربه بزنید و پلتفرمی را که می خواهید حذف کنید انتخاب کنید
+
+<img src="/img/token.png" width="200"/>
+<img src="/img/token.png" width="200"/>
+<img src="/img/token.png" width="200"/>
+
+### حذف و خروج از حساب کاربری
+
+حذف اکانت به معنای حذف تمام حساب های ذخیره شده به صورت آنلاین است. در صورت نیاز همیشه می توانید حساب خود را دوباره ایجاد کنید.
+
+خروج به این معنی است که همه پیام‌های فعلی شما حذف می‌شوند و همیشه می‌توانید در صورت نیاز دوباره وارد سیستم شوید.
+
+- روی تنظیمات کلیک کنید
+- به امنیت و حریم خصوصی بروید
+- برای خروج از حساب خود روی «خروج» و برای حذف حساب خود روی «حذف» ضربه بزنید
+
+<img src="/img/token.png" width="200"/>
+<img src="/img/token.png" width="200"/>
+
+### سفارشی کردن اولویت زبان شما
+
+این اپلیکیشن در حال حاضر به زبان های انگلیسی، فرانسوی و فارسی پشتیبانی می کند. در اینجا نحوه تغییر زبان آورده شده است:
+
+1. زبان خود را در هنگام سوار شدن تنظیم کنید:
+
+وقتی برای اولین بار برنامه را اجرا می کنید، می توانید زبان دلخواه خود را درست در اولین صفحه انتخاب کنید.
+
+<img src="/img/token.png" width="200"/>
+<img src="/img/token.png" width="200"/>
+
+2. زبان خود را از طریق تنظیمات تغییر دهید:
+
+همچنین می‌توانید ترجیحات زبان خود را در هر زمان با دنبال کردن این مراحل تنظیم کنید:
+
+- به منوی تنظیمات برنامه بروید.
+- گزینه "زبان" را بیابید.
+- زبان مورد نظر خود را از میان گزینه های موجود انتخاب کنید.
+
+رابط برنامه به طور خودکار به روز می شود تا زبان انتخابی شما را منعکس کند.
+
+<img src="/img/token.png" width="200"/>
+<img src="/img/token.png" width="200"/>
 
 
