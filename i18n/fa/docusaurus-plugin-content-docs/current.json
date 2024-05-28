@@ -1,31 +1,22 @@
 {
   "version.label": {
-    "message": "بعد",
+    "message": "Next",
     "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.Contributing to SMSWithoutBorders": {
-    "message": "مشارکت در SMSWithoutBorders",
+    "message": "Contributing to SMSWithoutBorders",
     "description": "The label for category Contributing to SMSWithoutBorders in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Developers": {
-    "message": "توسعه دهندگان",
-    "description": "The label for category Developers in sidebar tutorialSidebar"
-  },
   "sidebar.tutorialSidebar.category.Tutorials": {
-    "message": "آموزش ها",
+    "message": "Tutorials",
     "description": "The label for category Tutorials in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Contribute to docs": {
-    "message": "مشارکت در اسناد",
-    "description": "The label for category Contribute to docs in sidebar tutorialSidebar"
-  },
   "sidebar.tutorialSidebar.category.App Tutorial": {
-    "message": "آموزش برنامه",
+    "message": "App Tutorial",
     "description": "The label for category App Tutorial in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.SWOB Account Management": {
-    "message": "مدیریت حساب SWOB",
+    "message": "SWOB Account Management",
     "description": "The label for category SWOB Account Management in sidebar tutorialSidebar"
   }
 }
- 

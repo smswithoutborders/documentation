@@ -34,7 +34,7 @@ To verify SWOB activities on your account, go to your twitter timeline. There yo
 
 <!--need to add the correct link on revoke token-->
 
-There you can revoke your twitter access or you [revoke](https://smswithoutborders.com/) through the [SWOB interface](https://smswithoutborders.com/login).
+There you can revoke your twitter access or you [revoke](https://smswithoutborders.com/) through the [SWOB interface](https://smswithoutborders.com).
 
 **Telegram:**
 

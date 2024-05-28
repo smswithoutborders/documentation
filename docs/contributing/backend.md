@@ -138,7 +138,7 @@ A user has four attempts to request an OTP code daily
 
 **GATEWAY SERVER**
 
-This is a use-case of the [SMSWithoutBorders-Gateway-Server](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server) project.
+This is a use-case of the [SMSWithoutBorders-Gateway-Server]:https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server project.
 
 1. **URL**: The URL of the gateway server you are connecting to. (Default: localhost)
 2. **PORT**: The port number to connect to. (Default: 6969)

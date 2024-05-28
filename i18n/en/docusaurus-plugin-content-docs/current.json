@@ -7,17 +7,9 @@
     "message": "Contributing to SMSWithoutBorders",
     "description": "The label for category Contributing to SMSWithoutBorders in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Developers": {
-    "message": "Developers",
-    "description": "The label for category Developers in sidebar tutorialSidebar"
-  },
   "sidebar.tutorialSidebar.category.Tutorials": {
     "message": "Tutorials",
     "description": "The label for category Tutorials in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.category.Contribute to docs": {
-    "message": "Contribute to docs",
-    "description": "The label for category Contribute to docs in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.App Tutorial": {
     "message": "App Tutorial",

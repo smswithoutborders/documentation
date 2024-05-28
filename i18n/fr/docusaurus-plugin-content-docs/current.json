@@ -1,34 +1,22 @@
 {
   "version.label": {
-    "message": "Suivant",
+    "message": "Next",
     "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.Contributing to SMSWithoutBorders": {
-    "message": "Contribuer à SMSWithoutBorders",
+    "message": "Contributing to SMSWithoutBorders",
     "description": "The label for category Contributing to SMSWithoutBorders in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Developers": {
-    "message": "Développeurs",
-    "description": "The label for category Developers in sidebar tutorialSidebar"
-  },
   "sidebar.tutorialSidebar.category.Tutorials": {
-    "message": "Tutoriels",
+    "message": "Tutorials",
     "description": "The label for category Tutorials in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.category.Contribute to docs": {
-    "message": "Contribuer aux documents",
-    "description": "The label for category Contribute to docs in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.App Tutorial": {
     "message": "App Tutorial",
     "description": "The label for category App Tutorial in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.SWOB Account Management": {
-    "message": "Gestion de Compte SWOB",
+    "message": "SWOB Account Management",
     "description": "The label for category SWOB Account Management in sidebar tutorialSidebar"
   }
 }
-
-
-
-
