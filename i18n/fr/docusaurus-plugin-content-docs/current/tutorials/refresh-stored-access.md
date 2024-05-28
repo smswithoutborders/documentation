@@ -2,18 +2,19 @@
 sidebar_position: 5
 ---
 
-# Refresh Store Access
+# Actualiser l'accès au magasin
 
-Let's discover how to change the language of **SMSwithoutborders(SWOB)**.
+Découvrons comment changer la langue de **SMSsans frontières(SWOB)**.
 
-Presently, there are two available languages that is French and English. The steps below illustrate how to toggle between each languages
+Actuellement, deux langues sont disponibles : le français et l’anglais. Les étapes ci-dessous illustrent comment basculer entre chaque langue
 
-### Step 1. Open the settings page
+### Étape 1. Ouvrez la page des paramètres
 
-<img src="/img/settings .png" width="300" />
+<img src="/img/settings.png" height="700" />
 
-### Step 2. Select refresh method
 
-Choose a method to refresh store access
+### Étape 2. Sélectionnez la méthode d'actualisation
 
-<img src="/img/Screenshot_20220928_110327.png" width="300" />
+Choisissez une méthode pour actualiser l'accès au magasin
+
+<img src="/img/Screenshot_20220928_110327.png" height="700" />

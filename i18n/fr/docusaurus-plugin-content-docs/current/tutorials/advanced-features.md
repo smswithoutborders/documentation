@@ -2,30 +2,28 @@
 sidebar_position: 9
 ---
 
-# Advanced Features
+# Fonctionnalités avancées
 
-## Receiving emails with SMS
+## Réception de courriels par SMS
 
-In order to support the numerous amount of messaging services available we use the mail forwarding mechanism. This feature is available out-of-the box with most mailing services.
+Afin de prendre en charge les nombreux services de messagerie disponibles, nous utilisons le mécanisme de réacheminement du courrier. Cette fonction est disponible dans la plupart des services de messagerie.
 
-### Requirements
+### Exigences
 
-#### Saved access in wallet
+#### Accès enregistré dans le portefeuille
 
-To identify the intended phone number, we match your saved email addresses (from wallet) against all intended emails. In other to get mail access, be certain you are using a valid phonenumber and have saved at least 1 email in the your access wallet.
+Pour identifier le numéro de téléphone voulu, nous comparons les adresses électroniques que vous avez enregistrées (dans votre portefeuille) à toutes les adresses électroniques voulues. Pour obtenir l'accès au courrier, assurez-vous d'utiliser un numéro de téléphone valide et d'avoir sauvegardé au moins un courriel dans votre portefeuille d'accès.
 
-### How to forward emails to your SWOB account
+### Comment transférer des courriels vers votre compte SWOB
+Dans le client de messagerie de votre service de messagerie préféré, transférez à : forwarding@smswithoutborders.com Une fois que nous aurons vérifié votre demande de transfert (un message d'authentification nous sera envoyé), nous vous répondrons par courrier électronique. Tous les messages de transfert seront envoyés à votre numéro de téléphone par SMS.
+Exemple de transfert pour les services de messagerie électronique pris en charge
+Comment transférer des courriels à partir d'un compte Gmail
 
-In the email client of your preferred emailing service, forward to: forwarding@smswithoutborders.com Once we verify you request for forwarding (an authentication message would be sent to us), we will respond via email. All forwarding messages would be sent your to phone number via SMS.
-Example forwarding for supported email services
-How to forward emails from Gmail account
+#### Exemple de transfert pour les services de messagerie électronique pris en charge
 
-#### Example forwarding for supported email services
+[Comment transférer des courriels à partir d'un compte Gmail](https://www.lifewire.com/how-to-forward-gmail-email-using-filters-1171934)
 
-[How to forward emails from Gmail account](https://www.lifewire.com/how-to-forward-gmail-email-using-filters-1171934)
+### Mise en place d'une passerelle (point relais)
+Les passerelles (ou points relais) sont des unités de réception et d'envoi de SMS. Dans ce tutoriel, nous espérons vous aider à installer une passerelle et à commencer à recevoir et à envoyer des messages SMS..
 
-### Setting up a Gateway (Relay point)
-
-Gateways (aka Relay points) are SMS receiving and sending units. In this tutorial we hope you help anyone setup a Gateway unit and start receiving and sending out SMS messages.
-
-**Coming soon ...**
+**Bientôt disponible ...**

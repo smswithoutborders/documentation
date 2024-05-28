@@ -2,28 +2,27 @@
 sidebar_position: 2
 ---
 
-# Delete your account
+# Supprimer votre compte
 
-Go to [**SMSwithoutborders(SWOB)**](https://smswithoutborders.com)
+Aller à [SMSwithoutborders(SWOB)](https://smswithoutborders.com)
 
-### Step 1. Login to your SWOB account
+### Étape 1. Connectez-vous à votre compte SWOB
+<img src="/img/login.PNG" width="300px" />
 
-<img src="/img/login.png" width="300px" />
+###Étape 2. Ouvrir les paramètres
 
-### Step 2. Open settings
-
-In the navigation bar select settings
+Dans la barre de navigation, sélectionnez Paramètres
 
 <img src="/img/openSettings.jpeg" width="300px" />
 
-### Step 3. Select delete account
+### Étape 3. Sélectionnez supprimer le compte
 
 <img src="/img/settingsDelete.PNG" width="300px" />
 
-### Step 4. Confirm Delete
+### Étape 4. Confirmer la suppression
 
-Enter the passphrase:IConfirmThisAction and your password.
+Saisissez la phrase de passe:IConfirmThisAction et votre mot de passe.
 
 <img src="/img/approveDelete.PNG" width="300px" />
 
-Done! You have successfully deleted your SWOB account and your saved tokens.
+C'est fait ! Vous avez supprimé avec succès votre compte SWOB et vos jetons sauvegardés.

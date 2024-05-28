@@ -2,26 +2,24 @@
 sidebar_position: 7
 ---
 
-# Add a Gateway Client
+# Ajouter un client passerelle
 
-Let's discover how to add a gateway client to **SMSwithoutborders(SWOB)**.
+Découvrons comment ajouter un client passerelle à l'application**SMSwithoutborders(SWOB)**.
 
-Presently, there is a list of available gateway clients. The steps below illustrate how to add a gateway client
+Actuellement, il existe une liste de clients de passerelle disponibles. Les étapes ci-dessous illustrent comment ajouter un client passerelle
 
-### Step 1. Open the settings page
+### Étape 1. Ouvrez la page des paramètres
 
-Select the **Gateway clients** option from the list of settings options.
+Sélectionnez l'option **Clients passerelle** dans la liste des options de paramétrage.
+<img src="/img/settings.png" height="500" />
 
-<img src="/img/settings .png" width="300" />
+### Étape 2. Afficher les clients de la passerelle disponibles
 
-### Step 2. View availabe gateway clients
+Cliquez sur l'icône **plus** en haut à droite de l'écran.
+<img src="gatewayClient.png" height="500" />
 
-Click the **plus** icon on the top right of the screen
+### Etape 3. Ajouter un client passerelle
 
-<img src="/img/gatewayClient.png" width="300" />
+Remplissez les champs avec précision et cliquez sur**ADD**
 
-### Step 3. Add gateway client
-
-Fill the fields accurately and click **ADD**
-
-<img src="/img/gateway2.png" width="300" />
+<img src="/img/gateway2.png" height="500" />

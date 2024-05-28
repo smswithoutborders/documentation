@@ -1,9 +1,9 @@
 {
   "Get Started with Desktop": {
-    "message": "Get Started with Desktop"
+    "message": "Commencez avec le bureau"
   },
   "Get Started with Android": {
-    "message": "Get Started with Android"
+    "message": "Commencez avec Andriod"
   },
   "theme.ErrorPageContent.title": {
     "message": "Cette page a planté.",
@@ -149,7 +149,7 @@
     "description": "The label alongside a tag list"
   },
   "theme.admonition.caution": {
-    "message": "attention",
+    "message": "Attention",
     "description": "The default label used for the Caution admonition (:::caution)"
   },
   "theme.admonition.danger": {
