@@ -2,13 +2,13 @@
 sidebar_position: 1
 ---
 
-# Mobile App Tutorial
+# آموزش اپلیکیشن موبایل
 
-SMSWithoutBorders provides users with the ability to stay connected with their online platforms even when internet access is unavailable. By leveraging SMS messaging, users can continue communicating seamlessly- their contacts receive messages just as they normally would.
+SMSWithoutBorders به ​​کاربران این امکان را می دهد که با پلتفرم های آنلاین خود در ارتباط باشند حتی زمانی که دسترسی به اینترنت در دسترس نیست. با استفاده از پیام‌های SMS، کاربران می‌توانند به طور یکپارچه به برقراری ارتباط ادامه دهند - مخاطبین آنها پیام‌ها را همانطور که معمولاً دریافت می‌کنند، دریافت می‌کنند.
 
-## Introduction
+## معرفی
 
-The steps below will help setup your account and start using swob.
+مراحل زیر به راه اندازی حساب خود و شروع استفاده از swob کمک می کند.
 
 ### Step 1. Download App
 

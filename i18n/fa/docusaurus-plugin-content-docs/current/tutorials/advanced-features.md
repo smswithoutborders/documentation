@@ -2,30 +2,30 @@
 sidebar_position: 9
 ---
 
-# Advanced Features
+# خصوصیات پیشرفته
 
-## Receiving emails with SMS
+## دریافت ایمیل با اس ام اس
 
-In order to support the numerous amount of messaging services available we use the mail forwarding mechanism. This feature is available out-of-the box with most mailing services.
+به منظور پشتیبانی از تعداد بی شماری از خدمات پیام رسانی موجود، از مکانیزم ارسال نامه استفاده می کنیم. این ویژگی به صورت خارج از جعبه با اکثر خدمات پستی در دسترس است.
 
-### Requirements
+### الزامات
 
-#### Saved access in wallet
+#### دسترسی ذخیره شده در کیف پول
 
-To identify the intended phone number, we match your saved email addresses (from wallet) against all intended emails. In other to get mail access, be certain you are using a valid phonenumber and have saved at least 1 email in the your access wallet.
+برای شناسایی شماره تلفن مورد نظر، آدرس های ایمیل ذخیره شده شما (از کیف پول) را با همه ایمیل های مورد نظر مطابقت می دهیم. برای دسترسی به ایمیل، مطمئن شوید که از یک شماره تلفن معتبر استفاده می کنید و حداقل 1 ایمیل را در کیف پول دسترسی خود ذخیره کرده اید.
 
-### How to forward emails to your SWOB account
+### چگونه ایمیل ها را به حساب SWOB خود فوروارد کنیم
 
-In the email client of your preferred emailing service, forward to: forwarding@smswithoutborders.com Once we verify you request for forwarding (an authentication message would be sent to us), we will respond via email. All forwarding messages would be sent your to phone number via SMS.
-Example forwarding for supported email services
-How to forward emails from Gmail account
+در سرویس گیرنده ایمیل سرویس ایمیل مورد نظر شما، به آدرس: forwarding@smswithoutborders.com ارسال کنید. هنگامی که درخواست شما را برای باز ارسال تایید کردیم (یک پیام احراز هویت برای ما ارسال خواهد شد)، از طریق ایمیل پاسخ خواهیم داد. تمام پیام های ارسال شده از طریق پیامک به شماره تلفن شما ارسال می شود.
+نمونه حمل و نقل برای خدمات ایمیل پشتیبانی شده
+نحوه فوروارد ایمیل از حساب جیمیل
 
-#### Example forwarding for supported email services
+#### نمونه ارسال برای خدمات ایمیل پشتیبانی شده
 
-[How to forward emails from Gmail account](https://www.lifewire.com/how-to-forward-gmail-email-using-filters-1171934)
+[نحوه باز ارسال ایمیل‌ها از حساب Gmail](https://www.lifewire.com/how-to-forward-gmail-email-using-filters-1171934)
 
-### Setting up a Gateway (Relay point)
+### راه اندازی یک دروازه (نقطه رله)
 
-Gateways (aka Relay points) are SMS receiving and sending units. In this tutorial we hope you help anyone setup a Gateway unit and start receiving and sending out SMS messages.
+دروازه ها (با نام مستعار نقاط رله) واحدهای دریافت و ارسال پیامک هستند. در این آموزش امیدواریم به هر کسی کمک کنید تا واحد Gateway را راه اندازی کند و شروع به دریافت و ارسال پیامک کند.
 
-**Coming soon ...**
+**به زودی ...**

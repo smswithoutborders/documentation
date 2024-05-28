@@ -2,18 +2,18 @@
 sidebar_position: 6
 ---
 
-# View Encrypted Content
+# محتوای رمزگذاری شده را مشاهده کنید
 
-Let's discover how to see encrypted messages in **SMSwithoutborders(SWOB)**.
+بیایید نحوه دیدن پیام های رمزگذاری شده را در **SMSwithoutborders(SWOB)** کشف کنیم.
 
-### Step 1. Open the recents page
+### مرحله 1. صفحه اخیر را باز کنید
 
-This page has a list of sent messages which are all encrypted
+این صفحه فهرستی از پیام های ارسال شده دارد که همگی رمزگذاری شده اند
 
-<img src="/img/encrypted.png" width="300" />
+<img src="/img/encrypted.png" height="700" />
 
-### Step 2. Select a message
+### مرحله 2. یک پیام را انتخاب کنید
 
-Select by tapping on the encrypted message to view the decrypted text
+با ضربه زدن روی پیام رمزگذاری شده برای مشاهده متن رمزگشایی شده انتخاب کنید
 
-<img src="/img/decrypted .png" width="300" />
+<img src="/img/decrypted.png" height="700" />

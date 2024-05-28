@@ -2,60 +2,59 @@
 sidebar_position: 1
 ---
 
-# Getting Started
+# برای شروع
 
-Let's discover **SMSwithoutborders(SWOB)**.
+بیایید **SMSwithoutborders (SWOB)** را کشف کنیم.
 
-## Introduction
+## معرفی
 
-The steps below will help setup your account and start using swob.
+مراحل زیر به شما کمک می کند تا حساب کاربری خود را بسازید و شروع به استفاده از swob کنید.
 
-### Step 1. Download App
+### مرحله 1. برنامه را دانلود کنید
 
-![Google Play Store](/img/swob_on_playstore.png)
+![فروشگاه Google Play](/img/swob_on_playstore.png)
 
-Download from [**Google Play Store**](https://play.google.com/store/apps/details?id=com.afkanerd.sw0b) , [**Github**](https://github.com/smswithoutborders/SMSwithoutBorders-Android/releases/tag/v1.0) or build from [**source**](https://github.com/smswithoutborders/SMSwithoutBorders-Android)
+دانلود از [**Google Play Store**](https://play.google.com/store/apps/details?id=com.afkanerd.sw0b)، [**Github**](https:/ /github .com/smswithoutborders/SMSwithoutBorders-Android/releases/tag/v1.0) یا ساخت از [**source**](https://github.com/smswithoutborders/SMSwithoutBorders-Android)
 
-#### Technical Requirements
+#### الزامات فنی
 
-- SMS capability Android smartphone
-- Android 6.0 and above
+- قابلیت پیامک تلفن همراه اندرویدی
+- اندروید 6.0 و بالاتر
 
-### Step 2. Create an account
+### مرحله 2. یک حساب کاربری ایجاد کنید
 
-Sign up for a free account on [smswithoutborders.com](https://smswithoutborders.com/sign-up)
+برای یک حساب کاربری رایگان در [smswithoutborders.com](https://smswithoutborders.com/sign-up) ثبت نام کنید
 
-An authentication pin will be sent to a valid phone number which can recieve SMS.
+یک کد احراز هویت به یک شماره تلفن معتبر ارسال می شود که می تواند پیامک دریافت کند.
 
 ![Docs Version Dropdown](/img/swob_signup.png)
 
-### Step 3. Log in and save access to platforms
+### مرحله 3: وارد سیستم شوید و دسترسی به پلتفرم را ذخیره کنید
 
-One of the key features of SWOB is to be able to save access to online services while you have an active internet, then use the App to make requests to these services without an active internet connection. Once you login and click on **Wallet**, you will have a list of services we currently support. You can save your credentials for as many services as you can foresee further need in an offline situation.
-
+یکی از ویژگی‌های اصلی SWOB امکان ذخیره دسترسی به سرویس‌های آنلاین زمانی که اتصال اینترنتی فعال دارید و سپس استفاده از برنامه برای درخواست برای آن سرویس‌ها بدون اتصال اینترنتی فعال است. پس از ورود به سیستم و کلیک بر روی **Wallet**، لیستی از خدماتی که ما در حال حاضر پشتیبانی می کنیم دریافت خواهید کرد. می‌توانید اعتبار خود را برای هر تعداد خدماتی که انتظار دارید در شرایط آفلاین نیاز دارید ذخیره کنید.
 ![Docs Version Dropdown](/img/swob_wallet.png)
 
-### Step 4. Synchronize your App with your account
+### مرحله 4. برنامه خود را با حساب خود همگام کنید
 
-#### Requirements
+#### الزامات
 
-You will need another device (either a personal computer or another phone) which will have the QR code you will scan with your phone. You will have to make sure you are [**logged in**](https://smswithoutborders.com/login) to your account on this second device so as to access your QR code.
+شما به دستگاه دیگری (اعم از یک رایانه شخصی یا یک تلفن دیگر) نیاز دارید که دارای کد QR باشد که با تلفن خود اسکن خواهید کرد. برای دسترسی به کد QR خود، باید مطمئن شوید که [ورود به سیستم](https://smswithoutborders.com/login) در حساب خود در این دستگاه دوم هستید.
 
-#### After you have logged into your account
+#### پس از ورود به حساب کاربری خود
 
-Synchronizing your App with your account can be done by clicking on Profile on the navbar. You will be presented with the button **Sync with App**. Clicking the button will open up a QR screen with a QR code for you to scan. Open up your App and scan the code; more instructions on scanning the code with App below.
+همگام سازی برنامه خود با حساب خود را می توان با کلیک بر روی نمایه در نوار پیمایش انجام داد. دکمه **همگام سازی با برنامه** ظاهر می شود. با کلیک بر روی این دکمه یک صفحه QR با یک کد QR برای اسکن باز می شود. برنامه خود را باز کنید و کد را اسکن کنید. در زیر دستورالعمل های بیشتری در مورد نحوه اسکن کد با برنامه وجود دارد.
 
 ![Docs Version Dropdown](/img/swob_sync.png)
 
-#### On the App
+#### درباره برنامه
 
-The first time you open up the App, you will be asked to synchronize. This is done by scanning a QR code with your phone's Camera. Once the code is scanned, you will be asked to enter the password you created while creating your account. On successful password entry, you will be presented with a list of all the services you currently have offline via SWOB.
+اولین باری که برنامه را باز می کنید، از شما خواسته می شود که آن را همگام کنید. برای انجام این کار، باید یک کد QR را با استفاده از دوربین گوشی خود اسکن کنید. پس از اسکن کد، از شما خواسته می شود رمز عبوری که هنگام ایجاد حساب کاربری خود ایجاد کرده اید را وارد کنید. هنگامی که رمز عبور با موفقیت وارد شد، لیستی از تمام خدماتی که در حال حاضر آفلاین دارید از طریق SWOB دریافت خواهید کرد.
 
-### Step 5. Configure your App and begin utilizing
+### مرحله 5. برنامه خود را راه اندازی کنید و شروع به استفاده از آن کنید
 
-Once you have synchronized your App with your online account, you can begin setting it up. The most important setting you may have to use out of the box is choosing which Gateway number to communicate with. It will be cheaper for you to send out an SMS from the same service provider as the one you use, or send out an SMS from a number in your country than doing across service providers or internationally.
+هنگامی که برنامه خود را با حساب آنلاین خود همگام سازی کردید، می توانید شروع به تنظیم آن کنید. مهم ترین تنظیمی که ممکن است نیاز داشته باشید از قبل استفاده کنید، انتخاب شماره دروازه ای است که می خواهید با آن ارتباط برقرار کنید. ارسال پیامک از همان ارائه‌دهنده خدماتی که استفاده می‌کنید، یا ارسال پیامک از شماره‌ای که در کشور شما قرار دارد، ارزان‌تر از ارسال پیامک از سایر ارائه‌دهندگان خدمات یا بین‌المللی است.
 
-To change the Gateway number your App will be sending the Text to, click on **Settings** in the App, then choose the number you will rather be using. You can now begin utilizing that number from your Gateway.
+برای تغییر شماره دروازه ای که برنامه شما به آن متن ارسال می کند، روی **تنظیمات** در برنامه کلیک کنید، سپس شماره ای را که ترجیح می دهید استفاده کنید انتخاب کنید. اکنون می توانید استفاده از این شماره را از دروازه خود شروع کنید.
 
 ![swob_app](/img/swob_app.webp)
 ![swob_gateways](/img/swob_gateways.webp)

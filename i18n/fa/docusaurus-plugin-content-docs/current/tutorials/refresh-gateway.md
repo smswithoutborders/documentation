@@ -2,19 +2,15 @@
 sidebar_position: 8
 ---
 
-# Refresh Gateway Clients
+# Refresh Clients Gateway
 
-Let's discover how to change the language of **SMSwithoutborders(SWOB)**.
+### مرحله 1. صفحه مشتریان Gateway را باز کنید
 
-Presently, there are two available languages that is French and English. The steps below illustrate how to toggle between each languages
+صفحه تنظیمات را باز کنید و صفحه تنظیمات Gateway Clients را انتخاب کنید
+<img src="/img/settings.png" height="700" />
 
-### Step 1. Open the Gateway clients page
+### مرحله 2. بازخوانی دروازه
 
-Open the settings page and select Gateway Clients settings page
-<img src="/img/settings .png" width="300" />
+روی دکمه **رفرش** در پایین صفحه سمت چپ ضربه بزنید
 
-### Step 2. Refresh gateway
-
-Tap the **refresh** button on the bottom left screen
-
-<img src="/img/gatewayClient.png" width="300" />
+<img src="/img/gatewayClient.png" height="700" />

@@ -4,121 +4,121 @@ sidebar_position: 2
 
 # SMSWithoutBorders.com
 
-The official SMSWithoutBorders website.
+وب سایت رسمی SMSWithoutBorders.
 
-Here is the interface through which users can manage their accounts and save their credentials
+در اینجا رابط کاربری است که از طریق آن کاربران می توانند حساب های خود را مدیریت کرده و اعتبار خود را ذخیره کنند
 
-:::tip What you'll learn
+:::نکته آنچه یاد خواهید گرفت
 
-- How to setup the website
-- How to test and deploy the website with Apache and docker
+- نحوه راه اندازی وب سایت
+- نحوه تست و استقرار وب سایت با آپاچی و داکر
 
-The most recent version of this guide can be found in the [`websites github reposistory`](https://github.com/smswithoutborders/smswithoutborders.com)
+جدیدترین نسخه این راهنما را می‌توانید در ['websites github reposistory'] پیدا کنید(https://github.com/smswithoutborders/smswithoutborders.com)
 
-The frontend integrates with these services. you may need to set them up depending on what section you are working on.
+فرانت اند با این خدمات یکپارچه می شود. ممکن است لازم باشد بسته به قسمتی که روی آن کار می کنید آنها را تنظیم کنید.
 
-- [`Backend API`](https://github.com/smswithoutborders/smswithoutborders.com)
-- [`Gateway Server`](https://github.com/smswithoutborders/smswithoutborders.com)
+- ['API Backend'](https://github.com/smswithoutborders/smswithoutborders.com)
+- ['Gateway Server'](https://github.com/smswithoutborders/smswithoutborders.com)
 
 :::
 
-## Setup Guide
+## راهنمای راه اندازی
 
-Please follow the instructions below to setup this project
+لطفا دستورالعمل های زیر را برای راه اندازی این پروژه دنبال کنید
 
-## Requirements
+## الزامات
 
 - [Node.js LTS](https://nodejs.org/en/download/) >= v14
-- [Yarn](https://classic.yarnpkg.com/en/docs/install)
-- [GNU make](https://www.gnu.org/software/make/)
+- [نخ](https://classic.yarnpkg.com/en/docs/install)
+- [ساخت گنو](https://www.gnu.org/software/make/)
 - [Docker](https://www.docker.com/)
 
-## Install dependencies
+## وابستگی ها را نصب کنید
 
 ```bash
 yarn install
 ```
 
-## Configure environment variables
+## متغیرهای محیط را پیکربندی کنید
 
-Create development and production .env configuration files with defaults
+فایل های پیکربندی .env توسعه و تولید را با پیش فرض ایجاد کنید
 
 ```bash
 make config
 ```
 
-SMSWithoutBorders global config variables can also be passed in to override the default config
+متغیرهای پیکربندی جهانی SMSWithoutBorders نیز می توانند برای لغو تنظیمات پیش فرض ارسال شوند
 
 ```bash
 SWOB_BE_HOST=http://localhost:9000 SWOB_RECAPTCHA_ENABLE=true SWOB_RECAPTCHA_SITE_KEY=skfhk123 <command>
 ```
 
-Where command could be any one defined under scripts in package.json or Makefile target e.g `yarn start`, `make build`
+در جایی که دستور می‌تواند هر یک از اسکریپت‌های موجود در package.json یا Makefile target باشد، به‌عنوان مثال «yarn start»، «make build»
 
-**.env.development.local** is used in development environments and **.env.production.local** is used when creating production builds.
+**.env.development.local** در محیط های توسعه و **.env.production.local** هنگام ایجاد بیلدهای تولید استفاده می شود.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), which specifies variable naming conventions
+این پروژه با [Create React App](https://github.com/facebook/create-react-app) بوت استرپ شد که قراردادهای نامگذاری متغیرها را مشخص می کند.
 
-Below are the defaults. a reference is also kept in [env.example](https://github.com/smswithoutborders/smswithoutborders.com/blob/main/env.example)
+در زیر پیش فرض ها آمده است. یک مرجع نیز در [env.example] نگهداری می شود (https://github.com/smswithoutborders/smswithoutborders.com/blob/main/env.example)
 
 | Variable                         | Description                                                                                                 | Default value                                                                                           | Override                |
 | -------------------------------- | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ----------------------- |
 | PORT                             | development port                                                                                            | 18000                                                                                                   | PORT                    |
 | GENERATE_SOURCEMAP               | Generate or ignore sourcemaps                                                                               | false                                                                                                   | N/A                     |
-| REACT_APP_API_URL                | Backend API URL                                                                                             | http://localhost:9000                                                                              | SWOB_BE_HOST            |
+| REACT_APP_API_URL                | Backend API URL                                                                                             | http://localhost:9000                                                                                 | SWOB_BE_HOST            |
 | REACT_APP_API_VERSION            | Backend API version                                                                                         | v2                                                                                                      | SWOB_BE_VERSION         |
-| REACT_APP_GATEWAY_SERVER         | Gateway server API URL                                                                                      | http://localhost:15000                                                                               | SWOB_GS_HOST            |
+| REACT_APP_GATEWAY_SERVER         | Gateway server API URL                                                                                      | http://localhost:15000                                                                                | SWOB_GS_HOST            |
 | REACT_APP_GATEWAY_SERVER_VERSION | Gateway server version                                                                                      | v2                                                                                                      | SWOB_GS_VERSION         |
 | REACT_APP_RECAPTCHA_ENABLE       | Enable or disable recaptcha, make sure this setting is also toggled on the API                              | false                                                                                                   | SWOB_RECAPTCHA_ENABLE   |
 | REACT_APP_RECAPTCHA_SITE_KEY     | reCAPTCHAv2 site key obtained from [google](https://www.google.com/recaptcha/admin)                         | N/A                                                                                                     | SWOB_RECAPTCHA_SITE_KEY |
 | REACT_APP_RECAPTCHA_API_URL      | API script src from reCaptchav2 setup [documentation](https://developers.google.com/recaptcha/docs/display) | https://www.google.com/recaptcha/api.js                                                               | N/A                     |
-| REACT_APP_TUTORIAL_URL           | Link to the getting started tutorial                                                                        | https://smswithoutborders.github.io/docs/tutorials/getting-started                                  | N/A                     |
+| REACT_APP_TUTORIAL_URL           | Link to the getting started tutorial                                                                        | https://smswithoutborders.github.io/docs/tutorials/getting-started                                    | N/A                     |
 | REACT_APP_GATEWAY_TUTORIAL_URL   | Link to gateway client setup tutorial                                                                       | https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client/blob/alpha_stable/src/README.md | N/A                     |
 | REACT_APP_PRIVACY_POLICY_URL     | Link to hosted privacy policy markdown file(s)                                                              | https://raw.githubusercontent.com/smswithoutborders/smswithoutborders.com/dev/docs/privacy-policy     | N/A                     |
 | HTTPS                            | Enable or disable https                                                                                     | false                                                                                                   | SWOB_SSL_ENABLE         |
 | SSL_CRT_FILE                     | Location of SSL CRT file                                                                                    | N/A                                                                                                     | SWOB_SSL_CRT_FILE       |
 | SSL_KEY_FILE                     | Location of SSL Key file                                                                                    | N/A                                                                                                     | SWOB_SSL_KEY_FILE       |
 
-## Start development server
+## سرور توسعه را راه اندازی کنید
 
 ```bash
 yarn start
 ```
 
-**Note** configs are checked and regenerated each time yarn start is run. .env.development will not be overriten if it already exists but .env.production will.
+**توجه** پیکربندی ها بررسی می شوند و هر بار که نخ اجرا می شود، دوباره تولید می شوند. .env.development در صورتی که از قبل وجود داشته باشد زیاده روی نخواهد کرد اما .env.production خواهد شد.
 
-Open [http://localhost:18000](http://localhost:18000) to view it in the browser.
+[http://localhost:18000](http://localhost:18000) را باز کنید تا آن را در مرورگر مشاهده کنید.
 
-The page will reload if you make edits.
+اگر ویرایش کنید، صفحه دوباره بارگیری می شود.
 
-You will also see any lint errors in the console.
+همچنین هر گونه خطای پرز را در کنسول خواهید دید.
 
-## Create a production build
+## ساخت تولید ایجاد کنید
 
-For docker, see docker section below.
+برای docker، بخش docker را در زیر ببینید.
 
-Create an optimized production build that can be hosted on servers. This step uses the variables in **.env.production.local**
+یک ساخت تولید بهینه ایجاد کنید که بتواند روی سرورها میزبانی شود. این مرحله از متغیرهای موجود در **.env.production.local** استفاده می کند.
 
 ```bash
 yarn build or make build
 ```
 
-Check the `build` folder for deployable files once complete.
+پس از تکمیل، پوشه «build» را برای فایل‌های قابل استقرار بررسی کنید.
 
-## Deployment
+## گسترش
 
-### Standard deployment with apache
+### استقرار استاندارد با آپاچی
 
-For a Linux/Ubuntu server running apache2 web server, follow these steps to deploy the site
+برای سرور لینوکس/اوبونتو که دارای وب سرور apache2 است، این مراحل را برای استقرار سایت دنبال کنید
 
-- Enable rewrite module
+- ماژول بازنویسی را فعال کنید
 
 ```bash
 sudo a2enmod rewrite
 ```
 
-- Open apache configuration file at /etc/apache2/apache2.conf
-- Change the AllowOverride permission from none to all
+- فایل پیکربندی آپاچی را در /etc/apache2/apache2.conf باز کنید
+- اجازه AllowOverride را از هیچ به همه تغییر دهید
 
 ```bash
 <Directory /var/www/>
@@ -128,36 +128,36 @@ sudo a2enmod rewrite
 </Directory>
 ```
 
-- Copy contents of build folder to server root normally located at /var/www/html. Ensure the .htaccess file is copied over. The .htaccess file is quite important as specified [here](https://create-react-app.dev/docs/deployment/#static-server)
+- محتویات پوشه ساخت را در روت سرور که معمولاً در /var/www/html قرار دارد کپی کنید. مطمئن شوید که فایل .htaccess کپی شده است. فایل .htaccess همانطور که [اینجا] مشخص شده بسیار مهم است (https://create-react-app.dev/docs/deployment/#static-server)
 
 ```bash
 sudo cp -r build/. /var/www/html
 ```
 
-- restart apache2
+- راه اندازی مجدد apache2
 
 ```bash
 sudo systemctl restart apache2
 ```
 
-### Docker
+### داکر
 
-The SWOB docker image is designed to run in a production environment therefore, SSL keys are required
+تصویر داکر SWOB برای اجرا در یک محیط تولید طراحی شده است، بنابراین، کلیدهای SSL مورد نیاز است
 
-Start by building the docker image. There is a make script you can run. Also, SWOB env overrides can be passed directly to this command. See configuring env variables above.
+با ساختن تصویر داکر شروع کنید. یک اسکریپت ساخت وجود دارد که می توانید اجرا کنید. همچنین، SWOB env override می تواند مستقیماً به این دستور منتقل شود. پیکربندی متغیرهای env را در بالا ببینید.
 
 ```bash
 SWOB_SSL_ENABLE=true SWOB_SSL_CRT_FILE=/path/to/server.crt SWOB_SSL_KEY_FILE=/path/to/server.key make image
 ```
 
-You can also pass other SWOB env variable to be used instead of the defaults.
+همچنین می‌توانید متغیرهای دیگر SWOB env را برای استفاده به‌جای پیش‌فرض‌ها ارسال کنید.
 
 ```bash
 SWOB_RECAPTCHA_ENABLE=true SWOB_RECAPTCHA_SITE_KEY=somekeyhere make image
 ```
 
-A full list of all env variables can be found under `configure env variables` section above
+فهرست کاملی از همه متغیرهای env را می‌توانید در بخش «پیکربندی متغیرهای env» در بالا پیدا کنید
 
-Once build completes, a `swob-fe:latest` image is created. The image exposes ports `80` and `443` which can be mapped as required
+پس از تکمیل ساخت، تصویر «swob-fe:latest» ایجاد می‌شود. تصویر پورت‌های «۸۰» و «۴۴۳» را نشان می‌دهد که می‌توانند در صورت نیاز نقشه‌برداری شوند
 
-You can test the image by running `make container` and visit `http://localhost:18000`and `https://localhost:18001` in the browser or deploying with your own docker config options
+می‌توانید تصویر را با اجرای «make container» آزمایش کنید و از «http://localhost:18000» و «https://localhost:18001» در مرورگر بازدید کنید یا با استفاده از گزینه‌های پیکربندی docker خودتان.
