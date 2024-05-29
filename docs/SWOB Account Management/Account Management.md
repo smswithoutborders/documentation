@@ -2,9 +2,10 @@
 sidebar_position: 1
 ---
 
-Upon logging in to the SWOB app, you will be prompted to save tokens for Gmail, Telegram, and Twitter. This step is necessary to authorize the app to post messages on your behalf to these three platforms. The prompt will appear right after you sign in to the app.
+After signing in to the SWOB app, you will be prompted to store tokens for Gmail, Telegram, and Twitter. This needs to be done in order to grant the app permission to publish messages on your behalf to these three mentioned applications. This option pops up immediately after you sign-in to the app. 
 
 **Gmail :**
+
 Gmail is a free email service provided by Google. By storing access with us, you will be able to send emails by SMS using the SWOB app.
 
 On the authorization page, select the option ‘send email on your behalf’ .
@@ -15,9 +16,10 @@ On the authorization page, select the option ‘send email on your behalf’ .
 
 SWOB cannot read your messages or modify your account information.
 
-To confirm SWOB's activity on your account, access your Gmail and navigate to your sent messages. Here, you will find a record of all the messages that SWOB has sent on your behalf with your authorization. If you come across any message that you did not authorize, you can revoke your saved token.
+To verify SWOB activities on your account, go to your Gmail and open your sent messages, there you will see all the messages SWOB has sent on your behalf with your authorization. If you see any message that you did not authorize you can revoke your saved token.
 
 **Twitter:**
+
 Twitter is a microblogging and social networking service. By storing access with us, you will be able to tweet in real time by SMS using the SWOB app.
 
 On saving your twitter token, select ‘authorize app’.
@@ -33,11 +35,9 @@ To verify SWOB activities on your account, go to your twitter timeline. There yo
 <br/>
 
 <!--need to add the correct link on revoke token-->
-
-There you can revoke your twitter access or you [revoke](https://smswithoutborders.com/) through the [SWOB interface](https://smswithoutborders.com).
+There you can revoke your twitter access or you [revoke](https://smswithoutborders.com/) through the [SWOB interface](https://smswithoutborders.com/login).
 
 **Telegram:**
-
 <!--
 Telegram is a free cross platform, cloud based instant messaging service. By storing access with us, you will be able to send messages by SMS using the SWOB app.
 
@@ -55,3 +55,5 @@ Terminate the session or  you revoke through the SWOB interface.
 <br/>
 <img src="/img/Telegram-Access.png" height="400" width="300" />
 <br/>
+
+

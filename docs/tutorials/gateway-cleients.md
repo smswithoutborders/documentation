@@ -12,16 +12,17 @@ Presently, there is a list of available gateway clients. The steps below illustr
 
 Select the **Gateway clients** option from the list of settings options.
 
-<img src="/img/settings .png" width="300" />
+<img src="/img/settings .png" height="700" />
+
 
 ### Step 2. View availabe gateway clients
 
 Click the **plus** icon on the top right of the screen
 
-<img src="/img/gatewayClient.png" width="300" />
+<img src="gatewayClient.png" height="700" />
 
 ### Step 3. Add gateway client
 
 Fill the fields accurately and click **ADD**
 
-<img src="/img/gateway2.png" width="300" />
+<img src="/img/gateway2.png" height="700" />

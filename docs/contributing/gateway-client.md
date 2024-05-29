@@ -41,7 +41,7 @@ The most recent version of this guide can be found in the [`github reposistory`]
 
 #### Build and install
 
-<p>Clone the repository</p>
+Clone the repository
 
 ```bash
 git clone https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client.git
@@ -50,13 +50,13 @@ git clone https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client.
 cd SMSWithoutBorders-Gateway-Client
 ```
 
-<p>Create your config files</p>
+Create your config files
 
 ```bash
 make
 ```
 
-<p>Install more dependencies</p>
+Install more dependencies
 
 ```bash
 make install
@@ -66,7 +66,7 @@ make install
 
 Your clusters require a server to communicate with, and you will need to point to this in your configuration files.
 
-- Edit `.configs_config.ini` ref:[link to example config file](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client/tree/master/.configs/example.config.ini)
+- Edit `.configs/config.ini` ref:[link to example config file](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client/tree/master/.configs/example.config.ini)
 
 - Follow [these steps](https://smswithoutborders.github.io/docs/developers/getting-started) in order to get your Auth ID and Auth key
 
@@ -128,11 +128,14 @@ journalctl -af -u swob_outbound.service
 ```
 
 ### Sending out SMS messages Using OpenAPI
+
 With [OpenAPI](https://smswithoutborders-openapi.readthedocs.io/en/latest/overview.html), you can send out single and bulk SMS messages through the Gateway Client. After the gateway client as a system service or manually, you are good to start sending out SMS messages.
 
 
 ### Setting up on Raspberry pi (tested on 4B)
+
 #### Ubuntu Server
+
 _Refs_
 > https://ubuntu.com/tutorials/how-to-install-ubuntu-on-your-raspberry-pi#4-boot-ubuntu-server<br />
 > https://itsfoss.com/connect-wifi-terminal-ubuntu/

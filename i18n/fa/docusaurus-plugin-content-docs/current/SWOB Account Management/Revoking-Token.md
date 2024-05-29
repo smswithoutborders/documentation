@@ -2,13 +2,13 @@
 sidebar_position: 2
 ---
 
-# چگونه توکن های ذخیره شده خود را باطل کنیم.
+# How to revoke your saved tokens.
 
-**لغو توکن شما، دسترسی پلت فرم را به طور کامل از حساب شما حذف می کند.**
+**Revoking your token will completely remove the platform access from your account.**
 
-در اینجا مراحل انجام می شود:
+Here are the steps:
 
-### مرحله 1: به حساب SWOB خود وارد شوید
+### Step 1: Login to your SWOB account 
 
 <br/>
 <br/>
@@ -16,8 +16,7 @@ sidebar_position: 2
 <br/>
 <br/>
 
-### مرحله ۲: پلتفرمی را که می‌خواهید حذف کنید انتخاب کنید و روی Revoke Token کلیک کنید.
-
+### Step 2:  Select the platform you want to delete and click revoke token.
 <br/>
 <img src="/img/SelectTokenToDelete.png" height="400" width="300" />
 <br/>
@@ -32,15 +31,32 @@ sidebar_position: 2
 
 ### مرحله 4: روی Continue کلیک کنید.
 
-پس از وارد کردن رمز عبور، روی ادامه کلیک کنید و پلتفرم از توکن ذخیره شده شما حذف خواهد شد.
+### Step 4: Click Continue.
 
-**توجه:** پس از لغو، پلتفرم برای همیشه از حساب شما حذف خواهد شد.
+After you enter your password, click continue and the platform will be removed from your saved token. 
+
+**Note:** once you revoke, the platform will be permanently removed from your account.
 
 <img src="/img/DeletedToken.png" height="400" width="300" />
 <br/>
 <br/>
 
-**تبریک می‌گوییم، شما به تازگی رمز خود را با موفقیت حذف کردید.**
+**Congratulations, you’ve just successfully deleted your token.**
+
+**You can save them again whenever you feel like it.**
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 **هر زمان که دوست داشتید می توانید دوباره آنها را ذخیره کنید.**
 

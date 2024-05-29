@@ -25,15 +25,7 @@ function HomepageHeader() {
             className="button button--outline button--primary button--lg"
             to="/docs/contributing/introduction"
           >
-            <Translate>Get Started with Desktop</Translate>
-          </Link>
-        </div>
-        <div className={styles.buttons} style={{ marginTop: "10px" }}>
-          <Link
-            className="button button--outline button--primary button--lg"
-            to="/docs/App Tutorial/New-Tutorial"
-          >
-            <Translate>Get Started with Android</Translate>
+            <Translate>Get Started</Translate>
           </Link>
         </div>
       </div>
