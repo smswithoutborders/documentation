@@ -14,7 +14,7 @@ Les étapes ci-dessous illustrent le processus de communication à l'aide de swo
 
 <img src="/img/recents_page.png" height="500" />
 
-Ouvrez l'application **SMSwithoutborders** après l'avoir téléchargée sur [**Google Play Store**].(https://play.google.com/store/apps/details?id=com.afkanerd.sw0b) , [**Github**](https://github.com/smswithoutborders/SMSwithoutBorders-Android/releases/tag/v1.0) or build from [**source**](https://github.com/smswithoutborders/SMSwithoutBorders-Android) et cliquez sur le **"icône crayon "** pour composer le message
+Ouvrez l'application **SMSwithoutborders** après l'avoir téléchargée sur [Google Play Store](https://play.google.com/store/apps/details?id=com.afkanerd.sw0b) , [Github](https://github.com/smswithoutborders/SMSwithoutBorders-Android/releases/tag/v1.0) or build from [source](https://github.com/smswithoutborders/SMSwithoutBorders-Android) et cliquez sur le **"icône crayon "** pour composer le message
 
 ### Étape 2. Sélectionnez une plateforme pour rédiger le message
 

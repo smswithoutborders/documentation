@@ -13,7 +13,7 @@ sidebar_position: 2
 - نحوه راه اندازی وب سایت
 - نحوه تست و استقرار وب سایت با آپاچی و داکر
 
-جدیدترین نسخه این راهنما را می‌توانید در ['websites github reposistory'] پیدا کنید (https://github.com/smswithoutborders/smswithoutborders.com)
+جدیدترین نسخه این راهنما را می‌توانید در ['websites github reposistory'] پیدا کنید(https://github.com/smswithoutborders/smswithoutborders.com)
 
 فرانت اند با این خدمات یکپارچه می شود. ممکن است لازم باشد بسته به قسمتی که روی آن کار می کنید آنها را تنظیم کنید.
 
@@ -31,7 +31,7 @@ sidebar_position: 2
 - [Node.js LTS](https://nodejs.org/en/download/) >= v14
 - [نخ](https://classic.yarnpkg.com/en/docs/install)
 - [ساخت گنو](https://www.gnu.org/software/make/)
-- [Docker] (https://www.docker.com/)
+- [Docker](https://www.docker.com/)
 
 ## وابستگی ها را نصب کنید
 
@@ -57,7 +57,7 @@ SWOB_BE_HOST=http://localhost:9000 SWOB_RECAPTCHA_ENABLE=true SWOB_RECAPTCHA_SIT
 
 **.env.development.local** در محیط های توسعه و **.env.production.local** هنگام ایجاد بیلدهای تولید استفاده می شود.
 
-این پروژه با [Create React App] (https://github.com/facebook/create-react-app) بوت استرپ شد که قراردادهای نامگذاری متغیرها را مشخص می کند.
+این پروژه با [Create React App](https://github.com/facebook/create-react-app) بوت استرپ شد که قراردادهای نامگذاری متغیرها را مشخص می کند.
 
 در زیر پیش فرض ها آمده است. یک مرجع نیز در [env.example] نگهداری می شود (https://github.com/smswithoutborders/smswithoutborders.com/blob/main/env.example)
 
@@ -65,16 +65,16 @@ SWOB_BE_HOST=http://localhost:9000 SWOB_RECAPTCHA_ENABLE=true SWOB_RECAPTCHA_SIT
 | -------------------------------- | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ----------------------- |
 | PORT                             | development port                                                                                            | 18000                                                                                                   | PORT                    |
 | GENERATE_SOURCEMAP               | Generate or ignore sourcemaps                                                                               | false                                                                                                   | N/A                     |
-| REACT_APP_API_URL                | Backend API URL                                                                                             | <http://localhost:9000>                                                                                 | SWOB_BE_HOST            |
+| REACT_APP_API_URL                | Backend API URL                                                                                             | http://localhost:9000                                                                                 | SWOB_BE_HOST            |
 | REACT_APP_API_VERSION            | Backend API version                                                                                         | v2                                                                                                      | SWOB_BE_VERSION         |
-| REACT_APP_GATEWAY_SERVER         | Gateway server API URL                                                                                      | <http://localhost:15000>                                                                                | SWOB_GS_HOST            |
+| REACT_APP_GATEWAY_SERVER         | Gateway server API URL                                                                                      | http://localhost:15000                                                                                | SWOB_GS_HOST            |
 | REACT_APP_GATEWAY_SERVER_VERSION | Gateway server version                                                                                      | v2                                                                                                      | SWOB_GS_VERSION         |
 | REACT_APP_RECAPTCHA_ENABLE       | Enable or disable recaptcha, make sure this setting is also toggled on the API                              | false                                                                                                   | SWOB_RECAPTCHA_ENABLE   |
 | REACT_APP_RECAPTCHA_SITE_KEY     | reCAPTCHAv2 site key obtained from [google](https://www.google.com/recaptcha/admin)                         | N/A                                                                                                     | SWOB_RECAPTCHA_SITE_KEY |
-| REACT_APP_RECAPTCHA_API_URL      | API script src from reCaptchav2 setup [documentation](https://developers.google.com/recaptcha/docs/display) | <https://www.google.com/recaptcha/api.js>                                                               | N/A                     |
-| REACT_APP_TUTORIAL_URL           | Link to the getting started tutorial                                                                        | <https://smswithoutborders.github.io/docs/tutorials/getting-started>                                    | N/A                     |
-| REACT_APP_GATEWAY_TUTORIAL_URL   | Link to gateway client setup tutorial                                                                       | <https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client/blob/alpha_stable/src/README.md> | N/A                     |
-| REACT_APP_PRIVACY_POLICY_URL     | Link to hosted privacy policy markdown file(s)                                                              | <https://raw.githubusercontent.com/smswithoutborders/smswithoutborders.com/dev/docs/privacy-policy>     | N/A                     |
+| REACT_APP_RECAPTCHA_API_URL      | API script src from reCaptchav2 setup [documentation](https://developers.google.com/recaptcha/docs/display) | https://www.google.com/recaptcha/api.js                                                               | N/A                     |
+| REACT_APP_TUTORIAL_URL           | Link to the getting started tutorial                                                                        | https://smswithoutborders.github.io/docs/tutorials/getting-started                                    | N/A                     |
+| REACT_APP_GATEWAY_TUTORIAL_URL   | Link to gateway client setup tutorial                                                                       | https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client/blob/alpha_stable/src/README.md | N/A                     |
+| REACT_APP_PRIVACY_POLICY_URL     | Link to hosted privacy policy markdown file(s)                                                              | https://raw.githubusercontent.com/smswithoutborders/smswithoutborders.com/dev/docs/privacy-policy     | N/A                     |
 | HTTPS                            | Enable or disable https                                                                                     | false                                                                                                   | SWOB_SSL_ENABLE         |
 | SSL_CRT_FILE                     | Location of SSL CRT file                                                                                    | N/A                                                                                                     | SWOB_SSL_CRT_FILE       |
 | SSL_KEY_FILE                     | Location of SSL Key file                                                                                    | N/A                                                                                                     | SWOB_SSL_KEY_FILE       |

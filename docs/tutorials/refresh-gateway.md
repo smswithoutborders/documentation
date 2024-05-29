@@ -11,10 +11,10 @@ Presently, there are two available languages that is French and English. The ste
 ### Step 1. Open the Gateway clients page
 
 Open the settings page and select Gateway Clients settings page
-<img src="/img/settings .png" height="700" />
+<img src="/img/settings .png" width="300" />
 
 ### Step 2. Refresh gateway
 
 Tap the **refresh** button on the bottom left screen
 
-<img src="/img/gatewayClient.png" height="700" />
+<img src="/img/gatewayClient.png" width="300" />

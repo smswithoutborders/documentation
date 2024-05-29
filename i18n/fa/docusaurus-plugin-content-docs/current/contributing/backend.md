@@ -216,7 +216,6 @@ node controllers/sync_platforms.js && node server.js
 
 ``باش
 NODE_ENV=production npm start_main را اجرا کنید
-
 ```
 
 - با NODE
@@ -288,7 +287,7 @@ http://localhost:{PORT}/v2/api-docs
 
 ## گزارش های API
 
-به‌طور پیش‌فرض [سطوح ورود] (https://github.com/smswithoutborders/SMSwithoutborders-BE/tree/main/logs#log-levels) روی «info» تنظیم شده‌اند. می‌توانید [سطوح ورود] را تغییر دهید (https://github.com/smswithoutborders/SMSwithoutborders-BE/tree/main/logs#log-levels). برای مثال، [Start both Backend User Management API and Backend Publisher API](#Start-both-Backend-User-management-API-and-Backend-Publisher-API) با [log level](https://github.com /smswithoutborders/SMSwithoutborders-BE/tree/main/logs#log-levels) روی "اشکال زدایی" تنظیم شد
+به‌طور پیش‌فرض [سطوح ورود] (https://github.com/smswithoutborders/SMSwithoutborders-BE/tree/main) روی «info» تنظیم شده‌اند. می‌توانید [سطوح ورود] را تغییر دهید (https://github.com/smswithoutborders/SMSwithoutborders-BE/tree/main/). برای مثال، [Start both Backend User Management API and Backend Publisher API](#Start-both-Backend-User-management-API-and-Backend-Publisher-API) با [log level](https://github.com/smswithoutborders/SMSwithoutborders-BE/tree/main) روی "اشکال زدایی" تنظیم شد
 
 ```
 
@@ -296,5 +295,5 @@ LOG_LEVEL=اشکال npm اشکال زدایی
 
 ```
 
-همه فایل‌های گزارش در فهرست سیاهه‌ها یافت می‌شوند. [بیشتر بخوانید](https://github.com/smswithoutborders/SMSwithoutborders-BE/tree/main/logs) ...
+همه فایل‌های گزارش در فهرست سیاهه‌ها یافت می‌شوند. [بیشتر بخوانید](https://github.com/smswithoutborders/SMSwithoutborders-BE/tree/main/) ...
 ```

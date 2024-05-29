@@ -3,28 +3,24 @@
     "message": "SMSWithoutBorders",
     "description": "The title in the navbar"
   },
+  "logo.alt": {
+    "message": "SMSwithoutborders logo",
+    "description": "The alt text of navbar logo"
+  },
   "item.label.Docs": {
     "message": "Documents",
     "description": "Navbar item with label Docs"
-  },
-  "item.label.Developers": {
-    "message": "Développeurs",
-    "description": "Navbar item with label Developers"
   },
   "item.label.Tutorials": {
     "message": "Tutoriels",
     "description": "Navbar item with label Tutorials"
   },
+  "item.label.SWOB Account Management": {
+    "message": "Gestion de compte SWOB",
+    "description": "Navbar item with label SWOB Account Management"
+  },
   "item.label.GitHub": {
     "message": "GitHub",
     "description": "Navbar item with label GitHub"
-  },
-  "logo.alt": {
-    "message": "SMSwithoutborders logo",
-    "description": "The alt text of navbar logo"
-  },
-  "item.label.SWOB Account Management": {
-    "message": "Gestion de Compte SWOB",
-    "description": "Navbar item with label SWOB Account Management"
   }
 }

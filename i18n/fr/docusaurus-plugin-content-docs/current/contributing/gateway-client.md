@@ -10,7 +10,7 @@ Gateway Client est une passerelle de gestion de SMS sous Linux. Elle peut à la 
 
 * Comment configurer et utiliser les clients de la passerelle
 
-La version la plus récente de ce guide se trouve dans le [`github reposistory`] (https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client).
+La version la plus récente de ce guide se trouve dans le [`github reposistory`](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client).
 
 :::
 
@@ -40,22 +40,23 @@ La version la plus récente de ce guide se trouve dans le [`github reposistory`]
 
 #### Construire et installer
 
-<p>Cloner le dépôt</p>
+Cloner le dépôt
 
 ```bash
 git clone https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client.git
 ```
+
 ```bash
 cd SMSWithoutBorders-Gateway-Client
 ```
 
-<p>Créez vos fichiers de configuration</p>
+Créez vos fichiers de configuration
 
 ```bash
 make
 ```
 
-<p>Installer d'autres dépendances</p>
+Installer d'autres dépendances
 
 ```bash
 make install
@@ -63,8 +64,7 @@ make install
 
 #### Configuration
 
-<p>
-Vos clusters ont besoin d'un serveur avec lequel ils communiquent, et vous devrez le désigner dans vos fichiers de configuration.</p>
+Vos clusters ont besoin d'un serveur avec lequel ils communiquent, et vous devrez le désigner dans vos fichiers de configuration.
 
 - Modifier `.configs/config.ini` ref :[lien vers un exemple de fichier de configuration](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client/tree/master/.configs/example.config.ini)
 
@@ -128,11 +128,13 @@ tail -f src/services/logs/service.log
 **system**
 
 <small>Inbound</small>
+
 ```bash
 journalctl -af -u swob_inbound.service
 ```
 
 <small>Outbound</small>
+
 ```bash
 journalctl -af -u swob_outbound.service
 ```
@@ -144,6 +146,7 @@ Avec [OpenAPI](https://smswithoutborders-openapi.readthedocs.io/en/latest/overvi
 ### Installation sur Raspberry pi (testé sur 4B).
 
 #### Ubuntu Server.
+
 _Refs_
 > https://ubuntu.com/tutorials/how-to-install-ubuntu-on-your-raspberry-pi#4-boot-ubuntu-server<br />
 > https://itsfoss.com/connect-wifi-terminal-ubuntu/

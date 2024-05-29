@@ -8,7 +8,7 @@ Les serveurs passerelles permettent aux utilisateurs de se synchroniser et de co
 :::conseil Ce que vous apprendrez
 
 * Comment configurer et utiliser le serveur Gateway
-La version la plus récente de ce guide se trouve dans le [`github reposistory`].](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server)
+La version la plus récente de ce guide se trouve dans le [`github reposistory`](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server)
 
 Le frontend s'intègre à ces services. Il se peut que vous deviez les configurer en fonction de la section sur laquelle vous travaillez.
 
@@ -24,13 +24,13 @@ Le frontend s'intègre à ces services. Il se peut que vous deviez les configure
 
 ### Fonctionnalités
 
-*Serveur de courtier en messages pour [Gateway-Client](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client) (_see [SMSWithoutBorders-OpenAPI](https://github.com/smswithoutborders/SMSWithoutBorders-OpenAPI)_ )
+* Serveur de courtier en messages pour [Gateway-Client](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client) (_see [SMSWithoutBorders-OpenAPI](https://github.com/smswithoutborders/SMSWithoutBorders-OpenAPI)_ )
 
 * [SMSWithoutBorders-App](https://github.com/smswithoutborders/SMSWithoutBorders-App-Android) synchronisation pour la communication avec[Publisher](https://github.com/smswithoutborders/SMSWithoutBorders-Publisher)
 
 > Il devrait être hébergé au même endroit que [Publisher](https://github.com/smswithoutborders/SMSWithoutBorders-Publisher),parce que Publisher n'est pas _directement_ exposé au web.
 
-*Transmet la demande de publication de[Gateway-Client](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client) à[Publisher](https://github.com/smswithoutborders/SMSWithoutBorders-Publisher)
+* Transmet la demande de publication de[Gateway-Client](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client) à[Publisher](https://github.com/smswithoutborders/SMSWithoutBorders-Publisher)
 * Authentifie[Gateway-Client's](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client) demande d'adhésion [Publisher](https://github.com/smswithoutborders/SMSWithoutBorders-Publisher)
 
 ### Installation
@@ -123,6 +123,7 @@ Renvoie le LPS de la session en cours. LPS = Dernière session ping
 La synchronisation est nécessaire pour permettre aux utilisateurs d'acquérir les clés de sécurité, les plateformes et les passerelles disponibles.
 
 ##### Configuration manuelle des sessions websocket
+
 ```bash
 . venv/bin/activate
 python3 gateway_server/sessions_websocket.py
@@ -137,13 +138,13 @@ Toutes les configurations pour les websockets peuvent être faites dans le fichi
 
 ##### Flux de synchronisation
 
-1. Commencez par demander une nouvelle session. \
-`GET /<api-version>/sync/users/<user-id>` \
-\
+1. Commencez par demander une nouvelle session. 
+
+`GET /<api-version>/sync/users/<user-id>` 
+
 Il renvoie une chaîne d'url à laquelle les clients websocket peuvent se connecter. Les utilisateurs peuvent commencer à communiquer avec l'URL renvoyée ou les scanner via la fonction QR scan de l'application.
-renvoyée ou les scanner grâce à la fonction QR scan de l'application. La fréquence de changement des urls de synchronisation dépend des paramètres de configuration `[synchro
-dépend des paramètres de configuration `[sync] session_sleep_timeout` (par défaut = 15 secondes). \
-\
+renvoyée ou les scanner grâce à la fonction QR scan de l'application. La fréquence de changement des urls de synchronisation dépend des paramètres de configuration `[synchro dépend des paramètres de configuration `[sync] session_sleep_timeout` (par défaut = 15 secondes). 
+
 Le nombre total de changements par fréquence peut être modifié dans `[sync] session_change_limit` (valeur par défaut = 3 fois) \N- Le nombre total de changements par fréquence peut être modifié dans `[sync] session_change_limit` (valeur par défaut = 3 fois).
 
 `''`, `200`session créée
