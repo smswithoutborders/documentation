@@ -1,7 +1,5 @@
 # Smswithoutborders
 
-Here is a comprehensive README documentation for your `smswithoutborders` Docusaurus project, including instructions for running the project and handling translations.
-
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
 ## Installation
@@ -90,29 +88,32 @@ Docusaurus supports internationalization (i18n) to translate your site into diff
 
 2. Run the write-translations command:
 
- - for English run:
-    ```sh
-    pnpm docusaurus write-translations --locale en
-    ```
- - for French run:
-    ```sh
-    pnpm docusaurus write-translations --locale fr
-    ```
- - for Fashi/Persian run:
-    ```sh
-    pnpm docusaurus write-translations --locale fa
-    ```
+    - For English:
+      ```sh
+      pnpm docusaurus write-translations --locale en
+      ```
+    - For French:
+      ```sh
+      pnpm docusaurus write-translations --locale fr
+      ```
+    - For Farsi/Persian:
+      ```sh
+      pnpm docusaurus write-translations --locale fa
+      ```
 
 **Note:** When working with translations, ensure that the `i18n` configuration in your `docusaurus.config.js` file is correctly set up.
 
-To see your translated files on your local server, run the following:
-- build your project first
-```sh
-pnpm run build
-```
+To see your translated files on your local server, follow these steps:
 
-**Note:**
-- serve using:
-```sh
-npm run serve
-```
+1. Build your project:
+   ```sh
+   pnpm run build
+   ```
+
+2. Serve the built project:
+   ```sh
+   npm run serve
+   ```
+
+This will serve the static content generated in the `build` directory.
+
