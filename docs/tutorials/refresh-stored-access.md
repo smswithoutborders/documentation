@@ -10,11 +10,10 @@ Presently, there are two available languages that is French and English. The ste
 
 ### Step 1. Open the settings page
 
-<img src="/img/settings .png" height="700" />
-
+<img src="/img/settings .png" width="300" />
 
 ### Step 2. Select refresh method
 
 Choose a method to refresh store access
 
-<img src="/img/Screenshot_20220928_110327.png" height="700" />
+<img src="/img/Screenshot_20220928_110327.png" width="300" />
