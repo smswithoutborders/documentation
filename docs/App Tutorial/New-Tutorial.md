@@ -127,7 +127,6 @@ After composing your message on any platform, proceed to send it as usual. You w
 
 <img src="/img/token.png" width="200"/>
 
-
 #### Requirements​
 
 - Recipient's email for Gmail
