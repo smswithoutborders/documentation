@@ -23,3 +23,10 @@
   --ifm-color-primary-lightest: #93C5FD;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.resized-image {
+  width: 200px;
+  height: auto;
+}
+
+

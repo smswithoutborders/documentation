@@ -14,7 +14,7 @@ SMSWithoutBorders به ​​کاربران این امکان را می دهد �
 
 ### مرحله 1. دانلود برنامه
 
-![Google](/static/img/swob_on_playstore.png)
+![Google](/img/swob_on_playstore.png)
 
 - دانلود از [فروشگاه Google Play](https://play.google.com/store/apps/details?id=com.afkanerd.sw0b)
 
@@ -32,15 +32,15 @@ SMSWithoutBorders به ​​کاربران این امکان را می دهد �
 
 #### سوار شدن / استفاده از برنامه
 
-![onbording1](/static/img/onbording1.png)
-![onbording](/static/img/onbording.png)
-![onbording2](/static/img/onbording2.png)
+<img src="/img/onbording1.png" alt="onbording1" class="resized-image"/>
+<img src="/img/onbording.png" alt="onbording" class="resized-image"/>
+<img src="/img/onbording2.png" alt="onbording2" class="resized-image"/>
 
 - برای یک حساب کاربری رایگان ثبت نام کنید یا با کلیک بر روی دکمه "افزودن حساب" وارد حساب کاربری خود در برنامه شوید، "ایجاد جدید" را انتخاب کنید و اطلاعات مورد نیاز را پر کنید و سپس روی "ثبت نام" کلیک کنید.
 
-![sing_in](/static/img/sign_in.png)
-![sign_in1](/static/img/sign_in1.png)
-![sign_in2](/static/img/sign_in2.png)
+<img src="/img/sign_in.png" alt="sign_in" class="resized-image"/>
+<img src="/img/sign_in1.png" alt="sign_in1" class="resized-image"/>
+<img src="/img/sign_in2.png" alt="sign_in2" class="resized-image"/>
 
 **توجه** یک پین احراز هویت از طریق پیامک به تلفن معتبر ارسال می شود.
   
@@ -48,13 +48,13 @@ SMSWithoutBorders به ​​کاربران این امکان را می دهد �
 
 یک شماره تأیید به شماره تلفن شما ارسال می شود، وارد شده و تأیید می شود
 
-![no-validation](/static/img/no-validation.png)
+<img src="/img/no-validation.png" alt="no-validation" class="resized-image"/>
 
 ### مرحله 4: ورود به سیستم
 
 اگر قبلاً یک حساب کاربری دارید، روی "ورود" کلیک کنید و شماره تلفن و رمز عبور خود را وارد کنید تا وارد حساب کاربری سواب خود شوید.
 
-![login](/static/img/login.png)
+<img src="/img/login.png" alt="login" class="resized-image"/>
 
 ### مرحله 5. دسترسی به پلتفرم ها را ذخیره کنید
 
@@ -62,14 +62,14 @@ SMSWithoutBorders به ​​کاربران این امکان را می دهد �
 
 **توجه: قبل از اینکه بتوانید آن را در پلتفرم SWOB ذخیره کنید، باید پلتفرمی را که می خواهید ذخیره کنید روی گوشی خود نصب کرده باشید.**
 
-![token](/static/img/token.png)
+<img src="/img/token.png" alt="token" class="resized-image"/>
 
 ### مرحله 6. برنامه خود را پیکربندی کنید و شروع به استفاده کنید
 
 هنگامی که برنامه های خود را به حساب SWOB خود پیوند دادید، باید شماره سرویس گیرنده دروازه خود را اضافه کنید یا یکی از لیست کلاینت های دروازه موجود را انتخاب کنید. یکی از تنظیمات مهم برای پیکربندی، انتخاب شماره دروازه برای ارتباط است. انتخاب شماره Gateway از همان ارائه دهنده خدماتی که شما یا در داخل کشور خود دارید ارزان تر است.
 
-![add-message](/static/img/add-message.png)
-![setting](/static/img/setting.png)
+<img src="/img/add-message.png" alt="add-message" class="resized-image"/>
+<img src="/img/setting.png" alt="setting" class="resized-image"/>
 
 ### Step 6. Gateway Clients
 
@@ -82,7 +82,8 @@ SMSWithoutBorders به ​​کاربران این امکان را می دهد �
 
 If your preferred gateway لیست نشده است، می توانید مشتری سفارشی خود را تنظیم کنید. دستورالعمل های پیکربندی یک کلاینت دروازه سفارشی به شرح زیر است.
 
-![setting](/static/img/setting.png)
+<img src="/img/setting.png" alt="setting" class="resized-image"/>
+<!-- <img src="/img/setting.png" class="resized-image"/> -->
 
 ### برای تنظیم شماره دروازه، مراحل زیر را دنبال کنید
 
@@ -93,12 +94,11 @@ If your preferred gateway لیست نشده است، می توانید مشتر�
 5. شماره دروازه ذخیره شده را پیدا کرده و انتخاب کنید.
 6. انتخاب را تأیید کنید و شماره دروازه را با موفقیت تعیین کنید.
 
-![GatewayAvailable](/static/img/GateWayAvailable.png)
+<img src="/img/GateWayAvailable.png" alt="GatewayAvailable" class="resized-image"/>
 
-![refresh gateway](/static/img/refresh-gateway.png)
+<img src="/img/refresh-gateway.png" alt="refresh gateway" class="resized-image"/>
 
-![addgatewayclient](/static/img/add-gateway-client.png)
-
+<img src="/img/add-gateway-client.png" alt="addgatewayclient" class="resized-image"/>
 
 # ارتباط با استفاده از برنامه
 
@@ -106,7 +106,7 @@ If your preferred gateway لیست نشده است، می توانید مشتر�
 
 ### مرحله 1: روی دکمه نوشتن کلیک کنید
 
-![add-message](/static/img/add-message.png)
+<img src="/img/add-message.png" alt="add-message" class="resized-image"/>
 
 پس از تکمیل مرحله اول که ذخیره دسترسی به پلتفرم هایی است که می خواهید با آنها ارتباط برقرار کنید، همگام سازی و اضافه کردن یک شماره دروازه. 
 
@@ -116,15 +116,15 @@ If your preferred gateway لیست نشده است، می توانید مشتر�
 
 یک پلتفرم برای شروع نوشتن پیام انتخاب کنید
 
-![add-message](/static/img/savedplatform.png)
+<img src="/img/savedplatform.png" alt="add-message" class="resized-image"/>
 
 ### مرحله 3. پیام خود را بنویسید و به صورت SMS ارسال کنید
 
 پس از نوشتن پیام خود در هر پلتفرمی، طبق معمول اقدام به ارسال آن کنید. سپس به صفحه اس ام اس استاندارد خود هدایت می شوید، جایی که می توانید پیام را به عنوان پیامک به شماره دروازه از پیش ذخیره شده ارسال کنید. توجه داشته باشید که هنگام ارسال پیام به صورت رمزگذاری شده ظاهر می شود. این لایه امنیتی اضافی تضمین می کند که فقط شما و گیرنده می توانید به پیام دسترسی داشته باشید و محرمانه نگه دارید.
 
-![add-message](/static/img/ComposeEmail.png)
+<img src="/img/ComposeEmail.png" alt="add-message" class="resized-image"/>
 
-![add-message](/static/img/postTwitter.png)
+<img src="/img/postTwitter.png" alt="add-message" class="resized-image"/>
 <!-- add correct image here -->
 <!-- <img src="/img/token.png" width="200"/> -->
 
@@ -149,11 +149,11 @@ If your preferred gateway لیست نشده است، می توانید مشتر�
 * به امنیت و حریم خصوصی بروید
 * روی «لغو سیستم عامل ها» ضربه بزنید و پلتفرمی را که می خواهید حذف کنید انتخاب کنید
 
-![Google Play Store](/static/clicksetting.png)
+<img src="/clicksetting.png" alt="Google Play Store" class="resized-image"/>
 
-![Google Play Store](/static/settingsecurity.png)
+<img src="/settingsecurity.png" alt="Google Play Store" class="resized-image"/>
 
-![Google Play Store](/static/revokeplatform.png)
+<img src="/revokeplatform.png" alt="Google Play Store" class="resized-image"/>
 
 ### حذف و خروج از حساب کاربری
 
@@ -165,8 +165,8 @@ If your preferred gateway لیست نشده است، می توانید مشتر�
 - به امنیت و حریم خصوصی بروید
 - برای خروج از حساب خود روی «خروج» و برای حذف حساب خود روی «حذف» ضربه بزنید
 
-![settinglogout](/static/settingLogout.png)
-![Google Play Store](/static/Delete.png)
+<img src="/settingLogout.png" alt="settinglogout" class="resized-image"/>
+<img src="/Delete.png" alt="Google Play Store" class="resized-image"/>
 
 ### سفارشی کردن اولویت زبان شما
 
@@ -176,8 +176,8 @@ If your preferred gateway لیست نشده است، می توانید مشتر�
 
 وقتی برای اولین بار برنامه را اجرا می کنید، می توانید زبان دلخواه خود را درست در اولین صفحه انتخاب کنید.
 
-![onbordingLanguage](/static/languague.png)
-![onbordinglang](/static/onbordinglanguague.png)
+<img src="/languague.png" alt="onbordingLanguage" class="resized-image"/>
+<img src="/onbordinglanguague.png" alt="onbordinglang" class="resized-image"/>
 
 2. زبان خود را از طریق تنظیمات تغییر دهید:
 
@@ -189,5 +189,5 @@ If your preferred gateway لیست نشده است، می توانید مشتر�
 
 رابط برنامه به طور خودکار به روز می شود تا زبان انتخابی شما را منعکس کند.
 
-![settings](/static/settingsmain.png)
-![languaguesettings](/static/settingLanguage.png)
+<img src="/settingsmain.png" alt="settings" class="resized-image"/>
+<img src="/settingLanguage.png" alt="languaguesettings" class="resized-image"/>

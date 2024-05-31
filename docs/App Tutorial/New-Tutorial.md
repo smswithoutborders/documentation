@@ -14,9 +14,9 @@ The steps below will help set up your account and start using swob.
 
 ### Step 1. Download App​
 
-![Google](/static/img/swob_on_playstore.png)
+![Google Play Store](/img/swob_on_playstore.png)
 
-- Download from [Google Play Store](https://play.google.com/store/apps/details?id=com.afkanerd.sw0b)
+- Download from [Google_Play_Store](https://play.google.com/store/apps/details?id=com.afkanerd.sw0b)
 
 - [Github](https://github.com/smswithoutborders/SMSwithoutBorders-Android/releases/tag/v1.0) or
 
@@ -32,15 +32,15 @@ The steps below will help set up your account and start using swob.
 
 #### Onboarding / Using the App
 
-![onbording1](/static/img/onbording1.png)
-![onbording](/static/img/onbording.png)
-![onbording2](/static/img/onbording2.png)
+<img src="/img/onbording1.png" alt="onbording1" class="resized-image"/>
+<img src="/img/onbording.png" alt="onbording" class="resized-image"/>
+<img src="/img/onbording2.png" alt="onbording2" class="resized-image"/>
 
 - Sign up for a free account or log into your account on the app by clicking on the “add account” button, select “create new” and fill in the required information and then click on “sign up”.
 
-![sing_in](/static/img/sign_in.png)
-![sign_in1](/static/img/sign_in1.png)
-![sign_in2](/static/img/sign_in2.png)
+<img src="/img/sign_in.png" alt="sign_in" class="resized-image"/>
+<img src="/img/sign_in1.png" alt="sign_in1" class="resized-image"/>
+<img src="/img/sign_in2.png" alt="sign_in2" class="resized-image"/>
 
 **Note** An authentication pin will be sent to a valid phone through SMS.
   
@@ -48,13 +48,13 @@ The steps below will help set up your account and start using swob.
 
 A verification number will be sent to your phone number, input and verify
 
-![no-validation](/static/img/no-validation.png)
+<img src="/img/no-validation.png" alt="no-validation" class="resized-image"/>
 
 ### Step 4: Log-in
 
 If you already have an account click on “login” and fill in your phone number and password to get into your swob account.
 
-![login](/static/img/login.png)
+<img src="/img/login.png" alt="login" class="resized-image"/>
 
 ### Step 5. Save access to platforms​
 
@@ -62,14 +62,14 @@ One of the key features of SWOB is to be able to save access to online platforms
 
 **Note: You need to have the platform you want to save installed on your phone before you can save it on the SWOB platform.**
 
-![token](/static/img/token.png)
+<img src="/img/token.png" alt="token" class="resized-image"/>
 
 ### Step 6. Configure your App and begin utilizing​
 
 Once you've linked your apps to your SWOB account, you'll need to add your gateway client number or select one from the list of available gateway clients. One important setting to configure is selecting the Gateway number for communication. It is cheaper to Opt for a Gateway number from the same service provider as yours or within your country.  
 
-![add-message](/static/img/add-message.png)
-![setting](/static/img/setting.png)
+<img src="/img/add-message.png" alt="add-message" class="resized-image"/>
+<img src="/img/setting.png" alt="setting" class="resized-image"/>
 
 ### Step 7. Gateway Clients
 
@@ -82,8 +82,8 @@ Once you've linked your apps to your SWOB account, you'll need to add your gatew
 
 If your preferred gateway isn't listed, you can set up your own custom client. Instructions for configuring a custom gateway client are as follows;
 
-![setting](/static/img/setting.png)
-<!-- ![setting](/static/img/setting.png) -->
+<img src="/img/setting.png" alt="setting" class="resized-image"/>
+<!-- <img src="/img/setting.png" class="resized-image"/> -->
 
 ###  To set a gateway number, follow these steps below
 
@@ -94,11 +94,11 @@ If your preferred gateway isn't listed, you can set up your own custom client. I
 5. Find and select the saved Gateway Number.
 6. Confirm the selection and ass the gateway number successfully.
 
-![GatewayAvailable](/static/img/GateWayAvailable.png)
+<img src="/img/GateWayAvailable.png" alt="GatewayAvailable" class="resized-image"/>
 
-![refresh gateway](/static/img/refresh-gateway.png)
+<img src="/img/refresh-gateway.png" alt="refresh gateway" class="resized-image"/>
 
-![addgatewayclient](/static/img/add-gateway-client.png)
+<img src="/img/add-gateway-client.png" alt="addgatewayclient" class="resized-image"/>
 
 # Communicating using the app
 
@@ -106,7 +106,7 @@ Let's discover how to communicate without an Internet connection using SMSwithou
 
 ### Step 1: Click the compose button
 
-![add-message](/static/img/add-message.png)
+<img src="/img/add-message.png" alt="add-message" class="resized-image"/>
 
 After the first stage has been completed which is saving access to platforms you wish to communicate on, synchronizing and adding a gateway number. 
 
@@ -115,15 +115,16 @@ Open the SMSwithoutborders application after being downloaded from [Google Play 
 ### Step 2. Select a platform to compose message​
 
 Choose a platform to start composing message
-![add-message](/static/img/savedplatform.png)
+
+<img src="/img/savedplatform.png" alt="add-message" class="resized-image"/>
 
 ### Step 3. Compose your message and send as SMS
 
 After composing your message on any platform, proceed to send it as usual. You will then be directed to your standard SMS page, where you can send the message to the pre-saved gateway number as an SMS. Note that the message will appear as encrypted when sending it as an SMS. This extra layer of security ensures that only you and the recipient can access the message, maintaining confidentiality.
 
-![add-message](/static/img/ComposeEmail.png)
+<img src="/img/ComposeEmail.png" alt="add-message" class="resized-image"/>
 
-![add-message](/static/img/postTwitter.png)
+<img src="/img/postTwitter.png" alt="add-message" class="resized-image"/>
 <!-- add correct image here -->
 <!-- <img src="/img/token.png" width="200"/> -->
 
@@ -148,11 +149,11 @@ Revoking saved platforms removes your access to them through smswithoutborders. 
 * Go to security and privacy
 * Tap ‘revoke platforms’ and choose the platform you wish to delete
 
-![Google Play Store](/static/clicksetting.png)
+<img src="/clicksetting.png" alt="Google Play Store" class="resized-image"/>
 
-![Google Play Store](/static/settingsecurity.png)
+<img src="/settingsecurity.png" alt="Google Play Store" class="resized-image"/>
 
-![Google Play Store](/static/revokeplatform.png)
+<img src="/revokeplatform.png" alt="Google Play Store" class="resized-image"/>
 
 ### Deleting and loging  out of the account
 
@@ -164,8 +165,8 @@ Logout means all your current messages will be deleted and you can always log ba
 - Go to security and privacy
 - Tap ‘Logout’ to log out of your account and ‘Delete’ to delete your account
 
-![settinglogout](/static/settingLogout.png)
-![Google Play Store](/static/Delete.png)
+<img src="/settingLogout.png" alt="settinglogout" class="resized-image"/>
+<img src="/Delete.png" alt="Google Play Store" class="resized-image"/>
 
 ### Customizing Your Language Preference
 
@@ -175,8 +176,8 @@ The app currently offers support in English, French, and Farsi. Here's how you c
 
 You can choose your preferred language right on the first screen when you launch the app for the first time.
 
-![onbordingLanguage](/static/languague.png)
-![onbordinglang](/static/onbordinglanguague.png)
+<img src="/languague.png" alt="onbordingLanguage" class="resized-image"/>
+<img src="/onbordinglanguague.png" alt="onbordinglang" class="resized-image"/>
 
 2. Modify Your Language Through Settings:
 
@@ -188,5 +189,5 @@ You can also adjust your language preference anytime by following these steps:
 
 The app interface will automatically update to reflect your chosen language.
 
-![settings](/static/settingsmain.png)
-![languaguesettings](/static/settingLanguage.png)
+<img src="/settingsmain.png" alt="settings" class="resized-image"/>
+<img src="/settingLanguage.png" alt="languaguesettings" class="resized-image"/>
