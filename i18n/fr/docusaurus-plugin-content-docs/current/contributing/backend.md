@@ -44,7 +44,6 @@ Le Backend s'intègre à ces services. vous devrez peut-être les configurer en 
    - [Démarrer à la fois l'API de gestion des utilisateurs backend et l'API de l'éditeur backend](#start-both-backend-user-management-api-and-backend-publisher-api)
      - [Environnement de développement](#development-environment)
      - [Environnement de production](#production-environment)
-
  - [API SandBox](#api-sandbox)
  - [Journaux API](#api-logs)
 

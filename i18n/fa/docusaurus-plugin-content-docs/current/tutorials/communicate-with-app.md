@@ -14,7 +14,7 @@ sidebar_position: 2
 
 <img src="/img/recents_page.png" height="700" />
 
-برنامه **SMSwithoutborders** را پس از دانلود از [**Google Play Store**] (https://play.google.com/store/apps/details?id=com.afkanerd.sw0b) باز کنید، [** Github**](https://github.com/smswithoutborders/SMSwithoutBorders-Android/releases/tag/v1.0) یا ساخت از [**source**](https://github.com/smswithoutborders/SMSwithoutBorders- Android) و روی **"نماد مداد"** کلیک کنید تا پیام بنویسید
+برنامه **SMSwithoutborders** را پس از دانلود از [Google Play Store](https://play.google.com/store/apps/details?id=com.afkanerd.sw0b) باز کنید، [Github](https://github.com/smswithoutborders/SMSwithoutBorders-Android/releases/tag/v1.0) یا ساخت از [source](https://github.com/smswithoutborders/SMSwithoutBorders- Android) و روی **"نماد مداد"** کلیک کنید تا پیام بنویسید
 
 ### مرحله 2. یک پلتفرم برای نوشتن پیام انتخاب کنید
 

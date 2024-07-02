@@ -10,7 +10,7 @@ SMSWithoutBorders OpenAPI intègre un système de file d'attente simple avec Rab
 
 * Comment configurer et utiliser OpenAPI
 
-La version la plus récente de ce guide se trouve dans le [`github reposistory`].](https://github.com/smswithoutborders/SMSWithoutBorders-OpenAPI)
+La version la plus récente de ce guide se trouve dans le [`github reposistory`](https://github.com/smswithoutborders/SMSWithoutBorders-OpenAPI)
 
 Le frontend s'intègre à ces services. Il se peut que vous deviez les configurer en fonction de la section sur laquelle vous travaillez.
 

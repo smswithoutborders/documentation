@@ -6,7 +6,7 @@ sidebar_position: 5
 
 ### مرحله 1. صفحه تنظیمات را باز کنید
 
-<img src="/img/settings .png" height="700" />
+<img src="/img/settings.png" height="700" />
 
 ### مرحله 2. روش refresh را انتخاب کنید
 

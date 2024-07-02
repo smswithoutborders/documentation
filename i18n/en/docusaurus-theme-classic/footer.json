@@ -11,10 +11,6 @@
     "message": "More",
     "description": "The title of the footer links column with title=More in the footer"
   },
-  "link.item.label.Developers": {
-    "message": "Developers",
-    "description": "The label of footer link with label=Developers linking to /docs/developers/account"
-  },
   "link.item.label.Tutorials": {
     "message": "Tutorials",
     "description": "The label of footer link with label=Tutorials linking to /docs/tutorials/getting-started"
@@ -29,10 +25,18 @@
   },
   "link.item.label.Blog": {
     "message": "Blog",
-    "description": "The label of footer link with label=Blog linking to /blog"
+    "description": "The label of footer link with label=Blog linking to https://afkanerd.github.io"
+  },
+  "link.item.label.FaceBook": {
+    "message": "FaceBook",
+    "description": "The label of footer link with label=FaceBook linking to https://www.facebook.com/SMSWithoutBorders"
+  },
+  "link.item.label.YouTube": {
+    "message": "YouTube",
+    "description": "The label of footer link with label=YouTube linking to https://www.youtube.com/@smswithoutborders9162"
   },
   "copyright": {
-    "message": "Copyright © 2023 SMSWithoutBorders. Built with Docusaurus.",
+    "message": "Copyright © 2024 SMSWithoutBorders. Built with Docusaurus.",
     "description": "The footer copyright"
   }
 }

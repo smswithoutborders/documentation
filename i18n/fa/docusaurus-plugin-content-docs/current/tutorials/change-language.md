@@ -10,7 +10,7 @@ sidebar_position: 4
 
 ### مرحله 1. صفحه تنظیمات را باز کنید
 
-<img src="/img/settings .png" height="700" />
+<img src="/img/settings.png" height="700" />
 
 ### مرحله 2. یک زبان را انتخاب کنید
 

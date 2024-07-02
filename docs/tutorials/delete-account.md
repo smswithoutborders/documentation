@@ -8,7 +8,7 @@ Go to [**SMSwithoutborders(SWOB)**](https://smswithoutborders.com)
 
 ### Step 1. Login to your SWOB account
 
-<img src="/img/login.PNG" width="300px" />
+<img src="/img/login.png" width="300px" />
 
 ### Step 2. Open settings
 

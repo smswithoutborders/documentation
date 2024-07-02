@@ -7,17 +7,13 @@
     "message": "Contribuer à SMSWithoutBorders",
     "description": "The label for category Contributing to SMSWithoutBorders in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Developers": {
-    "message": "Développeurs",
-    "description": "The label for category Developers in sidebar tutorialSidebar"
-  },
   "sidebar.tutorialSidebar.category.Tutorials": {
     "message": "Tutoriels",
     "description": "The label for category Tutorials in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Contribute to docs": {
-    "message": "Contribuer aux documents",
-    "description": "The label for category Contribute to docs in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.App Tutorial": {
+    "message": "Tutoriel de l'application",
+    "description": "The label for category App Tutorial in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.SWOB Account Management": {
     "message": "Gestion de Compte SWOB",

@@ -12,7 +12,7 @@ sidebar_position: 7
 
 گزینه **Gateway clients** را از لیست گزینه های تنظیمات انتخاب کنید.
 
-<img src="/img/settings .png" height="700" />
+<img src="/img/settings.png" height="700" />
 
 ### مرحله 2. مشتریان دروازه های موجود را مشاهده کنید
 

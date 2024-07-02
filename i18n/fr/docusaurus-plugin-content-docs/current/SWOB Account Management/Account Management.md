@@ -5,6 +5,7 @@ sidebar_position: 1
 Après vous être connecté à l'application SWOB, vous serez invité à stocker des jetons pour Gmail, Telegram et Twitter. Cela doit être fait afin d'accorder à l'application l'autorisation de publier des messages en votre nom sur ces trois applications mentionnées. Cette option apparaît immédiatement après votre connexion à l'application.
 
 **Gmail:**
+
 Gmail est un service de messagerie gratuit fourni par Google. Vous pouvez envoyer des e-mails par SMS à l'aide de l'application SWOB en stockant l'accès chez nous.
 
 Sur la page d'autorisation, sélectionnez l'option "Envoyer un e-mail en votre nom".
@@ -58,5 +59,4 @@ Terminate the session or  you revoke through the SWOB interface.
 <br/>
 <img src="/img/Telegram-Access.png" height="300" width="200" />
 <br/>
-
 

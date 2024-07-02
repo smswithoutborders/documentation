@@ -14,8 +14,7 @@ Ce document s'adresse aux publics suivants :
 - Ingénieurs en logiciel
 - Responsables de programme
 
-##Vue d'ensemble
-
+## Vue d'ensemble
 
 #### Résumé du flux de données.
 
@@ -38,7 +37,6 @@ Les jetons d'utilisateur sont stockés en toute sécurité et sont accessibles �
 
 - [Accès de l'utilisateur à la base de données de stockage](https://github.com/smswithoutborders/SMSwithoutborders-BE)
 - [User management User interfaces](https://github.com/smswithoutborders/smswithoutborders.com)
-
 
 ### Faire une demande par SMS
 
@@ -65,7 +63,6 @@ Les utilisateurs choisissent la plateforme sur laquelle ils souhaitent publier (
 <img width="750" height="600" src="https://github.com/smswithoutborders/SMSWithoutBorders-Resources/raw/master/multimedia/img/developers/swob_request_and_publish.png" />
 
 #### Demande et publication
-
 
 Les utilisateurs choisissent la plateforme sur laquelle ils souhaitent publier (envoyer) leurs messages à partir de l'application mobile. L'utilisateur se voit alors proposer l'un des nombreux [clients de passerelle](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client) qui peuvent transmettre leurs messages aux serveurs de la passerelle. Les serveurs de passerelle par défaut sont choisis et fournis à l'utilisateur après la synchronisation, mais ils peuvent être modifiés manuellement par l'utilisateur.
 

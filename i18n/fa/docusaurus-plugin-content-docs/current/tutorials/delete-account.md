@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # اکانت خود را حذف کنید
 
-به [**SMSwithoutborders(SWOB)**](https://smswithoutborders.com) بروید
+به [SMSwithoutborders(SWOB)](https://smswithoutborders.com) بروید
 
 ### مرحله 1. به حساب SWOB خود وارد شوید
 

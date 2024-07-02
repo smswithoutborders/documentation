@@ -16,4 +16,4 @@ sidebar_position: 6
 
 با ضربه زدن روی پیام رمزگذاری شده برای مشاهده متن رمزگشایی شده انتخاب کنید
 
-<img src="/img/decrypted .png" height="700" />
+<img src="/img/decrypted.png" height="700" />

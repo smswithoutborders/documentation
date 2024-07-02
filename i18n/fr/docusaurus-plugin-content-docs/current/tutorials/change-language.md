@@ -10,7 +10,7 @@ Actuellement, deux langues sont disponibles : le français et l'anglais. Les ét
 
 ### Étape 1. Ouvrez la page des paramètres
 
-<img src="/img/settings .png" height="500" />
+<img src="/img/settings.png" height="500" />
 
 ### Étape 2. Sélectionner une langue
 

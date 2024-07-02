@@ -4,60 +4,35 @@ sidebar_position: 3
 
 # SMSWithoutBorders Backend
 
-This is a cloud API and User management service. It is directly configurable with MySQL databases for managing users. Also provides out of the box integrations of Google OAuth-2.0, Twitter OAuth, and Telegram end-points and Account authentication.
+This is a cloud API and User management service. It is directly configurable with MySQL databases for managing users. It also provides out-of-the-box integrations of Google OAuth-2.0, Twitter OAuth, and Telegram endpoints and Account authentication.
 
 :::tip What you'll learn
 
-* How to setup the Backend
-* How to test and deploy with docker
+- How to set up the Backend
+- How to test and deploy with Docker
 
-The most recent version of this guide can be found in the [`github reposistory`](https://github.com/smswithoutborders/SMSwithoutborders-BE)
+The most recent version of this guide can be found in the [`GitHub repository`](https://github.com/smswithoutborders/SMSwithoutborders-BE).
 
-The Backend integrates with these services. you may need to set them up depending on what section you are working on.
+The Backend integrates with these services. You may need to set them up depending on what section you are working on:
 
-* [`Website`](https://github.com/smswithoutborders/smswithoutborders.com)
-* [`Third party platforms`](https://github.com/smswithoutborders?q=custom&type=all&language=&sort=)
+- [`Website`](https://github.com/smswithoutborders/smswithoutborders.com)
+- [`Third party platforms`](https://github.com/smswithoutborders?q=custom&type=all&language=&sort=)
 
 :::
-
-## Table of contents
-
-- [SMSWithoutBorders Backend](#smswithoutborders-backend)
-  - [Table of contents](#table-of-contents)
-  - [Requirements](#requirements)
-  - [Installation](#installation)
-    - [Troubleshoot](#troubleshoot)
-  - [Setup](#setup)
-    - [Development environment configurations](#development-environment-configurations)
-    - [Production environment configurations](#production-environment-configurations)
-    - [Configuration Options](#configuration-options)
-      - [SEVER](#sever)
-      - [CREDENTIALS](#credentials)
-      - [RECAPTCHA](#recaptcha)
-      - [DEVELOPER](#developer)
-  - [How to use](#how-to-use)
-    - [Start Backend User management API](#start-backend-user-management-api)
-      - [User management Development Environment](#user-management-development-environment)
-      - [User management Production Environment](#user-management-production-environment)
-    - [Start Backend Publisher API](#start-backend-publisher-api)
-      - [Publisher Development Environment](#publisher-development-environment)
-      - [Publisher Production Environment](#publisher-production-environment)
-    - [Start both Backend User management API and Backend Publisher API](#start-both-backend-user-management-api-and-backend-publisher-api)
-      - [Development Environment](#development-environment)
-      - [Production Environment](#production-environment)
-  - [API SandBox](#api-sandbox)
-  - [API Logs](#api-logs)
 
 ## Requirements
 
 - [MySQL](https://www.mysql.com/) (version >= 8.0.28) ([MariaDB](https://mariadb.org/))
-- [nodejs](https://nodejs.org) (version >= [16.14.0](https://nodejs.org/dist/v16.14.0/node-v16.14.0-linux-x64.tar.xz))
+- [Node.js](https://nodejs.org) (version >= [16.14.0](https://nodejs.org/dist/v16.14.0/node-v16.14.0-linux-x64.tar.xz))
 - [npm](https://www.npmjs.com/) (version >= [8.3.1](https://nodejs.org/dist/v16.14.0/node-v16.14.0-linux-x64.tar.xz))
 
 ## Installation
 
 All runtime dependencies are installed using npm
 
+```bash
+npm install
+```
 ```bash
 npm install
 ```
@@ -115,15 +90,25 @@ Manages access to the SMS without borders centralize resources and services.
 **API**
 
 1. **USER MANAGEMENT API PORT**: The port number to connect to. (Default: 9000)
+
 2. **PUBLISHER API PORT**: The port number to connect to. (Default: 10000)
+
 3. **KEY**: The key used to encrypt a user's data. (Default: "de4053831a43d62d9e68fc11319270a9")
+
 4. **SALT**: The salt used to hash a user's data. (Default: "acaad78fd9dadcb056840c09073190a8")
+
 5. **SECURE SESSIONS**: Specifies the boolean value for the [Secure Set-Cookie attribute](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie). When truthy, the Secure attribute is set, otherwise it is not. By default, the Secure sessions attribute is set to truthy.
+
 6. **SESSION MAXAGE**: Specifies the number (in milliseconds) to use when calculating the [Expires Set-Cookie attribute](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie). This is done by taking the current server time and adding maxAge milliseconds to the value to calculate an Expires datetime. By default, maximum age is set for two hours (7200000 ms).
+
 7. **ENABLE BLOCKING**: Specifies the boolean value for tracking user failed [authentication](https://github.com/smswithoutborders/SMSwithoutborders-BE/blob/main/docs/FEATURES_v2.md#2-authenticate-an-account) attempts.
+
 8. **SHORT BLOCK ATTEMPTS**: Specifies the number of failed [authentication](https://github.com/smswithoutborders/SMSwithoutborders-BE/blob/main/docs/FEATURES_v2.md#2-authenticate-an-account) attempts before a short block. Several short blocks results to a long block.
+
 9. **LONG BLOCK ATTEMPTS**: Specifies the number of failed short block attempts before a long block.
+
 10. **SHORT BLOCK DURATION**: Specifies the duration (in minutes) of a short block.
+
 11. **LONG BLOCK DURATION**: Specifies the duration (in minutes) of a long block.
 
 **OTP**
@@ -138,7 +123,7 @@ A user has four attempts to request an OTP code daily
 
 **GATEWAY SERVER**
 
-This is a use-case of the [SMSWithoutBorders-Gateway-Server](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server) project.
+This is a use-case of the [SMSWithoutBorders-Gateway-Server]:https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server project.
 
 1. **URL**: The URL of the gateway server you are connecting to. (Default: localhost)
 2. **PORT**: The port number to connect to. (Default: 6969)
@@ -282,7 +267,10 @@ http://localhost:{PORT}/v2/api-docs
 
 ## API Logs
 
-By default [log levels](https://github.com/smswithoutborders/SMSwithoutborders-BE/tree/main/logs#log-levels) are set to "info". You can change the default [log levels](https://github.com/smswithoutborders/SMSwithoutborders-BE/tree/main/logs#log-levels). For example, [Start both Backend User management API and Backend Publisher API](#Start-both-Backend-User-management-API-and-Backend-Publisher-API) with [log levels](https://github.com/smswithoutborders/SMSwithoutborders-BE/tree/main/logs#log-levels) set to "debug"
+By default [log levels](https://github.com/smswithoutborders/SMSwithoutborders-BE/tree/main/logs#log-levels) are set to "info". You can change the default [log levels](https://github.com/smswithoutborders/SMSwithoutborders-BE/tree/main/logs#log-levels).
+
+For example, For example, [Start both Backend User management API and Backend Publisher API](/docs/contributing/backend#Start-both-Backend-User-management-API-and-Backend-Publisher-API) with [log levels](https://github.com/smswithoutborders/SMSwithoutborders-BE/tree/main/logs#log-levels) set to "debug".
+ with [log levels](https://github.com/smswithoutborders/SMSwithoutborders-BE/tree/main/logs#log-levels) set to "debug"
 
 ```
 LOG_LEVEL=debug npm start

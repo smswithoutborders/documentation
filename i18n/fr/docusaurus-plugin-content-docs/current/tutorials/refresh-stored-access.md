@@ -4,13 +4,13 @@ sidebar_position: 5
 
 # Actualiser l'accès au magasin
 
-Let's discover how to change the language of **SMSwithoutborders(SWOB)**.
+Découvrons comment changer la langue de **SMSsans frontières(SWOB)**.
 
-Presently, there are two available languages that is French and English. The steps below illustrate how to toggle between each languages
+Actuellement, deux langues sont disponibles : le français et l’anglais. Les étapes ci-dessous illustrent comment basculer entre chaque langue
 
 ### Étape 1. Ouvrez la page des paramètres
 
-<img src="/img/settings .png" height="700" />
+<img src="/img/settings.png" height="700" />
 
 
 ### Étape 2. Sélectionnez la méthode d'actualisation
