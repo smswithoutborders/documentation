@@ -1,0 +1,59 @@
+name: Deploy SMSWithoutBorders Documentation on Server (production)
+on:
+  push:
+    branches:
+      - main
+jobs:
+  deploy:
+    name: Execute Deployment Script on Server
+    runs-on: ubuntu-latest
+    environment:
+      name: production
+      url: https://docs.smswithoutborders.com
+    steps:
+      - name: Checkout Git Repository
+        uses: actions/checkout@v4
+
+      - name: Setup NodeJs
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install Dependencies
+        run: |
+          npm install -g pnpm
+          pnpm install
+
+      - name: Build Application
+        run: pnpm build
+
+      - name: Securely Copy Artifacts to Server
+        uses: appleboy/scp-action@master
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.KEY }}
+          source: "./build/*"
+          target: ${{ secrets.BUILD_PATH }}
+          strip_components: 1
+          rm: true
+
+      - name: Execute Remote SSH Commands
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.KEY }}
+          script: |
+            set -e
+
+            echo "============================"
+            echo "Deploy Project ..."
+            echo "============================"
+            if ! ${{secrets.BUILD_CMD}}; then
+              echo "❌ Error deploying project!"
+              exit 1
+            fi
+            echo "==============================="
+            echo "✅ Deployment complete"
+            echo "==============================="
