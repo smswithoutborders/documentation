@@ -9,7 +9,7 @@ const config = {
   // Set the production url of your site here
   url: "https://docs.smswithoutborders.com",
   baseUrl: "/",
-  organizationName: "smswithoutborders", // Usually your GitHub org/user name.
+  organizationName: "SMSWithoutBorders", // Usually your GitHub org/user name.
   projectName: "documentation", // Usually your repo name.
   deploymentBranch: "gh-pages",
   trailingSlash: false,
@@ -106,6 +106,12 @@ const config = {
             label: "SWOB Account Management",
           },
           {
+            type: "doc",
+            docId: "Troubleshooting/Troubleshooting",
+            position: "left",
+            label: "Troubleshooting",
+          },
+          {
             type: "localeDropdown",
             position: "right",
           },
@@ -125,6 +131,10 @@ const config = {
               {
                 label: "Tutorials",
                 to: "/docs/tutorials/getting-started",
+              },
+              {
+                label: "Troubleshooting",
+                to: "/docs/Troubleshooting",
               },
             ],
           },

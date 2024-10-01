@@ -12,7 +12,7 @@ In order to support the numerous amount of messaging services available we use t
 
 #### Saved access in wallet
 
-To identify the intended phone number, we match your saved email addresses (from wallet) against all intended emails. In other to get mail access, be certain you are using a valid phonenumber and have saved at least 1 email in the your access wallet.
+To identify the intended phone number, we match your saved email addresses (from wallet) against all intended emails. In other to get mail access, be certain you are using a valid phone number and have saved at least 1 email in the your access wallet.
 
 ### How to forward emails to your SWOB account
 
