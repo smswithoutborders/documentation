@@ -87,19 +87,19 @@ const config = {
             items: [
               {
                 label: "Getting Started with Android",
-                to: "/docs/tutorials/android/getting-started",
-              },
-              {
-                label: "Contributing to RelaySMS",
-                to: "/docs/tutorials/Contributing/How to Contribute",
+                to: "/docs/Android Tutorial/Getting-Started-With-Android",
               },
               {
                 label: "Getting Started with iOS",
-                to: "/docs/tutorials/ios/getting-started",
+                to: "/docs/iOS Tutorial/Getting-Started-With-iOS",
               },
               {
                 label: "Setting up a Gateway",
-                to: "/docs/tutorials/Gateway/Setting Up a Gateway",
+                to: "/docs/Tutorials/Gateway/Setting-Up-a-Gateway",
+              },
+              {
+                label: "Contributing to RelaySMS",
+                to: "/docs/Tutorials/Contributing/How-to-Contribute",
               },
             ],
           },
@@ -134,7 +134,7 @@ const config = {
             items: [
               {
                 label: "Tutorials",
-                to: "/docs/tutorials/getting-started",
+                to: "/docs/Tutorials/getting-started",
               },
               {
                 label: "Troubleshooting",

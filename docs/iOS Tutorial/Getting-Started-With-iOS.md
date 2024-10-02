@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 
-# SMSwithoutBorders App
+# RelaySMS App
 
-## Getting Started
+## Getting Started with iOS
 
 SMSWithoutBorders provides users with the ability to stay connected with their online platforms even when internet access is unavailable. By leveraging SMS messaging, users can continue communicating seamlessly- their contacts receive messages just as they normally would.
 
@@ -43,8 +43,8 @@ The steps below will help set up your account and start using swob.
 <img src="/img/sign_in2.png" alt="sign_in2" class="resized-image"/>
 
 **Note** An authentication pin will be sent to a valid phone through SMS.
-  
-### Step 3: Verify your phone number 
+
+### Step 3: Verify your phone number
 
 A verification number will be sent to your phone number, input and verify
 
@@ -66,16 +66,16 @@ One of the key features of SWOB is to be able to save access to online platforms
 
 ### Step 6. Configure your App and begin utilizing​
 
-Once you've linked your apps to your SWOB account, you'll need to add your gateway client number or select one from the list of available gateway clients. One important setting to configure is selecting the Gateway number for communication. It is cheaper to Opt for a Gateway number from the same service provider as yours or within your country.  
+Once you've linked your apps to your SWOB account, you'll need to add your gateway client number or select one from the list of available gateway clients. One important setting to configure is selecting the Gateway number for communication. It is cheaper to Opt for a Gateway number from the same service provider as yours or within your country.
 
 <img src="/img/add-message.png" alt="add-message" class="resized-image"/>
 <img src="/img/setting.png" alt="setting" class="resized-image"/>
 
 ### Step 7. Gateway Clients
 
- **Available Clients:**
+**Available Clients:**
 
-- A list of pre-configured gateway clients is displayed. 
+- A list of pre-configured gateway clients is displayed.
 - Pulling down on the list will refresh it, ensuring you have the latest available options.
 
 **Adding Custom Clients:**
@@ -85,11 +85,11 @@ If your preferred gateway isn't listed, you can set up your own custom client. I
 <img src="/img/setting.png" alt="setting" class="resized-image"/>
 <!-- <img src="/img/setting.png" class="resized-image"/> -->
 
-###  To set a gateway number, follow these steps below
+### To set a gateway number, follow these steps below
 
 1. Save the intended gateway number in your contacts.
 2. Go to **Settings** and select Gateway Clients.
-3. Tap the *3 dots* sign at the top right corner and tap *add*.
+3. Tap the _3 dots_ sign at the top right corner and tap _add_.
 4. Click on the **Contact icon** to access your contacts.
 5. Find and select the saved Gateway Number.
 6. Confirm the selection and ass the gateway number successfully.
@@ -108,7 +108,7 @@ Let's discover how to communicate without an Internet connection using SMSwithou
 
 <img src="/img/add-message.png" alt="add-message" class="resized-image"/>
 
-After the first stage has been completed which is saving access to platforms you wish to communicate on, synchronizing and adding a gateway number. 
+After the first stage has been completed which is saving access to platforms you wish to communicate on, synchronizing and adding a gateway number.
 
 Open the SMSwithoutborders application after being downloaded from [Google Play Store](https://play.google.com/store/apps/details?id=com.afkanerd.sw0b) , [Github](https://github.com/smswithoutborders/SMSwithoutBorders-Android/releases/tag/v1.0)or build from [source](https://github.com/smswithoutborders/SMSwithoutBorders-Android) and click on the "pencil icon" to compose message.
 
@@ -140,14 +140,13 @@ For either of the platforms selected, fill the required fields accurately and se
 
 Congratulations! You have successfully sent the SMS. The recipient will now receive the original message in a readable format. Please note that the time for receiving the message may vary depending on the mobile network and the functionality of the gateway client device
 
-
 ### Revoking Saved Platforms
 
 Revoking saved platforms removes your access to them through smswithoutborders. This means that you can no longer send messages to that online platform using the SMSWithouborders app. To do this;
 
-* Click on settings
-* Go to security and privacy
-* Tap ‘revoke platforms’ and choose the platform you wish to delete
+- Click on settings
+- Go to security and privacy
+- Tap ‘revoke platforms’ and choose the platform you wish to delete
 
 <img src="/clicksetting.png" alt="Google Play Store" class="resized-image"/>
 
@@ -155,7 +154,7 @@ Revoking saved platforms removes your access to them through smswithoutborders. 
 
 <img src="/revokeplatform.png" alt="Google Play Store" class="resized-image"/>
 
-### Deleting and loging  out of the account
+### Deleting and loging out of the account
 
 Deleting your account means deleting all your saved accounts online. You can always recreate your account if needed.
 
