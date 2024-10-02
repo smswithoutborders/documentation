@@ -81,10 +81,27 @@ const config = {
             label: "Docs",
           },
           {
-            type: "doc",
-            docId: "tutorials/getting-started",
-            position: "left",
             label: "Tutorials",
+            position: "left",
+            type: "dropdown",
+            items: [
+              {
+                label: "Getting Started with Android",
+                to: "/docs/tutorials/android/getting-started",
+              },
+              {
+                label: "Contributing to RelaySMS",
+                to: "/docs/tutorials/Contributing/How to Contribute",
+              },
+              {
+                label: "Getting Started with iOS",
+                to: "/docs/tutorials/ios/getting-started",
+              },
+              {
+                label: "Setting up a Gateway",
+                to: "/docs/tutorials/Gateway/Setting Up a Gateway",
+              },
+            ],
           },
           {
             type: "doc",
