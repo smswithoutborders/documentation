@@ -23,23 +23,23 @@ const config = {
         direction: "ltr",
         htmlLang: "en-US",
         calendar: "gregory",
-        path: "en",
+        path: "en"
       },
       fr: {
         label: "French",
         direction: "ltr",
         htmlLang: "fr-FR",
         calendar: "gregory",
-        path: "fr",
+        path: "fr"
       },
       fa: {
         label: "فارسی",
         direction: "rtl",
         htmlLang: "fa-IR",
         calendar: "persian",
-        path: "fa",
-      },
-    },
+        path: "fa"
+      }
+    }
   },
 
   presets: [
@@ -50,18 +50,18 @@ const config = {
         docs: {
           sidebarPath: "./sidebars.js",
           editUrl:
-            "https://github.com/smswithoutborders/smswithoutborders.github.io/tree/main/",
+            "https://github.com/smswithoutborders/smswithoutborders.github.io/tree/main/"
         },
         blog: {
           showReadingTime: true,
           editUrl:
-            "https://github.com/smswithoutborders/smswithoutborders.github.io/tree/main/",
+            "https://github.com/smswithoutborders/smswithoutborders.github.io/tree/main/"
         },
         theme: {
-          customCss: require.resolve("./src/css/custom.css"),
-        },
-      }),
-    ],
+          customCss: require.resolve("./src/css/custom.css")
+        }
+      })
+    ]
   ],
 
   themeConfig:
@@ -71,14 +71,14 @@ const config = {
         title: "SMSWithoutBorders",
         logo: {
           alt: "SMSwithoutborders logo",
-          src: "img/logo-icon-light.png",
+          src: "img/logo-icon-light.png"
         },
         items: [
           {
             type: "doc",
             docId: "contributing/introduction",
             position: "left",
-            label: "Docs",
+            label: "Docs"
           },
           {
             label: "Tutorials",
@@ -86,45 +86,45 @@ const config = {
             type: "dropdown",
             items: [
               {
-                label: "Getting Started with Android",
-                to: "/docs/Android Tutorial/Getting-Started-With-Android",
+                label: "RelaySMS Android Tutorial",
+                to: "/docs/Android Tutorial/Getting-Started-With-Android"
               },
               {
-                label: "Getting Started with iOS",
-                to: "/docs/iOS Tutorial/Getting-Started-With-iOS",
+                label: "RelaySMS iOS Tutorial",
+                to: "/docs/iOS Tutorial/Getting-Started-With-iOS"
               },
               {
                 label: "Setting up a Gateway",
-                to: "/docs/Tutorials/Gateway/Setting-Up-a-Gateway",
+                to: "/docs/Tutorials/Gateway/Setting-Up-a-Gateway"
               },
               {
                 label: "Contributing to RelaySMS",
-                to: "/docs/Tutorials/Contributing/How-to-Contribute",
-              },
-            ],
+                to: "/docs/Tutorials/Contributing/How-to-Contribute"
+              }
+            ]
           },
           {
             type: "doc",
             docId: "SWOB Account Management/Account Management",
             position: "left",
-            label: "SWOB Account Management",
+            label: "SWOB Account Management"
           },
           {
             type: "doc",
             docId: "Troubleshooting/Troubleshooting",
             position: "left",
-            label: "Troubleshooting",
+            label: "Troubleshooting"
           },
           {
             type: "localeDropdown",
-            position: "right",
+            position: "right"
           },
           {
             href: "https://github.com/smswithoutborders",
             label: "GitHub",
-            position: "right",
-          },
-        ],
+            position: "right"
+          }
+        ]
       },
       footer: {
         style: "dark",
@@ -134,52 +134,52 @@ const config = {
             items: [
               {
                 label: "Tutorials",
-                to: "/docs/Tutorials/getting-started",
+                to: "/docs/iOS Tutorial/Getting-Started-With-iOS"
               },
               {
                 label: "Troubleshooting",
-                to: "/docs/Troubleshooting",
-              },
-            ],
+                to: "/docs/Troubleshooting"
+              }
+            ]
           },
           {
             title: "Community",
             items: [
               {
                 label: "IRC: freenode/#afkanerd",
-                href: "#",
+                href: "#"
               },
               {
                 label: "GitHub",
-                href: "https://github.com/smswithoutborders",
-              },
-            ],
+                href: "https://github.com/smswithoutborders"
+              }
+            ]
           },
           {
             title: "More",
             items: [
               {
                 label: "Blog",
-                href: "https://blog.smswithoutborders.com",
+                href: "https://blog.smswithoutborders.com"
               },
               {
                 label: "FaceBook",
-                href: "https://www.facebook.com/SMSWithoutBorders",
+                href: "https://www.facebook.com/SMSWithoutBorders"
               },
               {
                 label: "YouTube",
-                href: "https://www.youtube.com/@smswithoutborders9162",
-              },
-            ],
-          },
+                href: "https://www.youtube.com/@smswithoutborders9162"
+              }
+            ]
+          }
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} SMSWithoutBorders. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} SMSWithoutBorders. Built with Docusaurus.`
       },
       prism: {
         theme: prismThemes.github,
-        darkTheme: prismThemes.dracula,
-      },
-    }),
+        darkTheme: prismThemes.dracula
+      }
+    })
 };
 
 export default config;

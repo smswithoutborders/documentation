@@ -28,15 +28,15 @@ function HomepageHeader() {
         <div className={styles.buttonGroup}>
           <Link
             className="button button--outline button--primary button--lg"
-            to="/docs/contributing/introduction"
-            aria-label="Get started with iOS tutorial"
+            to="/docs/iOS Tutorial/Getting-Started-With-iOS"
+            aria-label="Get started with iOS"
           >
             <Translate>Get Started with iOS</Translate>
           </Link>
           <Link
             className="button button--outline button--primary button--lg"
-            to="/docs/App Tutorial/New-Tutorial"
-            aria-label="Get started with Android tutorial"
+            to="docs/Android Tutorial/Getting-Started-With-Android"
+            aria-label="Get started with Android"
           >
             <Translate>Get Started with Android</Translate>
           </Link>

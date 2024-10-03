@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# RelaySMS App
+# RelaySMS App for Android
 
 ## Getting Started with Android
 
