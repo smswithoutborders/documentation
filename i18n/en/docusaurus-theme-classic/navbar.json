@@ -1,10 +1,10 @@
 {
   "title": {
-    "message": "SMSWithoutBorders",
+    "message": "RelaySMS",
     "description": "The title in the navbar"
   },
   "logo.alt": {
-    "message": "SMSwithoutborders logo",
+    "message": "RelaySMS logo",
     "description": "The alt text of navbar logo"
   },
   "item.label.Docs": {
@@ -15,9 +15,9 @@
     "message": "Tutorials",
     "description": "Navbar item with label Tutorials"
   },
-  "item.label.SWOB Account Management": {
-    "message": "SWOB Account Management",
-    "description": "Navbar item with label SWOB Account Management"
+  "item.label.RelaySMS Account Management": {
+    "message": "RelaySMS Account Management",
+    "description": "Navbar item with label RelaySMS Account Management"
   },
   "item.label.GitHub": {
     "message": "GitHub",

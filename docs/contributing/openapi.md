@@ -2,20 +2,20 @@
 sidebar_position: 7
 ---
 
-# SMSWithoutBorders OpenAPI
+# RelaySMS OpenAPI
 
-SMSWithoutBorders OpenAPI integrates a simple queueing system with RabbitMQ, which allows developers managing outgoing SMS messages from their Gateway clients.
+RelaySMS OpenAPI integrates a simple queueing system with RabbitMQ, which allows developers managing outgoing SMS messages from their Gateway clients.
 
 :::tip What you'll learn
 
-* How to setup and use OpenAPI
+- How to setup and use OpenAPI
 
 The most recent version of this guide can be found in the [`github reposistory`](https://github.com/smswithoutborders/SMSWithoutBorders-OpenAPI)
 
 The frontend integrates with these services. you may need to set them up depending on what section you are working on.
 
-* [`Gateway Client`](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client)
-* [`RabbitMQ`](https://github.com/smswithoutborders/SMSWithoutBorders-Product-deps-RabbitMQ)
+- [`Gateway Client`](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client)
+- [`RabbitMQ`](https://github.com/smswithoutborders/SMSWithoutBorders-Product-deps-RabbitMQ)
 
 :::
 
@@ -28,9 +28,9 @@ The frontend integrates with these services. you may need to set them up dependi
 
 ## Requirements
 
-* [Python](https://www.python.org/) (version >= [3.8.10](https://www.python.org/downloads/release/python-3810/))
+- [Python](https://www.python.org/) (version >= [3.8.10](https://www.python.org/downloads/release/python-3810/))
 
-* [Python Virtual Environments](https://docs.python.org/3/tutorial/venv.html)
+- [Python Virtual Environments](https://docs.python.org/3/tutorial/venv.html)
 
 ## Dependencies
 
@@ -42,13 +42,13 @@ git submodule update --init --recursive --remote
 
 Setup [RabbitMQ Server](https://github.com/smswithoutborders/SMSWithoutBorders-Product-deps-RabbitMQ)
 
-* Move into the RabbitMQ directory in the repo
+- Move into the RabbitMQ directory in the repo
 
 ```
 cd RabbitMQ
 ```
 
-* [Installation](https://github.com/smswithoutborders/SMSWithoutBorders-Product-deps-RabbitMQ#rabbitmq-for-openapi)
+- [Installation](https://github.com/smswithoutborders/SMSWithoutBorders-Product-deps-RabbitMQ#rabbitmq-for-openapi)
 
 On Ubuntu **libmysqlclient-dev** is required
 

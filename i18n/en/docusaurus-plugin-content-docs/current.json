@@ -3,9 +3,9 @@
     "message": "Next",
     "description": "The label for version current"
   },
-  "sidebar.tutorialSidebar.category.Contributing to SMSWithoutBorders": {
-    "message": "Contributing to SMSWithoutBorders",
-    "description": "The label for category Contributing to SMSWithoutBorders in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.Contributing to RelaySMS": {
+    "message": "Contributing to RelaySMS",
+    "description": "The label for category Contributing to RelaySMS in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Tutorials": {
     "message": "Tutorials",
@@ -15,8 +15,8 @@
     "message": "App Tutorial",
     "description": "The label for category App Tutorial in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.SWOB Account Management": {
-    "message": "SWOB Account Management",
-    "description": "The label for category SWOB Account Management in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.RelaySMS Account Management": {
+    "message": "RelaySMS Account Management",
+    "description": "The label for category RelaySMS Account Management in sidebar tutorialSidebar"
   }
 }

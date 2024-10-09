@@ -3,17 +3,17 @@
     "message": "بعد",
     "description": "The label for version current"
   },
-  "sidebar.tutorialSidebar.category.Contributing to SMSWithoutBorders": {
-    "message": "مشارکت در SMSWithoutBorders",
-    "description": "The label for category Contributing to SMSWithoutBorders in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.Contributing to RelaySMS": {
+    "message": "مشارکت در RelaySMS",
+    "description": "The label for category Contributing to RelaySMS in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.Tutorials": {
     "message": "آموزش ها",
     "description": "The label for category Tutorials in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.SWOB Account Management": {
-    "message": "مدیریت حساب SWOB",
-    "description": "The label for category SWOB Account Management in sidebar tutorialSidebar"
+    "message": "مدیریت حساب RelaySMS",
+    "description": "The label for category RelaySMS Account Management in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.App Tutorial": {
     "message": "آموزش برنامه",

@@ -4,9 +4,9 @@ sidebar_position: 1
 
 ## Definitions
 
-**SWOB:** - SMSWithoutBorders
+**RelaySMS:** - RelaySMS
 
-This document describes the data flow of SWOB.
+This document describes the data flow of RelaySMS.
 
 This document does not contain information about the inner working of each of the modules; information about the inner working of each module can be found in their respective repositories.
 
@@ -15,26 +15,28 @@ This document is aimed at the following audiences:
 - Software Engineers
 - Program managers
 
-
 ## Overview
 
 #### Summary of data flow
+
 <img alt="Figure: swob merge flow" src="https://github.com/smswithoutborders/SMSWithoutBorders-Resources/raw/master/multimedia/img/developers/swob_merge_flow.png" />
 
 ### Storing account access
 
-SWOB works on the principles of [OAuth 2](https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2).
+RelaySMS works on the principles of [OAuth 2](https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2).
 
 > OAuth 2 is an authorization framework that enables applications — such as Facebook, GitHub, and DigitalOcean — to obtain limited access to user accounts on an HTTP service. It works by delegating user authentication to the service that hosts a user account and authorizing third-party applications to access that user account. OAuth 2 provides authorization flows for web and desktop applications, as well as mobile devices.
 
 <img width="350" height="400" src="https://github.com/smswithoutborders/SMSWithoutBorders-Resources/raw/master/multimedia/img/developers/swob_auth.png" />
 
 User tokens are securely stored and access on user request to:
+
 - publish a request to an online platform from the app
 - revoke tokens
 - delete accounts (this action revokes tokens as well).
 
 ##### Related repositories
+
 - [User access storage database](https://github.com/smswithoutborders/SMSwithoutborders-BE)
 - [User management User interfaces](https://github.com/smswithoutborders/smswithoutborders.com)
 
@@ -52,11 +54,10 @@ Multiple secret keys are not supported at this time, therefore users are tied to
 
 The secret keys are stored on the app and cannot be requested for from the server after the synchronization is completed. This means once a user changes their device or uninstalls the app, they would be required to resynchronize.
 
+##### Related repositories\*\*
 
-##### Related repositories**
 - [Gateway server](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server)
 - [Android App](https://github.com/smswithoutborders/SMSwithoutBorders-App-Android)
-
 
 #### Requesting and publishing
 
@@ -72,6 +73,7 @@ Gateway servers receive the forwarded request from the Gateway clients, authenti
 Publisher talk with the [User management publisher](https://github.com/smswithoutborders/SMSwithoutborders-BE) which authenticates the request and sends a decrypted copy of the user's stored token information (for the requested platform). The publisher goes ahead to make the request for publisher directly to the requested platforms supported API or via their SDK.
 
 ##### Related repositories
+
 - [Gateway clients](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client)
 - [Gateway server](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server)
 - [Publisher](https://github.com/smswithoutborders/SMSWithoutBorders-Publisher)

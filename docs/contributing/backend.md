@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# SMSWithoutBorders Backend
+# RelaySMS Backend
 
 This is a cloud API and User management service. It is directly configurable with MySQL databases for managing users. It also provides out-of-the-box integrations of Google OAuth-2.0, Twitter OAuth, and Telegram endpoints and Account authentication.
 
@@ -33,6 +33,7 @@ All runtime dependencies are installed using npm
 ```bash
 npm install
 ```
+
 ```bash
 npm install
 ```
@@ -85,7 +86,7 @@ Manages access to the SMS without borders centralize resources and services.
 1. **HOST**: The hostname of the database you are connecting to. (Default: localhost)
 2. **USER**: The MySQL user to authenticate as. (Default: root)
 3. **PASSWORD**: The password of that MySQL user.
-4. **DATABASE**: Name of the database to use for this connection (Default: smswithoutborders)
+4. **DATABASE**: Name of the database to use for this connection (Default: RelaySMS)
 
 **API**
 
@@ -123,7 +124,7 @@ A user has four attempts to request an OTP code daily
 
 **GATEWAY SERVER**
 
-This is a use-case of the [SMSWithoutBorders-Gateway-Server]:https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server project.
+This is a use-case of the [RelaySMS-Gateway-Server]:https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server project.
 
 1. **URL**: The URL of the gateway server you are connecting to. (Default: localhost)
 2. **PORT**: The port number to connect to. (Default: 6969)
@@ -159,7 +160,7 @@ Acquire credentials from [Twitter Developers Portal](https://developer.twitter.c
 
 **TELEGRAM**
 
-This is a use-case of the [SMSWithoutBorders-customplatform-Telegram](https://github.com/smswithoutborders/SMSWithoutBorders-customplatform-Telegram) project.
+This is a use-case of the [RelaySMS-customplatform-Telegram](https://github.com/smswithoutborders/SMSWithoutBorders-customplatform-Telegram) project.
 
 1. **TELEGRAM REQUEST HOST**: The URL of the telegram custom platform server you are connecting to.
 
@@ -270,7 +271,7 @@ http://localhost:{PORT}/v2/api-docs
 By default [log levels](https://github.com/smswithoutborders/SMSwithoutborders-BE/tree/main/logs#log-levels) are set to "info". You can change the default [log levels](https://github.com/smswithoutborders/SMSwithoutborders-BE/tree/main/logs#log-levels).
 
 For example, For example, [Start both Backend User management API and Backend Publisher API](/docs/contributing/backend#Start-both-Backend-User-management-API-and-Backend-Publisher-API) with [log levels](https://github.com/smswithoutborders/SMSwithoutborders-BE/tree/main/logs#log-levels) set to "debug".
- with [log levels](https://github.com/smswithoutborders/SMSwithoutborders-BE/tree/main/logs#log-levels) set to "debug"
+with [log levels](https://github.com/smswithoutborders/SMSwithoutborders-BE/tree/main/logs#log-levels) set to "debug"
 
 ```
 LOG_LEVEL=debug npm start

@@ -2,9 +2,9 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "SMSWithoutBorders >> Documentation",
+  title: "RelaySMS >> Documentation",
   tagline: "Stay connected",
-  favicon: "img/favicon.ico",
+  favicon: "favicon.ico",
   url: "https://docs.smswithoutborders.com",
   baseUrl: "/",
   organizationName: "SMSWithoutBorders",
@@ -68,10 +68,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "SMSWithoutBorders",
+        title: "RelaySMS",
         logo: {
-          alt: "SMSwithoutborders logo",
-          src: "img/logo-icon-light.png"
+          alt: "RelaySMS logo",
+          src: "logo-icon-light.png"
         },
         items: [
           {
@@ -104,16 +104,27 @@ const config = {
             ]
           },
           {
-            type: "doc",
-            docId: "SWOB Account Management/Account Management",
+            label: "Troubleshooting",
             position: "left",
-            label: "SWOB Account Management"
-          },
-          {
-            type: "doc",
-            docId: "Troubleshooting/Troubleshooting",
-            position: "left",
-            label: "Troubleshooting"
+            type: "dropdown",
+            items: [
+              {
+                label: "RelaySMS App",
+                to: "/docs/Troubleshooting/RelaySMS"
+              },
+              {
+                label: "DekuSMS App",
+                to: "/docs/Troubleshooting/DekuSMS"
+              },
+              {
+                label: "Setting Up a Gateway",
+                to: "/docs/Troubleshooting/GatewayClients"
+              },
+              {
+                label: "Linux Releases",
+                to: "/docs/Troubleshooting/LinuxReleases"
+              }
+            ]
           },
           {
             type: "localeDropdown",

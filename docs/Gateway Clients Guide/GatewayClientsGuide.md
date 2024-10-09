@@ -24,9 +24,9 @@ Follow this simple guide to set up and configure a Deku SMS Gateway Client on yo
 
 You can download the Deku SMS app from one of the following sources:
 
-- Google Play Store
-- F-Droid
-- GitHub Releases
+- [Google Play Store](https://play.google.com/store/apps/details?id=com.afkanerd.deku)
+- [F-Droid](https://f-droid.org/packages/com.afkanerd.deku/)
+- [GitHub Releases](https://github.com/deku-messaging/Deku-SMS-Android/releases)
 
 ### Step 2: Set Deku SMS as Your Default SMS App
 

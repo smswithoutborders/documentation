@@ -36,7 +36,7 @@
     "description": "The label of footer link with label=YouTube linking to https://www.youtube.com/@smswithoutborders9162"
   },
   "copyright": {
-    "message": "Copyright © 2024 SMSWithoutBorders. Built with Docusaurus.",
+    "message": "Copyright © 2024 RelaySMS. Built with Docusaurus.",
     "description": "The footer copyright"
   }
 }
