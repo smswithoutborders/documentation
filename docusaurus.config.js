@@ -96,35 +96,14 @@ const config = {
               {
                 label: "Setting up a Gateway",
                 to: "/docs/Tutorials/Gateway/Setting-Up-a-Gateway"
-              },
-              {
-                label: "Contributing to RelaySMS",
-                to: "/docs/Tutorials/Contributing/How-to-Contribute"
               }
             ]
           },
           {
-            label: "Troubleshooting",
+            type: "doc",
+            docId: "Troubleshooting/Troubleshooting-FAQ",
             position: "left",
-            type: "dropdown",
-            items: [
-              {
-                label: "RelaySMS App",
-                to: "/docs/Troubleshooting/RelaySMS"
-              },
-              {
-                label: "DekuSMS App",
-                to: "/docs/Troubleshooting/DekuSMS"
-              },
-              {
-                label: "Setting Up a Gateway",
-                to: "/docs/Troubleshooting/GatewayClients"
-              },
-              {
-                label: "Linux Releases",
-                to: "/docs/Troubleshooting/LinuxReleases"
-              }
-            ]
+            label: "TroubleShooting"
           },
           {
             type: "localeDropdown",

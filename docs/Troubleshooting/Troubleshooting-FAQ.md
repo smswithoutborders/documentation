@@ -1,53 +1,75 @@
 ---
-sidebar_position: 3
+sidebar_position: 1
 ---
 
-## Android Version Questions
+## RelaySMS Troubleshooting Guide
 
-### 8. How do I install RelaySMS on Android?
-
-- **Steps:**
-  1. Open the Google Play Store on your Android device.
-  2. Search for "RelaySMS."
-  3. Tap "Install" to download the app.
-  4. Open the app and grant necessary permissions to send and receive SMS.
-
-### 9. What features does the Android version offer?
-
-- **Answer:**
-  - Similar to the iOS version, the Android app provides secure SMS messaging, storage of OAuth2 tokens, and support for managing multiple accounts without internet access.
+### Common Issues and Solutions
 
 ---
 
-## Linux Version Questions
+### App Download and Installation
 
-### 10. How do I install RelaySMS on Linux?
+**Issue**: Unable to download the app  
+**Solution**:
 
-- **Steps:**
-  1. Clone the RelaySMS repository from GitHub: `git clone https://github.com/smswithoutborders/RelaySMS.git`.
-  2. Follow the build instructions in the repository to compile the app.
-  3. Ensure you have the necessary dependencies installed for your Linux distribution.
-
-### 11. Is RelaySMS open source on Linux?
-
-- **Answer:**
-  - Yes, RelaySMS is open source and freely available on GitHub. Users can contribute to the project, report issues, and request features.
+- Ensure your Android device is running Android 7 or later, and your iOS device is running iOS 10 or later.
+- Check your internet connection and try downloading again.
+- If the issue persists, contact our support team for assistance.
 
 ---
 
-## Common Questions Across Platforms
+### App Crashes
 
-### 12. How do I ensure my messages are secure across all platforms?
+**Issue**: The app crashes frequently or unexpectedly  
+**Solutions**:
 
-- **Answer:**
-  - Ensure that you have enabled end-to-end encryption in the app settings on all platforms. Additionally, verify that both users are using the RelaySMS app for secure messaging.
+- Verify your device's operating system meets the minimum requirements (Android 7 or later, iOS 10 or later).
+- Restart your device and try opening the app again.
+- Clear the app's cache and storage settings:
+  - **Android**: Go to **Settings > Apps > RelaySMS > Storage > Clear Cache and Clear Data**.
+  - **iOS**: Go to **Settings > General > iPhone Storage > RelaySMS > Delete App**. Then, reinstall the app from the App Store.
 
-### 13. Can I manage multiple accounts in RelaySMS on all platforms?
+---
 
-- **Answer:**
-  - Yes, RelaySMS allows you to manage multiple accounts on all supported platforms, including iOS, Android, and Linux.
+### Verification Code Issues
 
-### 14. Where can I find the source code for RelaySMS?
+**Issue**: Unable to receive verification codes  
+**Solutions**:
 
-- **Answer:**
-  - The source code for RelaySMS is available on GitHub at [https://github.com/smswithoutborders](https://github.com/smswithoutborders), where you can also find documentation and contribute to the project.
+- Double-check the phone number used for your account. Ensure it's active and receiving SMS messages.
+- Try requesting a new verification code.
+- If the issue persists, contact our support team for assistance.
+
+---
+
+### Platform Saving Issues
+
+**Issue**: Unable to save platforms to your account  
+**Solutions**:
+
+- Verify that the access to the platform is not already saved to another RelaySMS account.
+- Log out of your account, clear the app's cache and data, and log back in.
+- Try saving the platform again.
+- If the issue persists, contact our support team for assistance.
+
+---
+
+### Message Publishing Issues
+
+**Issue**: Messages are not publishing  
+**Solutions**:
+
+- Try using a different gateway client.
+- Log out of your account, clear the app's cache and data, and log back in.
+- If you haven't used the account for a long time, revoke access to the platform and restore it.
+- Check your SIM card is active and able to send SMS messages.
+- If the issue persists, contact our support team for assistance.
+
+---
+
+### Additional Tips
+
+- **Update the App**: Ensure you have the latest version of the RelaySMS app installed.
+- **Check for Network Issues**: Verify that your device is active and is able to send SMS messages.
+- **Contact Support**: If you continue to experience issues, don't hesitate to reach out to our support team for assistance.
