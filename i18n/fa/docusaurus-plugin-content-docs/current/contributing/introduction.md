@@ -2,78 +2,78 @@
 sidebar_position: 1
 ---
 
-## Definitions
+## تعاریف
 
-**RelaySMS:** - RelaySMS
+**SWOB:** - SMSWithoutBorders
 
-This document describes the data flow of RelaySMS.
+این سند جریان داده SWOB را توصیف می کند.
 
-This document does not contain information about the inner working of each of the modules; information about the inner working of each module can be found in their respective repositories.
+این سند حاوی اطلاعاتی در مورد عملکرد داخلی هر یک از ماژول ها نیست. اطلاعات مربوط به عملکرد داخلی هر ماژول را می توان در مخازن مربوطه آنها یافت.
 
-This document is aimed at the following audiences:
+این سند مخاطبان زیر را هدف قرار داده است:
 
-- Software Engineers
-- Program managers
+- مهندسین نرم افزار
+- مدیران برنامه
 
-## Overview
+## بررسی اجمالی
 
-#### Summary of data flow
+#### خلاصه ای از جریان داده
 
 <img alt="Figure: swob merge flow" src="https://github.com/smswithoutborders/SMSWithoutBorders-Resources/raw/master/multimedia/img/developers/swob_merge_flow.png" />
 
-### Storing account access
+### ذخیره دسترسی به حساب
 
-RelaySMS works on the principles of [OAuth 2](https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2).
+SWOB بر اساس اصول [OAuth 2](https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2) کار می کند.
 
-> OAuth 2 is an authorization framework that enables applications — such as Facebook, GitHub, and DigitalOcean — to obtain limited access to user accounts on an HTTP service. It works by delegating user authentication to the service that hosts a user account and authorizing third-party applications to access that user account. OAuth 2 provides authorization flows for web and desktop applications, as well as mobile devices.
+> OAuth 2 یک چارچوب مجوز است که به برنامه های کاربردی - مانند Facebook، GitHub و DigitalOcean - امکان دسترسی محدود به حساب های کاربری در یک سرویس HTTP را می دهد. این کار با واگذاری احراز هویت کاربر به سرویسی که میزبان یک حساب کاربری است و اجازه دادن به برنامه های شخص ثالث برای دسترسی به آن حساب کاربری کار می کند. OAuth 2 جریان های مجوز را برای برنامه های کاربردی وب و دسکتاپ و همچنین دستگاه های تلفن همراه فراهم می کند.
 
 <img width="350" height="400" src="https://github.com/smswithoutborders/SMSWithoutBorders-Resources/raw/master/multimedia/img/developers/swob_auth.png" />
 
-User tokens are securely stored and access on user request to:
+توکن های کاربر به صورت ایمن ذخیره می شوند و در صورت درخواست کاربر به موارد زیر دسترسی دارند:
 
-- publish a request to an online platform from the app
-- revoke tokens
-- delete accounts (this action revokes tokens as well).
+- درخواست را به یک پلت فرم آنلاین از برنامه منتشر کنید
+- ابطال نشانه ها
+- حذف اکانت ها (این عمل توکن ها را نیز باطل می کند).
 
-##### Related repositories
+##### مخازن مرتبط
 
-- [User access storage database](https://github.com/smswithoutborders/SMSwithoutborders-BE)
-- [User management User interfaces](https://github.com/smswithoutborders/smswithoutborders.com)
+- [پایگاه داده ذخیره سازی دسترسی کاربر](https://github.com/smswithoutborders/SMSwithoutborders-BE)
+- [واسط های کاربری مدیریت کاربر](https://github.com/smswithoutborders/smswithoutborders.com)
 
-### Making request using SMS messages
+### درخواست با استفاده از پیامک
 
-#### Synchronization
+#### هماهنگ سازی
 
-The synchronization process utilizes RSA-based communications to perform a secure handshake between the mobile app users and the Gateway servers.
+فرآیند همگام سازی از ارتباطات مبتنی بر RSA برای انجام یک دست دادن امن بین کاربران برنامه تلفن همراه و سرورهای Gateway استفاده می کند.
 
 <img width="750" height="600" src="https://github.com/smswithoutborders/SMSWithoutBorders-Resources/raw/master/multimedia/img/developers/swob_sync.png" />
 
-The handshake ends with the app and the Gateway server securely sharing secret keys that will be used to encrypt the SMS messages from the app.
+دست دادن با برنامه و سرور Gateway به اشتراک گذاری ایمن کلیدهای مخفی که برای رمزگذاری پیام های SMS از برنامه استفاده می شود، پایان می یابد.
 
-Multiple secret keys are not supported at this time, therefore users are tied to the latest shared secret key; this devalues any previously stored key.
+کلیدهای مخفی چندگانه در حال حاضر پشتیبانی نمی شوند، بنابراین کاربران به آخرین کلید مخفی مشترک متصل هستند. این باعث کاهش ارزش هر کلید ذخیره شده قبلی می شود.
 
-The secret keys are stored on the app and cannot be requested for from the server after the synchronization is completed. This means once a user changes their device or uninstalls the app, they would be required to resynchronize.
+کلیدهای مخفی در برنامه ذخیره می شوند و پس از تکمیل همگام سازی نمی توان آنها را از سرور درخواست کرد. این بدان معناست که هنگامی که کاربر دستگاه خود را تغییر می دهد یا برنامه را حذف نصب می کند، باید مجدداً همگام سازی کند.
 
-##### Related repositories\*\*
+##### مخازن مرتبط
 
-- [Gateway server](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server)
-- [Android App](https://github.com/smswithoutborders/SMSwithoutBorders-App-Android)
+- [سرور دروازه](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server)
+- [برنامه اندروید](https://github.com/smswithoutborders/SMSwithoutBorders-App-Android)
 
-#### Requesting and publishing
+#### درخواست و انتشار
 
-Users choose which platform they want intend to publish (send) their messages to from the mobile app. The user is then provided one of many [Gateway Clients](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client) which can forward their messages to Gateway servers. Default Gateway servers are chosen and provided to the user after synchronization happens, but this can be manually changed by the user.
+کاربران انتخاب می کنند که می خواهند پیام های خود را از برنامه تلفن همراه به کدام پلتفرم منتشر کنند (ارسال کنند). سپس یکی از [کاربران دروازه](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client) به کاربر ارائه می شود که می تواند پیام های خود را به سرورهای دروازه ارسال کند. سرورهای پیش‌فرض Gateway پس از همگام‌سازی انتخاب می‌شوند و در اختیار کاربر قرار می‌گیرند، اما کاربر می‌تواند به صورت دستی آن را تغییر دهد.
 
 <img width="750" height="600" src="https://github.com/smswithoutborders/SMSWithoutBorders-Resources/raw/master/multimedia/img/developers/swob_request_and_publish.png" />
 
-Messages reaching the Gateway Clients are sent to the Gateway server or as many Gateway servers or routes as required.
-The messages remain encrypted through this forwarding process.
+پیام هایی که به Gateway Clients می رسد به سرور Gateway یا به تعداد سرورها یا مسیرهای Gateway که لازم است ارسال می شود.
+پیام ها از طریق این فرآیند ارسال، رمزگذاری شده باقی می مانند.
 
-Gateway servers receive the forwarded request from the Gateway clients, authenticate the existence of the requester then decrypt the messages and sends to the [Publisher](https://github.com/smswithoutborders/SMSWithoutBorders-Publisher).
+سرورهای دروازه درخواست ارسال شده را از مشتریان دروازه دریافت می کنند، وجود درخواست کننده را احراز هویت می کنند، سپس پیام ها را رمزگشایی می کنند و به [Publisher](https://github.com/smswithoutborders/SMSWithoutBorders-Publisher) ارسال می کنند.
 
-Publisher talk with the [User management publisher](https://github.com/smswithoutborders/SMSwithoutborders-BE) which authenticates the request and sends a decrypted copy of the user's stored token information (for the requested platform). The publisher goes ahead to make the request for publisher directly to the requested platforms supported API or via their SDK.
+گفتگوی ناشر با [ناشر مدیریت کاربر](https://github.com/smswithoutborders/SMSwithoutborders-BE) که درخواست را احراز هویت می کند و یک کپی رمزگشایی شده از اطلاعات رمز ذخیره شده کاربر (برای پلت فرم درخواستی) ارسال می کند. ناشر درخواست ناشر را مستقیماً به پلتفرم های درخواستی API یا از طریق SDK خود ارسال می کند.
 
-##### Related repositories
+##### مخازن مرتبط
 
-- [Gateway clients](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client)
-- [Gateway server](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server)
+- [کاربران دروازه](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client)
+- [سرور دروازه](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server)
 - [Publisher](https://github.com/smswithoutborders/SMSWithoutBorders-Publisher)

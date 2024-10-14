@@ -1,9 +1,13 @@
 {
+  "title":{ 
+    "message":"SMSWithoutBorders >> Documentación"},
+  "tagline":{
+    "message": "Mantente conectado"},
   "Get Started with iOS": {
-    "message": "Get Started with iOS"
+    "message": "Comienza con iOS"
   },
   "Get Started with Android": {
-    "message": "Get Started with Android"
+    "message": "Comienza con Android"
   },
   "theme.ErrorPageContent.title": {
     "message": "Esta página ha fallado.",

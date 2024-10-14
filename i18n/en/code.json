@@ -1,4 +1,10 @@
 {
+  "title": {
+  "message": "SMSWithoutBorders >> Documentation"
+ },
+  "tagline":{
+    "message": "Stay connected"
+  },
   "Get Started with iOS": {
     "message": "Get Started with iOS"
   },

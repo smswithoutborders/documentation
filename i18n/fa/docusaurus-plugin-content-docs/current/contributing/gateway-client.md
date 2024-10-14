@@ -2,45 +2,45 @@
 sidebar_position: 4
 ---
 
-# RelaySMS Gateway clients
+# SMSWithoutBorders Gateway clients
 
-Gateway Client is a linux SMS management Gateway. It can both receive and send out SMS messages using the Linux ModemManager utilities. It is aimed at being a complete toolset of everything SMS linux. It functions best with USB 2G/3G Modems
+Gateway Client یک دروازه مدیریت پیام کوتاه لینوکس است. می تواند با استفاده از ابزارهای لینوکس ModemManager پیام های SMS را دریافت و ارسال کند. هدف آن این است که مجموعه ابزار کاملی از همه پیامک های لینوکس باشد. با مودم های USB 2G/3G بهترین عملکرد را دارد
 
-:::tip What you'll learn
+:::نکته آنچه یاد خواهید گرفت
 
-- How to setup and use Gateway Clients
+- نحوه راه اندازی و استفاده از Gateway Clients
 
-The most recent version of this guide can be found in the [`github reposistory`](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client)
+جدیدترین نسخه این راهنما را می‌توانید در ['مخزن github'] پیدا کنید (https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client)
 
 :::
 
-## Installation and Configuration
+## نصب و پیکربندی
 
-### Installation
+### نصب و راه اندازی
 
-#### Installing required Dependencies
+#### نصب وابستگی های مورد نیاز
 
-- python3
+- پایتون 3
 
-#### Dependencies
+#### وابستگی ها
 
-##### Ubuntu
+##### اوبونتو
 
 `sudo apt install build-essential libpython3-dev libdbus-1-dev`
 
-`sudo apt install python3-gi python3-gi-cairo gir1.2-gtk-3.0`
+`sudo apt نصب python3-gi python3-gi-cairo gir1.2-gtk-3.0`
 
 `sudo apt install libgirepository1.0-dev gcc libcairo2-dev pkg-config python3-dev python3-venv`
 
-##### Arch
+##### طاق
 
-`sudo pacman -S python-gobject gtk3`
+"sudo pacman -S python-gobject gtk3".
 
 `sudo pacman -S python cairo pkgconf gobject-introspection gtk3`
 
-#### Build and install
+#### ساخت و نصب کنید
 
-<p>Clone the repository</p>
+مخزن را کلون کنید
 
 ```bash
 git clone https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client.git
@@ -50,101 +50,102 @@ git clone https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client.
 cd SMSWithoutBorders-Gateway-Client
 ```
 
-<p>Create your config files</p>
+فایل های پیکربندی خود را ایجاد کنید
 
 ```bash
 make
 ```
 
-<p>Install more dependencies</p>
+وابستگی های بیشتری نصب کنید
 
 ```bash
 make install
 ```
 
-#### Configuration
+#### پیکربندی
 
-Your clusters require a server to communicate with, and you will need to point to this in your configuration files.
+خوشه‌های شما برای برقراری ارتباط به سرور نیاز دارند و باید در فایل‌های پیکربندی خود به آن اشاره کنید.
 
-- Edit `.configs_config.ini` ref:[link to example config file](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client/tree/master/.configs/example.config.ini)
+- ویرایش ".configs/config.ini" ref:[پیوند به فایل پیکربندی نمونه](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client/tree/master/.configs/example.config.ini)
 
-- Follow [these steps](https://smswithoutborders.github.io/docs/developers/getting-started) in order to get your Auth ID and Auth key
+- [این مراحل] را دنبال کنید (https://smswithoutborders.github.io/docs/developers/getting-started) تا شناسه و کلید تأیید اعتبار خود را دریافت کنید
 
 ```ini
 [OPENAPI]
-API_ID=<insert your server username here (same as an Afkanerd developer Auth ID)>
-API_KEY=<insert your server password here (same as an Afkanerd develper Auth Key)>
+API_ID=<نام کاربری سرور خود را در اینجا وارد کنید (همانند شناسه تأیید اعتبار توسعه دهنده افکانرد)>
+API_KEY=<گذرواژه سرور خود را در اینجا وارد کنید (همانند کلید Auth توسعه دهنده افکانرد)>
 ```
 
-- Be sure to set your connection URL to point to the [RabbitMQ server](https://developers.smswithoutborders.com:15671).
+- حتماً URL اتصال خود را طوری تنظیم کنید که به [سرور RabbitMQ](https://developers.smswithoutborders.com:15671) اشاره کند.
 
 ```ini
 CONNECTION_URL=developers.smswithoutborders.com
 ```
 
-#### Running as system service
+#### در حال اجرا به عنوان سرویس سیستم
 
-##### Linux
+##### لینوکس
 
 ```bash
 make start
 ```
 
-- To auto start on bootup
+- برای شروع خودکار در بوت آپ
 
 ```bash
 make enable
 ```
 
-<b>To view all running logs</b>
+<b>برای مشاهده همه گزارش‌های در حال اجرا</b>
 
 ```bash
 tail -f src/services/logs/service.log
 ```
 
-#### Running manually
+#### در حال اجرا به صورت دستی
 
-##### Linux
+##### لینوکس
 
-- To run the outgoing (send out SMS messages)
-  - Plug in your USB modem
-  - Activate your virtual environment
+- برای اجرای خروجی (ارسال پیامک)
+  - مودم USB خود را وصل کنید
+  - محیط مجازی خود را فعال کنید
+  
   ```bash
   source venv/bin/activate
   ```
-  - For outgoing OpenAPI messages:
+  - برای پیام های OpenAPI خروجی:
   ```bash
   python3 src/main.py --log=DEBUG --module=outbound
   ```
-  - To run the incoming (receive and process incoming messages)
+  - برای اجرای ورودی (دریافت و پردازش پیام های دریافتی)
   ```bash
   python3 src/main.py --log=DEBUG --module=inbound
   ```
 
-<b>Logs - </b>
+<b>گزارش ها - </b>
 
 **systemd**
 
-<small>Inbound</small>
+<small>ورودی</small>
 
 ```bash
 journalctl -af -u swob_inbound.service
 ```
 
-<small>Outbound</small>
+<small>خروجی</small>
 
 ```bash
 journalctl -af -u swob_outbound.service
 ```
 
-### Sending out SMS messages Using OpenAPI
+### ارسال پیامک با استفاده از OpenAPI
 
-With [OpenAPI](https://smswithoutborders-openapi.readthedocs.io/en/latest/overview.html), you can send out single and bulk SMS messages through the Gateway Client. After the gateway client as a system service or manually, you are good to start sending out SMS messages.
+با [OpenAPI](https://smswithoutborders-openapi.readthedocs.io/en/latest/overview.html)، می توانید پیامک های تکی و انبوه را از طریق Gateway Client ارسال کنید. پس از Gateway Client به عنوان یک سرویس سیستمی یا به صورت دستی، خوب است که شروع به ارسال پیامک کنید.
 
-### Setting up on Raspberry pi (tested on 4B)
+### راه اندازی در Raspberry pi (تست شده در 4B)
 
-#### Ubuntu Server
+#### سرور اوبونتو
 
 _Refs_
 
-> https://ubuntu.com/tutorials/how-to-install-ubuntu-on-your-raspberry-pi#4-boot-ubuntu-server<br /> > https://itsfoss.com/connect-wifi-terminal-ubuntu/
+https://ubuntu.com/tutorials/how-to-install-ubuntu-on-your-raspberry-pi#4-boot-ubuntu-server<br /> https://itsfoss.com/connect-wifi-terminal-ubuntu/

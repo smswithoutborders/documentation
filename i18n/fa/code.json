@@ -1,4 +1,8 @@
 {
+  "title":{
+    "message": "اس ام اس بدون مرز >> مستندات" },
+  "tagline": { 
+   "message":"متصل بمانید"},
   "Get Started with iOS": {
     "message": "شروع به کار با iOS"
   },
