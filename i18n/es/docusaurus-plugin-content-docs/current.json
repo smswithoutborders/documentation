@@ -1,0 +1,26 @@
+{
+  "version.label": {
+    "message": "Siguiente",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Contributing to RelaySMS": {
+    "message": "Contribuyendo a RelaySMS",
+    "description": "The label for category Contributing to RelaySMS in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Android Tutorial": {
+    "message": "Tutorial de Android",
+    "description": "The label for category Android Tutorial in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Gateway Clients Guide": {
+    "message": "Guía de Clientes de Puerta de Enlace",
+    "description": "The label for category Gateway Clients Guide in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Troubleshooting": {
+    "message": "Solución de Problemas",
+    "description": "The label for category Troubleshooting in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.iOS Tutorial": {
+    "message": "Tutorial de iOS",
+    "description": "The label for category iOS Tutorial in sidebar tutorialSidebar"
+  }
+}

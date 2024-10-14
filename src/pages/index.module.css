@@ -1,8 +1,3 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
 .heroBanner {
   padding: 4rem 0;
   text-align: center;
@@ -10,34 +5,63 @@
   overflow: hidden;
   min-height: 600px;
   font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero__title {
-  font-size: 2.8rem;
+  font-size: 3rem;
+  margin-top: 1rem;
+  font-weight: bold;
 }
 
 .hero__subtitle {
   font-size: 1.8rem;
+  margin-top: 0.5rem;
 }
 
+.buttonGroup {
+  display: flex;
+  gap: 20px;
+  margin-top: 2rem;
+}
+
+.buttonGroup a {
+  padding: 1rem 2rem;
+}
+
+/* Media Query for Mobile */
 @media screen and (max-width: 996px) {
   .heroBanner {
-    padding: 1rem;
+    padding: 2rem 1rem;
   }
+
   .hero__title {
-    font-size: 1.7rem;
+    font-size: 2.2rem;
   }
 
   .hero__subtitle {
     font-size: 1.4rem;
   }
-}
 
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: auto;
+  .buttonGroup {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .buttonGroup a {
+    width: 100%;
+    text-align: center;
+  }
 }
 
 .hero_img {

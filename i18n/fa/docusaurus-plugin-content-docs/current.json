@@ -1,22 +1,26 @@
 {
   "version.label": {
-    "message": "بعد",
+    "message": "نسخه",
     "description": "The label for version current"
   },
-  "sidebar.tutorialSidebar.category.Contributing to SMSWithoutBorders": {
-    "message": "مشارکت در SMSWithoutBorders",
-    "description": "The label for category Contributing to SMSWithoutBorders in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.Contributing to RelaySMS": {
+    "message": "مشارکت در RelaySMS",
+    "description": "The label for category Contributing to RelaySMS in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Tutorials": {
-    "message": "آموزش ها",
-    "description": "The label for category Tutorials in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.Android Tutorial": {
+    "message": "آموزش اندروید",
+    "description": "The label for category Android Tutorial in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.SWOB Account Management": {
-    "message": "مدیریت حساب SWOB",
-    "description": "The label for category SWOB Account Management in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.Gateway Clients Guide": {
+    "message": "راهنمای مشتریان دروازه",
+    "description": "The label for category Gateway Clients Guide in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.App Tutorial": {
-    "message": "آموزش برنامه",
-    "description": "The label for category App Tutorial in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.Troubleshooting": {
+    "message": "رفع اشکال",
+    "description": "The label for category Troubleshooting in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.iOS Tutorial": {
+    "message": "آموزش iOS",
+    "description": "The label for category iOS Tutorial in sidebar tutorialSidebar"
   }
 }

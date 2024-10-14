@@ -1,26 +1,38 @@
 {
   "title": {
-    "message": "SMSWithoutBorders",
-    "description": "The title in the navbar"
+    "message": "RelaySMS",
+    "description": "The title in the navigation bar"
   },
   "logo.alt": {
-    "message": "SMSwithoutborders logo",
-    "description": "The alt text of navbar logo"
+    "message": "Logo RelaySMS",
+    "description": "The alt text for the logo in the navigation bar"
   },
   "item.label.Docs": {
-    "message": "Documents",
-    "description": "Navbar item with label Docs"
+    "message": "Docs",
+    "description": "Navigation bar item labeled Docs"
   },
   "item.label.Tutorials": {
     "message": "Tutoriels",
-    "description": "Navbar item with label Tutorials"
+    "description": "Navigation bar item labeled Tutorials"
   },
-  "item.label.SWOB Account Management": {
-    "message": "Gestion de compte SWOB",
-    "description": "Navbar item with label SWOB Account Management"
+  "item.label.TroubleShooting": {
+    "message": "Dépannage",
+    "description": "Navigation bar item labeled Troubleshooting"
   },
   "item.label.GitHub": {
     "message": "GitHub",
-    "description": "Navbar item with label GitHub"
+    "description": "Navigation bar item labeled GitHub"
+  },
+  "item.label.RelaySMS Android Tutorial": {
+    "message": "Tutoriel RelaySMS Android",
+    "description": "Navigation bar item labeled RelaySMS Android Tutorial"
+  },
+  "item.label.RelaySMS iOS Tutorial": {
+    "message": "Tutoriel RelaySMS iOS",
+    "description": "Navigation bar item labeled RelaySMS iOS Tutorial"
+  },
+  "item.label.Setting up a Gateway": {
+    "message": "Configurer une passerelle",
+    "description": "Navigation bar item labeled Setting up a Gateway"
   }
 }

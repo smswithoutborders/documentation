@@ -1,26 +1,38 @@
 {
   "title": {
-    "message": "SMSWithoutBorders",
+    "message": "ریلِی‌اس‌ام‌اس",
     "description": "The title in the navbar"
   },
   "logo.alt": {
-    "message": "آرم پیامک بدون مرز",
+    "message": "لوگوی ریلِی‌اس‌ام‌اس",
     "description": "The alt text of navbar logo"
   },
   "item.label.Docs": {
-    "message": "اسناد",
+    "message": "مستندات",
     "description": "Navbar item with label Docs"
   },
   "item.label.Tutorials": {
-    "message": "آموزش ها",
+    "message": "آموزش‌ها",
     "description": "Navbar item with label Tutorials"
   },
-  "item.label.SWOB Account Management": {
-    "message": "مدیریت حساب SWOB",
-    "description": "Navbar item with label SWOB Account Management"
+  "item.label.TroubleShooting": {
+    "message": "عیب‌یابی",
+    "description": "Navbar item with label TroubleShooting"
   },
   "item.label.GitHub": {
-    "message": "GitHub",
+    "message": "گیت‌هاب",
     "description": "Navbar item with label GitHub"
+  },
+  "item.label.RelaySMS Android Tutorial": {
+    "message": "آموزش ریلِی‌اس‌ام‌اس اندروید",
+    "description": "Navbar item with label RelaySMS Android Tutorial"
+  },
+  "item.label.RelaySMS iOS Tutorial": {
+    "message": "آموزش ریلِی‌اس‌ام‌اس آی‌اواس",
+    "description": "Navbar item with label RelaySMS iOS Tutorial"
+  },
+  "item.label.Setting up a Gateway": {
+    "message": "راه‌اندازی گیت‌وی",
+    "description": "Navbar item with label Setting up a Gateway"
   }
 }

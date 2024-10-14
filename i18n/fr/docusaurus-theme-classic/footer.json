@@ -1,42 +1,46 @@
 {
   "link.title.Docs": {
     "message": "Docs",
-    "description": "The title of the footer links column with title=Docs in the footer"
+    "description": "Le titre de la colonne de liens du pied de page avec le titre=Docs dans le pied de page"
   },
   "link.title.Community": {
     "message": "Communauté",
-    "description": "The title of the footer links column with title=Community in the footer"
+    "description": "Le titre de la colonne de liens du pied de page avec le titre=Communauté dans le pied de page"
   },
   "link.title.More": {
     "message": "Plus",
-    "description": "The title of the footer links column with title=More in the footer"
+    "description": "Le titre de la colonne de liens du pied de page avec le titre=Plus dans le pied de page"
   },
   "link.item.label.Tutorials": {
     "message": "Tutoriels",
-    "description": "The label of footer link with label=Tutorials linking to /docs/tutorials/getting-started"
+    "description": "L'étiquette du lien du pied de page avec l'étiquette=Tutoriels renvoyant à /docs/iOS Tutorial/Getting-Started-With-iOS"
+  },
+  "link.item.label.Troubleshooting": {
+    "message": "Dépannage",
+    "description": "L'étiquette du lien du pied de page avec l'étiquette=Dépannage renvoyant à /docs/Troubleshooting"
   },
   "link.item.label.IRC: freenode/#afkanerd": {
     "message": "IRC: freenode/#afkanerd",
-    "description": "The label of footer link with label=IRC: freenode/#afkanerd linking to #"
+    "description": "L'étiquette du lien du pied de page avec l'étiquette=IRC: freenode/#afkanerd renvoyant à #"
   },
   "link.item.label.GitHub": {
     "message": "GitHub",
-    "description": "The label of footer link with label=GitHub linking to https://github.com/smswithoutborders"
+    "description": "L'étiquette du lien du pied de page avec l'étiquette=GitHub renvoyant à https://github.com/smswithoutborders"
   },
   "link.item.label.Blog": {
     "message": "Blog",
-    "description": "The label of footer link with label=Blog linking to https://afkanerd.github.io"
+    "description": "L'étiquette du lien du pied de page avec l'étiquette=Blog renvoyant à https://blog.smswithoutborders.com"
   },
   "link.item.label.FaceBook": {
-    "message": "FaceBook",
-    "description": "The label of footer link with label=FaceBook linking to https://www.facebook.com/SMSWithoutBorders"
+    "message": "Facebook",
+    "description": "L'étiquette du lien du pied de page avec l'étiquette=Facebook renvoyant à https://www.facebook.com/SMSWithoutBorders"
   },
   "link.item.label.YouTube": {
     "message": "YouTube",
-    "description": "The label of footer link with label=YouTube linking to https://www.youtube.com/@smswithoutborders9162"
+    "description": "L'étiquette du lien du pied de page avec l'étiquette=YouTube renvoyant à https://www.youtube.com/@smswithoutborders9162"
   },
   "copyright": {
-    "message": "Droits d'auteur © 2024 SMSWithoutBorders. Construit avec Docusaurus.",
-    "description": "The footer copyright"
+    "message": "Droits d'auteur © 2024 SMSWithoutBorders. Créé avec Docusaurus.",
+    "description": "Le copyright du pied de page"
   }
 }

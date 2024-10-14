@@ -1,9 +1,13 @@
 {
-  "Get Started with Desktop": {
-    "message": "با دسکتاپ شروع کنید"
+  "title":{
+    "message": "اس ام اس بدون مرز >> مستندات" },
+  "tagline": { 
+   "message":"متصل بمانید"},
+  "Get Started with iOS": {
+    "message": "شروع به کار با iOS"
   },
   "Get Started with Android": {
-    "message": "با اندروید شروع کنید"
+    "message": "شروع به کار با اندروید"
   },
   "theme.ErrorPageContent.title": {
     "message": "بارگذاری صفحه با خطا روبرو شد.",
@@ -44,14 +48,6 @@
   "theme.blog.post.paginator.olderPost": {
     "message": "پست قدیمی‌تر",
     "description": "The blog post button label to navigate to the older/next post"
-  },
-  "theme.blog.post.plurals": {
-    "message": "یک پست|{count} پست",
-    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
-  },
-  "theme.blog.tagTitle": {
-    "message": "{nPosts} با برچسب \"{tagName}\"",
-    "description": "The title of the page for a blog tag"
   },
   "theme.tags.tagsPageLink": {
     "message": "مشاهده تمام برچسب‌ها",
@@ -148,6 +144,10 @@
     "message": "برچسب‌ها:",
     "description": "The label alongside a tag list"
   },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "بستن",
+    "description": "The ARIA label for close button of announcement bar"
+  },
   "theme.admonition.caution": {
     "message": "توجه",
     "description": "The default label used for the Caution admonition (:::caution)"
@@ -171,10 +171,6 @@
   "theme.admonition.warning": {
     "message": "هشدار",
     "description": "The default label used for the Warning admonition (:::warning)"
-  },
-  "theme.AnnouncementBar.closeButtonAriaLabel": {
-    "message": "بستن",
-    "description": "The ARIA label for close button of announcement bar"
   },
   "theme.blog.sidebar.navAriaLabel": {
     "message": "کنترل پست‌های اخیر وبلاگ",
@@ -272,6 +268,42 @@
     "message": "باز کردن نوار کناری",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
+  "theme.blog.post.plurals": {
+    "message": "یک پست|{count} پست",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} با برچسب \"{tagName}\"",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} - {nPosts}",
+    "description": "The title of the page for a blog author"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "Authors",
+    "description": "The title of the authors page"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "View All Authors",
+    "description": "The label of the link targeting the blog authors page"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "صفحه فهرست نشده",
+    "description": "The unlisted content banner title"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "این صفحه فهرست نشده است. موتورهای جستجو آن را ایندکس نمی کنند و فقط کاربرانی که لینک مستقیم دارند می توانند به آن دسترسی داشته باشند.",
+    "description": "The unlisted content banner message"
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "Draft page",
+    "description": "The draft content banner title"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "This page is a draft. It will only be visible in dev and be excluded from the production build.",
+    "description": "The draft content banner message"
+  },
   "theme.ErrorPageContent.tryAgain": {
     "message": "تلاش مجدد",
     "description": "The label of the button to try again rendering when the React error boundary captures an error"
@@ -283,13 +315,5 @@
   "theme.tags.tagsPageTitle": {
     "message": "برچسب‌ها",
     "description": "The title of the tag list page"
-  },
-  "theme.unlistedContent.title": {
-    "message": "صفحه فهرست نشده",
-    "description": "The unlisted content banner title"
-  },
-  "theme.unlistedContent.message": {
-    "message": "این صفحه فهرست نشده است. موتورهای جستجو آن را ایندکس نمی کنند و فقط کاربرانی که لینک مستقیم دارند می توانند به آن دسترسی داشته باشند.",
-    "description": "The unlisted content banner message"
   }
 }
