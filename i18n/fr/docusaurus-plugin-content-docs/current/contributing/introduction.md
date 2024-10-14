@@ -2,74 +2,78 @@
 sidebar_position: 1
 ---
 
-## Définitions
+## Definitions
 
-**SWOB:** - SMSWithoutBorders
+**RelaySMS:** - RelaySMS
 
-Ce document décrit le flux de données du SWOB.
+This document describes the data flow of RelaySMS.
 
-Ce document ne contient pas d'informations sur le fonctionnement interne de chacun des modules ; des informations sur le fonctionnement interne de chaque module peuvent être trouvées dans leurs référentiels respectifs.
+This document does not contain information about the inner working of each of the modules; information about the inner working of each module can be found in their respective repositories.
 
-Ce document s'adresse aux publics suivants :
-- Ingénieurs en logiciel
-- Responsables de programme
+This document is aimed at the following audiences:
 
-## Vue d'ensemble
+- Software Engineers
+- Program managers
 
-#### Résumé du flux de données.
+## Overview
+
+#### Summary of data flow
 
 <img alt="Figure: swob merge flow" src="https://github.com/smswithoutborders/SMSWithoutBorders-Resources/raw/master/multimedia/img/developers/swob_merge_flow.png" />
 
-### Stockage des accès aux comptes
+### Storing account access
 
-SWOB travaille selon les principes suivants [OAuth 2](https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2).
+RelaySMS works on the principles of [OAuth 2](https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2).
 
-> OAuth 2 est un cadre d'autorisation qui permet aux applications - telles que Facebook, GitHub et DigitalOcean - d'obtenir un accès limité aux comptes d'utilisateurs sur un service HTTP. Il fonctionne en déléguant l'authentification de l'utilisateur au service qui héberge un compte d'utilisateur et en autorisant des applications tierces à accéder à ce compte d'utilisateur. OAuth 2 fournit des flux d'autorisation pour les applications web et de bureau, ainsi que pour les appareils mobiles.
+> OAuth 2 is an authorization framework that enables applications — such as Facebook, GitHub, and DigitalOcean — to obtain limited access to user accounts on an HTTP service. It works by delegating user authentication to the service that hosts a user account and authorizing third-party applications to access that user account. OAuth 2 provides authorization flows for web and desktop applications, as well as mobile devices.
 
 <img width="350" height="400" src="https://github.com/smswithoutborders/SMSWithoutBorders-Resources/raw/master/multimedia/img/developers/swob_auth.png" />
 
-Les jetons d'utilisateur sont stockés en toute sécurité et sont accessibles à la demande de l'utilisateur :
-- publier une demande sur une plateforme en ligne à partir de l'application
-- révoquer les jetons
-- supprimer des comptes (cette action révoque également les jetons).
+User tokens are securely stored and access on user request to:
 
-##### Dépôts connexes
+- publish a request to an online platform from the app
+- revoke tokens
+- delete accounts (this action revokes tokens as well).
 
-- [Accès de l'utilisateur à la base de données de stockage](https://github.com/smswithoutborders/SMSwithoutborders-BE)
+##### Related repositories
+
+- [User access storage database](https://github.com/smswithoutborders/SMSwithoutborders-BE)
 - [User management User interfaces](https://github.com/smswithoutborders/smswithoutborders.com)
 
-### Faire une demande par SMS
+### Making request using SMS messages
 
-#### Synchronisation.
+#### Synchronization
 
-Le processus de synchronisation utilise des communications basées sur RSA pour effectuer un échange sécurisé entre les utilisateurs de l'application mobile et les serveurs de la passerelle.
+The synchronization process utilizes RSA-based communications to perform a secure handshake between the mobile app users and the Gateway servers.
 
 <img width="750" height="600" src="https://github.com/smswithoutborders/SMSWithoutBorders-Resources/raw/master/multimedia/img/developers/swob_sync.png" />
 
-La poignée de main se termine par le partage sécurisé entre l'application et le serveur de la passerelle des clés secrètes qui seront utilisées pour crypter les messages SMS de l'application.
-Les utilisateurs sont donc liés à la dernière clé secrète partagée, ce qui dévalue toute clé stockée précédemment.
+The handshake ends with the app and the Gateway server securely sharing secret keys that will be used to encrypt the SMS messages from the app.
 
-Les clés secrètes sont stockées dans l'application et ne peuvent pas être demandées au serveur une fois la synchronisation terminée. Cela signifie que lorsqu'un utilisateur change d'appareil ou désinstalle l'application, il doit procéder à une nouvelle synchronisation.
+Multiple secret keys are not supported at this time, therefore users are tied to the latest shared secret key; this devalues any previously stored key.
 
-##### Dépôts connexes**
+The secret keys are stored on the app and cannot be requested for from the server after the synchronization is completed. This means once a user changes their device or uninstalls the app, they would be required to resynchronize.
+
+##### Related repositories\*\*
 
 - [Gateway server](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server)
 - [Android App](https://github.com/smswithoutborders/SMSwithoutBorders-App-Android)
 
-#### Demande et publication
+#### Requesting and publishing
 
-Les utilisateurs choisissent la plateforme sur laquelle ils souhaitent publier (envoyer) leurs messages à partir de l'application mobile. L'utilisateur se voit alors proposer l'un des nombreux [clients de passerelle](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client) qui peuvent transmettre leurs messages aux serveurs de la passerelle. Les serveurs de passerelle par défaut sont choisis et fournis à l'utilisateur après la synchronisation, mais ils peuvent être modifiés manuellement par l'utilisateur.
+Users choose which platform they want intend to publish (send) their messages to from the mobile app. The user is then provided one of many [Gateway Clients](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client) which can forward their messages to Gateway servers. Default Gateway servers are chosen and provided to the user after synchronization happens, but this can be manually changed by the user.
 
 <img width="750" height="600" src="https://github.com/smswithoutborders/SMSWithoutBorders-Resources/raw/master/multimedia/img/developers/swob_request_and_publish.png" />
 
-#### Demande et publication
+Messages reaching the Gateway Clients are sent to the Gateway server or as many Gateway servers or routes as required.
+The messages remain encrypted through this forwarding process.
 
-Les utilisateurs choisissent la plateforme sur laquelle ils souhaitent publier (envoyer) leurs messages à partir de l'application mobile. L'utilisateur se voit alors proposer l'un des nombreux [clients de passerelle](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client) qui peuvent transmettre leurs messages aux serveurs de la passerelle. Les serveurs de passerelle par défaut sont choisis et fournis à l'utilisateur après la synchronisation, mais ils peuvent être modifiés manuellement par l'utilisateur.
+Gateway servers receive the forwarded request from the Gateway clients, authenticate the existence of the requester then decrypt the messages and sends to the [Publisher](https://github.com/smswithoutborders/SMSWithoutBorders-Publisher).
 
-##### Related repositories.
+Publisher talk with the [User management publisher](https://github.com/smswithoutborders/SMSwithoutborders-BE) which authenticates the request and sends a decrypted copy of the user's stored token information (for the requested platform). The publisher goes ahead to make the request for publisher directly to the requested platforms supported API or via their SDK.
 
-##### Référentiels associés.
+##### Related repositories
 
-- [Clients de la passerelle](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client).
-- [Serveur de passerelle](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server).
-- [Publisher](https://github.com/smswithoutborders/SMSWithoutBorders-Publisher).
+- [Gateway clients](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client)
+- [Gateway server](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server)
+- [Publisher](https://github.com/smswithoutborders/SMSWithoutBorders-Publisher)

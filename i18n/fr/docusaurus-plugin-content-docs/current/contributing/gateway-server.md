@@ -2,36 +2,37 @@
 sidebar_position: 6
 ---
 
-# Serveur de la passerelle SMSWithoutBorders
-Les serveurs passerelles permettent aux utilisateurs de se synchroniser et de communiquer avec le module éditeur.
+# RelaySMS Gateway Server
 
-:::conseil Ce que vous apprendrez
+Gateway-servers enables the users to synchronize and communicate with the publisher module
 
-* Comment configurer et utiliser le serveur Gateway
-La version la plus récente de ce guide se trouve dans le [`github reposistory`](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server)
+:::tip What you'll learn
 
-Le frontend s'intègre à ces services. Il se peut que vous deviez les configurer en fonction de la section sur laquelle vous travaillez.
+- How to setup and use Gateway Server
 
-* [`Android App`](https://github.com/smswithoutborders/SMSWithoutBorders-App-Android)
+The most recent version of this guide can be found in the [`github reposistory](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server)
 
-* [`Gateway Client`](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client)
+The frontend integrates with these services. you may need to set them up depending on what section you are working on.
 
-:::
+- [`Android App`](https://github.com/smswithoutborders/SMSWithoutBorders-App-Android)
 
-### Exigences
+- [`Gateway Client`](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client)
 
-* python3
+### Requirements
 
-### Fonctionnalités
+- python3
 
-* Serveur de courtier en messages pour [Gateway-Client](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client) (_see [SMSWithoutBorders-OpenAPI](https://github.com/smswithoutborders/SMSWithoutBorders-OpenAPI)_ )
+### Features
 
-* [SMSWithoutBorders-App](https://github.com/smswithoutborders/SMSWithoutBorders-App-Android) synchronisation pour la communication avec[Publisher](https://github.com/smswithoutborders/SMSWithoutBorders-Publisher)
+- Message broker server for [Gateway-Client](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client) (\_see [SMSWithoutBorders-OpenAPI](https://github.com/smswithoutborders/SMSWithoutBorders-OpenAPI))
 
-> Il devrait être hébergé au même endroit que [Publisher](https://github.com/smswithoutborders/SMSWithoutBorders-Publisher),parce que Publisher n'est pas _directement_ exposé au web.
+- [SMSWithoutBorders-App](https://github.com/smswithoutborders/SMSWithoutBorders-App-Android) synchronization for communication with [Publisher](https://github.com/smswithoutborders/SMSWithoutBorders-Publisher)
 
-* Transmet la demande de publication de[Gateway-Client](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client) à[Publisher](https://github.com/smswithoutborders/SMSWithoutBorders-Publisher)
-* Authentifie[Gateway-Client's](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client) demande d'adhésion [Publisher](https://github.com/smswithoutborders/SMSWithoutBorders-Publisher)
+> This should should be hosted in the same place as [Publisher](https://github.com/smswithoutborders/SMSWithoutBorders-Publisher), because Publisher is not _directly_ exposed to the web.
+
+- Forwards publishing request from [Gateway-Client](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client) to [Publisher](https://github.com/smswithoutborders/SMSWithoutBorders-Publisher)
+
+- Authenticates [Gateway-Client's](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Client) request to join [Publisher](https://github.com/smswithoutborders/SMSWithoutBorders-Publisher)
 
 ### Installation
 
@@ -44,85 +45,87 @@ python3 -m virtualenv venv
 pip3 install -r requirements.txt
 ```
 
-Optionnellement, lancez `make` pour installer les hooks git
+Optionally, run `make` to install git hooks
 
-### Structure du répertoire
+### Directory structure
 
 _/gateway_server_ \
-Contient la passerelle [server websocket](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server/tree/main/gateway_server/sessions_websocket.py) qui est nécessaire pour synchroniser les utilisateurs.
+Contains the Gateway [server websocket](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server/tree/main/gateway_server/sessions_websocket.py) sessions which is required to synchronize users.
 
 ### Configuration
 
-#### Configuration de l'API de la passerelle
+#### Configuring gateway's API
 
-* Copiez les fichiers de configuration et modifiez le fichier
+- Copy the config files and edit the
 
 ```bash
 cp confs/example.conf.ini confs/conf.ini
 ```
 
-#### Configuration du serveur de passerelle
-* Copiez les fichiers de configuration et modifiez le fichier
+#### Configuring gateway server
+
+- Copy the config files and edit the
+
 ```bash
 cp gateway_server/confs/example.conf.ini gateway_server/confs/conf.ini
 ```
 
-#### Utilisation
+#### Usage
 
 <a name="synchronization" ></a>
 
-#### API de la passerelle
+#### Gateway API
 
-##### Démarrer manuellement l'API de la passerelle
+##### Manually start Gateway API
 
 ```bash
 . venv/bin/activate
 python3 main.py
 ```
 
-*Obtenir la liste des nœuds disponibles
-`/seeds
-
+- Get List of available Nodes
+  `/seeds
 `
-Par exemple
+
+For example
 
 ```bash
 curl localhost:6969/seeds -H "Content-Type: application/json"
 ```
 
-Retours
+Returns
 
 ```json
 [
- {
-   "IMSI": "sample_IMSI",
-   "LPS": 1648206122.81431,
-   "MSISDN": "sample_MSISDN",
-   "seed_type": "seed"
- }
+  {
+    "IMSI": "sample_IMSI",
+    "LPS": 1648206122.81431,
+    "MSISDN": "sample_MSISDN",
+    "seed_type": "seed"
+  }
 ]
 ```
 
-* Ajouter une passerelle aux passerelles actives
-`/ping
+- Add Gateway to active Gateways
+  `/ping
 `
 
-Par exemple
+For example
 
 ```bash
 curl -X POST \
-localhost:6969/seeds/ping \
--d '{"IMSI":"sample_IMSI", "MSISDN":"sample_MSISDN", "seed_type":"seed"}' \
--H "Content-Type: application/json"
+ localhost:6969/seeds/ping \
+ -d '{"IMSI":"sample_IMSI", "MSISDN":"sample_MSISDN", "seed_type":"seed"}' \
+ -H "Content-Type: application/json"
 ```
 
-Renvoie le LPS de la session en cours. LPS = Dernière session ping
+Returns the LPS of current session. LPS = Last ping session
 
-#### Synchronisation
+#### Synchronization
 
-La synchronisation est nécessaire pour permettre aux utilisateurs d'acquérir les clés de sécurité, les plateformes et les passerelles disponibles.
+Synchronization is required to enable the users acquire security keys, platforms and available gateways.
 
-##### Configuration manuelle des sessions websocket
+##### Manually setup sessions websocket
 
 ```bash
 . venv/bin/activate
@@ -131,67 +134,65 @@ python3 gateway_server/sessions_websocket.py
 
 ##### Configurations
 
-Toutes les configurations pour les websockets peuvent être faites dans le fichier `conf.ini` dans le répertoire`gateway_server` \
-`session_change_limit` : Nombre de fois où le websocket du client recevra des urls de changement de session.
-`session_sleep_timeout` : Nombre de secondes de sommeil après l'envoi d'une url de changement de session au client.
-`session_paused_timeout` : Nombre de secondes à rester en état de pause avant de fermer la connexion
+All configurations for websockets can be done in the `conf.ini` file in `gateway_server` \
+`session_change_limit` : Number of times client websocket will receive session change urls \
+`session_sleep_timeout` : Number of seconds to sleep after sending a session change url to the client \
+`session_paused_timeout` : Number of seconds to remain in paused state before closing connection
 
-##### Flux de synchronisation
+##### Synchronization flow
 
-1. Commencez par demander une nouvelle session. 
+1. Begin by requesting for a new session:
+   `GET /<api-version>/sync/users/<user-id>`
 
-`GET /<api-version>/sync/users/<user-id>` 
+This returns a string url, which can be connected to by websocket clients. The users can begin communicating with this
+returned URL or scan them through the QR scan function in the app. The frequency of change of the synchronization urls depends
+on the configuration settings `[sync] session_sleep_timeout` (defaults = 15 seconds).
 
-Il renvoie une chaîne d'url à laquelle les clients websocket peuvent se connecter. Les utilisateurs peuvent commencer à communiquer avec l'URL renvoyée ou les scanner via la fonction QR scan de l'application.
-renvoyée ou les scanner grâce à la fonction QR scan de l'application. La fréquence de changement des urls de synchronisation dépend des paramètres de configuration `[synchro dépend des paramètres de configuration `[sync] session_sleep_timeout` (par défaut = 15 secondes). 
+The total number of changes per frequency can be changed in `[sync] session_change_limit` (defaults = 3 times)
 
-Le nombre total de changements par fréquence peut être modifié dans `[sync] session_change_limit` (valeur par défaut = 3 fois) \N- Le nombre total de changements par fréquence peut être modifié dans `[sync] session_change_limit` (valeur par défaut = 3 fois).
+`200` session created
 
-`''`, `200`session créée
+`500` some error occured, check debug logs
 
-`''`, `500` une erreur s'est produite, vérifiez les journaux de débogage
+2. Once a sync url is connected and begins processing, the websocket sends a pause text `201- pause`
+   The user begins authentictating themselves and adding their security policies to their record on the server.
 
-2. Une fois que l'url de synchronisation est connectée et commence le traitement, le websocket envoie un texte de pause `201- pause`. \
-L'utilisateur commence à s'authentifier et à ajouter ses politiques de sécurité à son dossier sur le serveur.
+3. Once the user has performed the necessary handshake and the information exchange has begun, the websocket sends an
+   acknowledgment text `200- ack`
 
-3. Une fois que l'utilisateur a effectué la poignée de main nécessaire et que l'échange d'informations a commencé, le websocket envoie un texte d'accusé de réception \N- ack`.
-texte d'accusé de réception `200- ack`.
-<a name="testing" />
+#### Testing
 
-#### Essais
-
-* Test [Modèle d'utilisateur](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server/tree/main/gateway_server/users.py)
+- Testing [Users model](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server/tree/main/gateway_server/users.py)
 
 ```bash
 python -m unittest gateway_server/test/UTestUsers.py
 ```
 
-* Essais [WebSockets](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server/tree/main/gateway_server/sessions_websocket.py)
+- Testing [WebSockets](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server/tree/main/gateway_server/sessions_websocket.py)
 
-[https://github.com/vi/websocat](https://github.com/vi/websocat)
+[websocat](https://github.com/vi/websocat)
 
-
-_Manjaro_
+Manjaro\_
 
 ```bash
 sudo pacman -S websocat jq
 ```
 
-_Test de websocket_
+Testing websocket\_
 
 ```bash
 websocat ws://localhost:6996/v2/sync/init/111/000
 ```
 
-* Essais [RSA Encryption/Decryption](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server/tree/main/test/security_rsa.py)
-Cela nécessitera des fichiers pem. Copiez-les dans le répertoire test/ pour permettre l'exécution des tests.
+- Testing [RSA Encryption/Decryption](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server/tree/main/test/security_rsa.py)
+  This will require pem files. Copy them into the test/ dir to allow test run
 
 ```bash
 python -m unittest test/security_rsa.py
 ```
 
-* Essais [Entire Handshake process](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server/tree/main/test/handshake.py)
-Cela nécessitera des fichiers pem. Copiez-les dans le répertoire test/ pour permettre l'exécution des tests.
+- Testing [Entire Handshake process](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server/tree/main/test/handshake.py)
+  This will require pem files. Copy them into the test/ dir to allow test run
 
 ```bash
 ./test/handshake.sh

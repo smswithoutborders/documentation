@@ -7,16 +7,20 @@
     "message": "Contributing to RelaySMS",
     "description": "The label for category Contributing to RelaySMS in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Tutorials": {
-    "message": "Tutorials",
-    "description": "The label for category Tutorials in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.Android Tutorial": {
+    "message": "Android Tutorial",
+    "description": "The label for category Android Tutorial in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.App Tutorial": {
-    "message": "App Tutorial",
-    "description": "The label for category App Tutorial in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.Gateway Clients Guide": {
+    "message": "Gateway Clients Guide",
+    "description": "The label for category Gateway Clients Guide in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.RelaySMS Account Management": {
-    "message": "RelaySMS Account Management",
-    "description": "The label for category RelaySMS Account Management in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.Troubleshooting": {
+    "message": "Troubleshooting",
+    "description": "The label for category Troubleshooting in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.iOS Tutorial": {
+    "message": "iOS Tutorial",
+    "description": "The label for category iOS Tutorial in sidebar tutorialSidebar"
   }
 }

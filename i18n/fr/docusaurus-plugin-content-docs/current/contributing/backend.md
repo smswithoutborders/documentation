@@ -2,70 +2,47 @@
 sidebar_position: 3
 ---
 
-# SMSWithoutBorders Backend
+# RelaySMS Backend
 
-c'est une API cloud et Service de gestion des utilisateurs.
-Il est directement configurable avec les bases de données MySQL pour la gestion des utilisateurs. Il fournit également des intégrations prêtes à l'emploi de Google OAuth-2.0, Twitter OAuth, des points de terminaison Telegram et de l'authentification de compte.
+This is a cloud API and User management service. It is directly configurable with MySQL databases for managing users. It also provides out-of-the-box integrations of Google OAuth-2.0, Twitter OAuth, and Telegram endpoints and Account authentication.
 
-:::astuce Ce que vous apprendrez
+:::tip What you'll learn
 
-* Comment configurer le Backend
-* Comment tester et déployer avec docker
+- How to set up the Backend
+- How to test and deploy with Docker
 
-Le Backend s'intègre à ces services. vous devrez peut-être les configurer en fonction de la section sur laquelle vous travaillez.
+The most recent version of this guide can be found in the [`GitHub repository`](https://github.com/smswithoutborders/SMSwithoutborders-BE).
 
-* [`Website`](https://github.com/smswithoutborders/smswithoutborders.com)
-* [`Third party platforms`](https://github.com/smswithoutborders?q=custom&type=all&language=&sort=)
+The Backend integrates with these services. You may need to set them up depending on what section you are working on:
+
+- [`Website`](https://github.com/smswithoutborders/smswithoutborders.com)
+- [`Third party platforms`](https://github.com/smswithoutborders?q=custom&type=all&language=&sort=)
 
 :::
 
-## Table des matières
-
-- [SMSWithoutBorders Backend](#smswithoutborders-backend)
- - [Table des matières](#table-of-contents)
- - [Exigences](#requirements)
- - [Installation](#installation)
-   - [Dépanner](#troubleshoot)
- - [Setup](#setup)
-   - [Configurations d'environnement de développement](#development-environment-configurations)
-   - [Configurations de l'environnement de production](#production-environment-configurations)
-   - [Options de configuration](#configuration-options)
-     - [SEVER](#sever)
-     - [RÉFÉRENCES](#credentials)
-     - [RECAPTCHA](#recaptcha)
-     - [DÉVELOPPEUR](#developer)
- - [Comment utiliser](#how-to-use)
-   - [Démarrer l'API de gestion des utilisateurs backend](#start-backend-user-management-api)
-     - [Environnement de développement de la gestion des utilisateurs](#user-management-development-environment)
-     - [Environnement de production de gestion des utilisateurs](#user-management-production-environment)
-   - [Démarrer l'API Backend Publisher](#start-backend-publisher-api)
-  - [Environnement de développement de l'éditeur](#publisher-development-environment)
-    - [Environnement de production de l'éditeur](#publisher-production-environment)
-   - [Démarrer à la fois l'API de gestion des utilisateurs backend et l'API de l'éditeur backend](#start-both-backend-user-management-api-and-backend-publisher-api)
-     - [Environnement de développement](#development-environment)
-     - [Environnement de production](#production-environment)
- - [API SandBox](#api-sandbox)
- - [Journaux API](#api-logs)
-
-## Exigences
+## Requirements
 
 - [MySQL](https://www.mysql.com/) (version >= 8.0.28) ([MariaDB](https://mariadb.org/))
-- [nodejs](https://nodejs.org) (version >= [16.14.0](https://nodejs.org/dist/v16.14.0/node-v16.14.0-linux-x64.tar.xz))
+- [Node.js](https://nodejs.org) (version >= [16.14.0](https://nodejs.org/dist/v16.14.0/node-v16.14.0-linux-x64.tar.xz))
 - [npm](https://www.npmjs.com/) (version >= [8.3.1](https://nodejs.org/dist/v16.14.0/node-v16.14.0-linux-x64.tar.xz))
 
 ## Installation
 
-Toutes les dépendances d'exécution sont installées à l'aide de npm
+All runtime dependencies are installed using npm
 
 ```bash
 npm install
 ```
 
-### Dépanner
+```bash
+npm install
+```
 
-Pour plusieurs raisons, les utilisateurs peuvent parfois rencontrer des difficultés lors de l'installation. Voici quelques conseils de dépannage
+### Troubleshoot
 
-- Supprimez le répertoire `node_modules` et le fichier `package-lock.json`. Réessayez l'installation.
+Due to a couple of reasons, users may sometimes experience difficulties in installation. Here are a few troubleshooting guidelines
+
+- Remove the `node_modules` directory and the `package-lock.json` file. Try installation again.
 
 ```bash
 rm -rf node_modules package-lock.json
@@ -73,168 +50,161 @@ rm -rf node_modules package-lock.json
 
 ## Setup
 
-Tous les fichiers de configuration se trouvent dans le
-**[config](https://github.com/smswithoutborders/SMSwithoutborders-BE/blob/main/config)** annuaire.
+All configuration files are found in the **[config](https://github.com/smswithoutborders/SMSwithoutborders-BE/blob/main/config)** directory.
+Configuration files are named according to their **[environment variables](https://github.com/lorenwest/node-config/wiki/Environment-Variables)**.
 
-Les fichiers de configuration sont nommés en fonction de leur **[environment variables](https://github.com/lorenwest/node-config/wiki/Environment-Variables)**.
+### Development environment configurations
 
-### Configurations de l'environnement de développement
+**[default.json](https://github.com/smswithoutborders/SMSwithoutborders-BE/blob/main/config/example.default.json)** is the configuration file for a development environment.
 
-**[default.json](https://github.com/smswithoutborders/SMSwithoutborders-BE/blob/main/config/example.default.json)**est le fichier de configuration d'un environnement de développement.
-
-Pour configurer les informations d'identification de la base de données, de l'API et de la plate-forme pour un environnement de développement, copiez les fichiers de modèle "example.default.json" et renommez-les en "default.json"
+To set up Database, API, and platform credentials for a development environment, copy the template files "example.default.json" and rename to "default.json"
 
 ```bash
 cp config/example.default.json config/default.json
 ```
 
-### Configurations de l'environnement de production
+### Production environment configurations
 
-**[production.json](https://github.com/smswithoutborders/SMSwithoutborders-BE/blob/main/config/example.production.json)** est le fichier de configuration pour un environnement de production.
+**[production.json](https://github.com/smswithoutborders/SMSwithoutborders-BE/blob/main/config/example.production.json)** is the configuration file for a production environment.
 
-Pour configurer les informations d'identification de la base de données, de l'API et de la plate-forme pour un environnement de production, copiez les fichiers de modèle "example.production.json" et renommez-les en "production.jso
-
+To set up Database, API, and platform credentials for a productoin environment, copy the template files "example.production.json" and rename to "production.json"
 
 ```bash
 cp config/example.production.json config/production.json
 ```
 
-### Options de configuration
+### Configuration Options
 
-Ce sont les options pour chaque  **[configuration](https://github.com/smswithoutborders/SMSwithoutborders-BE/blob/main/config)** file
+These are the options for each **[configuration](https://github.com/smswithoutborders/SMSwithoutborders-BE/blob/main/config)** file
 
-#### serveur
+#### SEVER
 
-Gère l'accès au Smswithoutborders pour centraliser les ressources et les services.
+Manages access to the SMS without borders centralize resources and services.
 
-**Base de données**
+**Database**
 
-1. **HOST** : le nom d'hôte de la base de données à laquelle vous vous connectez. (Par défaut : hôte local)
-2. **USER** : l'utilisateur MySQL avec lequel s'authentifier. (Par défaut : racine)
-3. **MOT DE PASSE** : Le mot de passe de cet utilisateur MySQL.
-4. **DATABASE** : nom de la base de données à utiliser pour cette connexion (par défaut : Smswithoutborders)
+1. **HOST**: The hostname of the database you are connecting to. (Default: localhost)
+2. **USER**: The MySQL user to authenticate as. (Default: root)
+3. **PASSWORD**: The password of that MySQL user.
+4. **DATABASE**: Name of the database to use for this connection (Default: RelaySMS)
 
 **API**
 
-1. **PORT DE L'API DE GESTION DES UTILISATEURS** : le numéro de port auquel se connecter. (Par défaut : 9000).
+1. **USER MANAGEMENT API PORT**: The port number to connect to. (Default: 9000)
 
-2. **PUBLISHER API PORT** : numéro de port auquel se connecter. (Par défaut : 10000).
+2. **PUBLISHER API PORT**: The port number to connect to. (Default: 10000)
 
-3. **KEY** : La clé utilisée pour crypter les données d'un utilisateur. (Par défaut : "de4053831a43d62d9e68fc11319270a9").
+3. **KEY**: The key used to encrypt a user's data. (Default: "de4053831a43d62d9e68fc11319270a9")
 
-4. **SALT** : le sel utilisé pour hacher les données d'un utilisateur. (Par défaut : "acaad78fd9dadcb056840c09073190a8").
+4. **SALT**: The salt used to hash a user's data. (Default: "acaad78fd9dadcb056840c09073190a8")
 
-5. **SECURE SESSIONS** : spécifie la valeur booléenne pour
- [Secure Set-Cookie attribute](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie). Lorsque truey, l'attribut Secure est défini, sinon, il ne l'est pas. Par défaut, l'attribut Secure sessions est défini sur truthy.
+5. **SECURE SESSIONS**: Specifies the boolean value for the [Secure Set-Cookie attribute](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie). When truthy, the Secure attribute is set, otherwise it is not. By default, the Secure sessions attribute is set to truthy.
 
-6. **SESSION MAXAGE** : Spécifie le nombre (en millisecondes) à utiliser lors du calcul de la [Expires Set-Cookie attribute](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie). Cela se fait en prenant l'heure actuelle du serveur et en ajoutant maxAge millisecondes à la valeur pour calculer une date/heure d'expiration. Par défaut, l'âge maximum est fixé à deux heures (7200000 ms).
+6. **SESSION MAXAGE**: Specifies the number (in milliseconds) to use when calculating the [Expires Set-Cookie attribute](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie). This is done by taking the current server time and adding maxAge milliseconds to the value to calculate an Expires datetime. By default, maximum age is set for two hours (7200000 ms).
 
-7. **ENABLE BLOCKING** : spécifie la valeur booléenne pour l'échec du suivi de l'utilisateur [authentication](https://github.com/smswithoutborders/SMSwithoutborders-BE/blob/main/docs/FEATURES_v2.md#2-authenticate-an-account) tentatives.
+7. **ENABLE BLOCKING**: Specifies the boolean value for tracking user failed [authentication](https://github.com/smswithoutborders/SMSwithoutborders-BE/blob/main/docs/FEATURES_v2.md#2-authenticate-an-account) attempts.
 
-8. **TENTATIVES DE BLOCAGE COURT** : spécifie le nombre de tentatives [authentication](https://github.com/smswithoutborders/SMSwithoutborders-BE/blob/main/docs/FEATURES_v2.md#2-authenticate-an-account) tentatives avant un bloc court. Plusieurs blocs courts donnent un bloc long.
+8. **SHORT BLOCK ATTEMPTS**: Specifies the number of failed [authentication](https://github.com/smswithoutborders/SMSwithoutborders-BE/blob/main/docs/FEATURES_v2.md#2-authenticate-an-account) attempts before a short block. Several short blocks results to a long block.
 
-9. **LONG BLOCK ATTEMPTS** : Spécifie le nombre de tentatives de blocage court infructueuses avant un blocage long.
+9. **LONG BLOCK ATTEMPTS**: Specifies the number of failed short block attempts before a long block.
 
-10. **DURÉE BLOC COURT** : Spécifie la durée (en minutes) d'un bloc court.
+10. **SHORT BLOCK DURATION**: Specifies the duration (in minutes) of a short block.
 
-11. **DURÉE DE BLOC LONG** : Spécifie la durée (en minutes) d'un bloc long.
-
+11. **LONG BLOCK DURATION**: Specifies the duration (in minutes) of a long block.
 
 **OTP**
 
-Un utilisateur a quatre tentatives quotidiennes pour demander un code OTP
+A user has four attempts to request an OTP code daily
 
-1. **ENABLE_OTP_BLOCKING** : Spécifie la valeur booléenne pour activer/désactiver le suivi des demandes de code OTP.
-2. **DURÉE PREMIÈRE RENVOI** : spécifie la durée (en millisecondes) de la première requête OTP.
-3. **SECOND RESEND DURATION** : spécifie la durée (en millisecondes) de la deuxième requête OTP.
-4. **THIRD RESEND DURATION** : spécifie la durée (en millisecondes) de la troisième requête OTP.
-5. **FOURTH RESEND DURATION** : spécifie la durée (en millisecondes) de la quatrième requête OTP.
+1. **ENABLE_OTP_BLOCKING**: Specifies the boolean value for switching on/off tracking OTP code requests.
+2. **FIRST RESEND DURATION**: Specifies the duration (in milliseconds) for the first OTP request.
+3. **SECOND RESEND DURATION**: Specifies the duration (in milliseconds) for the second OTP request.
+4. **THIRD RESEND DURATION**: Specifies the duration (in milliseconds) for the third OTP request.
+5. **FOURTH RESEND DURATION**: Specifies the duration (in milliseconds) for the fourth OTP request.
 
 **GATEWAY SERVER**
 
-c'est un cas d'utilisation du [SMSWithoutBorders-Gateway-Server](https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server) project.
+This is a use-case of the [RelaySMS-Gateway-Server]:https://github.com/smswithoutborders/SMSWithoutBorders-Gateway-Server project.
 
-1. **URL** : L'URL du serveur de passerelle auquel vous vous connectez. (Par défaut : hôte local)
-2. **PORT** : le numéro de port auquel se connecter. (Par défaut : 6969)
+1. **URL**: The URL of the gateway server you are connecting to. (Default: localhost)
+2. **PORT**: The port number to connect to. (Default: 6969)
 
-**ORIGINE**
+**ORIGIN**
 
-Configure l'en-tête Access-Control-Allow-Origin CORS. Valeurs possibles:
+Configures the Access-Control-Allow-Origin CORS header. Possible values:
 
-Array - définit origin sur un tableau d'origines valides. Chaque origine peut être une chaîne ou une RegExp. Par exemple ["http://example1.com", /\.example2\.com$/] acceptera toute demande de "http://example1.com" ou d'un sous-domaine de "example2.com". (Default: "localhost:18000")
+Array - set origin to an array of valid origins. Each origin can be a String or a RegExp. For example ["http://example1.com", /\.example2\.com$/] will accept any request from "http://example1.com" or from a subdomain of "example2.com". (Default: "localhost:18000")
 
 **SSL API**
 
-1. **API PORT** : le numéro de port auquel se connecter.
-2. **CERTIFICATE** : Chemin d'accès à votre certificat SSL.
-3. **KEY** : Chemin d'accès à votre clé SSL.
-4. **PEM** : Chemin d'accès à votre PEM SSL.
+1. **API PORT**: The port number to connect to.
+2. **CERTIFICATE**: Path to your SSL Certificate.
+3. **KEY**: Path to your SSL Key.
+4. **PEM**: Path to your SSL PEM.
 
-#### CRÉDITS
+#### CREDENTIALS
 
 **GOOGLE**
 
-Obtenir des identifiants depuis
- [Google Cloud Platform Console](https://console.cloud.google.com/)
+Acquire credentials from [Google Cloud Platform Console](https://console.cloud.google.com/)
 
-1. **ID CLIENT GOOGLE** : Votre ID client Google.
-2. **GOOGLE CLIENT SECRET** : Votre secret client Google.
+1. **GOOGLE CLIENT ID**: Your Google Client ID
+2. **GOOGLE CLIENT SECRET**: Your Google Client Secret
 
 **TWITTER**
 
-Obtenir des informations d'identification depuis [Twitter Developers Portal](https://developer.twitter.com/en/docs/developer-portal/overview)
+Acquire credentials from [Twitter Developers Portal](https://developer.twitter.com/en/docs/developer-portal/overview)
 
-1. **CLÉ API TWITTER** : Votre clé API Twitter
-2. **TWITTER API KEY SECRET** : votre clé API Twitter secrète
+1. **TWITTER API KEY**: Your Twitter API key
+2. **TWITTER API KEY SECRET**: Your Twitter API key Secret
 
 **TELEGRAM**
-Il s'agit d'un cas d'utilisation du projet [SMSWithoutBorders-customplatform-Telegram](https://github.com/smswithoutborders/SMSWithoutBorders-customplatform-Telegram).
 
-1. ** HÔTE DE DEMANDE DE TÉLÉGRAMME ** : L'URL du serveur de plate-forme personnalisée de télégramme auquel vous vous connectez.
+This is a use-case of the [RelaySMS-customplatform-Telegram](https://github.com/smswithoutborders/SMSWithoutBorders-customplatform-Telegram) project.
+
+1. **TELEGRAM REQUEST HOST**: The URL of the telegram custom platform server you are connecting to.
 
 #### RECAPTCHA
 
+Acquire KEY from [Google reCAPTCHA](https://developers.google.com/recaptcha)
 
-Acquérir la CLÉ de 
-[Google reCAPTCHA](https://developers.google.com/recaptcha)
+1. **ENABLE RECAPTCHA**: Specifies the boolean value for switching on/off recaptcha.
+2. **SECRET KEY**: Your Google reCAPTCHA Secret key
 
-1. **ENABLE RECAPTCHA** : Spécifie la valeur booléenne pour activer/désactiver recaptcha.
-2. **CLÉ SECRÈTE** : Votre clé secrète Google reCAPTCHA
+#### DEVELOPER
 
-#### DÉVELOPPEUR
+Manages access to the SMS without borders developers resources.
 
-Gère l'accès aux ressources du développeur SMSsansfrontières.
+1. **HOST**: The URL of the developers server you are connecting to. (Default: localhost)
+2. **PORT**: The port number to connect to. (Default: 12000)
 
-1. **HOST** : L'URL du serveur de développeurs auquel vous vous connectez. (Par défaut : hôte local)
-2. **PORT** : le numéro de port auquel se connecter. (Par défaut : 12000)
+## How to use
 
-## Comment utiliser
+### Start Backend User management API
 
-### Démarrer l'API de gestion des utilisateurs backend
+#### User management Development Environment
 
-#### Gestion des utilisateurs Environnement de développement
-
-- Avec le NPM
+- With NPM
 
 ```bash
 npm run start_main
 ```
 
-- Avec Node
+- With Node
 
 ```bash
 node controllers/sync_platforms.js && node server.js
 ```
 
-#### Gestion des utilisateurs Environnement de production
+#### User management Production Environment
 
-- Avec le NPM
+- With NPM
 
 ```bash
 NODE_ENV=production npm run start_main
 ```
 
--  Avec Node
+- With Node
 
 ```bash
 NODE_ENV=production node controllers/sync_platforms.js && node server.js
@@ -244,13 +214,13 @@ NODE_ENV=production node controllers/sync_platforms.js && node server.js
 
 #### Publisher Development Environment
 
--  Avec le NPM
+- With NPM
 
 ```bash
 npm run start_pub
 ```
 
--  Avec Node
+- With Node
 
 ```bash
 node controllers/sync_platforms.js && node server_pub.js
@@ -258,13 +228,13 @@ node controllers/sync_platforms.js && node server_pub.js
 
 #### Publisher Production Environment
 
--  Avec le NPM
+- With NPM
 
 ```bash
 NODE_ENV=production npm run start_pub
 ```
 
--  Avec Node
+- With Node
 
 ```bash
 NODE_ENV=production node controllers/sync_platforms.js && node server_pub.js
@@ -272,17 +242,17 @@ NODE_ENV=production node controllers/sync_platforms.js && node server_pub.js
 
 ### Start both Backend User management API and Backend Publisher API
 
-#### Environnement de développement
+#### Development Environment
 
--  Avec NPM
+- With NPM
 
 ```bash
 npm run start
 ```
 
-#### Environnement de production
+#### Production Environment
 
--  Avec le NPM
+- With NPM
 
 ```bash
 NODE_ENV=production npm start
@@ -296,12 +266,15 @@ http://localhost:{PORT}/v1/api-docs
 http://localhost:{PORT}/v2/api-docs
 ```
 
-## Journaux d'API
+## API Logs
 
-Par défaut, les [log levels](https://github.com/smswithoutborders/SMSwithoutborders-BE/tree/main/logs#log-levels)  sont définis sur "info". Vous pouvez modifier les [log levels](https://github.com/smswithoutborders/SMSwithoutborders-BE/tree/main/logs#log-levels).  Par exemple, [Start both Backend User management API and Backend Publisher API](#Start-both-Backend-User-management-API-and-Backend-Publisher-API) with [log levels](https://github.com/smswithoutborders/SMSwithoutborders-BE/tree/main/logs#log-levels) défini sur "debug"
+By default [log levels](https://github.com/smswithoutborders/SMSwithoutborders-BE/tree/main/logs#log-levels) are set to "info". You can change the default [log levels](https://github.com/smswithoutborders/SMSwithoutborders-BE/tree/main/logs#log-levels).
+
+For example, For example, [Start both Backend User management API and Backend Publisher API](/docs/contributing/backend#Start-both-Backend-User-management-API-and-Backend-Publisher-API) with [log levels](https://github.com/smswithoutborders/SMSwithoutborders-BE/tree/main/logs#log-levels) set to "debug".
+with [log levels](https://github.com/smswithoutborders/SMSwithoutborders-BE/tree/main/logs#log-levels) set to "debug"
 
 ```
 LOG_LEVEL=debug npm start
 ```
 
-Tous les fichiers journaux se trouvent dans le répertoire des journaux. [Read more](https://github.com/smswithoutborders/SMSwithoutborders-BE/tree/main/logs) ...
+All log files are found in the logs directory. [Read more](https://github.com/smswithoutborders/SMSwithoutborders-BE/tree/main/logs) ...

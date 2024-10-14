@@ -15,8 +15,7 @@ const config = {
   onBrokenMarkdownLinks: "ignore",
   i18n: {
     defaultLocale: "en",
-    locales: ["en", "fr", "fa"],
-    path: "i18n",
+    locales: ["en", "fr", "fa", "es"],
     localeConfigs: {
       en: {
         label: "English",
@@ -38,10 +37,16 @@ const config = {
         htmlLang: "fa-IR",
         calendar: "persian",
         path: "fa"
+      },
+      es: {
+        label: "Español",
+        direction: "ltr",
+        htmlLang: "es-ES",
+        calendar: "gregory",
+        path: "es"
       }
     }
   },
-
   presets: [
     [
       "classic",

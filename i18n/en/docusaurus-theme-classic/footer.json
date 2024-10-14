@@ -13,7 +13,11 @@
   },
   "link.item.label.Tutorials": {
     "message": "Tutorials",
-    "description": "The label of footer link with label=Tutorials linking to /docs/tutorials/getting-started"
+    "description": "The label of footer link with label=Tutorials linking to /docs/iOS Tutorial/Getting-Started-With-iOS"
+  },
+  "link.item.label.Troubleshooting": {
+    "message": "Troubleshooting",
+    "description": "The label of footer link with label=Troubleshooting linking to /docs/Troubleshooting"
   },
   "link.item.label.IRC: freenode/#afkanerd": {
     "message": "IRC: freenode/#afkanerd",
@@ -25,7 +29,7 @@
   },
   "link.item.label.Blog": {
     "message": "Blog",
-    "description": "The label of footer link with label=Blog linking to https://afkanerd.github.io"
+    "description": "The label of footer link with label=Blog linking to https://blog.smswithoutborders.com"
   },
   "link.item.label.FaceBook": {
     "message": "FaceBook",
@@ -36,7 +40,7 @@
     "description": "The label of footer link with label=YouTube linking to https://www.youtube.com/@smswithoutborders9162"
   },
   "copyright": {
-    "message": "Copyright © 2024 RelaySMS. Built with Docusaurus.",
+    "message": "Copyright © 2024 SMSWithoutBorders. Built with Docusaurus.",
     "description": "The footer copyright"
   }
 }

@@ -15,12 +15,24 @@
     "message": "Tutorials",
     "description": "Navbar item with label Tutorials"
   },
-  "item.label.RelaySMS Account Management": {
-    "message": "RelaySMS Account Management",
-    "description": "Navbar item with label RelaySMS Account Management"
+  "item.label.TroubleShooting": {
+    "message": "TroubleShooting",
+    "description": "Navbar item with label TroubleShooting"
   },
   "item.label.GitHub": {
     "message": "GitHub",
     "description": "Navbar item with label GitHub"
+  },
+  "item.label.RelaySMS Android Tutorial": {
+    "message": "RelaySMS Android Tutorial",
+    "description": "Navbar item with label RelaySMS Android Tutorial"
+  },
+  "item.label.RelaySMS iOS Tutorial": {
+    "message": "RelaySMS iOS Tutorial",
+    "description": "Navbar item with label RelaySMS iOS Tutorial"
+  },
+  "item.label.Setting up a Gateway": {
+    "message": "Setting up a Gateway",
+    "description": "Navbar item with label Setting up a Gateway"
   }
 }
