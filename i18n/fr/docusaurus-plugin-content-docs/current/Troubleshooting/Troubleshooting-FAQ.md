@@ -71,5 +71,6 @@ sidebar_position: 1
 ### Conseils Supplémentaires
 
 - **Mettre à Jour l'Application** : Assurez-vous d'avoir la dernière version de l'application RelaySMS installée.
+- **Restaurer les jetons** : Il est recommandé de révoquer et de restaurer l'accès à vos plateformes sur l'application tous les 3 à 6 mois.
 - **Vérifier les Problèmes de Réseau** : Vérifiez que votre appareil est actif et capable d'envoyer des SMS.
 - **Contacter le Support** : Si vous continuez à rencontrer des problèmes, n'hésitez pas à contacter notre équipe de support pour obtenir de l'aide.

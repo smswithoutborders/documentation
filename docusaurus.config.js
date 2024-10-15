@@ -100,7 +100,7 @@ const config = {
               },
               {
                 label: "Setting up a Gateway",
-                to: "/docs/Tutorials/Gateway/Setting-Up-a-Gateway"
+                to: "/docs/Gateway Clients Guide/Setting-Up-a-Gateway"
               }
             ]
           },
