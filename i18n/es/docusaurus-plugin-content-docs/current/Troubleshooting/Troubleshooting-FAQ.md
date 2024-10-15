@@ -71,5 +71,6 @@ sidebar_position: 1
 ### Consejos Adicionales
 
 - **Actualiza la App**: Asegúrate de tener la última versión de la app RelaySMS instalada.
+- **Restaurar tokens**: Se recomienda revocar y restaurar el acceso a sus plataformas en la aplicación cada 3 a 6 meses.
 - **Verifica Problemas de Red**: Asegúrate de que tu dispositivo esté activo y pueda enviar mensajes SMS.
 - **Contacta Soporte**: Si continúas experimentando problemas, no dudes en comunicarte con nuestro equipo de soporte para recibir asistencia.

@@ -4,156 +4,139 @@ sidebar_position: 1
 
 # Aplicación RelaySMS para iOS
 
-## Primeros pasos con iOS
+## Empezando con iOS
 
-RelaySMS permite a los usuarios mantenerse conectados con sus plataformas en línea incluso cuando no tienen acceso a Internet. Al aprovechar los mensajes SMS, los usuarios pueden seguir comunicándose sin problemas: sus contactos reciben los mensajes como lo harían normalmente.
+RelaySMS permite a los usuarios mantenerse conectados a sus plataformas en línea, incluso cuando no hay acceso a Internet. Utilizando mensajes de texto (SMS), los usuarios pueden seguir comunicándose sin interrupciones: sus mensajes se envían a sus contactos como de costumbre.
 
 ## Introducción
 
-Los siguientes pasos te ayudarán a configurar tu cuenta y comenzar a usar RelaySMS.
+Los siguientes pasos te ayudarán a configurar tu cuenta y comenzar a utilizar RelaySMS.
 
 ### Paso 1. Descargar la aplicación
 
 ![App Store](/img/ios2.jpeg)
 
-- Descárgala desde [App_Store](https://apps.apple.com/us/app/relaysms/id6630382970)
+- Descargar desde [App_Store](https://apps.apple.com/us/app/relaysms/id6630382970)
 
 - [Github](https://github.com/smswithoutborders/SMSwithoutBorders-Android/releases/tag/v1.0) o
 
-- Construye desde el [código fuente](https://github.com/smswithoutborders/SMSwithoutBorders-Android)
+<!-- - Compilar desde [source](https://github.com/smswithoutborders/SMSwithoutBorders-Android) -->
 
 #### Requisitos técnicos
 
-- Smartphone Android con capacidad para SMS
-
-- Android 6.0 o superior
+- iPhone con capacidad para enviar mensajes de texto (SMS)
+- iOS 10.0 o posterior
 
 ### Paso 2. Crear una cuenta
 
-#### Introducción / Uso de la aplicación
+#### Instalar la aplicación y comenzar
 
-<img src="/iOS/1-welcome.png" alt="onboarding1" class="resized-image"/>
-<img src="/iOS/2a-skip.png" alt="onboarding1" class="resized-image"/>
-<img src="/iOS/2b-TutorialFinish.png" alt="onboarding1" class="resized-image"/>
+<img src="/iOS/1-welcome.png" alt="onbording1" class="resized-image"/>
+<img src="/iOS/2a-skip.png" alt="onbording1" class="resized-image"/>
+<img src="/iOS/2b-TutorialFinish.png" alt="onbording1" class="resized-image"/>
 
-- Regístrate para una cuenta gratuita o inicia sesión en la aplicación haciendo clic en el botón "agregar cuenta", selecciona "crear nueva" y completa la información requerida, luego haz clic en "registrarse".
+- Regístrate para obtener una cuenta gratuita o inicia sesión en tu cuenta existente. Para hacerlo, haz clic en el botón "Comenzar", selecciona "Crear una nueva cuenta" y completa la información requerida, luego haz clic en "Registrarse".
 
-<img src="/iOS/2-step2creatandlog.png" alt="onboarding1" class="resized-image"/>
-<img src="/iOS/3-CreateAccount.png" alt="onboarding1" class="resized-image"/>
+<img src="/iOS/2-step2creatandlog.png" alt="onbording1" class="resized-image"/>
+<img src="/iOS/3-CreateAccount.png" alt="onbording1" class="resized-image"/>
 
-**Nota:** Un pin de autenticación se enviará a un teléfono válido a través de SMS.
+**Nota:** Se enviará un código de verificación a tu número de teléfono.
 
-### Paso 3: Verificar tu número de teléfono
+### Paso 3: Verificar número de teléfono
 
-Un número de verificación será enviado a tu número de teléfono. Introdúcelo y verifica.
+Se enviará un código de verificación a tu número de teléfono. Ingresa el código para verificar tu número.
 
-<img src="/iOS/3a-verificationCode.png" alt="onboarding1" class="resized-image"/>
+<img src="/iOS/3a-verificationCode.png" alt="onbording1" class="resized-image"/>
 
 ### Paso 4: Iniciar sesión
 
-Si ya tienes una cuenta, haz clic en "iniciar sesión" e introduce tu número de teléfono y contraseña para acceder a tu cuenta RelaySMS.
+Si ya tienes una cuenta, haz clic en "Iniciar sesión" y proporciona tu número de teléfono y contraseña para acceder a tu cuenta en RelaySMS.
 
-<img src="/iOS/login.png" alt="onboarding1" class="resized-image"/>
+Un código de verificación se enviará a tu número de teléfono. Ingresa el código para verificar tu cuenta.
 
-### Paso 5. Guardar acceso a plataformas
+<img src="/iOS/login.png" alt="onbording1" class="resized-image"/>
 
-Una de las características clave de RelaySMS es poder guardar el acceso a plataformas en línea mientras tienes internet activo, luego usar la aplicación para hacer solicitudes a estas plataformas sin una conexión activa a internet. Una vez que inicies sesión y hagas clic en **Guardar cuentas**, tendrás una lista de plataformas que actualmente soportamos. Puedes guardar tus credenciales para tantas plataformas como preveas necesitar en una situación sin conexión.
+### Paso 5. Guardar acceso a las plataformas
 
-**Nota:** Debes tener la plataforma que deseas guardar instalada en tu teléfono antes de poder guardarla en la plataforma RelaySMS.
+Una de las principales características de RelaySMS es la posibilidad de almacenar acceso a las plataformas en línea cuando tienes acceso a Internet. Luego puedes enviar solicitudes a estas plataformas utilizando la aplicación sin necesidad de conexión a Internet. Una vez que hayas iniciado sesión y hecho clic en "Guardar cuentas", verás una lista de plataformas compatibles. Puedes almacenar credenciales de inicio de sesión para múltiples plataformas para que puedas usarlas cuando estés desconectado.
 
-<img src="/iOS/addPlatforms.png" alt="onboarding1" class="resized-image"/>
+**Nota:** Debes tener instalada la aplicación de la plataforma en tu dispositivo antes de guardarla en RelaySMS.
 
-### Paso 6. Configura tu aplicación y comienza a utilizarla
+<img src="/iOS/addPlatforms.png" alt="onbording1" class="resized-image"/>
 
-Una vez que hayas vinculado tus aplicaciones a tu cuenta RelaySMS, deberás agregar tu número de cliente de gateway o seleccionar uno de la lista de clientes gateway disponibles. Una configuración importante es seleccionar el número de Gateway para la comunicación. Es más barato optar por un número de Gateway del mismo proveedor de servicios que el tuyo o dentro de tu país.
+### Paso 6. Configurar la aplicación y comenzar
 
-<img src="/iOS/landing.png" alt="onboarding1" class="resized-image"/>
-<img src="/iOS/security.png" alt="onboarding1" class="resized-image"/>
+Después de haber conectado tus aplicaciones a tu cuenta de RelaySMS, necesitarás elegir un gateway (puerta de enlace) del cliente de la lista disponible. Una configuración clave es seleccionar el número del gateway para las comunicaciones. Seleccionar un número de gateway del mismo proveedor o país será más rentable.
 
-### Paso 7. Clientes Gateway
+<img src="/iOS/landing.png" alt="onbording1" class="resized-image"/>
+<img src="/iOS/security.png" alt="onbording1" class="resized-image"/>
+
+### Paso 7. Clientes del gateway
 
 **Clientes disponibles:**
 
-- Se muestra una lista de clientes gateway preconfigurados.
-- Al arrastrar hacia abajo en la lista, se actualizará, asegurando que tengas las opciones más recientes disponibles.
+- Se mostrará una lista de clientes del gateway preconfigurados.
+- Para actualizar la lista y obtener las últimas opciones disponibles, desliza hacia abajo para refrescar.
 
-**Agregar clientes personalizados:**
+# Comunicarse con la aplicación
 
-Si tu gateway preferido no aparece en la lista, puedes configurar tu propio cliente personalizado. Las instrucciones para configurar un cliente de gateway personalizado son las siguientes:
+Vamos a revisar cómo comunicarse utilizando RelaySMS sin conexión a Internet.
 
-<img src="/iOS/gateway.png" alt="onboarding1" class="resized-image"/>
-
-### Para establecer un número de gateway, sigue los pasos a continuación
-
-1. Guarda el número de gateway en tus contactos.
-2. Ve a **Configuración** y selecciona Clientes Gateway.
-3. Toca el signo de _3 puntos_ en la esquina superior derecha y selecciona _agregar_.
-4. Haz clic en el **icono de Contacto** para acceder a tus contactos.
-5. Encuentra y selecciona el número de Gateway guardado.
-6. Confirma la selección y agrega correctamente el número de gateway.
-
-   <img src="/iOS/gatewaynumbers.png" alt="onboarding1" class="resized-image"/>
-   <img src="/iOS/makeDefault.png" alt="onboarding1" class="resized-image"/>
-
-# Comunicación utilizando la aplicación
-
-Descubramos cómo comunicarte sin una conexión a Internet utilizando RelaySMS.
-
-### Paso 1: Haz clic en el botón de redactar
+### Paso 1: Hacer clic en el botón de redacción
 
 <img src="/iOS/landing.png" alt="compose image" class="resized-image"/>
 
-Después de completar la primera etapa, que es guardar el acceso a las plataformas en las que deseas comunicarte, sincronizar y agregar un número de gateway.
+Después de completar el primer paso, que es guardar acceso a las plataformas necesarias para la comunicación sin conexión, haz clic en el ícono del lápiz para redactar un nuevo mensaje.
 
-Abre la aplicación RelaySMS después de descargarla desde [Google Play Store](https://play.google.com/store/apps/details?id=com.afkanerd.sw0b), [Github](https://github.com/smswithoutborders/SMSwithoutBorders-Android/releases/tag/v1.0) o compila desde el [código fuente](https://github.com/smswithoutborders/SMSwithoutBorders-Android) y haz clic en el icono de "lápiz" para redactar un mensaje.
+### Paso 2. Seleccionar la plataforma para redactar el mensaje
 
-### Paso 2. Selecciona una plataforma para redactar el mensaje
-
-Elige una plataforma para comenzar a redactar el mensaje.
+Selecciona la plataforma para comenzar a escribir tu mensaje.
 
 <img src="/iOS/composes.png" alt="add-message" class="resized-image"/>
 
-### Paso 3. Redacta tu mensaje y envíalo como SMS
+### Paso 3. Escribir el mensaje y enviarlo por SMS
 
-Después de redactar tu mensaje en cualquier plataforma, procede a enviarlo como de costumbre. Luego serás dirigido a tu página de SMS estándar, donde podrás enviar el mensaje al número de gateway guardado como un SMS. Ten en cuenta que el mensaje aparecerá como cifrado al enviarlo como SMS. Esta capa adicional de seguridad garantiza que solo tú y el destinatario puedan acceder al mensaje, manteniendo la confidencialidad.
+Después de redactar tu mensaje en la plataforma seleccionada, envíalo como lo harías normalmente. Luego serás dirigido a tu pantalla de mensajes, donde puedes enviar el mensaje como un SMS al número de gateway registrado. El mensaje aparecerá en un formato cifrado, lo que añade una capa de seguridad para garantizar que solo tú y el destinatario puedan acceder al mensaje, manteniendo tu privacidad.
 
 <img src="/iOS/ComposeGmail.png" alt="add-message" class="resized-image"/>
 <img src="/iOS/ComposeTelegram.png" alt="add-message" class="resized-image"/>
 <img src="/iOS/ComposeTwitter.png" alt="add-message" class="resized-image"/>
 
-#### Requisitos
+#### Requisitos:
 
-- Correo electrónico del destinatario para Gmail.
-- Número de teléfono de los contactos para Telegram.
-- Cuerpo del tweet para Twitter.
+- Dirección de correo electrónico del destinatario para Gmail
+- Número de teléfono del contacto para Telegram
+- Texto del tweet para Twitter
 
-Para cualquiera de las plataformas seleccionadas, llena los campos requeridos con precisión y envía el SMS.
+Para cada plataforma seleccionada, completa cuidadosamente los campos requeridos y envía el SMS.
+
+El SMS aparecerá en tu aplicación de mensajes de texto en formato cifrado.
 
 ### Paso 4: SMS enviado
 
-¡Felicidades! Has enviado el SMS con éxito. El destinatario ahora recibirá el mensaje original en un formato legible. Ten en cuenta que el tiempo para recibir el mensaje puede variar dependiendo de la red móvil y la funcionalidad del dispositivo cliente de gateway.
+¡Felicidades! Has enviado con éxito tu SMS. El destinatario recibirá el mensaje original en un formato legible. Ten en cuenta que el tiempo de entrega puede variar según la red móvil y el rendimiento del cliente del gateway.
 
-### Revocando plataformas guardadas
+### Revocar acceso a las plataformas guardadas
 
-Revocar plataformas guardadas elimina tu acceso a ellas a través de RelaySMS. Esto significa que ya no podrás enviar mensajes a esa plataforma en línea utilizando la aplicación RelaySMS. Para hacerlo:
+Revocar el acceso a las plataformas guardadas significa que ya no tendrás acceso a esas plataformas a través de RelaySMS. Para hacerlo:
 
-- Haz clic en configuración.
-- Ve a seguridad y privacidad.
-- Toca 'revocar plataformas' y elige la plataforma que deseas eliminar.
+- Haz clic en "Configuración"
+- Ve a la sección de "Seguridad y privacidad"
+- Haz clic en "Revocar acceso a plataformas" y selecciona la plataforma que deseas eliminar.
 
 <img src="/iOS/landing.png" alt="Google" class="resized-image"/>
 <img src="/iOS/revokePlatforms.png" alt="Google" class="resized-image"/>
 <img src="/iOS/selectrevoke.png" alt="Google" class="resized-image"/>
 
-### Eliminar y cerrar sesión en la cuenta
+### Eliminar cuenta y cerrar sesión
 
-Eliminar tu cuenta significa borrar todas tus cuentas guardadas en línea. Siempre puedes recrear tu cuenta si es necesario.
+Eliminar tu cuenta significa que todas las plataformas guardadas se eliminarán. Aún podrás volver a crear tu cuenta si lo necesitas.
 
-Cerrar sesión significa que todos tus mensajes actuales serán eliminados y siempre puedes volver a iniciar sesión cuando sea necesario.
+Cerrar sesión significa que todos tus mensajes actuales se eliminarán y podrás volver a iniciar sesión si lo necesitas.
 
-- Haz clic en configuración.
-- Ve a seguridad y privacidad.
-- Toca 'Cerrar sesión' para cerrar sesión en tu cuenta y 'Eliminar' para eliminar tu cuenta.
+- Haz clic en "Configuración"
+- Ve a la sección de "Seguridad y privacidad"
+- Haz clic en "Cerrar sesión" para salir de tu cuenta o en "Eliminar" para eliminar tu cuenta.
 
 <img src="/iOS/delete.png" alt="Google" class="resized-image"/>
 <img src="/iOS/logout.png" alt="Google" class="resized-image"/>
