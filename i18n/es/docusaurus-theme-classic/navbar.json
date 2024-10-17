@@ -1,0 +1,38 @@
+{
+  "title": {
+    "message": "RelaySMS",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Logo de RelaySMS",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Docs": {
+    "message": "Documentos",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.Tutorials": {
+    "message": "Tutoriales",
+    "description": "Navbar item with label Tutorials"
+  },
+  "item.label.TroubleShooting": {
+    "message": "Solución de Problemas",
+    "description": "Navbar item with label TroubleShooting"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  },
+  "item.label.RelaySMS Android Tutorial": {
+    "message": "Tutorial de RelaySMS para Android",
+    "description": "Navbar item with label RelaySMS Android Tutorial"
+  },
+  "item.label.RelaySMS iOS Tutorial": {
+    "message": "Tutorial de RelaySMS para iOS",
+    "description": "Navbar item with label RelaySMS iOS Tutorial"
+  },
+  "item.label.Setting up a Gateway": {
+    "message": "Configurando un Gateway",
+    "description": "Navbar item with label Setting up a Gateway"
+  }
+}

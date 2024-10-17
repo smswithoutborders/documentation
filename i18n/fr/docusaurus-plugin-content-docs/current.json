@@ -1,22 +1,26 @@
 {
   "version.label": {
     "message": "Suivant",
-    "description": "The label for version current"
+    "description": "L'étiquette pour la version actuelle"
   },
-  "sidebar.tutorialSidebar.category.Contributing to SMSWithoutBorders": {
-    "message": "Contribuer à SMSWithoutBorders",
-    "description": "The label for category Contributing to SMSWithoutBorders in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.Contributing to RelaySMS": {
+    "message": "Contribuer à RelaySMS",
+    "description": "L'étiquette pour la catégorie Contribuer à RelaySMS dans la barre latérale tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Tutorials": {
-    "message": "Tutoriels",
-    "description": "The label for category Tutorials in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.Android Tutorial": {
+    "message": "Tutoriel Android",
+    "description": "L'étiquette pour la catégorie Tutoriel Android dans la barre latérale tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.App Tutorial": {
-    "message": "Tutoriel de l'application",
-    "description": "The label for category App Tutorial in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.Gateway Clients Guide": {
+    "message": "Guide des clients de la passerelle",
+    "description": "L'étiquette pour la catégorie Guide des clients de la passerelle dans la barre latérale tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.SWOB Account Management": {
-    "message": "Gestion de Compte SWOB",
-    "description": "The label for category SWOB Account Management in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.Troubleshooting": {
+    "message": "Dépannage",
+    "description": "L'étiquette pour la catégorie Dépannage dans la barre latérale tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.iOS Tutorial": {
+    "message": "Tutoriel iOS",
+    "description": "L'étiquette pour la catégorie Tutoriel iOS dans la barre latérale tutorialSidebar"
   }
 }
